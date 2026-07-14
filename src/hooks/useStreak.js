@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { supabase } from '../lib/supabaseClient'
-import { USER_ID } from '../lib/userId'
+import { useAuth } from '../context/AuthContext'
 
 function computeStreak(datesDesc) {
   const dates = new Set(datesDesc)
@@ -23,10 +23,13 @@ function computeStreak(datesDesc) {
 // Reads study_log and derives a consecutive-day streak (counts today only
 // if already studied today, otherwise checks back from yesterday).
 export function useStreak() {
+  const { user } = useAuth()
+  const userId = user?.id
   const [streak, setStreak] = useState(0)
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    if (!userId) return
     let cancelled = false
 
     async function load() {
@@ -34,7 +37,7 @@ export function useStreak() {
       const { data, error } = await supabase
         .from('study_log')
         .select('log_date')
-        .eq('user_id', USER_ID)
+        .eq('user_id', userId)
         .order('log_date', { ascending: false })
         .limit(400)
 
@@ -48,7 +51,7 @@ export function useStreak() {
     return () => {
       cancelled = true
     }
-  }, [])
+  }, [userId])
 
   return { streak, loading }
 }

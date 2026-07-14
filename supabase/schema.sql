@@ -1,8 +1,10 @@
 -- Run this in Supabase's SQL editor (Project → SQL Editor → New query).
+-- For a brand-new project only. If you already ran the old single-user
+-- version of this schema, use migrate-to-auth.sql instead.
 
 create table if not exists progress (
   id uuid primary key default gen_random_uuid(),
-  user_id text not null default 'local-user',
+  user_id uuid not null references auth.users (id) on delete cascade,
   card_id text not null,
   module text not null,
   status text not null default 'new',        -- new | learning | review | mastered
@@ -19,7 +21,7 @@ create table if not exists progress (
 );
 
 create table if not exists study_log (
-  user_id text not null default 'local-user',
+  user_id uuid not null references auth.users (id) on delete cascade,
   log_date date not null default current_date,
   cards_reviewed int not null default 0,
   primary key (user_id, log_date)
@@ -28,12 +30,13 @@ create table if not exists study_log (
 alter table progress enable row level security;
 alter table study_log enable row level security;
 
--- Single-user app, no login screen — the anon key itself is the only gate.
--- These policies allow any holder of the anon key full read/write access.
--- That's an acceptable tradeoff for a private personal tool, but don't
--- reuse this schema/policy setup for anything multi-tenant.
+-- Each row is only visible to / writable by the user it belongs to.
 drop policy if exists "allow all for anon" on progress;
-create policy "allow all for anon" on progress for all using (true) with check (true);
+drop policy if exists "users manage own progress" on progress;
+create policy "users manage own progress" on progress
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);
 
 drop policy if exists "allow all for anon" on study_log;
-create policy "allow all for anon" on study_log for all using (true) with check (true);
+drop policy if exists "users manage own study_log" on study_log;
+create policy "users manage own study_log" on study_log
+  for all using (auth.uid() = user_id) with check (auth.uid() = user_id);

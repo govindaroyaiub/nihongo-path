@@ -1,12 +1,15 @@
 import { Link } from 'react-router-dom'
+import { LogOut, ShieldCheck } from 'lucide-react'
 import { useDueCards } from '../hooks/useDueCards'
 import { useStreak } from '../hooks/useStreak'
+import { useAuth } from '../context/AuthContext'
 import ProgressBar from '../components/ProgressBar'
 import StreakBadge from '../components/StreakBadge'
 
 export default function Home() {
   const { loading, moduleStats, totalDue } = useDueCards()
   const { streak } = useStreak()
+  const { isAdmin, signOut } = useAuth()
 
   const busiest = [...moduleStats].sort((a, b) => b.due - a.due)[0]
   const modulesWithDue = moduleStats.filter((m) => m.due > 0).length
@@ -29,7 +32,26 @@ export default function Home() {
             </p>
           )}
         </div>
-        <StreakBadge streak={streak} />
+        <div className="flex items-center gap-2">
+          <StreakBadge streak={streak} />
+          {isAdmin && (
+            <Link
+              to="/admin"
+              aria-label="Admin settings"
+              className="flex items-center justify-center w-9 h-9 rounded-full text-ink/40 active:bg-ink/5 active:text-ink/70"
+            >
+              <ShieldCheck size={17} />
+            </Link>
+          )}
+          <button
+            type="button"
+            onClick={signOut}
+            aria-label="Sign out"
+            className="flex items-center justify-center w-9 h-9 rounded-full text-ink/40 active:bg-ink/5 active:text-ink/70"
+          >
+            <LogOut size={17} />
+          </button>
+        </div>
       </header>
 
       {totalDue > 0 && busiest ? (

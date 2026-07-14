@@ -2,7 +2,8 @@
 
 A mobile-first Japanese learning app: hiragana, katakana, grammar, vocabulary and kanji,
 each with flashcards + quizzes scheduled by a simple SM-2 (Anki-style) spaced repetition
-algorithm. Single-user, no login screen, installable as a PWA so it feels native on your phone.
+algorithm. Accounts are real (Supabase Auth, email + password), installable as a PWA so it
+feels native on your phone.
 
 ## 1. Set up Supabase
 
@@ -12,12 +13,22 @@ algorithm. Single-user, no login screen, installable as a PWA so it feels native
    - `progress` — one row per card per user, tracking SM-2 scheduling state
      (`ease_factor`, `interval_days`, `next_review_date`, `status`, correct/incorrect counts).
    - `study_log` — one row per day studied, used to compute your streak on the home screen.
-3. In **Project Settings → API**, copy your **Project URL** and **anon public** key.
+   Row Level Security is scoped to `auth.uid()`, so each account only ever sees its own rows.
 
-**Security note:** since this is a single-user app with no login, the SQL sets Row Level
-Security policies that allow full read/write to anyone holding the anon key. That's fine for
-a private personal tool where the anon key isn't shared, but don't reuse this exact setup for
-anything with multiple untrusted users.
+   **Already ran the old single-user version of this schema?** Don't run `schema.sql` again —
+   use [`supabase/migrate-to-auth.sql`](supabase/migrate-to-auth.sql) instead, after registering
+   your first account in the app (it walks you through reassigning your existing data to that
+   account's real user id).
+3. In **Project Settings → API**, copy your **Project URL** and **anon public** key.
+4. Optional: in **Authentication → Providers → Email**, "Confirm email" is on by default —
+   registering will require clicking a link sent to that address before you can log in. Turn it
+   off there if you'd rather skip that step for a personal project.
+5. Run [`supabase/add-admin-and-settings.sql`](supabase/add-admin-and-settings.sql) — adds a
+   `profiles` table (per-user admin flag) and an `app_settings` table (the global "registration
+   open/closed" switch you control from the in-app Admin page). After registering your own
+   account, run the one-time bootstrap query at the bottom of that file (with your email) to
+   make yourself admin — this can only be done via SQL, on purpose, so no one can grant
+   themselves admin through the app.
 
 ## 2. Run locally
 
@@ -48,6 +59,10 @@ full-screen without browser chrome.
 
 ## How it works
 
+- **Accounts**: `src/context/AuthContext.jsx` wraps the app with Supabase Auth (email + password).
+  `src/components/RequireAuth.jsx` redirects signed-out visitors to `/login`; `/register` creates
+  a new account. Every `progress`/`study_log` row is tagged with the real authenticated user id,
+  so multiple people can use the same deployment with fully separate progress.
 - **Content**: each module's cards live in `src/data/*.json` — plain arrays you can edit or
   extend directly (add a new hiragana variant, more grammar points, more kanji, etc.) without
   touching any code.
