@@ -1,0 +1,22 @@
+[
+  { "id": "kanji-001", "level": "N5", "char": "日", "onyomi": "ニチ・ジツ", "kunyomi": "ひ・-び", "meaning": "day, sun", "stroke_count": 4 },
+  { "id": "kanji-002", "level": "N5", "char": "一", "onyomi": "イチ・イツ", "kunyomi": "ひと-", "meaning": "one", "stroke_count": 1 },
+  { "id": "kanji-003", "level": "N5", "char": "国", "onyomi": "コク", "kunyomi": "くに", "meaning": "country", "stroke_count": 8 },
+  { "id": "kanji-004", "level": "N5", "char": "人", "onyomi": "ジン・ニン", "kunyomi": "ひと", "meaning": "person", "stroke_count": 2 },
+  { "id": "kanji-005", "level": "N5", "char": "年", "onyomi": "ネン", "kunyomi": "とし", "meaning": "year", "stroke_count": 6 },
+  { "id": "kanji-006", "level": "N5", "char": "大", "onyomi": "ダイ・タイ", "kunyomi": "おお(きい)", "meaning": "big", "stroke_count": 3 },
+  { "id": "kanji-007", "level": "N5", "char": "十", "onyomi": "ジュウ・ジッ", "kunyomi": "とお・と", "meaning": "ten", "stroke_count": 2 },
+  { "id": "kanji-008", "level": "N5", "char": "二", "onyomi": "ニ", "kunyomi": "ふた・ふたつ", "meaning": "two", "stroke_count": 2 },
+  { "id": "kanji-009", "level": "N5", "char": "本", "onyomi": "ホン", "kunyomi": "もと", "meaning": "book, origin", "stroke_count": 5 },
+  { "id": "kanji-010", "level": "N5", "char": "中", "onyomi": "チュウ", "kunyomi": "なか", "meaning": "middle, inside", "stroke_count": 4 },
+  { "id": "kanji-011", "level": "N5", "char": "出", "onyomi": "シュツ・スイ", "kunyomi": "で(る)・だ(す)", "meaning": "exit, come out", "stroke_count": 5 },
+  { "id": "kanji-012", "level": "N5", "char": "上", "onyomi": "ジョウ", "kunyomi": "うえ・あ(げる)", "meaning": "above, up", "stroke_count": 3 },
+  { "id": "kanji-013", "level": "N5", "char": "前", "onyomi": "ゼン", "kunyomi": "まえ", "meaning": "front, before", "stroke_count": 9 },
+  { "id": "kanji-014", "level": "N5", "char": "見", "onyomi": "ケン", "kunyomi": "み(る)", "meaning": "see, look", "stroke_count": 7 },
+  { "id": "kanji-015", "level": "N4", "char": "分", "onyomi": "ブン・フン・ブ", "kunyomi": "わ(ける)", "meaning": "part, minute, understand", "stroke_count": 4 },
+  { "id": "kanji-016", "level": "N4", "char": "行", "onyomi": "コウ・ギョウ", "kunyomi": "い(く)・おこな(う)", "meaning": "go, conduct", "stroke_count": 6 },
+  { "id": "kanji-017", "level": "N4", "char": "長", "onyomi": "チョウ", "kunyomi": "なが(い)", "meaning": "long, chief", "stroke_count": 8 },
+  { "id": "kanji-018", "level": "N4", "char": "間", "onyomi": "カン・ケン", "kunyomi": "あいだ・ま", "meaning": "interval, between", "stroke_count": 12 },
+  { "id": "kanji-019", "level": "N4", "char": "後", "onyomi": "ゴ・コウ", "kunyomi": "あと・うし(ろ)", "meaning": "after, behind", "stroke_count": 9 },
+  { "id": "kanji-020", "level": "N3", "char": "場", "onyomi": "ジョウ", "kunyomi": "ば", "meaning": "place", "stroke_count": 12 }
+]

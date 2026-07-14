@@ -1,0 +1,626 @@
+[
+  {
+    "id": "katakana-001",
+    "char": "ア",
+    "romaji": "a",
+    "group": "base"
+  },
+  {
+    "id": "katakana-002",
+    "char": "イ",
+    "romaji": "i",
+    "group": "base"
+  },
+  {
+    "id": "katakana-003",
+    "char": "ウ",
+    "romaji": "u",
+    "group": "base"
+  },
+  {
+    "id": "katakana-004",
+    "char": "エ",
+    "romaji": "e",
+    "group": "base"
+  },
+  {
+    "id": "katakana-005",
+    "char": "オ",
+    "romaji": "o",
+    "group": "base"
+  },
+  {
+    "id": "katakana-006",
+    "char": "カ",
+    "romaji": "ka",
+    "group": "base"
+  },
+  {
+    "id": "katakana-007",
+    "char": "キ",
+    "romaji": "ki",
+    "group": "base"
+  },
+  {
+    "id": "katakana-008",
+    "char": "ク",
+    "romaji": "ku",
+    "group": "base"
+  },
+  {
+    "id": "katakana-009",
+    "char": "ケ",
+    "romaji": "ke",
+    "group": "base"
+  },
+  {
+    "id": "katakana-010",
+    "char": "コ",
+    "romaji": "ko",
+    "group": "base"
+  },
+  {
+    "id": "katakana-011",
+    "char": "サ",
+    "romaji": "sa",
+    "group": "base"
+  },
+  {
+    "id": "katakana-012",
+    "char": "シ",
+    "romaji": "shi",
+    "group": "base"
+  },
+  {
+    "id": "katakana-013",
+    "char": "ス",
+    "romaji": "su",
+    "group": "base"
+  },
+  {
+    "id": "katakana-014",
+    "char": "セ",
+    "romaji": "se",
+    "group": "base"
+  },
+  {
+    "id": "katakana-015",
+    "char": "ソ",
+    "romaji": "so",
+    "group": "base"
+  },
+  {
+    "id": "katakana-016",
+    "char": "タ",
+    "romaji": "ta",
+    "group": "base"
+  },
+  {
+    "id": "katakana-017",
+    "char": "チ",
+    "romaji": "chi",
+    "group": "base"
+  },
+  {
+    "id": "katakana-018",
+    "char": "ツ",
+    "romaji": "tsu",
+    "group": "base"
+  },
+  {
+    "id": "katakana-019",
+    "char": "テ",
+    "romaji": "te",
+    "group": "base"
+  },
+  {
+    "id": "katakana-020",
+    "char": "ト",
+    "romaji": "to",
+    "group": "base"
+  },
+  {
+    "id": "katakana-021",
+    "char": "ナ",
+    "romaji": "na",
+    "group": "base"
+  },
+  {
+    "id": "katakana-022",
+    "char": "ニ",
+    "romaji": "ni",
+    "group": "base"
+  },
+  {
+    "id": "katakana-023",
+    "char": "ヌ",
+    "romaji": "nu",
+    "group": "base"
+  },
+  {
+    "id": "katakana-024",
+    "char": "ネ",
+    "romaji": "ne",
+    "group": "base"
+  },
+  {
+    "id": "katakana-025",
+    "char": "ノ",
+    "romaji": "no",
+    "group": "base"
+  },
+  {
+    "id": "katakana-026",
+    "char": "ハ",
+    "romaji": "ha",
+    "group": "base"
+  },
+  {
+    "id": "katakana-027",
+    "char": "ヒ",
+    "romaji": "hi",
+    "group": "base"
+  },
+  {
+    "id": "katakana-028",
+    "char": "フ",
+    "romaji": "fu",
+    "group": "base"
+  },
+  {
+    "id": "katakana-029",
+    "char": "ヘ",
+    "romaji": "he",
+    "group": "base"
+  },
+  {
+    "id": "katakana-030",
+    "char": "ホ",
+    "romaji": "ho",
+    "group": "base"
+  },
+  {
+    "id": "katakana-031",
+    "char": "マ",
+    "romaji": "ma",
+    "group": "base"
+  },
+  {
+    "id": "katakana-032",
+    "char": "ミ",
+    "romaji": "mi",
+    "group": "base"
+  },
+  {
+    "id": "katakana-033",
+    "char": "ム",
+    "romaji": "mu",
+    "group": "base"
+  },
+  {
+    "id": "katakana-034",
+    "char": "メ",
+    "romaji": "me",
+    "group": "base"
+  },
+  {
+    "id": "katakana-035",
+    "char": "モ",
+    "romaji": "mo",
+    "group": "base"
+  },
+  {
+    "id": "katakana-036",
+    "char": "ヤ",
+    "romaji": "ya",
+    "group": "base"
+  },
+  {
+    "id": "katakana-037",
+    "char": "ユ",
+    "romaji": "yu",
+    "group": "base"
+  },
+  {
+    "id": "katakana-038",
+    "char": "ヨ",
+    "romaji": "yo",
+    "group": "base"
+  },
+  {
+    "id": "katakana-039",
+    "char": "ラ",
+    "romaji": "ra",
+    "group": "base"
+  },
+  {
+    "id": "katakana-040",
+    "char": "リ",
+    "romaji": "ri",
+    "group": "base"
+  },
+  {
+    "id": "katakana-041",
+    "char": "ル",
+    "romaji": "ru",
+    "group": "base"
+  },
+  {
+    "id": "katakana-042",
+    "char": "レ",
+    "romaji": "re",
+    "group": "base"
+  },
+  {
+    "id": "katakana-043",
+    "char": "ロ",
+    "romaji": "ro",
+    "group": "base"
+  },
+  {
+    "id": "katakana-044",
+    "char": "ワ",
+    "romaji": "wa",
+    "group": "base"
+  },
+  {
+    "id": "katakana-045",
+    "char": "ヲ",
+    "romaji": "wo",
+    "group": "base"
+  },
+  {
+    "id": "katakana-046",
+    "char": "ン",
+    "romaji": "n",
+    "group": "base"
+  },
+  {
+    "id": "katakana-047",
+    "char": "ガ",
+    "romaji": "ga",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-048",
+    "char": "ギ",
+    "romaji": "gi",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-049",
+    "char": "グ",
+    "romaji": "gu",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-050",
+    "char": "ゲ",
+    "romaji": "ge",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-051",
+    "char": "ゴ",
+    "romaji": "go",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-052",
+    "char": "ザ",
+    "romaji": "za",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-053",
+    "char": "ジ",
+    "romaji": "ji",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-054",
+    "char": "ズ",
+    "romaji": "zu",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-055",
+    "char": "ゼ",
+    "romaji": "ze",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-056",
+    "char": "ゾ",
+    "romaji": "zo",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-057",
+    "char": "ダ",
+    "romaji": "da",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-058",
+    "char": "ヂ",
+    "romaji": "ji",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-059",
+    "char": "ヅ",
+    "romaji": "zu",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-060",
+    "char": "デ",
+    "romaji": "de",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-061",
+    "char": "ド",
+    "romaji": "do",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-062",
+    "char": "バ",
+    "romaji": "ba",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-063",
+    "char": "ビ",
+    "romaji": "bi",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-064",
+    "char": "ブ",
+    "romaji": "bu",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-065",
+    "char": "ベ",
+    "romaji": "be",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-066",
+    "char": "ボ",
+    "romaji": "bo",
+    "group": "dakuten"
+  },
+  {
+    "id": "katakana-067",
+    "char": "パ",
+    "romaji": "pa",
+    "group": "handakuten"
+  },
+  {
+    "id": "katakana-068",
+    "char": "ピ",
+    "romaji": "pi",
+    "group": "handakuten"
+  },
+  {
+    "id": "katakana-069",
+    "char": "プ",
+    "romaji": "pu",
+    "group": "handakuten"
+  },
+  {
+    "id": "katakana-070",
+    "char": "ペ",
+    "romaji": "pe",
+    "group": "handakuten"
+  },
+  {
+    "id": "katakana-071",
+    "char": "ポ",
+    "romaji": "po",
+    "group": "handakuten"
+  },
+  {
+    "id": "katakana-072",
+    "char": "キャ",
+    "romaji": "kya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-073",
+    "char": "キュ",
+    "romaji": "kyu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-074",
+    "char": "キョ",
+    "romaji": "kyo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-075",
+    "char": "シャ",
+    "romaji": "sha",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-076",
+    "char": "シュ",
+    "romaji": "shu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-077",
+    "char": "ショ",
+    "romaji": "sho",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-078",
+    "char": "チャ",
+    "romaji": "cha",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-079",
+    "char": "チュ",
+    "romaji": "chu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-080",
+    "char": "チョ",
+    "romaji": "cho",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-081",
+    "char": "ニャ",
+    "romaji": "nya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-082",
+    "char": "ニュ",
+    "romaji": "nyu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-083",
+    "char": "ニョ",
+    "romaji": "nyo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-084",
+    "char": "ヒャ",
+    "romaji": "hya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-085",
+    "char": "ヒュ",
+    "romaji": "hyu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-086",
+    "char": "ヒョ",
+    "romaji": "hyo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-087",
+    "char": "ミャ",
+    "romaji": "mya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-088",
+    "char": "ミュ",
+    "romaji": "myu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-089",
+    "char": "ミョ",
+    "romaji": "myo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-090",
+    "char": "リャ",
+    "romaji": "rya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-091",
+    "char": "リュ",
+    "romaji": "ryu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-092",
+    "char": "リョ",
+    "romaji": "ryo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-093",
+    "char": "ギャ",
+    "romaji": "gya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-094",
+    "char": "ギュ",
+    "romaji": "gyu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-095",
+    "char": "ギョ",
+    "romaji": "gyo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-096",
+    "char": "ジャ",
+    "romaji": "ja",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-097",
+    "char": "ジュ",
+    "romaji": "ju",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-098",
+    "char": "ジョ",
+    "romaji": "jo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-099",
+    "char": "ビャ",
+    "romaji": "bya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-100",
+    "char": "ビュ",
+    "romaji": "byu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-101",
+    "char": "ビョ",
+    "romaji": "byo",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-102",
+    "char": "ピャ",
+    "romaji": "pya",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-103",
+    "char": "ピュ",
+    "romaji": "pyu",
+    "group": "yoon"
+  },
+  {
+    "id": "katakana-104",
+    "char": "ピョ",
+    "romaji": "pyo",
+    "group": "yoon"
+  }
+]

@@ -1,0 +1,17 @@
+[
+  { "id": "grammar-001", "level": "N5", "point": "は (topic marker)", "structure": "X は Y です", "example_jp": "私は学生です。", "example_en": "I am a student." },
+  { "id": "grammar-002", "level": "N5", "point": "を (direct object marker)", "structure": "X を [verb]", "example_jp": "パンを食べます。", "example_en": "I eat bread." },
+  { "id": "grammar-003", "level": "N5", "point": "の (possessive / noun modifier)", "structure": "X の Y", "example_jp": "これは私の本です。", "example_en": "This is my book." },
+  { "id": "grammar-004", "level": "N5", "point": "ます form (present / future)", "structure": "[verb stem] + ます", "example_jp": "毎日勉強します。", "example_en": "I study every day." },
+  { "id": "grammar-005", "level": "N5", "point": "たいです (want to do)", "structure": "[verb stem] + たいです", "example_jp": "日本に行きたいです。", "example_en": "I want to go to Japan." },
+  { "id": "grammar-006", "level": "N5", "point": "ません (negative)", "structure": "[verb stem] + ません", "example_jp": "今日は行きません。", "example_en": "I'm not going today." },
+  { "id": "grammar-007", "level": "N4", "point": "ています (progressive / ongoing state)", "structure": "[te-form] + います", "example_jp": "今、雨が降っています。", "example_en": "It's raining right now." },
+  { "id": "grammar-008", "level": "N4", "point": "たことがあります (have done before)", "structure": "[ta-form] + ことがあります", "example_jp": "富士山に登ったことがあります。", "example_en": "I have climbed Mt. Fuji before." },
+  { "id": "grammar-009", "level": "N4", "point": "なければなりません (must do)", "structure": "[nai-stem] + なければなりません", "example_jp": "宿題をしなければなりません。", "example_en": "I have to do my homework." },
+  { "id": "grammar-010", "level": "N4", "point": "ので (because — softer, objective cause)", "structure": "[reason] ので、[result]", "example_jp": "疲れたので、早く寝ます。", "example_en": "Because I'm tired, I'll sleep early." },
+  { "id": "grammar-011", "level": "N4", "point": "かもしれません (might / maybe)", "structure": "[plain form] + かもしれません", "example_jp": "明日は雨かもしれません。", "example_en": "It might rain tomorrow." },
+  { "id": "grammar-012", "level": "N3", "point": "ばよかった (should have done)", "structure": "[ba-form] + よかった", "example_jp": "もっと勉強すればよかった。", "example_en": "I should have studied more." },
+  { "id": "grammar-013", "level": "N3", "point": "わけではない (it's not that... / doesn't mean that...)", "structure": "[plain form] + わけではない", "example_jp": "嫌いなわけではないです。", "example_en": "It's not that I dislike it." },
+  { "id": "grammar-014", "level": "N3", "point": "つつある (in the process of, gradually)", "structure": "[verb stem] + つつある", "example_jp": "状況は改善しつつある。", "example_en": "The situation is gradually improving." },
+  { "id": "grammar-015", "level": "N3", "point": "にもかかわらず (despite, in spite of)", "structure": "[noun/plain form] + にもかかわらず", "example_jp": "雨にもかかわらず、出かけた。", "example_en": "Despite the rain, I went out." }
+]
