@@ -87,9 +87,65 @@ create trigger on_auth_user_before_insert
   before insert on auth.users
   for each row execute function check_registration_enabled();
 
--- One-time bootstrap ----------------------------------------------------------
--- After you've registered your own account, run this separately (replace the
--- email) to make yourself admin:
+-- Admin account --------------------------------------------------------------
+-- Creates govinda@admin.com / password directly (skips the Register page and
+-- any email confirmation) and grants it admin immediately.
+--
+-- ⚠️ Inserting straight into auth.users/auth.identities is not an officially
+-- supported Supabase API — it relies on their current internal schema and
+-- could break on a future Supabase upgrade. It's a fine one-time convenience
+-- for a personal project, just don't build automation around it. Also:
+-- "password" is a placeholder-strength password and this file will likely
+-- end up in your git history — change it (via the app, once there's a
+-- profile/password-change flow, or `Authentication → Users → Reset password`
+-- in the dashboard) if this repo is or ever becomes public.
+do $$
+declare
+  admin_user_id uuid;
+begin
+  if exists (select 1 from auth.users where email = 'govinda@admin.com') then
+    raise notice 'govinda@admin.com already exists, skipping creation.';
+    return;
+  end if;
+
+  admin_user_id := gen_random_uuid();
+
+  insert into auth.users (
+    instance_id, id, aud, role, email, encrypted_password,
+    email_confirmed_at, created_at, updated_at,
+    raw_app_meta_data, raw_user_meta_data, is_super_admin,
+    confirmation_token, recovery_token, email_change_token_new, email_change
+  ) values (
+    '00000000-0000-0000-0000-000000000000',
+    admin_user_id,
+    'authenticated',
+    'authenticated',
+    'govinda@admin.com',
+    extensions.crypt('password', extensions.gen_salt('bf')),
+    now(), now(), now(),
+    '{"provider":"email","providers":["email"]}',
+    '{}',
+    false,
+    '', '', '', ''
+  );
+
+  insert into auth.identities (
+    id, user_id, provider_id, identity_data, provider, last_sign_in_at, created_at, updated_at
+  ) values (
+    gen_random_uuid(),
+    admin_user_id,
+    admin_user_id::text,
+    jsonb_build_object('sub', admin_user_id::text, 'email', 'govinda@admin.com'),
+    'email',
+    now(), now(), now()
+  );
+
+  -- the on_auth_user_created trigger above already created their profiles row
+  update public.profiles set is_admin = true where user_id = admin_user_id;
+end $$;
+
+-- One-time bootstrap for any OTHER admin (someone who registered normally
+-- through the app) — run separately, replacing the email:
 --
 --   update profiles set is_admin = true
---   where user_id = (select id from auth.users where email = 'YOUR-EMAIL-HERE');
+--   where user_id = (select id from auth.users where email = 'THEIR-EMAIL-HERE');

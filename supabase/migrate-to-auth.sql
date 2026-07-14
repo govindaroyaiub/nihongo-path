@@ -4,7 +4,9 @@
 -- run both.
 --
 -- Steps:
---   1. Register your first real account in the app (Register page).
+--   1. Have a real account to reassign this data to — either register one
+--      through the app (Register page), or run add-admin-and-settings.sql
+--      first, which creates govinda@admin.com for you.
 --   2. Find its UUID: run `select id, email from auth.users;` in the SQL
 --      editor and copy the `id` for your account.
 --   3. Replace 'YOUR-USER-UUID-HERE' below (two occurrences) with that UUID.
