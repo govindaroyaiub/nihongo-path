@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import { Volume2 } from 'lucide-react'
-import { speakSequence } from '../lib/speech'
+import { Volume2, Turtle } from 'lucide-react'
+import { speakSequence, SLOW_RATE } from '../lib/speech'
 
 export default function QuizMultipleChoice({ question, hint, correctAnswer, options, onAnswer, speak }) {
   const [selected, setSelected] = useState(null)
@@ -22,18 +22,28 @@ export default function QuizMultipleChoice({ question, hint, correctAnswer, opti
   return (
     <div className="w-full flex flex-col gap-4">
       <div className="py-8 text-center">
-        <p className="font-display text-4xl font-medium">{question}</p>
+        <p className="font-display text-4xl font-medium animate-pop-in">{question}</p>
         {hint && <p className="text-sm text-ink/45 mt-2">{hint}</p>}
       </div>
       {revealed && speak?.length > 0 && (
-        <button
-          type="button"
-          onClick={() => speakSequence(speak)}
-          className="self-center flex items-center gap-1.5 text-sm text-ink/50 px-3 py-1.5"
-        >
-          <Volume2 size={16} />
-          Replay
-        </button>
+        <div className="self-center flex items-center gap-2">
+          <button
+            type="button"
+            onClick={() => speakSequence(speak)}
+            className="flex items-center gap-1.5 text-sm text-ink/50 px-3 py-1.5"
+          >
+            <Volume2 size={16} />
+            Replay
+          </button>
+          <button
+            type="button"
+            aria-label="Replay slowly"
+            onClick={() => speakSequence(speak, { rate: SLOW_RATE })}
+            className="flex items-center gap-1.5 text-sm text-ink/50 px-3 py-1.5"
+          >
+            <Turtle size={16} />
+          </button>
+        </div>
       )}
       <div className="grid grid-cols-1 gap-3">
         {options.map((option) => {

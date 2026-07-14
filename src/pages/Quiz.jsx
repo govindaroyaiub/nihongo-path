@@ -1,11 +1,14 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { ChevronLeft } from 'lucide-react'
 import { getModule } from '../lib/modules'
 import { useProgress } from '../hooks/useProgress'
 import { speakableTexts } from '../lib/cardSpeech'
+import { playDing, playChime, playFanfare } from '../lib/sound'
 import QuizMultipleChoice from '../components/QuizMultipleChoice'
 import QuizTypeAnswer from '../components/QuizTypeAnswer'
+import Mascot from '../components/Mascot'
+import Confetti from '../components/Confetti'
 
 function quizFields(moduleId, card) {
   switch (moduleId) {
@@ -50,6 +53,9 @@ export default function Quiz() {
   const [queue, setQueue] = useState(null)
   const [index, setIndex] = useState(0)
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 })
+  const [reactionPose, setReactionPose] = useState(null)
+  const [reactionId, setReactionId] = useState(0)
+  const reactionTimeout = useRef(null)
 
   const deck = useMemo(() => {
     if (queue) return queue
@@ -62,6 +68,19 @@ export default function Quiz() {
     if (!card || !mod) return []
     return buildOptions(mod.cards, moduleId, card)
   }, [card, mod, moduleId])
+
+  const complete = !loading && deck.length > 0 && !card
+  const allMastered = complete && cardsWithProgress.length > 0 && cardsWithProgress.every((c) => c.progress?.status === 'mastered')
+
+  useEffect(() => {
+    if (!complete) return
+    if (allMastered) playFanfare()
+    else playChime()
+    // only fire once when the complete screen first appears
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [complete])
+
+  useEffect(() => () => clearTimeout(reactionTimeout.current), [])
 
   if (!mod) return null
   if (loading) return <div className="flex-1 flex items-center justify-center text-ink/40">Loading…</div>
@@ -77,10 +96,12 @@ export default function Quiz() {
     )
   }
 
-  if (!card) {
+  if (complete) {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center gap-4 px-6 text-center">
-        <p className="text-2xl font-semibold">Quiz complete</p>
+      <div className="relative flex-1 flex flex-col items-center justify-center gap-4 px-6 text-center overflow-hidden">
+        {allMastered && <Confetti count={40} />}
+        <Mascot pose="celebrate" size={allMastered ? 140 : 100} animate={false} />
+        <p className="text-2xl font-semibold">{allMastered ? 'Module mastered!' : 'Quiz complete'}</p>
         <p className="text-ink/60">
           {sessionStats.correct} correct · {sessionStats.incorrect} incorrect
         </p>
@@ -95,8 +116,23 @@ export default function Quiz() {
   const quizType = index % 2 === 0 ? 'choice' : 'type'
   const speakTexts = speakableTexts(moduleId, card)
 
+  function triggerReaction(pose) {
+    clearTimeout(reactionTimeout.current)
+    setReactionId((id) => id + 1)
+    setReactionPose(pose)
+    reactionTimeout.current = setTimeout(() => setReactionPose(null), 1100)
+  }
+
   async function handleAnswer(correct) {
-    await recordReview(card.id, correct)
+    const prevStatus = card.progress?.status
+    const updated = await recordReview(card.id, correct)
+    const justMastered = updated?.status === 'mastered' && prevStatus !== 'mastered'
+
+    if (justMastered) playFanfare()
+    else if (correct) playDing()
+
+    triggerReaction(correct ? 'celebrate' : 'oops')
+
     setSessionStats((s) => ({
       correct: s.correct + (correct ? 1 : 0),
       incorrect: s.incorrect + (correct ? 0 : 1),
@@ -121,7 +157,12 @@ export default function Quiz() {
         </span>
       </header>
 
-      <div className="flex-1 flex flex-col justify-center">
+      <div className="relative flex-1 flex flex-col justify-center">
+        {reactionPose && (
+          <div className="absolute top-0 inset-x-0 flex justify-center z-10 pointer-events-none">
+            <Mascot key={reactionId} pose={reactionPose} size={64} />
+          </div>
+        )}
         {quizType === 'choice' ? (
           <QuizMultipleChoice
             key={card.id}

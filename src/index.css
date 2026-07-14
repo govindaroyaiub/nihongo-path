@@ -45,3 +45,70 @@ body {
     opacity: 1;
   }
 }
+
+@keyframes pop-in {
+  0% {
+    transform: scale(0.7);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes mascot-sway {
+  0%,
+  100% {
+    transform: rotate(-3deg) translateY(0);
+  }
+  50% {
+    transform: rotate(3deg) translateY(-4px);
+  }
+}
+
+@keyframes reaction-pop {
+  0% {
+    transform: scale(0.5) translateY(10px);
+    opacity: 0;
+  }
+  25% {
+    transform: scale(1.12) translateY(0);
+    opacity: 1;
+  }
+  70% {
+    transform: scale(1) translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9) translateY(-14px);
+    opacity: 0;
+  }
+}
+
+@keyframes confetti-fall {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(220px) rotate(540deg);
+    opacity: 0;
+  }
+}
+
+.animate-pop-in {
+  animation: pop-in 400ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.animate-mascot-sway {
+  animation: mascot-sway 3.5s ease-in-out infinite;
+  transform-origin: bottom center;
+}
+
+.animate-reaction-pop {
+  animation: reaction-pop 1100ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}

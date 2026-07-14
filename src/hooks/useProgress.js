@@ -87,6 +87,7 @@ export function useProgress(moduleId, cards) {
 
     setProgressByCardId((prev) => ({ ...prev, [cardId]: data }))
     bumpStudyLog(userId)
+    return data
   }
 
   async function resetModule() {

@@ -1,5 +1,5 @@
 import { useRef, useState } from 'react'
-import { Check, X, Volume2 } from 'lucide-react'
+import { Check, X, Volume2, Turtle } from 'lucide-react'
 
 const SWIPE_THRESHOLD = 90
 const TAP_THRESHOLD = 6
@@ -10,7 +10,7 @@ const faceStyle = {
   WebkitBackfaceVisibility: 'hidden',
 }
 
-export default function FlashCard({ front, back, flipped, onFlip, onSwipe, onReplay }) {
+export default function FlashCard({ front, back, flipped, onFlip, onSwipe, onReplay, onReplaySlow }) {
   const [dragX, setDragX] = useState(0)
   const dragging = useRef(false)
   const startX = useRef(0)
@@ -102,19 +102,37 @@ export default function FlashCard({ front, back, flipped, onFlip, onSwipe, onRep
           </div>
         )}
 
-        {onReplay && (
-          <button
-            type="button"
-            aria-label="Replay pronunciation"
-            onPointerDown={(e) => e.stopPropagation()}
-            onClick={(e) => {
-              e.stopPropagation()
-              onReplay()
-            }}
-            className="absolute bottom-4 right-4 p-2.5 rounded-full bg-ink/5 text-ink/60 active:bg-ink/10"
-          >
-            <Volume2 size={20} />
-          </button>
+        {(onReplay || onReplaySlow) && (
+          <div className="absolute bottom-4 right-4 flex items-center gap-2">
+            {onReplaySlow && (
+              <button
+                type="button"
+                aria-label="Replay slowly"
+                onPointerDown={(e) => e.stopPropagation()}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onReplaySlow()
+                }}
+                className="p-2.5 rounded-full bg-ink/5 text-ink/60 active:bg-ink/10"
+              >
+                <Turtle size={20} />
+              </button>
+            )}
+            {onReplay && (
+              <button
+                type="button"
+                aria-label="Replay pronunciation"
+                onPointerDown={(e) => e.stopPropagation()}
+                onClick={(e) => {
+                  e.stopPropagation()
+                  onReplay()
+                }}
+                className="p-2.5 rounded-full bg-ink/5 text-ink/60 active:bg-ink/10"
+              >
+                <Volume2 size={20} />
+              </button>
+            )}
+          </div>
         )}
       </div>
       <p className="text-xs text-ink/45 px-6 text-center">

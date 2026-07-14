@@ -32,12 +32,15 @@ if (typeof window !== 'undefined' && window.speechSynthesis) {
   }
 }
 
-function utteranceFor(text) {
+export const NORMAL_RATE = 0.8
+export const SLOW_RATE = 0.5 // "tortoise mode" — roughly half speed, for picking apart individual sounds
+
+function utteranceFor(text, rate) {
   const utterance = new SpeechSynthesisUtterance(text)
   utterance.lang = 'ja-JP'
   // Slower and slightly lower-pitched than default reads as calmer and more
   // deliberate, easier to follow when you're still learning the sounds.
-  utterance.rate = 0.8
+  utterance.rate = rate
   utterance.pitch = 0.92
   const voice = pickJapaneseVoice()
   if (voice) utterance.voice = voice
@@ -45,18 +48,18 @@ function utteranceFor(text) {
 }
 
 // Speaks a single string of Japanese text.
-export function speakJapanese(text) {
+export function speakJapanese(text, { rate = NORMAL_RATE } = {}) {
   if (!text || typeof window === 'undefined' || !window.speechSynthesis) return
   window.speechSynthesis.cancel()
-  window.speechSynthesis.speak(utteranceFor(text))
+  window.speechSynthesis.speak(utteranceFor(text, rate))
 }
 
 // Speaks a list of strings back to back (e.g. a word, then its example sentence).
 // speechSynthesis queues consecutive speak() calls automatically.
-export function speakSequence(texts) {
+export function speakSequence(texts, { rate = NORMAL_RATE } = {}) {
   if (typeof window === 'undefined' || !window.speechSynthesis) return
   const list = (texts || []).filter(Boolean)
   if (list.length === 0) return
   window.speechSynthesis.cancel()
-  list.forEach((text) => window.speechSynthesis.speak(utteranceFor(text)))
+  list.forEach((text) => window.speechSynthesis.speak(utteranceFor(text, rate)))
 }

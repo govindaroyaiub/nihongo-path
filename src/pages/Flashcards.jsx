@@ -1,24 +1,27 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
 import { ChevronLeft } from 'lucide-react'
 import { getModule } from '../lib/modules'
 import { useProgress } from '../hooks/useProgress'
-import { speakSequence } from '../lib/speech'
+import { speakSequence, SLOW_RATE } from '../lib/speech'
 import { speakableTexts } from '../lib/cardSpeech'
+import { playDing, playChime, playFanfare } from '../lib/sound'
 import FlashCard from '../components/FlashCard'
+import Mascot from '../components/Mascot'
+import Confetti from '../components/Confetti'
 
 function frontBack(moduleId, card) {
   switch (moduleId) {
     case 'hiragana':
     case 'katakana':
       return {
-        front: <span className="font-display text-8xl font-medium">{card.char}</span>,
+        front: <span className="font-display text-8xl font-medium animate-pop-in">{card.char}</span>,
         back: <span className="font-display text-5xl font-medium">{card.romaji}</span>,
       }
     case 'grammar':
       return {
         front: (
-          <div className="flex flex-col gap-3 items-center">
+          <div className="flex flex-col gap-3 items-center animate-pop-in">
             <span className="text-xs uppercase tracking-wide text-ink/40">{card.level}</span>
             <span className="font-display text-2xl font-medium">{card.point}</span>
           </div>
@@ -34,7 +37,7 @@ function frontBack(moduleId, card) {
     case 'vocabulary':
       return {
         front: (
-          <div className="flex flex-col gap-2 items-center">
+          <div className="flex flex-col gap-2 items-center animate-pop-in">
             <span className="text-xs uppercase tracking-wide text-ink/40">{card.level}</span>
             <span className="font-display text-5xl font-medium">{card.word}</span>
           </div>
@@ -50,7 +53,7 @@ function frontBack(moduleId, card) {
       }
     case 'kanji':
       return {
-        front: <span className="font-display text-8xl font-medium">{card.char}</span>,
+        front: <span className="font-display text-8xl font-medium animate-pop-in">{card.char}</span>,
         back: (
           <div className="flex flex-col gap-2 items-center">
             <span className="text-sm">On: {card.onyomi}</span>
@@ -74,11 +77,27 @@ export default function Flashcards() {
   const [index, setIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
   const [sessionStats, setSessionStats] = useState({ correct: 0, incorrect: 0 })
+  const [reactionPose, setReactionPose] = useState(null)
+  const [reactionId, setReactionId] = useState(0)
+  const reactionTimeout = useRef(null)
 
   const deck = useMemo(() => {
     if (queue) return queue
     return dueCards.length > 0 ? dueCards : cardsWithProgress
   }, [queue, dueCards, cardsWithProgress])
+
+  const complete = !loading && deck.length > 0 && index >= deck.length
+  const allMastered = complete && cardsWithProgress.length > 0 && cardsWithProgress.every((c) => c.progress?.status === 'mastered')
+
+  useEffect(() => {
+    if (!complete) return
+    if (allMastered) playFanfare()
+    else playChime()
+    // only fire once when the complete screen first appears
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [complete])
+
+  useEffect(() => () => clearTimeout(reactionTimeout.current), [])
 
   if (!mod) return null
   if (loading) return <div className="flex-1 flex items-center justify-center text-ink/40">Loading…</div>
@@ -94,10 +113,12 @@ export default function Flashcards() {
     )
   }
 
-  if (index >= deck.length) {
+  if (complete) {
     return (
-      <div className="flex-1 flex flex-col items-center justify-center gap-4 px-6 text-center">
-        <p className="text-2xl font-semibold">Session complete</p>
+      <div className="relative flex-1 flex flex-col items-center justify-center gap-4 px-6 text-center overflow-hidden">
+        {allMastered && <Confetti count={40} />}
+        <Mascot pose="celebrate" size={allMastered ? 140 : 100} animate={false} />
+        <p className="text-2xl font-semibold">{allMastered ? 'Module mastered!' : 'Session complete'}</p>
         <p className="text-ink/60">
           {sessionStats.correct} correct · {sessionStats.incorrect} to review again
         </p>
@@ -118,11 +139,27 @@ export default function Flashcards() {
     if (next) speakSequence(speakTexts)
   }
 
+  function triggerReaction(pose) {
+    clearTimeout(reactionTimeout.current)
+    setReactionId((id) => id + 1)
+    setReactionPose(pose)
+    reactionTimeout.current = setTimeout(() => setReactionPose(null), 1100)
+  }
+
   async function handleSwipe(direction) {
-    await recordReview(card.id, direction === 'correct')
+    const correct = direction === 'correct'
+    const prevStatus = card.progress?.status
+    const updated = await recordReview(card.id, correct)
+    const justMastered = updated?.status === 'mastered' && prevStatus !== 'mastered'
+
+    if (justMastered) playFanfare()
+    else if (correct) playDing()
+
+    triggerReaction(correct ? 'celebrate' : 'oops')
+
     setSessionStats((s) => ({
-      correct: s.correct + (direction === 'correct' ? 1 : 0),
-      incorrect: s.incorrect + (direction === 'incorrect' ? 1 : 0),
+      correct: s.correct + (correct ? 1 : 0),
+      incorrect: s.incorrect + (correct ? 0 : 1),
     }))
     setFlipped(false)
     setIndex((i) => i + 1)
@@ -145,7 +182,12 @@ export default function Flashcards() {
         </span>
       </header>
 
-      <div className="flex-1 flex flex-col items-center justify-center">
+      <div className="relative flex-1 flex flex-col items-center justify-center">
+        {reactionPose && (
+          <div className="absolute top-0 inset-x-0 flex justify-center z-10 pointer-events-none">
+            <Mascot key={reactionId} pose={reactionPose} size={64} />
+          </div>
+        )}
         <FlashCard
           key={card.id}
           front={front}
@@ -154,6 +196,7 @@ export default function Flashcards() {
           onFlip={handleFlip}
           onSwipe={handleSwipe}
           onReplay={() => speakSequence(speakTexts)}
+          onReplaySlow={() => speakSequence(speakTexts, { rate: SLOW_RATE })}
         />
       </div>
     </div>

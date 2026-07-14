@@ -5,6 +5,7 @@ import { useStreak } from '../hooks/useStreak'
 import { useAuth } from '../context/AuthContext'
 import ProgressBar from '../components/ProgressBar'
 import StreakBadge from '../components/StreakBadge'
+import Mascot from '../components/Mascot'
 
 export default function Home() {
   const { loading, moduleStats, totalDue } = useDueCards()
@@ -17,20 +18,23 @@ export default function Home() {
   return (
     <div className="flex-1 overflow-y-auto px-6 pt-10 pb-6">
       <header className="flex items-start justify-between gap-4">
-        <div>
-          <h1 className="font-display text-3xl font-medium text-ink">Nihongo Path</h1>
-          {!loading && (
-            <p className="text-sm text-ink/45 mt-1.5">
-              {totalDue > 0 ? (
-                <>
-                  <span className="font-medium text-ink/70">{totalDue}</span> cards waiting across{' '}
-                  {modulesWithDue} module{modulesWithDue === 1 ? '' : 's'}
-                </>
-              ) : (
-                'All caught up, come back tomorrow'
-              )}
-            </p>
-          )}
+        <div className="flex items-center gap-3">
+          <Mascot pose="idle" size={52} />
+          <div>
+            <h1 className="font-display text-3xl font-medium text-ink">Nihongo Path</h1>
+            {!loading && (
+              <p className="text-sm text-ink/45 mt-1.5">
+                {totalDue > 0 ? (
+                  <>
+                    <span className="font-medium text-ink/70">{totalDue}</span> cards waiting across{' '}
+                    {modulesWithDue} module{modulesWithDue === 1 ? '' : 's'}
+                  </>
+                ) : (
+                  'All caught up, come back tomorrow'
+                )}
+              </p>
+            )}
+          </div>
         </div>
         <div className="flex items-center gap-2">
           <StreakBadge streak={streak} />
