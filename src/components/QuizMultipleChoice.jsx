@@ -1,6 +1,8 @@
 import { useEffect, useState } from 'react'
+import { Volume2 } from 'lucide-react'
+import { speakSequence } from '../lib/speech'
 
-export default function QuizMultipleChoice({ question, hint, correctAnswer, options, onAnswer }) {
+export default function QuizMultipleChoice({ question, hint, correctAnswer, options, onAnswer, speak }) {
   const [selected, setSelected] = useState(null)
   const [revealed, setRevealed] = useState(false)
 
@@ -13,15 +15,26 @@ export default function QuizMultipleChoice({ question, hint, correctAnswer, opti
     if (revealed) return
     setSelected(option)
     setRevealed(true)
+    speakSequence(speak)
     setTimeout(() => onAnswer(option === correctAnswer), 650)
   }
 
   return (
     <div className="w-full flex flex-col gap-4">
       <div className="py-8 text-center">
-        <p className="text-3xl font-medium">{question}</p>
+        <p className="font-display text-4xl font-medium">{question}</p>
         {hint && <p className="text-sm text-ink/45 mt-2">{hint}</p>}
       </div>
+      {revealed && speak?.length > 0 && (
+        <button
+          type="button"
+          onClick={() => speakSequence(speak)}
+          className="self-center flex items-center gap-1.5 text-sm text-ink/50 px-3 py-1.5"
+        >
+          <Volume2 size={16} />
+          Replay
+        </button>
+      )}
       <div className="grid grid-cols-1 gap-3">
         {options.map((option) => {
           const isCorrect = revealed && option === correctAnswer
@@ -32,7 +45,7 @@ export default function QuizMultipleChoice({ question, hint, correctAnswer, opti
               type="button"
               disabled={revealed}
               onClick={() => choose(option)}
-              className={`w-full text-lg py-4 rounded-2xl border-2 font-medium transition-colors ${
+              className={`w-full text-lg py-4 rounded-2xl border-2 font-medium transition-all active:scale-[0.98] ${
                 isCorrect
                   ? 'bg-success/10 border-success text-success'
                   : isWrong

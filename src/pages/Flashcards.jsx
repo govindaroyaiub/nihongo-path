@@ -3,6 +3,8 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import { ChevronLeft } from 'lucide-react'
 import { getModule } from '../lib/modules'
 import { useProgress } from '../hooks/useProgress'
+import { speakSequence } from '../lib/speech'
+import { speakableTexts } from '../lib/cardSpeech'
 import FlashCard from '../components/FlashCard'
 
 function frontBack(moduleId, card) {
@@ -10,20 +12,20 @@ function frontBack(moduleId, card) {
     case 'hiragana':
     case 'katakana':
       return {
-        front: <span className="text-8xl font-medium">{card.char}</span>,
-        back: <span className="text-5xl font-medium">{card.romaji}</span>,
+        front: <span className="font-display text-8xl font-medium">{card.char}</span>,
+        back: <span className="font-display text-5xl font-medium">{card.romaji}</span>,
       }
     case 'grammar':
       return {
         front: (
           <div className="flex flex-col gap-3 items-center">
             <span className="text-xs uppercase tracking-wide text-ink/40">{card.level}</span>
-            <span className="text-2xl font-semibold">{card.point}</span>
+            <span className="font-display text-2xl font-medium">{card.point}</span>
           </div>
         ),
         back: (
           <div className="flex flex-col gap-3 items-center">
-            <span className="text-lg font-medium">{card.structure}</span>
+            <span className="font-display text-lg font-medium">{card.structure}</span>
             <span className="text-xl">{card.example_jp}</span>
             <span className="text-sm text-ink/60">{card.example_en}</span>
           </div>
@@ -34,13 +36,13 @@ function frontBack(moduleId, card) {
         front: (
           <div className="flex flex-col gap-2 items-center">
             <span className="text-xs uppercase tracking-wide text-ink/40">{card.level}</span>
-            <span className="text-5xl font-medium">{card.word}</span>
+            <span className="font-display text-5xl font-medium">{card.word}</span>
           </div>
         ),
         back: (
           <div className="flex flex-col gap-2 items-center">
             <span className="text-2xl">{card.reading}</span>
-            <span className="text-lg font-medium">{card.meaning}</span>
+            <span className="font-display text-lg font-medium">{card.meaning}</span>
             <span className="text-base mt-2">{card.example_jp}</span>
             <span className="text-sm text-ink/60">{card.example_en}</span>
           </div>
@@ -48,12 +50,12 @@ function frontBack(moduleId, card) {
       }
     case 'kanji':
       return {
-        front: <span className="text-8xl font-medium">{card.char}</span>,
+        front: <span className="font-display text-8xl font-medium">{card.char}</span>,
         back: (
           <div className="flex flex-col gap-2 items-center">
             <span className="text-sm">On: {card.onyomi}</span>
             <span className="text-sm">Kun: {card.kunyomi}</span>
-            <span className="text-xl font-medium mt-1">{card.meaning}</span>
+            <span className="font-display text-xl font-medium mt-1">{card.meaning}</span>
             <span className="text-xs text-ink/50">{card.stroke_count} strokes</span>
           </div>
         ),
@@ -108,6 +110,13 @@ export default function Flashcards() {
 
   const card = deck[index]
   const { front, back } = frontBack(moduleId, card)
+  const speakTexts = speakableTexts(moduleId, card)
+
+  function handleFlip() {
+    const next = !flipped
+    setFlipped(next)
+    if (next) speakSequence(speakTexts)
+  }
 
   async function handleSwipe(direction) {
     await recordReview(card.id, direction === 'correct')
@@ -123,7 +132,12 @@ export default function Flashcards() {
   return (
     <div className="flex-1 flex flex-col px-5 pt-6 pb-6">
       <header className="flex items-center justify-between mb-6">
-        <button type="button" onClick={() => navigate(`/module/${moduleId}`)} className="p-2 -ml-2 text-ink/60">
+        <button
+          type="button"
+          onClick={() => navigate(`/module/${moduleId}`)}
+          aria-label="Back to module"
+          className="flex items-center justify-center -ml-2 w-10 h-10 rounded-full text-ink/50 active:bg-ink/5 active:text-ink/80"
+        >
           <ChevronLeft size={24} />
         </button>
         <span className="text-sm text-ink/50">
@@ -133,11 +147,13 @@ export default function Flashcards() {
 
       <div className="flex-1 flex flex-col items-center justify-center">
         <FlashCard
+          key={card.id}
           front={front}
           back={back}
           flipped={flipped}
-          onFlip={() => setFlipped((f) => !f)}
+          onFlip={handleFlip}
           onSwipe={handleSwipe}
+          onReplay={() => speakSequence(speakTexts)}
         />
       </div>
     </div>

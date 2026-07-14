@@ -3,6 +3,7 @@ import { useParams, useNavigate, Link } from 'react-router-dom'
 import { ChevronLeft } from 'lucide-react'
 import { getModule } from '../lib/modules'
 import { useProgress } from '../hooks/useProgress'
+import { speakableTexts } from '../lib/cardSpeech'
 import QuizMultipleChoice from '../components/QuizMultipleChoice'
 import QuizTypeAnswer from '../components/QuizTypeAnswer'
 
@@ -92,6 +93,7 @@ export default function Quiz() {
 
   const { prompt, answer, hint } = quizFields(moduleId, card)
   const quizType = index % 2 === 0 ? 'choice' : 'type'
+  const speakTexts = speakableTexts(moduleId, card)
 
   async function handleAnswer(correct) {
     await recordReview(card.id, correct)
@@ -106,7 +108,12 @@ export default function Quiz() {
   return (
     <div className="flex-1 flex flex-col px-5 pt-6 pb-6">
       <header className="flex items-center justify-between mb-4">
-        <button type="button" onClick={() => navigate(`/module/${moduleId}`)} className="p-2 -ml-2 text-ink/60">
+        <button
+          type="button"
+          onClick={() => navigate(`/module/${moduleId}`)}
+          aria-label="Back to module"
+          className="flex items-center justify-center -ml-2 w-10 h-10 rounded-full text-ink/50 active:bg-ink/5 active:text-ink/80"
+        >
           <ChevronLeft size={24} />
         </button>
         <span className="text-sm text-ink/50">
@@ -123,9 +130,17 @@ export default function Quiz() {
             correctAnswer={answer}
             options={options}
             onAnswer={handleAnswer}
+            speak={speakTexts}
           />
         ) : (
-          <QuizTypeAnswer key={card.id} question={prompt} hint={hint} correctAnswer={answer} onAnswer={handleAnswer} />
+          <QuizTypeAnswer
+            key={card.id}
+            question={prompt}
+            hint={hint}
+            correctAnswer={answer}
+            onAnswer={handleAnswer}
+            speak={speakTexts}
+          />
         )}
       </div>
     </div>

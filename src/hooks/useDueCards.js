@@ -39,7 +39,17 @@ export function useDueCards() {
       if (isDue(p)) due++
     }
 
-    return { id: mod.id, title: mod.title, subtitle: mod.subtitle, color: mod.color, total, due, mastered, started }
+    return {
+      id: mod.id,
+      title: mod.title,
+      subtitle: mod.subtitle,
+      glyph: mod.glyph,
+      color: mod.color,
+      total,
+      due,
+      mastered,
+      started,
+    }
   })
 
   const totalDue = moduleStats.reduce((sum, m) => sum + m.due, 0)
