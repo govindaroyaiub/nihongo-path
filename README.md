@@ -5,6 +5,20 @@ each with flashcards + quizzes scheduled by a simple SM-2 (Anki-style) spaced re
 algorithm. Accounts are real (Supabase Auth, email + password), installable as a PWA so it
 feels native on your phone.
 
+**Live demo:** [nihongo-path-nine.vercel.app](https://nihongo-path-nine.vercel.app)
+
+## Demo access
+
+To explore the app without registering, sign in with the shared demo account:
+
+| Email             | Password   |
+| ----------------- | ---------- |
+| `govinda@admin.com` | `password` |
+
+> This is a read-and-explore demo account for reviewers. Please don't rely on it for saving
+> personal progress — anyone with these credentials shares the same account. To keep your own
+> progress separate, register a fresh account from the **Sign up** screen.
+
 ## 1. Set up Supabase
 
 1. Create a project at [supabase.com](https://supabase.com) (or use an existing one).
