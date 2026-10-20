@@ -1,31 +1,22 @@
 import { useState, useEffect, useCallback } from 'react'
-import { supabase } from '../lib/supabaseClient'
-import { useAuth } from '../context/AuthContext'
+import { loadProgress } from '../lib/store'
 import { MODULES } from '../lib/modules'
 import { isDue } from '../lib/sm2'
 
 // Aggregates progress across all modules for the Home dashboard: per-module
 // progress bars + a combined "cards due today" count.
 export function useDueCards() {
-  const { user } = useAuth()
-  const userId = user?.id
-  const [progressRows, setProgressRows] = useState([])
+  const [progressByCardId, setProgressByCardId] = useState({})
   const [loading, setLoading] = useState(true)
 
-  const load = useCallback(async () => {
-    if (!userId) return
-    setLoading(true)
-    const { data, error } = await supabase.from('progress').select('*').eq('user_id', userId)
-    if (!error) setProgressRows(data || [])
+  const load = useCallback(() => {
+    setProgressByCardId(loadProgress())
     setLoading(false)
-  }, [userId])
+  }, [])
 
   useEffect(() => {
     load()
   }, [load])
-
-  const progressByCardId = {}
-  for (const row of progressRows) progressByCardId[row.card_id] = row
 
   const moduleStats = MODULES.map((mod) => {
     const total = mod.cards.length
