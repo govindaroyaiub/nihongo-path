@@ -1,0 +1,57 @@
+{
+  "unitId": "n5-u05",
+  "place": "Harajuku",
+  "jp": "原宿[はらじゅく]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.6702,
+  "lng": 139.7027,
+  "tagline": "A quiet forest shrine next to Tokyo's loudest youth fashion",
+  "history": "Harajuku sits beside Meiji Jingū, a shrine built in 1920 for Emperor Meiji and Empress Shōken. Its forest was planted with about 100,000 trees donated from all over Japan, and has grown into a deep woodland in the middle of the city. After World War II, US military housing and later the 1964 Olympic Village stood nearby, and the area slowly became a center of youth culture. Today narrow Takeshita Street is famous for colorful fashion, crêpes and street style.",
+  "sites": [
+    {
+      "name": "Meiji Jingū",
+      "jp": "明治神宮[めいじじんぐう]",
+      "kind": "shrine",
+      "year": "1920",
+      "desc": "A Shinto shrine for Emperor Meiji and Empress Shōken, reached through tall wooden torii and a man-made forest. Its buildings were destroyed in 1945 and rebuilt after the war."
+    },
+    {
+      "name": "Takeshita Street",
+      "jp": "竹下通[たけしたどお]り",
+      "kind": "street",
+      "year": null,
+      "desc": "A narrow, crowded street of fashion shops, sweets and crêpe stands. It is a symbol of Harajuku's kawaii street style."
+    },
+    {
+      "name": "Yoyogi Park",
+      "jp": "代々木公園[よよぎこうえん]",
+      "kind": "nature",
+      "year": "1967",
+      "desc": "A big park next to Meiji Jingū, on land once used for the 1964 Tokyo Olympic Village. People come to picnic, play music and dance."
+    }
+  ],
+  "facts": [
+    "Meiji Jingū's forest was planted with about 100,000 trees given by people from all over Japan.",
+    "At New Year, Meiji Jingū usually draws more visitors than any other shrine in Japan.",
+    "Harajuku Station's old wooden building from 1924 was replaced by a new station in 2020."
+  ],
+  "words": [
+    { "word": "原宿[はらじゅく]", "meaning": "Harajuku" },
+    { "word": "明治神宮[めいじじんぐう]", "meaning": "Meiji Jingū (shrine)" },
+    { "word": "鳥居[とりい]", "meaning": "torii (shrine gate)" },
+    { "word": "竹下通[たけしたどお]り", "meaning": "Takeshita Street" },
+    { "word": "クレープ", "meaning": "crêpe" }
+  ],
+  "stamp": { "kanji": "原宿", "motif": "shopping" },
+  "reading": {
+    "title": "原宿[はらじゅく]のクレープ",
+    "text": "アンナさんとケンさんは原宿[はらじゅく]へ行[い]きました。朝[あさ]、明治神宮[めいじじんぐう]の鳥居[とりい]を見[み]ました。それから、竹下通[たけしたどお]りでクレープを買[か]いました。\n店[みせ]の人[ひと]「いらっしゃいませ。」\nアンナ「このクレープはいくらですか。」\n店[みせ]の人[ひと]「六百円[ろっぴゃくえん]です。」\nアンナ「じゃ、二[ふた]つください。」\n店[みせ]の人[ひと]「全部[ぜんぶ]で千二百円[せんにひゃくえん]です。」",
+    "en": "Anna and Ken went to Harajuku. In the morning they saw the torii of Meiji Jingū. After that, they bought crêpes on Takeshita Street.\nShop clerk: \"Welcome!\"\nAnna: \"How much is this crêpe?\"\nShop clerk: \"It's 600 yen.\"\nAnna: \"Then two, please.\"\nShop clerk: \"That's 1,200 yen in total.\"",
+    "questions": [
+      { "q": "Where did they go in the morning?", "options": ["Takeshita Street", "Meiji Jingū", "Shinjuku Gyoen", "A department store"], "answer": 1 },
+      { "q": "How much is one crêpe?", "options": ["¥600", "¥1,200", "¥800", "¥300"], "answer": 0 },
+      { "q": "How much does Anna pay in total?", "options": ["¥600", "¥1,000", "¥1,600", "¥1,200"], "answer": 3 }
+    ]
+  }
+}

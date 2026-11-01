@@ -1,0 +1,1582 @@
+{
+  "id": "n5-u04",
+  "level": "N5",
+  "number": 4,
+  "title": "My day",
+  "goal": "Talk about your daily routine — what you do, when, where and with whom — and invite someone to do something with you.",
+  "vocab": [
+    {
+      "id": "n5-u04-v01",
+      "word": "起[お]きる",
+      "meaning": "to get up, wake up",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]、六時[ろくじ]に起[お]きます。",
+        "en": "I get up at six every morning."
+      }
+    },
+    {
+      "id": "n5-u04-v02",
+      "word": "寝[ね]る",
+      "meaning": "to go to bed, sleep",
+      "pos": "verb",
+      "example": {
+        "jp": "十一時[じゅういちじ]に寝[ね]ます。",
+        "en": "I go to bed at eleven."
+      }
+    },
+    {
+      "id": "n5-u04-v03",
+      "word": "食[た]べる",
+      "meaning": "to eat",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]、パンを食[た]べます。",
+        "en": "I eat bread every morning."
+      }
+    },
+    {
+      "id": "n5-u04-v04",
+      "word": "飲[の]む",
+      "meaning": "to drink",
+      "pos": "verb",
+      "example": {
+        "jp": "お茶[ちゃ]を飲[の]みます。",
+        "en": "I drink tea."
+      }
+    },
+    {
+      "id": "n5-u04-v05",
+      "word": "見[み]る",
+      "meaning": "to see, look at, watch",
+      "pos": "verb",
+      "example": {
+        "jp": "夜[よる]、テレビを見[み]ます。",
+        "en": "I watch TV at night."
+      }
+    },
+    {
+      "id": "n5-u04-v06",
+      "word": "行[い]く",
+      "meaning": "to go",
+      "pos": "verb",
+      "example": {
+        "jp": "明日[あした]、大学[だいがく]へ行[い]きます。",
+        "en": "I'll go to the university tomorrow."
+      }
+    },
+    {
+      "id": "n5-u04-v07",
+      "word": "来[く]る",
+      "meaning": "to come (ます form: 来[き]ます)",
+      "pos": "verb",
+      "example": {
+        "jp": "ケンさんは明日[あした]来[き]ます。",
+        "en": "Ken is coming tomorrow."
+      }
+    },
+    {
+      "id": "n5-u04-v08",
+      "word": "帰[かえ]る",
+      "meaning": "to go home, return",
+      "pos": "verb",
+      "example": {
+        "jp": "七時[しちじ]に家[うち]へ帰[かえ]ります。",
+        "en": "I go home at seven."
+      }
+    },
+    {
+      "id": "n5-u04-v09",
+      "word": "働[はたら]く",
+      "meaning": "to work",
+      "pos": "verb",
+      "example": {
+        "jp": "毎日[まいにち]、九時[くじ]から五時[ごじ]まで働[はたら]きます。",
+        "en": "I work from nine to five every day."
+      }
+    },
+    {
+      "id": "n5-u04-v10",
+      "word": "勉強[べんきょう]する",
+      "meaning": "to study",
+      "pos": "verb",
+      "example": {
+        "jp": "図書館[としょかん]で日本語[にほんご]を勉強[べんきょう]します。",
+        "en": "I study Japanese at the library."
+      }
+    },
+    {
+      "id": "n5-u04-v11",
+      "word": "する",
+      "meaning": "to do",
+      "pos": "verb",
+      "example": {
+        "jp": "週末[しゅうまつ]、何[なに]をしますか。",
+        "en": "What will you do at the weekend?"
+      }
+    },
+    {
+      "id": "n5-u04-v12",
+      "word": "休[やす]む",
+      "meaning": "to rest; to take time off",
+      "pos": "verb",
+      "example": {
+        "jp": "日曜日[にちようび]は家[うち]で休[やす]みます。",
+        "en": "On Sundays I rest at home."
+      }
+    },
+    {
+      "id": "n5-u04-v13",
+      "word": "読[よ]む",
+      "meaning": "to read",
+      "pos": "verb",
+      "example": {
+        "jp": "電車[でんしゃ]で本[ほん]を読[よ]みます。",
+        "en": "I read a book on the train."
+      }
+    },
+    {
+      "id": "n5-u04-v14",
+      "word": "聞[き]く",
+      "meaning": "to listen, hear; to ask",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]、ラジオを聞[き]きます。",
+        "en": "I listen to the radio every morning."
+      }
+    },
+    {
+      "id": "n5-u04-v15",
+      "word": "会[あ]う",
+      "meaning": "to meet (someone)",
+      "pos": "verb",
+      "example": {
+        "jp": "土曜日[どようび]に友[とも]だちと会[あ]います。",
+        "en": "I'm meeting a friend on Saturday."
+      }
+    },
+    {
+      "id": "n5-u04-v16",
+      "word": "浴[あ]びる",
+      "meaning": "to bathe in (シャワーを浴びる = to take a shower)",
+      "pos": "verb",
+      "example": {
+        "jp": "朝[あさ]、シャワーを浴[あ]びます。",
+        "en": "I take a shower in the morning."
+      }
+    },
+    {
+      "id": "n5-u04-v17",
+      "word": "掃除[そうじ]する",
+      "meaning": "to clean (a room, a house)",
+      "pos": "verb",
+      "example": {
+        "jp": "日曜日[にちようび]に掃除[そうじ]します。",
+        "en": "I clean on Sundays."
+      }
+    },
+    {
+      "id": "n5-u04-v18",
+      "word": "洗濯[せんたく]する",
+      "meaning": "to do the laundry",
+      "pos": "verb",
+      "example": {
+        "jp": "毎週[まいしゅう]土曜日[どようび]に洗濯[せんたく]します。",
+        "en": "I do the laundry every Saturday."
+      }
+    },
+    {
+      "id": "n5-u04-v19",
+      "word": "今日[きょう]",
+      "meaning": "today",
+      "pos": "noun",
+      "example": {
+        "jp": "今日[きょう]は図書館[としょかん]へ行[い]きます。",
+        "en": "Today I'm going to the library."
+      }
+    },
+    {
+      "id": "n5-u04-v20",
+      "word": "明日[あした]",
+      "meaning": "tomorrow",
+      "pos": "noun",
+      "example": {
+        "jp": "明日[あした]は働[はたら]きません。",
+        "en": "I'm not working tomorrow."
+      }
+    },
+    {
+      "id": "n5-u04-v21",
+      "word": "昨日[きのう]",
+      "meaning": "yesterday",
+      "pos": "noun",
+      "example": {
+        "jp": "昨日[きのう]、映画[えいが]を見[み]ました。",
+        "en": "I saw a movie yesterday."
+      }
+    },
+    {
+      "id": "n5-u04-v22",
+      "word": "今朝[けさ]",
+      "meaning": "this morning",
+      "pos": "noun",
+      "example": {
+        "jp": "今朝[けさ]、コーヒーを飲[の]みました。",
+        "en": "I drank coffee this morning."
+      }
+    },
+    {
+      "id": "n5-u04-v23",
+      "word": "今晩[こんばん]",
+      "meaning": "this evening, tonight",
+      "pos": "noun",
+      "example": {
+        "jp": "今晩[こんばん]、何[なに]をしますか。",
+        "en": "What are you doing this evening?"
+      }
+    },
+    {
+      "id": "n5-u04-v24",
+      "word": "毎日[まいにち]",
+      "meaning": "every day",
+      "pos": "noun",
+      "example": {
+        "jp": "毎日[まいにち]、日本語[にほんご]を勉強[べんきょう]します。",
+        "en": "I study Japanese every day."
+      }
+    },
+    {
+      "id": "n5-u04-v25",
+      "word": "毎朝[まいあさ]",
+      "meaning": "every morning",
+      "pos": "noun",
+      "example": {
+        "jp": "毎朝[まいあさ]、朝[あさ]ごはんを食[た]べます。",
+        "en": "I eat breakfast every morning."
+      }
+    },
+    {
+      "id": "n5-u04-v26",
+      "word": "毎晩[まいばん]",
+      "meaning": "every evening, every night",
+      "pos": "noun",
+      "example": {
+        "jp": "毎晩[まいばん]、十時[じゅうじ]に寝[ね]ます。",
+        "en": "I go to bed at ten every night."
+      }
+    },
+    {
+      "id": "n5-u04-v27",
+      "word": "毎週[まいしゅう]",
+      "meaning": "every week",
+      "pos": "noun",
+      "example": {
+        "jp": "毎週[まいしゅう]、映画[えいが]を見[み]ます。",
+        "en": "I watch a movie every week."
+      }
+    },
+    {
+      "id": "n5-u04-v28",
+      "word": "今週[こんしゅう]",
+      "meaning": "this week",
+      "pos": "noun",
+      "example": {
+        "jp": "今週[こんしゅう]は毎日[まいにち]働[はたら]きます。",
+        "en": "This week I'm working every day."
+      }
+    },
+    {
+      "id": "n5-u04-v29",
+      "word": "来週[らいしゅう]",
+      "meaning": "next week",
+      "pos": "noun",
+      "example": {
+        "jp": "来週[らいしゅう]、日本[にほん]へ行[い]きます。",
+        "en": "I'm going to Japan next week."
+      }
+    },
+    {
+      "id": "n5-u04-v30",
+      "word": "先週[せんしゅう]",
+      "meaning": "last week",
+      "pos": "noun",
+      "example": {
+        "jp": "先週[せんしゅう]、友[とも]だちと映画[えいが]を見[み]ました。",
+        "en": "Last week I saw a movie with a friend."
+      }
+    },
+    {
+      "id": "n5-u04-v31",
+      "word": "週末[しゅうまつ]",
+      "meaning": "weekend",
+      "pos": "noun",
+      "example": {
+        "jp": "週末[しゅうまつ]は働[はたら]きません。",
+        "en": "I don't work at weekends."
+      }
+    },
+    {
+      "id": "n5-u04-v32",
+      "word": "ごはん",
+      "meaning": "meal; cooked rice",
+      "pos": "noun",
+      "example": {
+        "jp": "一緒[いっしょ]にごはんを食[た]べませんか。",
+        "en": "Would you like to eat together?"
+      }
+    },
+    {
+      "id": "n5-u04-v33",
+      "word": "朝[あさ]ごはん",
+      "meaning": "breakfast",
+      "pos": "noun",
+      "example": {
+        "jp": "今朝[けさ]は朝[あさ]ごはんを食[た]べませんでした。",
+        "en": "I didn't eat breakfast this morning."
+      }
+    },
+    {
+      "id": "n5-u04-v34",
+      "word": "昼[ひる]ごはん",
+      "meaning": "lunch",
+      "pos": "noun",
+      "example": {
+        "jp": "十二時[じゅうにじ]に昼[ひる]ごはんを食[た]べます。",
+        "en": "I eat lunch at twelve."
+      }
+    },
+    {
+      "id": "n5-u04-v35",
+      "word": "晩[ばん]ごはん",
+      "meaning": "dinner, supper",
+      "pos": "noun",
+      "example": {
+        "jp": "七時[しちじ]に晩[ばん]ごはんを食[た]べます。",
+        "en": "I eat dinner at seven."
+      }
+    },
+    {
+      "id": "n5-u04-v36",
+      "word": "パン",
+      "meaning": "bread",
+      "pos": "noun",
+      "example": {
+        "jp": "朝[あさ]、パンを食[た]べます。",
+        "en": "I eat bread in the morning."
+      }
+    },
+    {
+      "id": "n5-u04-v37",
+      "word": "お茶[ちゃ]",
+      "meaning": "tea (usually green tea)",
+      "pos": "noun",
+      "example": {
+        "jp": "一緒[いっしょ]にお茶[ちゃ]を飲[の]みませんか。",
+        "en": "Would you like to have some tea together?"
+      }
+    },
+    {
+      "id": "n5-u04-v38",
+      "word": "コーヒー",
+      "meaning": "coffee",
+      "pos": "noun",
+      "example": {
+        "jp": "毎朝[まいあさ]、コーヒーを飲[の]みます。",
+        "en": "I drink coffee every morning."
+      }
+    },
+    {
+      "id": "n5-u04-v39",
+      "word": "電車[でんしゃ]",
+      "meaning": "train",
+      "pos": "noun",
+      "example": {
+        "jp": "電車[でんしゃ]で会社[かいしゃ]へ行[い]きます。",
+        "en": "I go to the office by train."
+      }
+    },
+    {
+      "id": "n5-u04-v40",
+      "word": "バス",
+      "meaning": "bus",
+      "pos": "noun",
+      "example": {
+        "jp": "バスで大学[だいがく]へ行[い]きます。",
+        "en": "I go to the university by bus."
+      }
+    },
+    {
+      "id": "n5-u04-v41",
+      "word": "地下鉄[ちかてつ]",
+      "meaning": "subway, underground",
+      "pos": "noun",
+      "example": {
+        "jp": "地下鉄[ちかてつ]で銀座[ぎんざ]へ行[い]きます。",
+        "en": "I go to Ginza by subway."
+      }
+    },
+    {
+      "id": "n5-u04-v42",
+      "word": "自転車[じてんしゃ]",
+      "meaning": "bicycle",
+      "pos": "noun",
+      "example": {
+        "jp": "自転車[じてんしゃ]で図書館[としょかん]へ行[い]きます。",
+        "en": "I go to the library by bicycle."
+      }
+    },
+    {
+      "id": "n5-u04-v43",
+      "word": "タクシー",
+      "meaning": "taxi",
+      "pos": "noun",
+      "example": {
+        "jp": "タクシーで家[うち]へ帰[かえ]りました。",
+        "en": "I went home by taxi."
+      }
+    },
+    {
+      "id": "n5-u04-v44",
+      "word": "歩[ある]いて",
+      "meaning": "on foot, walking",
+      "pos": "expression",
+      "example": {
+        "jp": "歩[ある]いて駅[えき]へ行[い]きます。",
+        "en": "I walk to the station."
+      }
+    },
+    {
+      "id": "n5-u04-v46",
+      "word": "家[うち]",
+      "meaning": "home, house",
+      "pos": "noun",
+      "example": {
+        "jp": "昨日[きのう]は家[うち]で勉強[べんきょう]しました。",
+        "en": "Yesterday I studied at home."
+      }
+    },
+    {
+      "id": "n5-u04-v47",
+      "word": "仕事[しごと]",
+      "meaning": "work, job",
+      "pos": "noun",
+      "example": {
+        "jp": "仕事[しごと]は九時[くじ]から五時[ごじ]までです。",
+        "en": "Work is from nine to five."
+      }
+    },
+    {
+      "id": "n5-u04-v49",
+      "word": "映画[えいが]",
+      "meaning": "movie, film",
+      "pos": "noun",
+      "example": {
+        "jp": "土曜日[どようび]に映画[えいが]を見[み]ませんか。",
+        "en": "Would you like to see a movie on Saturday?"
+      }
+    },
+    {
+      "id": "n5-u04-v50",
+      "word": "いつ",
+      "meaning": "when",
+      "pos": "pronoun",
+      "example": {
+        "jp": "いつ日本[にほん]へ来[き]ましたか。",
+        "en": "When did you come to Japan?"
+      }
+    },
+    {
+      "id": "n5-u04-v51",
+      "word": "一緒[いっしょ]に",
+      "meaning": "together",
+      "pos": "adverb",
+      "example": {
+        "jp": "一緒[いっしょ]に帰[かえ]りましょう。",
+        "en": "Let's go home together."
+      }
+    },
+    {
+      "id": "n5-u04-v52",
+      "word": "いつも",
+      "meaning": "always, usually",
+      "pos": "adverb",
+      "example": {
+        "jp": "いつもバスで帰[かえ]ります。",
+        "en": "I always go home by bus."
+      }
+    },
+    {
+      "id": "n5-u04-v53",
+      "word": "時々[ときどき]",
+      "meaning": "sometimes",
+      "pos": "adverb",
+      "example": {
+        "jp": "時々[ときどき]、映画[えいが]を見[み]ます。",
+        "en": "I sometimes watch movies."
+      }
+    },
+    {
+      "id": "n5-u04-v54",
+      "word": "それから",
+      "meaning": "and then, after that",
+      "pos": "expression",
+      "example": {
+        "jp": "朝[あさ]ごはんを食[た]べます。それから、会社[かいしゃ]へ行[い]きます。",
+        "en": "I eat breakfast. After that, I go to the office."
+      }
+    },
+    {
+      "id": "n5-u04-v55",
+      "word": "じゃ",
+      "meaning": "well then, in that case",
+      "pos": "expression",
+      "example": {
+        "jp": "じゃ、また明日[あした]。",
+        "en": "Well then, see you tomorrow."
+      }
+    },
+    {
+      "id": "n5-u04-v56",
+      "word": "いってきます",
+      "meaning": "I'm off! (said when leaving home; reply: いってらっしゃい)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u04-v57",
+      "word": "ただいま",
+      "meaning": "I'm home! (reply: おかえりなさい)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u04-v58",
+      "word": "いただきます",
+      "meaning": "said before eating (\"I gratefully receive\")",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u04-v59",
+      "word": "ごちそうさまでした",
+      "meaning": "said after eating (\"thank you for the meal\")",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u04-v60",
+      "word": "おやすみなさい",
+      "meaning": "good night",
+      "pos": "expression"
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u04-k01",
+      "char": "今",
+      "meanings": [
+        "now"
+      ],
+      "on": [
+        "コン",
+        "キン"
+      ],
+      "kun": [
+        "いま"
+      ],
+      "strokes": 4,
+      "mnemonic": "Under a roof, a clock hand ticks — it's happening now.",
+      "words": [
+        {
+          "word": "今[いま]",
+          "meaning": "now"
+        },
+        {
+          "word": "今日[きょう]",
+          "meaning": "today"
+        },
+        {
+          "word": "今週[こんしゅう]",
+          "meaning": "this week"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k02",
+      "char": "毎",
+      "meanings": [
+        "every"
+      ],
+      "on": [
+        "マイ"
+      ],
+      "kun": [
+        "ごと"
+      ],
+      "strokes": 6,
+      "mnemonic": "A person in a hat visits mother (母) every single day.",
+      "words": [
+        {
+          "word": "毎日[まいにち]",
+          "meaning": "every day"
+        },
+        {
+          "word": "毎朝[まいあさ]",
+          "meaning": "every morning"
+        },
+        {
+          "word": "毎週[まいしゅう]",
+          "meaning": "every week"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k03",
+      "char": "週",
+      "meanings": [
+        "week"
+      ],
+      "on": [
+        "シュウ"
+      ],
+      "kun": [],
+      "strokes": 11,
+      "mnemonic": "Walking (⻌) one full lap around (周) takes a week.",
+      "words": [
+        {
+          "word": "今週[こんしゅう]",
+          "meaning": "this week"
+        },
+        {
+          "word": "来週[らいしゅう]",
+          "meaning": "next week"
+        },
+        {
+          "word": "先週[せんしゅう]",
+          "meaning": "last week"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k04",
+      "char": "午",
+      "meanings": [
+        "noon"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "うま"
+      ],
+      "strokes": 4,
+      "mnemonic": "A cow (牛) that lost its horn naps at noon.",
+      "words": [
+        {
+          "word": "午前[ごぜん]",
+          "meaning": "a.m., morning"
+        },
+        {
+          "word": "午後[ごご]",
+          "meaning": "p.m., afternoon"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k05",
+      "char": "前",
+      "meanings": [
+        "before",
+        "front"
+      ],
+      "on": [
+        "ゼン"
+      ],
+      "kun": [
+        "まえ"
+      ],
+      "strokes": 9,
+      "mnemonic": "Two horns lead the way out in front, with the moon and a knife following.",
+      "words": [
+        {
+          "word": "前[まえ]",
+          "meaning": "front; before"
+        },
+        {
+          "word": "午前[ごぜん]",
+          "meaning": "a.m., morning"
+        },
+        {
+          "word": "名前[なまえ]",
+          "meaning": "name"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k06",
+      "char": "後",
+      "meanings": [
+        "after",
+        "behind",
+        "later"
+      ],
+      "on": [
+        "ゴ",
+        "コウ"
+      ],
+      "kun": [
+        "あと",
+        "うし.ろ",
+        "のち",
+        "おく.れる"
+      ],
+      "strokes": 9,
+      "mnemonic": "A slow walker (彳) dragging a thread always ends up behind, coming after the others.",
+      "words": [
+        {
+          "word": "午後[ごご]",
+          "meaning": "p.m., afternoon"
+        },
+        {
+          "word": "後[うし]ろ",
+          "meaning": "behind, back"
+        },
+        {
+          "word": "後[あと]",
+          "meaning": "after, later"
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-k07",
+      "char": "間",
+      "meanings": [
+        "interval",
+        "between",
+        "time"
+      ],
+      "on": [
+        "カン",
+        "ケン"
+      ],
+      "kun": [
+        "あいだ",
+        "ま"
+      ],
+      "strokes": 12,
+      "mnemonic": "The sun (日) shines through the gap between the two doors of a gate (門).",
+      "words": [
+        {
+          "word": "時間[じかん]",
+          "meaning": "time; hours"
+        },
+        {
+          "word": "間[あいだ]",
+          "meaning": "between; during"
+        },
+        {
+          "word": "一週間[いっしゅうかん]",
+          "meaning": "one week (duration)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u04-g01",
+      "title": "Vます — polite verbs: present, negative, past",
+      "pattern": "Vます / Vません / Vました / Vませんでした",
+      "meaning": "do (will do) / don't (won't) / did / didn't — polite",
+      "explanation": "Japanese verbs always come at the very end of the sentence, and in polite speech they end in ます. The ます form covers both habits and the future: 食べます means \"I eat\" or \"I will eat\". Swap the ending to get the other forms: ません (don't / won't), ました (did), ませんでした (didn't). The word list shows verbs in their dictionary form (食べる, 行く); for now, just learn each verb's ます form together with it.",
+      "notes": [
+        "Present ます is also the future: 明日行きます = I'll go tomorrow.",
+        "Irregular: する → します, 来る (くる) → 来ます (きます).",
+        "The subject is usually dropped: 食べました alone = I ate."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は毎日[まいにち]働[はたら]きます。",
+          "en": "I work every day."
+        },
+        {
+          "jp": "明日[あした]、行[い]きます。",
+          "en": "I'll go tomorrow."
+        },
+        {
+          "jp": "今朝[けさ]、コーヒーを飲[の]みました。",
+          "en": "I drank coffee this morning."
+        },
+        {
+          "jp": "昨日[きのう]は勉強[べんきょう]しませんでした。",
+          "en": "I didn't study yesterday."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]、テレビを見[み]＿。",
+          "answer": "ました",
+          "options": [
+            "ました",
+            "ます",
+            "ましょう",
+            "ませんか"
+          ],
+          "en": "I watched TV yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "明日[あした]、会社[かいしゃ]へ行[い]き＿。",
+          "answer": "ます",
+          "options": [
+            "ます",
+            "ました",
+            "ませんでした",
+            "でした"
+          ],
+          "en": "I'll go to the office tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "いいえ、昨日[きのう]は働[はたら]き＿。",
+          "answer": "ませんでした",
+          "options": [
+            "ませんでした",
+            "ました",
+            "ません",
+            "ます"
+          ],
+          "en": "No, I didn't work yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "テレビを＿。",
+          "answer": "見[み]ます",
+          "options": [
+            "見[み]ます",
+            "飲[の]みます",
+            "起[お]きます",
+            "帰[かえ]ります"
+          ],
+          "en": "I watch TV."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "昨日[きのう]は",
+            "勉強[べんきょう]",
+            "しませんでした。"
+          ],
+          "en": "I didn't study yesterday."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今朝[けさ]、",
+            "コーヒーを",
+            "飲[の]みました。"
+          ],
+          "en": "I drank coffee this morning."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g02",
+      "title": "を — object marker",
+      "pattern": "N を V",
+      "meaning": "marks the thing the action is done to",
+      "explanation": "を marks the direct object — the thing you eat, drink, watch, read and so on. It comes right after that noun, and the verb follows: パンを食べます = I eat bread. を has its own hiragana, but it is pronounced just like お (\"o\"). Verbs like 食べる, 飲む, 見る, 読む and 聞く almost always come with を.",
+      "notes": [
+        "を is pronounced \"o\".",
+        "Noun + する verbs can also take を: 勉強をします = 勉強します.",
+        "Don't use を for places you go to — that's へ / に."
+      ],
+      "examples": [
+        {
+          "jp": "毎朝[まいあさ]、パンを食[た]べます。",
+          "en": "I eat bread every morning."
+        },
+        {
+          "jp": "お茶[ちゃ]を飲[の]みます。",
+          "en": "I drink tea."
+        },
+        {
+          "jp": "昨日[きのう]、映画[えいが]を見[み]ました。",
+          "en": "I saw a movie yesterday."
+        },
+        {
+          "jp": "日本語[にほんご]を勉強[べんきょう]します。",
+          "en": "I study Japanese."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "コーヒー＿飲[の]みます。",
+          "answer": "を",
+          "options": [
+            "を",
+            "へ",
+            "に",
+            "の"
+          ],
+          "en": "I drink coffee."
+        },
+        {
+          "type": "choice",
+          "jp": "毎晩[まいばん]、テレビ＿見[み]ます。",
+          "answer": "を",
+          "options": [
+            "を",
+            "へ",
+            "と",
+            "の"
+          ],
+          "en": "I watch TV every night."
+        },
+        {
+          "type": "choice",
+          "jp": "毎日[まいにち]、日本語[にほんご]を＿。",
+          "answer": "勉強[べんきょう]します",
+          "options": [
+            "勉強[べんきょう]します",
+            "起[お]きます",
+            "寝[ね]ます",
+            "行[い]きます"
+          ],
+          "en": "I study Japanese every day."
+        },
+        {
+          "type": "choice",
+          "jp": "今朝[けさ]は朝[あさ]ごはん＿食[た]べませんでした。",
+          "answer": "を",
+          "options": [
+            "を",
+            "へ",
+            "と",
+            "で"
+          ],
+          "en": "I didn't eat breakfast this morning."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "毎晩[まいばん]、",
+            "本[ほん]を",
+            "読[よ]みます。"
+          ],
+          "en": "I read a book every night."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "お茶[ちゃ]を",
+            "飲[の]みます。"
+          ],
+          "en": "I drink tea."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g03",
+      "title": "に — at a point in time",
+      "pattern": "Time に V",
+      "meaning": "at / on (a specific time)",
+      "explanation": "Put に after a specific time to say when something happens: 七時に起きます = I get up at seven. Use に with clock times and days of the week. Do NOT use に with relative time words such as 今日, 明日, 昨日, 毎日 or 来週 — they stand on their own. Words like 朝 (morning) and 夜 (night) also usually go without に.",
+      "notes": [
+        "With に: 六時に, 月曜日に.",
+        "Without に: 今日, 明日, 昨日, 今朝, 毎朝, 来週, いつ.",
+        "Ask \"what time?\": 何時に起きますか。"
+      ],
+      "examples": [
+        {
+          "jp": "毎朝[まいあさ]、七時[しちじ]に起[お]きます。",
+          "en": "I get up at seven every morning."
+        },
+        {
+          "jp": "十一時[じゅういちじ]に寝[ね]ます。",
+          "en": "I go to bed at eleven."
+        },
+        {
+          "jp": "日曜日[にちようび]に映画[えいが]を見[み]ました。",
+          "en": "I saw a movie on Sunday."
+        },
+        {
+          "jp": "何時[なんじ]に寝[ね]ますか。",
+          "en": "What time do you go to bed?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "毎朝[まいあさ]、六時[ろくじ]＿起[お]きます。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "で",
+            "へ"
+          ],
+          "en": "I get up at six every morning."
+        },
+        {
+          "type": "choice",
+          "jp": "＿に起[お]きます。",
+          "answer": "七時[しちじ]",
+          "options": [
+            "七時[しちじ]",
+            "明日[あした]",
+            "毎朝[まいあさ]",
+            "今日[きょう]"
+          ],
+          "en": "I get up at seven."
+        },
+        {
+          "type": "choice",
+          "jp": "土曜日[どようび]＿テニスをします。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "へ",
+            "の"
+          ],
+          "en": "I play tennis on Saturday."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は十二時[じゅうにじ]＿寝[ね]ました。",
+          "answer": "に",
+          "options": [
+            "に",
+            "で",
+            "を",
+            "と"
+          ],
+          "en": "Yesterday I went to bed at twelve."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "何時[なんじ]に",
+            "起[お]きます",
+            "か。"
+          ],
+          "en": "What time do you get up?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "毎朝[まいあさ]",
+            "六時[ろくじ]に",
+            "起[お]きます。"
+          ],
+          "en": "I get up at six every morning."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g04",
+      "title": "へ / に — going to a place",
+      "pattern": "Place へ / に 行きます・来ます・帰ります",
+      "meaning": "to (a destination)",
+      "explanation": "With verbs of movement — 行きます (go), 来ます (come) and 帰ります (go home, return) — mark the destination with へ or に. Both mean \"to\" here: へ stresses the direction and に the arrival point, but in everyday speech you can use either. The particle へ is written with the hiragana へ but pronounced \"e\". Ask where someone is going with どこへ行きますか.",
+      "notes": [
+        "へ is pronounced \"e\".",
+        "帰ります means going back to where you belong — home, or your own country.",
+        "Going nowhere: どこへも行きません。"
+      ],
+      "examples": [
+        {
+          "jp": "毎日[まいにち]、会社[かいしゃ]へ行[い]きます。",
+          "en": "I go to the office every day."
+        },
+        {
+          "jp": "ケンさんは来週[らいしゅう]、日本[にほん]に来[き]ます。",
+          "en": "Ken is coming to Japan next week."
+        },
+        {
+          "jp": "昨日[きのう]は七時[しちじ]に家[うち]へ帰[かえ]りました。",
+          "en": "Yesterday I went home at seven."
+        },
+        {
+          "jp": "どこへ行[い]きますか。",
+          "en": "Where are you going?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "明日[あした]、図書館[としょかん]＿行[い]きます。",
+          "answer": "へ",
+          "options": [
+            "へ",
+            "を",
+            "で",
+            "の"
+          ],
+          "en": "I'll go to the library tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんは来週[らいしゅう]、日本[にほん]＿来[き]ます。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "で",
+            "の"
+          ],
+          "en": "Ken is coming to Japan next week."
+        },
+        {
+          "type": "choice",
+          "jp": "毎晩[まいばん]、九時[くじ]に家[うち]へ＿。",
+          "answer": "帰[かえ]ります",
+          "options": [
+            "帰[かえ]ります",
+            "食[た]べます",
+            "見[み]ます",
+            "飲[の]みます"
+          ],
+          "en": "I go home at nine every evening."
+        },
+        {
+          "type": "choice",
+          "jp": "＿へ行[い]きますか。",
+          "answer": "どこ",
+          "options": [
+            "どこ",
+            "何[なに]",
+            "だれ",
+            "いつ"
+          ],
+          "en": "Where are you going?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "駅[えき]へ",
+            "行[い]きます。"
+          ],
+          "en": "I'm going to the station."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "昨日[きのう]は",
+            "大学[だいがく]へ",
+            "行[い]きませんでした。"
+          ],
+          "en": "I didn't go to the university yesterday."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g05",
+      "title": "で — where an action happens (and by what means)",
+      "pattern": "Place で V / Transport で 行きます",
+      "meaning": "at / in (place of an activity); by (means)",
+      "explanation": "で marks the place where an action happens: 図書館で勉強します = I study at the library. Compare へ / に, which mark where you are going to. If you DO something at a place — eat, study, work, watch — use で. で also marks the means you use, such as transport: 電車で行きます = I go by train.",
+      "notes": [
+        "で = at (doing something there); へ = to (moving there).",
+        "Transport: 電車で, バスで, 自転車で. On foot is 歩いて — no で.",
+        "Ask where: どこで食べますか。"
+      ],
+      "examples": [
+        {
+          "jp": "図書館[としょかん]で勉強[べんきょう]します。",
+          "en": "I study at the library."
+        },
+        {
+          "jp": "家[うち]で朝[あさ]ごはんを食[た]べます。",
+          "en": "I eat breakfast at home."
+        },
+        {
+          "jp": "田中[たなか]さんは銀行[ぎんこう]で働[はたら]きます。",
+          "en": "Mr. Tanaka works at a bank."
+        },
+        {
+          "jp": "毎朝[まいあさ]、電車[でんしゃ]で会社[かいしゃ]へ行[い]きます。",
+          "en": "Every morning I go to the office by train."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "図書館[としょかん]＿本[ほん]を読[よ]みます。",
+          "answer": "で",
+          "options": [
+            "で",
+            "へ",
+            "を",
+            "に"
+          ],
+          "en": "I read books at the library."
+        },
+        {
+          "type": "choice",
+          "jp": "家[うち]＿テレビを見[み]ます。",
+          "answer": "で",
+          "options": [
+            "で",
+            "へ",
+            "を",
+            "か"
+          ],
+          "en": "I watch TV at home."
+        },
+        {
+          "type": "choice",
+          "jp": "バス＿大学[だいがく]へ行[い]きます。",
+          "answer": "で",
+          "options": [
+            "で",
+            "を",
+            "に",
+            "へ"
+          ],
+          "en": "I go to the university by bus."
+        },
+        {
+          "type": "choice",
+          "jp": "どこ＿昼[ひる]ごはんを食[た]べますか。",
+          "answer": "で",
+          "options": [
+            "で",
+            "へ",
+            "を",
+            "か"
+          ],
+          "en": "Where will you eat lunch?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "図書館[としょかん]で",
+            "勉強[べんきょう]します。"
+          ],
+          "en": "I study at the library."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "大学[だいがく]の",
+            "図書館[としょかん]で",
+            "勉強[べんきょう]します。"
+          ],
+          "en": "I study at the university library."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g06",
+      "title": "と — with (someone)",
+      "pattern": "Person と V",
+      "meaning": "(together) with",
+      "explanation": "と after a person means \"with\": 友だちと映画を見ます = I watch a movie with a friend. You can add 一緒に (together) after it for emphasis: 友だちと一緒に. Ask who someone is doing something with by putting と after だれ: だれと行きますか. If you do something alone, say ひとりで instead — no と.",
+      "notes": [
+        "友だちと一緒に = together with a friend.",
+        "だれと行きますか。 = Who are you going with?",
+        "と also joins nouns (\"A and B\") — you'll meet that in Unit 5."
+      ],
+      "examples": [
+        {
+          "jp": "友[とも]だちと映画[えいが]を見[み]ます。",
+          "en": "I'll watch a movie with a friend."
+        },
+        {
+          "jp": "昨日[きのう]、田中[たなか]さんと昼[ひる]ごはんを食[た]べました。",
+          "en": "I had lunch with Mr. Tanaka yesterday."
+        },
+        {
+          "jp": "だれと日本[にほん]へ行[い]きますか。",
+          "en": "Who are you going to Japan with?"
+        },
+        {
+          "jp": "週末[しゅうまつ]、ケンさんと一緒[いっしょ]にテニスをします。",
+          "en": "At the weekend I'm playing tennis together with Ken."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "友[とも]だち＿図書館[としょかん]へ行[い]きます。",
+          "answer": "と",
+          "options": [
+            "と",
+            "を",
+            "で",
+            "へ"
+          ],
+          "en": "I'm going to the library with a friend."
+        },
+        {
+          "type": "choice",
+          "jp": "＿と行[い]きますか。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "いつ",
+            "何時[なんじ]",
+            "何[なに]"
+          ],
+          "en": "Who are you going with?"
+        },
+        {
+          "type": "choice",
+          "jp": "山田[やまだ]さん＿一緒[いっしょ]に晩[ばん]ごはんを食[た]べました。",
+          "answer": "と",
+          "options": [
+            "と",
+            "を",
+            "に",
+            "へ"
+          ],
+          "en": "I ate dinner together with Ms. Yamada."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]、田中[たなか]さんと昼[ひる]ごはんを＿。",
+          "answer": "食[た]べました",
+          "options": [
+            "食[た]べました",
+            "食[た]べます",
+            "飲[の]みました",
+            "行[い]きました"
+          ],
+          "en": "I had lunch with Mr. Tanaka yesterday."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "友[とも]だちと",
+            "一緒[いっしょ]に",
+            "帰[かえ]ります。"
+          ],
+          "en": "I'll go home together with a friend."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ケンさんと",
+            "一緒[いっしょ]に",
+            "テニスをしました。"
+          ],
+          "en": "I played tennis together with Ken."
+        }
+      ]
+    },
+    {
+      "id": "n5-u04-g07",
+      "title": "Vませんか / Vましょう — inviting and \"let's\"",
+      "pattern": "Vませんか / Vましょう",
+      "meaning": "won't you…? (invitation) / let's…",
+      "explanation": "To invite someone politely, use the negative question ませんか: 一緒に行きませんか literally means \"won't you go with me?\" and works like \"would you like to go together?\". It sounds gentle because it leaves room to say no. ましょう means \"let's\": 行きましょう = Let's go. A typical exchange is an invitation with ませんか and an answer with ましょう.",
+      "notes": [
+        "ませんか = polite invitation; ましょう = let's (also used to accept).",
+        "Accepting: ええ、いいですね。 Declining gently: すみません、ちょっと…",
+        "ましょうか = shall we…?: 何時に会いましょうか。"
+      ],
+      "examples": [
+        {
+          "jp": "一緒[いっしょ]に昼[ひる]ごはんを食[た]べませんか。",
+          "en": "Would you like to have lunch together?"
+        },
+        {
+          "jp": "はい、食[た]べましょう。",
+          "en": "Yes, let's."
+        },
+        {
+          "jp": "駅[えき]で会[あ]いましょう。",
+          "en": "Let's meet at the station."
+        },
+        {
+          "jp": "何時[なんじ]に会[あ]いましょうか。",
+          "en": "What time shall we meet?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "明日[あした]、一緒[いっしょ]にコーヒーを飲[の]み＿か。",
+          "answer": "ません",
+          "options": [
+            "ません",
+            "ました",
+            "ませんでした",
+            "でした"
+          ],
+          "en": "Would you like to have coffee together tomorrow?"
+        },
+        {
+          "type": "choice",
+          "jp": "明日[あした]、会[あ]いませんか。はい、会[あ]い＿。",
+          "answer": "ましょう",
+          "options": [
+            "ましょう",
+            "ません",
+            "ました",
+            "ませんでした"
+          ],
+          "en": "Shall we meet tomorrow? Yes, let's meet."
+        },
+        {
+          "type": "choice",
+          "jp": "来週[らいしゅう]の土曜日[どようび]に、一緒[いっしょ]に映画[えいが]を＿。",
+          "answer": "見[み]ませんか",
+          "options": [
+            "見[み]ませんか",
+            "見[み]ました",
+            "見[み]ませんでした",
+            "見[み]ませんでしたか"
+          ],
+          "en": "Would you like to see a movie together next Saturday?"
+        },
+        {
+          "type": "choice",
+          "jp": "駅[えき]で＿ましょう。",
+          "answer": "会[あ]い",
+          "options": [
+            "会[あ]い",
+            "会[あ]う",
+            "会[あ]いました",
+            "会[あ]いません"
+          ],
+          "en": "Let's meet at the station."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "一緒[いっしょ]に",
+            "帰[かえ]りません",
+            "か。"
+          ],
+          "en": "Shall we go home together?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "何時[なんじ]に",
+            "会[あ]いましょう",
+            "か。"
+          ],
+          "en": "What time shall we meet?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "わたしの まいにち — My daily routine",
+    "text": "私[わたし]は会社員[かいしゃいん]です。毎朝[まいあさ]六時[ろくじ]に起[お]きます。家[うち]でパンを食[た]べます。コーヒーも飲[の]みます。七時半[しちじはん]に電車[でんしゃ]で会社[かいしゃ]へ行[い]きます。仕事[しごと]は九時[くじ]から六時[ろくじ]までです。十二時[じゅうにじ]に友[とも]だちと昼[ひる]ごはんを食[た]べます。夜[よる]は家[うち]でテレビを見[み]ます。十一時[じゅういちじ]に寝[ね]ます。週末[しゅうまつ]は働[はたら]きません。今日[きょう]は土曜日[どようび]です。午後[ごご]、友[とも]だちと映画[えいが]を見[み]ます。明日[あした]は家[うち]で休[やす]みます。",
+    "en": "I'm a company employee. I get up at six every morning. I eat bread at home. I drink coffee too. At seven thirty I go to the office by train. Work is from nine to six. At twelve I eat lunch with a friend. In the evening I watch TV at home. I go to bed at eleven. I don't work at weekends. Today is Saturday. In the afternoon I'm going to see a movie with a friend. Tomorrow I'll rest at home.",
+    "questions": [
+      {
+        "q": "What time does the writer get up?",
+        "options": [
+          "7:30",
+          "6:00",
+          "9:00",
+          "11:00"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "How does the writer get to work?",
+        "options": [
+          "By bus",
+          "By bicycle",
+          "By train",
+          "On foot"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What will the writer do tomorrow?",
+        "options": [
+          "Go to the office",
+          "See a movie with a friend",
+          "Have lunch with a friend",
+          "Rest at home"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Plans for Saturday",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "ケンさん、土曜日[どようび]に何[なに]をしますか。",
+        "en": "Ken, what are you doing on Saturday?"
+      },
+      {
+        "speaker": "B",
+        "jp": "午前[ごぜん]は図書館[としょかん]で勉強[べんきょう]します。",
+        "en": "In the morning I'm studying at the library."
+      },
+      {
+        "speaker": "A",
+        "jp": "午後[ごご]も勉強[べんきょう]しますか。",
+        "en": "Are you studying in the afternoon too?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、午後[ごご]は勉強[べんきょう]しません。",
+        "en": "No, I'm not studying in the afternoon."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃ、一緒[いっしょ]に映画[えいが]を見[み]ませんか。",
+        "en": "Then would you like to see a movie together?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、見[み]ましょう。何時[なんじ]に会[あ]いましょうか。",
+        "en": "Yes, let's. What time shall we meet?"
+      },
+      {
+        "speaker": "A",
+        "jp": "二時[にじ]に駅[えき]で会[あ]いましょう。",
+        "en": "Let's meet at the station at two."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。電車[でんしゃ]で行[い]きます。",
+        "en": "Got it. I'll go by train."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What will Ken do on Saturday morning?",
+        "options": [
+          "See a movie",
+          "Study at the library",
+          "Work",
+          "Go to the station"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where and when will they meet?",
+        "options": [
+          "At the library at 2:00",
+          "At the station at 12:00",
+          "At the station at 2:00",
+          "At the cinema at 2:00"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "How will Ken get there?",
+        "options": [
+          "By train",
+          "By bus",
+          "By bicycle",
+          "On foot"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "unitId": "n5-u02",
+  "place": "Akihabara",
+  "jp": "秋葉原[あきはばら]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.6984,
+  "lng": 139.7731,
+  "tagline": "Electric Town: gadgets, games, anime and an ancient shrine nearby",
+  "history": "Akihabara takes its name from a fire-protection shrine to the deity Akiba, set up after a great fire swept the area in 1869; people began calling the land 'Akiba's field'. After World War II, a black market selling radio parts grew up near the station, and the area became Tokyo's 'Electric Town' for electronics. From the 1990s onward it also became the centre of anime, manga and video-game fan culture, which is why it is famous around the world today.",
+  "sites": [
+    {
+      "name": "Kanda Myōjin",
+      "jp": "神田明神[かんだみょうじん]",
+      "kind": "shrine",
+      "year": "730",
+      "desc": "A shrine said to date back to 730, a short walk from Akihabara. It is popular with the neighbourhood's tech shops and anime fans alike."
+    },
+    {
+      "name": "Akihabara Electric Town",
+      "jp": "秋葉原[あきはばら]電気街[でんきがい]",
+      "kind": "street",
+      "year": null,
+      "desc": "Streets packed with electronics stores, parts shops, arcades and anime shops. Some of the oldest shops grew out of the post-war radio-parts trade."
+    },
+    {
+      "name": "Chūō-dōri",
+      "jp": "中央通[ちゅうおうどお]り",
+      "kind": "street",
+      "year": null,
+      "desc": "Akihabara's main street. On many Sundays it is closed to cars so people can walk freely."
+    }
+  ],
+  "facts": [
+    "Locals and fans often shorten Akihabara to 'Akiba'.",
+    "Kanda Myōjin sells charms meant to protect your computer and data.",
+    "The idol group AKB48 takes its name from Akihabara."
+  ],
+  "words": [
+    { "word": "秋葉原[あきはばら]", "meaning": "Akihabara" },
+    { "word": "電気[でんき]", "meaning": "electricity, electric" },
+    { "word": "町[まち]", "meaning": "town" },
+    { "word": "アニメ", "meaning": "anime" },
+    { "word": "ゲームセンター", "meaning": "game arcade" }
+  ],
+  "stamp": { "kanji": "秋葉原", "motif": "game" },
+  "reading": {
+    "title": "秋葉原[あきはばら]の町[まち]",
+    "text": "秋葉原[あきはばら]は電気[でんき]の町[まち]です。\nアンナ「ケンさん、あれは何[なん]ですか。」\nケン「あれはゲームセンターですよ。」\nアンナ「このパソコンは日本[にほん]のですか。」\nケン「はい、日本[にほん]のですよ。」\nアンナ「それは何[なん]の本[ほん]ですか。」\nケン「これはアニメの本[ほん]です。」\nアンナ「その人[ひと]はだれですか。」\nケン「アニメのキャラクターですよ。」\nアンナ「秋葉原[あきはばら]はアニメの町[まち]ですね。」",
+    "en": "Akihabara is a town of electronics.\nAnna: \"Ken, what is that over there?\"\nKen: \"That's a game arcade.\"\nAnna: \"Is this computer a Japanese one?\"\nKen: \"Yes, it's Japanese.\"\nAnna: \"What kind of book is that?\"\nKen: \"This is an anime book.\"\nAnna: \"Who is that person?\"\nKen: \"It's an anime character.\"\nAnna: \"Akihabara is a town of anime too, isn't it.\"",
+    "questions": [
+      { "q": "Where is the computer from?", "options": ["Japan", "America", "India", "Ken doesn't know"], "answer": 0 },
+      { "q": "What is the building over there?", "options": ["A camera shop", "A station", "A game arcade", "A bank"], "answer": 2 },
+      { "q": "What kind of book does Ken have?", "options": ["A dictionary", "A magazine", "A newspaper", "An anime book"], "answer": 3 }
+    ]
+  }
+}

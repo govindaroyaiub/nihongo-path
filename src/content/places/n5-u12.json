@@ -1,0 +1,70 @@
+{
+  "unitId": "n5-u12",
+  "place": "Mt. Fuji",
+  "jp": "富士山[ふじさん]",
+  "prefecture": "Yamanashi / Shizuoka",
+  "region": "Chūbu",
+  "lat": 35.3606,
+  "lng": 138.7274,
+  "tagline": "Japan's highest peak, a sacred volcano and the trip's summit",
+  "history": "Mt. Fuji is an active volcano standing 3,776 m tall on the border of Yamanashi and Shizuoka prefectures; it last erupted in 1707. For centuries it has been worshipped as a sacred mountain, and pilgrims have climbed it to pray at the summit. It has inspired countless poets and artists, most famously Hokusai in his print series Thirty-six Views of Mount Fuji. In 2013 UNESCO listed it as a World Heritage Site, as a sacred place and source of artistic inspiration.",
+  "sites": [
+    {
+      "name": "Mt. Fuji summit trails",
+      "jp": "富士山[ふじさん]",
+      "kind": "nature",
+      "year": null,
+      "desc": "Four main trails lead to the summit. The official climbing season runs only in summer, from early July to around early September, when the snow has melted and mountain huts are open."
+    },
+    {
+      "name": "Chūreitō Pagoda",
+      "jp": "忠霊塔[ちゅうれいとう]",
+      "kind": "landmark",
+      "year": "1963",
+      "desc": "A five-storey pagoda on the hillside above Arakura Sengen Shrine in Fujiyoshida, built in 1963 as a peace memorial. With cherry blossoms in spring, its view of Fuji is one of Japan's most famous photos."
+    },
+    {
+      "name": "Fuji Five Lakes",
+      "jp": "富士五湖[ふじごこ]",
+      "kind": "nature",
+      "year": null,
+      "desc": "Five lakes at the northern foot of the mountain, formed by ancient lava flows. On calm days Fuji is reflected in their water."
+    }
+  ],
+  "facts": [
+    "Mt. Fuji is the tallest mountain in Japan at 3,776 metres.",
+    "Many climbers start at night to watch the sunrise from the summit, called goraikō.",
+    "On clear winter days Mt. Fuji can be seen from Tokyo, about 100 km away."
+  ],
+  "words": [
+    { "word": "富士山[ふじさん]", "meaning": "Mt. Fuji" },
+    { "word": "山[やま]", "meaning": "mountain" },
+    { "word": "登[のぼ]る", "meaning": "to climb" },
+    { "word": "忠霊塔[ちゅうれいとう]", "meaning": "Chūreitō Pagoda" },
+    { "word": "桜[さくら]", "meaning": "cherry blossom" },
+    { "word": "メートル", "meaning": "metre" }
+  ],
+  "stamp": { "kanji": "富士", "motif": "mountain" },
+  "reading": {
+    "title": "富士山[ふじさん]に登[のぼ]るつもりです",
+    "text": "富士山[ふじさん]は日本[にほん]でいちばん高[たか]い山[やま]です。三千七百七十六[さんぜんななひゃくななじゅうろく]メートルあります。冬[ふゆ]は雪[ゆき]が多[おお]くて寒[さむ]いですから、夏[なつ]に登[のぼ]る人[ひと]が多[おお]いです。来年[らいねん]の夏[なつ]、友[とも]だちと富士山[ふじさん]に登[のぼ]るつもりです。山[やま]の上[うえ]は寒[さむ]くなるでしょう。暖[あたた]かいセーターがほしいです。でも、私[わたし]は山[やま]に登[のぼ]るより、山[やま]を見[み]るほうが好[す]きです。春[はる]は忠霊塔[ちゅうれいとう]へ写真[しゃしん]を撮[と]りに行[い]きたいです。桜[さくら]が咲[さ]いて、きっときれいでしょう。少[すこ]し遠[とお]いけど、楽[たの]しみです。",
+    "en": "Mt. Fuji is the highest mountain in Japan. It is 3,776 metres tall. In winter there is a lot of snow and it is cold, so many people climb it in summer. Next summer I plan to climb Mt. Fuji with a friend. It will probably get cold at the top. I want a warm sweater. But I like looking at mountains more than climbing them. In spring I want to go to the Chūreitō Pagoda to take photos. The cherry blossoms will be blooming, and it will surely be beautiful. It's a little far, but I'm looking forward to it.",
+    "questions": [
+      {
+        "q": "How tall is Mt. Fuji?",
+        "options": ["3,676 m", "3,776 m", "3,767 m", "7,776 m"],
+        "answer": 1
+      },
+      {
+        "q": "What does the writer like more?",
+        "options": ["Climbing mountains", "Skiing", "Swimming in lakes", "Looking at mountains"],
+        "answer": 3
+      },
+      {
+        "q": "What does the writer want for the climb?",
+        "options": ["A warm sweater", "A new camera", "A map", "An umbrella"],
+        "answer": 0
+      }
+    ]
+  }
+}

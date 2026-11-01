@@ -1,0 +1,1460 @@
+{
+  "id": "n5-u11",
+  "level": "N5",
+  "number": 11,
+  "title": "Trips and experiences",
+  "goal": "Talk about past trips and experiences, describe the order of events, and chat casually with friends.",
+  "vocab": [
+    {
+      "id": "n5-u11-v01",
+      "word": "旅行[りょこう]",
+      "meaning": "trip, travel (旅行する: to travel)",
+      "pos": "noun",
+      "example": {
+        "jp": "来月[らいげつ]、家族[かぞく]と旅行[りょこう]します。",
+        "en": "I'm going on a trip with my family next month."
+      }
+    },
+    {
+      "id": "n5-u11-v03",
+      "word": "旅館[りょかん]",
+      "meaning": "traditional Japanese inn",
+      "pos": "noun",
+      "example": {
+        "jp": "旅館[りょかん]で日本[にほん]の料理[りょうり]を食[た]べました。",
+        "en": "I ate Japanese food at the inn."
+      }
+    },
+    {
+      "id": "n5-u11-v04",
+      "word": "泊[と]まる",
+      "meaning": "to stay (overnight)",
+      "pos": "verb",
+      "example": {
+        "jp": "友[とも]だちの家[うち]に泊[と]まりました。",
+        "en": "I stayed overnight at a friend's house."
+      }
+    },
+    {
+      "id": "n5-u11-v06",
+      "word": "荷物[にもつ]",
+      "meaning": "luggage, baggage",
+      "pos": "noun",
+      "example": {
+        "jp": "荷物[にもつ]が重[おも]いです。",
+        "en": "My luggage is heavy."
+      }
+    },
+    {
+      "id": "n5-u11-v08",
+      "word": "海[うみ]",
+      "meaning": "sea, ocean, beach",
+      "pos": "noun",
+      "example": {
+        "jp": "子[こ]どものとき、よく海[うみ]で泳[およ]ぎました。",
+        "en": "When I was a child, I often swam in the sea."
+      }
+    },
+    {
+      "id": "n5-u11-v09",
+      "word": "温泉[おんせん]",
+      "meaning": "hot spring",
+      "pos": "noun",
+      "example": {
+        "jp": "温泉[おんせん]に入[はい]ったことがありますか。",
+        "en": "Have you ever been in a hot spring?"
+      }
+    },
+    {
+      "id": "n5-u11-v10",
+      "word": "外国[がいこく]",
+      "meaning": "foreign country, abroad",
+      "pos": "noun",
+      "example": {
+        "jp": "外国[がいこく]へ行[い]ったことがありません。",
+        "en": "I've never been abroad."
+      }
+    },
+    {
+      "id": "n5-u11-v11",
+      "word": "パスポート",
+      "meaning": "passport",
+      "pos": "noun",
+      "example": {
+        "jp": "パスポートを忘[わす]れないでください。",
+        "en": "Please don't forget your passport."
+      }
+    },
+    {
+      "id": "n5-u11-v12",
+      "word": "着[つ]く",
+      "meaning": "to arrive",
+      "pos": "verb",
+      "example": {
+        "jp": "九時[くじ]に空港[くうこう]に着[つ]きました。",
+        "en": "I arrived at the airport at nine."
+      }
+    },
+    {
+      "id": "n5-u11-v13",
+      "word": "空港[くうこう]",
+      "meaning": "airport",
+      "pos": "noun",
+      "example": {
+        "jp": "空港[くうこう]までバスで行[い]きます。",
+        "en": "I'll go to the airport by bus."
+      }
+    },
+    {
+      "id": "n5-u11-v14",
+      "word": "飛行機[ひこうき]",
+      "meaning": "airplane",
+      "pos": "noun",
+      "example": {
+        "jp": "飛行機[ひこうき]に乗[の]ったことがありますか。",
+        "en": "Have you ever been on a plane?"
+      }
+    },
+    {
+      "id": "n5-u11-v15",
+      "word": "新幹線[しんかんせん]",
+      "meaning": "shinkansen, bullet train",
+      "pos": "noun",
+      "example": {
+        "jp": "新幹線[しんかんせん]はとても速[はや]いです。",
+        "en": "The shinkansen is very fast."
+      }
+    },
+    {
+      "id": "n5-u11-v19",
+      "word": "船[ふね]",
+      "meaning": "ship, boat",
+      "pos": "noun",
+      "example": {
+        "jp": "船[ふね]に乗[の]ったことがあります。",
+        "en": "I've been on a ship before."
+      }
+    },
+    {
+      "id": "n5-u11-v20",
+      "word": "乗[の]る",
+      "meaning": "to ride, to get on (a vehicle: 〜に乗る)",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]、八時[はちじ]の電車[でんしゃ]に乗[の]ります。",
+        "en": "I take the eight o'clock train every morning."
+      }
+    },
+    {
+      "id": "n5-u11-v21",
+      "word": "降[お]りる",
+      "meaning": "to get off (a vehicle: 〜を降りる)",
+      "pos": "verb",
+      "example": {
+        "jp": "次[つぎ]の駅[えき]で電車[でんしゃ]を降[お]ります。",
+        "en": "I'll get off the train at the next station."
+      }
+    },
+    {
+      "id": "n5-u11-v22",
+      "word": "切符[きっぷ]",
+      "meaning": "ticket (train, bus)",
+      "pos": "noun",
+      "example": {
+        "jp": "切符[きっぷ]を二枚[にまい]買[か]いました。",
+        "en": "I bought two tickets."
+      }
+    },
+    {
+      "id": "n5-u11-v23",
+      "word": "登[のぼ]る",
+      "meaning": "to climb",
+      "pos": "verb",
+      "example": {
+        "jp": "富士山[ふじさん]に登[のぼ]りたいです。",
+        "en": "I want to climb Mt. Fuji."
+      }
+    },
+    {
+      "id": "n5-u11-v26",
+      "word": "高校[こうこう]",
+      "meaning": "high school",
+      "pos": "noun",
+      "example": {
+        "jp": "高校[こうこう]のとき、テニスをしていました。",
+        "en": "I played tennis in high school."
+      }
+    },
+    {
+      "id": "n5-u11-v27",
+      "word": "小学校[しょうがっこう]",
+      "meaning": "elementary school",
+      "pos": "noun",
+      "example": {
+        "jp": "弟[おとうと]は小学校[しょうがっこう]の三年生[さんねんせい]です。",
+        "en": "My younger brother is in third grade at elementary school."
+      }
+    },
+    {
+      "id": "n5-u11-v28",
+      "word": "中学校[ちゅうがっこう]",
+      "meaning": "junior high school",
+      "pos": "noun",
+      "example": {
+        "jp": "中学校[ちゅうがっこう]で英語[えいご]を勉強[べんきょう]しました。",
+        "en": "I studied English in junior high school."
+      }
+    },
+    {
+      "id": "n5-u11-v30",
+      "word": "留学[りゅうがく]する",
+      "meaning": "to study abroad",
+      "pos": "verb",
+      "example": {
+        "jp": "来年[らいねん]、日本[にほん]へ留学[りゅうがく]したいです。",
+        "en": "I want to study abroad in Japan next year."
+      }
+    },
+    {
+      "id": "n5-u11-v32",
+      "word": "社長[しゃちょう]",
+      "meaning": "company president",
+      "pos": "noun",
+      "example": {
+        "jp": "あの人[ひと]がうちの会社[かいしゃ]の社長[しゃちょう]です。",
+        "en": "That person is the president of our company."
+      }
+    },
+    {
+      "id": "n5-u11-v34",
+      "word": "アルバイト",
+      "meaning": "part-time job",
+      "pos": "noun",
+      "example": {
+        "jp": "週末[しゅうまつ]はレストランでアルバイトをしています。",
+        "en": "I work part-time at a restaurant on weekends."
+      }
+    },
+    {
+      "id": "n5-u11-v35",
+      "word": "出張[しゅっちょう]",
+      "meaning": "business trip (出張する: to go on a business trip)",
+      "pos": "noun",
+      "example": {
+        "jp": "先週[せんしゅう]、大阪[おおさか]へ出張[しゅっちょう]しました。",
+        "en": "I went to Osaka on a business trip last week."
+      }
+    },
+    {
+      "id": "n5-u11-v36",
+      "word": "道[みち]",
+      "meaning": "road, street; the way (to somewhere)",
+      "pos": "noun",
+      "example": {
+        "jp": "この道[みち]は車[くるま]が多[おお]いです。",
+        "en": "There are a lot of cars on this road."
+      }
+    },
+    {
+      "id": "n5-u11-v37",
+      "word": "まっすぐ",
+      "meaning": "straight (ahead); directly",
+      "pos": "adverb",
+      "example": {
+        "jp": "昨日[きのう]はまっすぐ家[うち]へ帰[かえ]りました。",
+        "en": "Yesterday I went straight home."
+      }
+    },
+    {
+      "id": "n5-u11-v39",
+      "word": "角[かど]",
+      "meaning": "corner (of a street)",
+      "pos": "noun",
+      "example": {
+        "jp": "あの角[かど]に喫茶店[きっさてん]があります。",
+        "en": "There's a café on that corner."
+      }
+    },
+    {
+      "id": "n5-u11-v41",
+      "word": "橋[はし]",
+      "meaning": "bridge",
+      "pos": "noun",
+      "example": {
+        "jp": "これは古[ふる]い橋[はし]です。",
+        "en": "This is an old bridge."
+      }
+    },
+    {
+      "id": "n5-u11-v42",
+      "word": "信号[しんごう]",
+      "meaning": "traffic light",
+      "pos": "noun",
+      "example": {
+        "jp": "信号[しんごう]が赤[あか]のとき、道[みち]を渡[わた]ってはいけません。",
+        "en": "You must not cross the road when the light is red."
+      }
+    },
+    {
+      "id": "n5-u11-v45",
+      "word": "美術館[びじゅつかん]",
+      "meaning": "art museum, gallery",
+      "pos": "noun",
+      "example": {
+        "jp": "美術館[びじゅつかん]で写真[しゃしん]を撮[と]ってはいけません。",
+        "en": "You must not take photos in the art museum."
+      }
+    },
+    {
+      "id": "n5-u11-v46",
+      "word": "喫茶店[きっさてん]",
+      "meaning": "café, coffee shop",
+      "pos": "noun",
+      "example": {
+        "jp": "喫茶店[きっさてん]でコーヒーを飲[の]みました。",
+        "en": "I had coffee at a café."
+      }
+    },
+    {
+      "id": "n5-u11-v47",
+      "word": "神社[じんじゃ]",
+      "meaning": "Shinto shrine",
+      "pos": "noun",
+      "example": {
+        "jp": "京都[きょうと]で古[ふる]い神社[じんじゃ]を見[み]ました。",
+        "en": "I saw an old shrine in Kyoto."
+      }
+    },
+    {
+      "id": "n5-u11-v48",
+      "word": "お寺[てら]",
+      "meaning": "Buddhist temple",
+      "pos": "noun",
+      "example": {
+        "jp": "お寺[てら]に入[はい]るとき、靴[くつ]を脱[ぬ]ぎます。",
+        "en": "You take off your shoes when you enter a temple."
+      }
+    },
+    {
+      "id": "n5-u11-v49",
+      "word": "一度[いちど]",
+      "meaning": "once, one time",
+      "pos": "adverb",
+      "example": {
+        "jp": "一度[いちど]、日本[にほん]へ行[い]ったことがあります。",
+        "en": "I've been to Japan once."
+      }
+    },
+    {
+      "id": "n5-u11-v50",
+      "word": "〜回[かい]",
+      "meaning": "~ times (counter for occurrences)",
+      "pos": "counter",
+      "example": {
+        "jp": "京都[きょうと]へ三回[さんかい]行[い]ったことがあります。",
+        "en": "I've been to Kyoto three times."
+      }
+    },
+    {
+      "id": "n5-u11-v51",
+      "word": "初[はじ]めて",
+      "meaning": "for the first time",
+      "pos": "adverb",
+      "example": {
+        "jp": "昨日[きのう]、初[はじ]めて温泉[おんせん]に入[はい]りました。",
+        "en": "Yesterday I went into a hot spring for the first time."
+      }
+    },
+    {
+      "id": "n5-u11-v52",
+      "word": "去年[きょねん]",
+      "meaning": "last year",
+      "pos": "noun",
+      "example": {
+        "jp": "去年[きょねん]、北海道[ほっかいどう]へ行[い]きました。",
+        "en": "I went to Hokkaido last year."
+      }
+    },
+    {
+      "id": "n5-u11-v53",
+      "word": "昔[むかし]",
+      "meaning": "long ago, in the old days",
+      "pos": "noun",
+      "example": {
+        "jp": "昔[むかし]、ここは小[ちい]さい町[まち]でした。",
+        "en": "Long ago, this was a small town."
+      }
+    },
+    {
+      "id": "n5-u11-v54",
+      "word": "うん",
+      "meaning": "yeah, yes (casual)",
+      "pos": "expression",
+      "example": {
+        "jp": "うん、行[い]くよ。",
+        "en": "Yeah, I'll go."
+      }
+    },
+    {
+      "id": "n5-u11-v55",
+      "word": "ううん",
+      "meaning": "nope, no (casual)",
+      "pos": "expression",
+      "example": {
+        "jp": "ううん、行[い]かない。",
+        "en": "No, I'm not going."
+      }
+    },
+    {
+      "id": "n5-u11-v56",
+      "word": "じゃあね",
+      "meaning": "see you, bye (casual)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u11-v57",
+      "word": "〜くん",
+      "meaning": "casual name suffix (mainly for boys and younger men)",
+      "pos": "suffix",
+      "example": {
+        "jp": "ケンくん、明日[あした]ひま？",
+        "en": "Ken, are you free tomorrow?"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u11-k01",
+      "char": "学",
+      "meanings": [
+        "study",
+        "learning"
+      ],
+      "on": [
+        "ガク"
+      ],
+      "kun": [
+        "まな.ぶ"
+      ],
+      "strokes": 8,
+      "mnemonic": "A child (子) under a roof with sparks of knowledge flying above — studying.",
+      "words": [
+        {
+          "word": "学校[がっこう]",
+          "meaning": "school"
+        },
+        {
+          "word": "大学[だいがく]",
+          "meaning": "university"
+        },
+        {
+          "word": "学生[がくせい]",
+          "meaning": "student"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k02",
+      "char": "校",
+      "meanings": [
+        "school"
+      ],
+      "on": [
+        "コウ"
+      ],
+      "kun": [],
+      "strokes": 10,
+      "mnemonic": "Students mix (交) together under a tree (木) — the schoolyard.",
+      "words": [
+        {
+          "word": "学校[がっこう]",
+          "meaning": "school"
+        },
+        {
+          "word": "高校[こうこう]",
+          "meaning": "high school"
+        },
+        {
+          "word": "校長[こうちょう]",
+          "meaning": "school principal"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k03",
+      "char": "国",
+      "meanings": [
+        "country"
+      ],
+      "on": [
+        "コク"
+      ],
+      "kun": [
+        "くに"
+      ],
+      "strokes": 8,
+      "mnemonic": "A jewel (玉) guarded inside a border (囗) — a country's treasure.",
+      "words": [
+        {
+          "word": "国[くに]",
+          "meaning": "country"
+        },
+        {
+          "word": "外国[がいこく]",
+          "meaning": "foreign country"
+        },
+        {
+          "word": "中国[ちゅうごく]",
+          "meaning": "China"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k04",
+      "char": "語",
+      "meanings": [
+        "language",
+        "word"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "かた.る",
+        "かた.らう"
+      ],
+      "strokes": 14,
+      "mnemonic": "Words (言) passed between five (五) mouths (口) — a language.",
+      "words": [
+        {
+          "word": "日本語[にほんご]",
+          "meaning": "Japanese (language)"
+        },
+        {
+          "word": "英語[えいご]",
+          "meaning": "English (language)"
+        },
+        {
+          "word": "単語[たんご]",
+          "meaning": "word, vocabulary item"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k05",
+      "char": "社",
+      "meanings": [
+        "company",
+        "shrine",
+        "society"
+      ],
+      "on": [
+        "シャ",
+        "ジャ"
+      ],
+      "kun": [
+        "やしろ"
+      ],
+      "strokes": 7,
+      "mnemonic": "An altar (礻) on the earth (土) — people gathered at the shrine, and later at the company.",
+      "words": [
+        {
+          "word": "会社[かいしゃ]",
+          "meaning": "company"
+        },
+        {
+          "word": "社長[しゃちょう]",
+          "meaning": "company president"
+        },
+        {
+          "word": "神社[じんじゃ]",
+          "meaning": "Shinto shrine"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k06",
+      "char": "会",
+      "meanings": [
+        "meet",
+        "meeting"
+      ],
+      "on": [
+        "カイ",
+        "エ"
+      ],
+      "kun": [
+        "あ.う"
+      ],
+      "strokes": 6,
+      "mnemonic": "People gathering under one roof to meet and talk.",
+      "words": [
+        {
+          "word": "会[あ]う",
+          "meaning": "to meet"
+        },
+        {
+          "word": "会社[かいしゃ]",
+          "meaning": "company"
+        },
+        {
+          "word": "会議[かいぎ]",
+          "meaning": "meeting"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k07",
+      "char": "店",
+      "meanings": [
+        "shop",
+        "store"
+      ],
+      "on": [
+        "テン"
+      ],
+      "kun": [
+        "みせ"
+      ],
+      "strokes": 8,
+      "mnemonic": "A fortune-teller's stall (占) under a shed roof (广) — a little shop.",
+      "words": [
+        {
+          "word": "店[みせ]",
+          "meaning": "shop, store"
+        },
+        {
+          "word": "喫茶店[きっさてん]",
+          "meaning": "café"
+        },
+        {
+          "word": "店員[てんいん]",
+          "meaning": "shop clerk"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k08",
+      "char": "駅",
+      "meanings": [
+        "station"
+      ],
+      "on": [
+        "エキ"
+      ],
+      "kun": [],
+      "strokes": 14,
+      "mnemonic": "A horse (馬) waiting at the stop — stations were once where horses were changed.",
+      "words": [
+        {
+          "word": "駅[えき]",
+          "meaning": "station"
+        },
+        {
+          "word": "駅員[えきいん]",
+          "meaning": "station staff"
+        },
+        {
+          "word": "駅前[えきまえ]",
+          "meaning": "in front of the station"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k09",
+      "char": "道",
+      "meanings": [
+        "road",
+        "way"
+      ],
+      "on": [
+        "ドウ",
+        "トウ"
+      ],
+      "kun": [
+        "みち"
+      ],
+      "strokes": 12,
+      "mnemonic": "A head (首) moving forward (辶) step by step along the road.",
+      "words": [
+        {
+          "word": "道[みち]",
+          "meaning": "road, way"
+        },
+        {
+          "word": "北海道[ほっかいどう]",
+          "meaning": "Hokkaido"
+        },
+        {
+          "word": "道路[どうろ]",
+          "meaning": "road, highway"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k10",
+      "char": "車",
+      "meanings": [
+        "car",
+        "vehicle",
+        "wheel"
+      ],
+      "on": [
+        "シャ"
+      ],
+      "kun": [
+        "くるま"
+      ],
+      "strokes": 7,
+      "mnemonic": "A cart seen from above: the body in the middle, an axle and a wheel at each end.",
+      "words": [
+        {
+          "word": "車[くるま]",
+          "meaning": "car"
+        },
+        {
+          "word": "電車[でんしゃ]",
+          "meaning": "train"
+        },
+        {
+          "word": "自転車[じてんしゃ]",
+          "meaning": "bicycle"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-k11",
+      "char": "電",
+      "meanings": [
+        "electricity"
+      ],
+      "on": [
+        "デン"
+      ],
+      "kun": [],
+      "strokes": 13,
+      "mnemonic": "Rain (雨) falling with a bolt of lightning beneath it — electricity.",
+      "words": [
+        {
+          "word": "電車[でんしゃ]",
+          "meaning": "train"
+        },
+        {
+          "word": "電話[でんわ]",
+          "meaning": "telephone"
+        },
+        {
+          "word": "電気[でんき]",
+          "meaning": "electricity; light"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u11-g01",
+      "title": "た form and なかった — the plain past",
+      "pattern": "V (た form): 書いた, 食べた / V (なかった form): 書かなかった",
+      "meaning": "did ~ / didn't do ~ (plain past)",
+      "explanation": "The plain past (た form) is made exactly like the て form you already know — just change て to た and で to だ. Group 2 (ru-verbs): drop る and add た: 食べる → 食べた, 見る → 見た. Group 1 (u-verbs) depends on the last sound: う, つ, る → った (買う → 買った, 待つ → 待った, 帰る → 帰った); む, ぶ, ぬ → んだ (読む → 読んだ, 遊ぶ → 遊んだ, 死ぬ → 死んだ); く → いた (書く → 書いた); ぐ → いだ (泳ぐ → 泳いだ); す → した (話す → 話した). The one exception is 行く → 行った (not 行いた). Irregular: する → した, 来る (くる) → 来た (きた). For the plain past negative, change the ない of the ない form to なかった: 行かない → 行かなかった, 食べない → 食べなかった, and ある → なかった.",
+      "notes": [
+        "If you know the て form, you know the た form: 書いて → 書いた, 読んで → 読んだ.",
+        "行く is the only く-verb that becomes った: 行った.",
+        "Watch 来る: 来た is read きた, 来なかった is read こなかった."
+      ],
+      "examples": [
+        {
+          "jp": "書[か]く → 書[か]いた、泳[およ]ぐ → 泳[およ]いだ",
+          "en": "write → wrote, swim → swam (く → いた, ぐ → いだ)"
+        },
+        {
+          "jp": "読[よ]む → 読[よ]んだ、買[か]う → 買[か]った、話[はな]す → 話[はな]した",
+          "en": "read → read, buy → bought, speak → spoke"
+        },
+        {
+          "jp": "行[い]く → 行[い]った、する → した、来[く]る → 来[き]た",
+          "en": "go → went, do → did, come → came (exceptions)"
+        },
+        {
+          "jp": "行[い]かない → 行[い]かなかった、ある → なかった",
+          "en": "don't go → didn't go, exists → didn't exist"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "泳[およ]ぐ → ＿",
+          "answer": "泳[およ]いだ",
+          "options": [
+            "泳[およ]いだ",
+            "泳[およ]いた",
+            "泳[およ]んだ",
+            "泳[およ]った"
+          ],
+          "en": "swim → swam"
+        },
+        {
+          "type": "choice",
+          "jp": "行[い]く → ＿",
+          "answer": "行[い]った",
+          "options": [
+            "行[い]った",
+            "行[い]いた",
+            "行[い]きた",
+            "行[い]んだ"
+          ],
+          "en": "go → went"
+        },
+        {
+          "type": "choice",
+          "jp": "遊[あそ]ぶ → ＿",
+          "answer": "遊[あそ]んだ",
+          "options": [
+            "遊[あそ]んだ",
+            "遊[あそ]った",
+            "遊[あそ]びた",
+            "遊[あそ]いだ"
+          ],
+          "en": "play → played"
+        },
+        {
+          "type": "choice",
+          "jp": "来[く]る → ＿",
+          "answer": "来[き]た",
+          "options": [
+            "来[き]た",
+            "来[く]た",
+            "来[こ]た",
+            "来[く]った"
+          ],
+          "en": "come → came"
+        },
+        {
+          "type": "choice",
+          "jp": "見[み]ない → ＿",
+          "answer": "見[み]なかった",
+          "options": [
+            "見[み]なかった",
+            "見[み]ないた",
+            "見[み]なった",
+            "見[み]ないだ"
+          ],
+          "en": "don't see → didn't see"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ケンは",
+            "パンを",
+            "食[た]べなかった。"
+          ],
+          "en": "Ken didn't eat the bread."
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-g02",
+      "title": "〜たことがあります — \"have done ~ before\"",
+      "pattern": "V (た form) + ことがあります",
+      "meaning": "have (ever) done ~; have the experience of ~",
+      "explanation": "To talk about experiences — things you have done at some point in your life — use the た form plus ことがあります: 富士山に登ったことがあります (I have climbed Mt. Fuji). The negative ことがありません means you never have. To ask \"Have you ever…?\", add か, and answer briefly with はい、あります or いいえ、ありません. Use it for experiences, not for everyday actions or things that just happened yesterday.",
+      "notes": [
+        "Short answers: はい、あります。/ いいえ、ありません。",
+        "一度も〜ことがありません = have never once done ~.",
+        "Don't use it with 昨日 or 今朝 — for a specific recent time, just use the past: 昨日すしを食べました。"
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は富士山[ふじさん]に登[のぼ]ったことがあります。",
+          "en": "I have climbed Mt. Fuji."
+        },
+        {
+          "jp": "すしを食[た]べたことがありますか。—はい、あります。",
+          "en": "Have you ever eaten sushi? — Yes, I have."
+        },
+        {
+          "jp": "私[わたし]は一度[いちど]も飛行機[ひこうき]に乗[の]ったことがありません。",
+          "en": "I have never once been on a plane."
+        },
+        {
+          "jp": "京都[きょうと]へ二回[にかい]行[い]ったことがあります。",
+          "en": "I've been to Kyoto twice."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]は日本[にほん]へ行[い]った＿があります。",
+          "answer": "こと",
+          "options": [
+            "こと",
+            "もの",
+            "の",
+            "とき"
+          ],
+          "en": "I have been to Japan."
+        },
+        {
+          "type": "choice",
+          "jp": "すしを＿ことがありますか。",
+          "answer": "食[た]べた",
+          "options": [
+            "食[た]べた",
+            "食[た]べ",
+            "食[た]べて",
+            "食[た]べます"
+          ],
+          "en": "Have you ever eaten sushi?"
+        },
+        {
+          "type": "choice",
+          "jp": "A：北海道[ほっかいどう]へ行[い]ったことがありますか。B：いいえ、＿。",
+          "answer": "ありません",
+          "options": [
+            "ありません",
+            "ありました",
+            "いません",
+            "しません"
+          ],
+          "en": "A: Have you ever been to Hokkaido? B: No, I haven't."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]は一度[いちど]＿飛行機[ひこうき]に乗[の]ったことがありません。",
+          "answer": "も",
+          "options": [
+            "も",
+            "が",
+            "を",
+            "で"
+          ],
+          "en": "I have never once been on a plane."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "富士山[ふじさん]に",
+            "登[のぼ]ったことがあります。"
+          ],
+          "en": "I have climbed Mt. Fuji."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "新幹線[しんかんせん]に",
+            "乗[の]ったことが",
+            "ありますか。"
+          ],
+          "en": "Have you ever ridden the shinkansen?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-g03",
+      "title": "〜たり〜たりします — \"do things like ~ and ~\"",
+      "pattern": "V1 (た form) + り、V2 (た form) + り します",
+      "meaning": "do things like V1 and V2 (among other things)",
+      "explanation": "To give a few examples of things you do, without listing everything, add り to the た form of each verb and finish with します: 本を読んだり、音楽を聞いたりします (I do things like read books and listen to music). The tense goes on the final する: したりしました for the past, したりしてはいけません for rules. Compare the て form, which lists actions in order: たり just picks out examples, in no particular order.",
+      "notes": [
+        "Tense and politeness go on the last する: 〜たりしました (past).",
+        "The て form gives a sequence (first A, then B); たり gives examples (A, B, and so on)."
+      ],
+      "examples": [
+        {
+          "jp": "休[やす]みの日[ひ]は本[ほん]を読[よ]んだり、音楽[おんがく]を聞[き]いたりします。",
+          "en": "On my days off I do things like read books and listen to music."
+        },
+        {
+          "jp": "京都[きょうと]でお寺[てら]を見[み]たり、写真[しゃしん]を撮[と]ったりしました。",
+          "en": "In Kyoto I did things like see temples and take photos."
+        },
+        {
+          "jp": "日曜日[にちようび]は掃除[そうじ]をしたり、洗濯[せんたく]をしたりします。",
+          "en": "On Sundays I do things like clean and do the laundry."
+        },
+        {
+          "jp": "図書館[としょかん]で話[はな]したり、食[た]べたりしてはいけません。",
+          "en": "You must not talk, eat, and so on in the library."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "週末[しゅうまつ]は買[か]い物[もの]をしたり、映画[えいが]を見[み]＿します。",
+          "answer": "たり",
+          "options": [
+            "たり",
+            "て",
+            "た",
+            "ます"
+          ],
+          "en": "On weekends I do things like go shopping and watch movies."
+        },
+        {
+          "type": "choice",
+          "jp": "旅行[りょこう]で写真[しゃしん]を撮[と]ったり、お土産[みやげ]を買[か]ったり＿。",
+          "answer": "しました",
+          "options": [
+            "しました",
+            "ました",
+            "でした",
+            "ありました"
+          ],
+          "en": "On the trip I did things like take photos and buy souvenirs."
+        },
+        {
+          "type": "choice",
+          "jp": "夜[よる]は本[ほん]を＿り、テレビを見[み]たりします。",
+          "answer": "読[よ]んだ",
+          "options": [
+            "読[よ]んだ",
+            "読[よ]った",
+            "読[よ]みた",
+            "読[よ]いた"
+          ],
+          "en": "At night I do things like read books and watch TV."
+        },
+        {
+          "type": "choice",
+          "jp": "休[やす]みの日[ひ]は、友[とも]だちと＿、カラオケに行[い]ったりします。",
+          "answer": "遊[あそ]んだり",
+          "options": [
+            "遊[あそ]んだり",
+            "遊[あそ]ぶたり",
+            "遊[あそ]びたり",
+            "遊[あそ]ったり"
+          ],
+          "en": "On my days off I do things like hang out with friends and go to karaoke."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "日曜日[にちようび]は",
+            "本[ほん]を読[よ]んだり、音楽[おんがく]を聞[き]いたり",
+            "します。"
+          ],
+          "en": "On Sundays I do things like read books and listen to music."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "京都[きょうと]で",
+            "お寺[てら]を見[み]たり、写真[しゃしん]を撮[と]ったり",
+            "しました。"
+          ],
+          "en": "In Kyoto I did things like see temples and take photos."
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-g04",
+      "title": "〜前に / 〜た後で — \"before ~ / after ~\"",
+      "pattern": "V (dictionary form) + 前に / V (た form) + 後で / N の 前に / N の 後で",
+      "meaning": "before doing ~ / after doing ~",
+      "explanation": "To say \"before doing something\", use the dictionary form + 前に: 寝る前に (before going to bed). To say \"after doing something\", use the た form + 後で: 食べた後で (after eating). With nouns, put の in between: 食事の前に (before the meal), 仕事の後で (after work). The verb form never changes with the tense of the sentence: it is always dictionary form before 前に, even for past events, and always た form before 後で, even for the future.",
+      "notes": [
+        "日本へ行く前に、ひらがなを勉強しました — 行く stays in the dictionary form even though it happened in the past.",
+        "後 here is read あと. 後で on its own means \"later\"."
+      ],
+      "examples": [
+        {
+          "jp": "寝[ね]る前[まえ]に、歯[は]をみがきます。",
+          "en": "I brush my teeth before going to bed."
+        },
+        {
+          "jp": "食事[しょくじ]の前[まえ]に、手[て]を洗[あら]います。",
+          "en": "I wash my hands before meals."
+        },
+        {
+          "jp": "授業[じゅぎょう]が終[お]わった後[あと]で、図書館[としょかん]へ行[い]きます。",
+          "en": "After class finishes, I'll go to the library."
+        },
+        {
+          "jp": "仕事[しごと]の後[あと]で、友[とも]だちとビールを飲[の]みました。",
+          "en": "After work, I drank beer with a friend."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "寝[ね]る＿に、シャワーを浴[あ]びます。",
+          "answer": "前[まえ]",
+          "options": [
+            "前[まえ]",
+            "後[あと]",
+            "中[なか]",
+            "上[うえ]"
+          ],
+          "en": "I take a shower before going to bed."
+        },
+        {
+          "type": "choice",
+          "jp": "ご飯[はん]を食[た]べた＿で、薬[くすり]を飲[の]みます。",
+          "answer": "後[あと]",
+          "options": [
+            "後[あと]",
+            "前[まえ]",
+            "中[なか]",
+            "上[うえ]"
+          ],
+          "en": "I take medicine after eating."
+        },
+        {
+          "type": "choice",
+          "jp": "日本[にほん]へ＿前[まえ]に、ひらがなを勉強[べんきょう]しました。",
+          "answer": "行[い]く",
+          "options": [
+            "行[い]く",
+            "行[い]った",
+            "行[い]って",
+            "行[い]かない"
+          ],
+          "en": "Before going to Japan, I studied hiragana."
+        },
+        {
+          "type": "choice",
+          "jp": "授業[じゅぎょう]が＿後[あと]で、友[とも]だちと昼[ひる]ご飯[はん]を食[た]べます。",
+          "answer": "終[お]わった",
+          "options": [
+            "終[お]わった",
+            "終[お]わる",
+            "終[お]わって",
+            "終[お]わり"
+          ],
+          "en": "After class finishes, I'll have lunch with a friend."
+        },
+        {
+          "type": "choice",
+          "jp": "食事[しょくじ]＿前[まえ]に、手[て]を洗[あら]ってください。",
+          "answer": "の",
+          "options": [
+            "の",
+            "を",
+            "が",
+            "に"
+          ],
+          "en": "Please wash your hands before the meal."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "寝[ね]る前[まえ]に",
+            "歯[は]を",
+            "みがきます。"
+          ],
+          "en": "I brush my teeth before going to bed."
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-g05",
+      "title": "〜とき — \"when ~\"",
+      "pattern": "V (plain) / い-adj / な-adj + な / N + の  + とき",
+      "meaning": "when ~, at the time of ~",
+      "explanation": "とき means \"time\", and it joins a description to the rest of the sentence: \"when …\". Before とき, verbs and い-adjectives use plain forms (行くとき, 行ったとき, 痛いとき), な-adjectives keep な (暇なとき), and nouns take の (子どものとき). The main sentence at the end carries the politeness and tense: 子どものとき、海で泳ぎました. With verbs, the dictionary form means the action hasn't happened yet, and the た form means it already happened: 日本へ行くとき (on the way / before going) vs 日本へ行ったとき (once there).",
+      "notes": [
+        "N + の + とき: 子どものとき, 高校のとき.",
+        "な-adj + な + とき: 暇なとき, 元気なとき.",
+        "行くとき = before / on the way; 行ったとき = after arriving."
+      ],
+      "examples": [
+        {
+          "jp": "子[こ]どものとき、北海道[ほっかいどう]に住[す]んでいました。",
+          "en": "When I was a child, I lived in Hokkaido."
+        },
+        {
+          "jp": "暇[ひま]なとき、漫画[まんが]を読[よ]みます。",
+          "en": "When I'm free, I read manga."
+        },
+        {
+          "jp": "日本[にほん]へ行[い]ったとき、お土産[みやげ]をたくさん買[か]いました。",
+          "en": "When I went to Japan, I bought a lot of souvenirs."
+        },
+        {
+          "jp": "道[みち]を渡[わた]るとき、車[くるま]に気[き]をつけてください。",
+          "en": "Please watch out for cars when you cross the road."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "子[こ]ども＿とき、よく海[うみ]で泳[およ]ぎました。",
+          "answer": "の",
+          "options": [
+            "の",
+            "な",
+            "が",
+            "を"
+          ],
+          "en": "When I was a child, I often swam in the sea."
+        },
+        {
+          "type": "choice",
+          "jp": "暇[ひま]＿とき、何[なに]をしますか。",
+          "answer": "な",
+          "options": [
+            "な",
+            "の",
+            "だ",
+            "に"
+          ],
+          "en": "What do you do when you're free?"
+        },
+        {
+          "type": "choice",
+          "jp": "頭[あたま]が痛[いた]い＿、この薬[くすり]を飲[の]んでください。",
+          "answer": "とき",
+          "options": [
+            "とき",
+            "前[まえ]",
+            "後[あと]",
+            "こと"
+          ],
+          "en": "Please take this medicine when you have a headache."
+        },
+        {
+          "type": "choice",
+          "jp": "京都[きょうと]へ＿とき、お寺[てら]で写真[しゃしん]を撮[と]りました。",
+          "answer": "行[い]った",
+          "options": [
+            "行[い]った",
+            "行[い]って",
+            "行[い]き",
+            "行[い]かなくて"
+          ],
+          "en": "When I went to Kyoto, I took photos at a temple."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "子[こ]どものとき、",
+            "北海道[ほっかいどう]に",
+            "住[す]んでいました。"
+          ],
+          "en": "When I was a child, I lived in Hokkaido."
+        }
+      ]
+    },
+    {
+      "id": "n5-u11-g06",
+      "title": "Casual speech — plain forms with だ / だった",
+      "pattern": "V plain / い-adj / N・な-adj + だ (だった, じゃない, じゃなかった)",
+      "meaning": "casual (plain) style used with friends and family",
+      "explanation": "With friends and family, Japanese people drop です and ます and use plain forms. Verbs use the dictionary, ない, た and なかった forms: 行く, 行かない, 行った, 行かなかった. い-adjectives just drop です: 高い, 高くない, 高かった, 高くなかった. Nouns and な-adjectives use だ instead of です: 学生だ, 学生じゃない, 学生だった, 学生じゃなかった. In casual questions, か is dropped and your voice rises at the end; だ is left out too: ひま？ (Are you free?), not ひまだ？. Use the polite style with teachers, strangers and anyone older or senior to you.",
+      "notes": [
+        "Casual yes / no: うん / ううん.",
+        "A plain statement often ends with よ or ね: ひまだよ, おいしいね.",
+        "Don't say おいしいだ — い-adjectives never take だ."
+      ],
+      "examples": [
+        {
+          "jp": "A：明日[あした]、ひま？ B：うん、ひまだよ。",
+          "en": "A: Are you free tomorrow? B: Yeah, I'm free."
+        },
+        {
+          "jp": "A：昨日[きのう]の映画[えいが]、おもしろかった？ B：ううん、あまりおもしろくなかった。",
+          "en": "A: Was yesterday's movie interesting? B: Nah, it wasn't very interesting."
+        },
+        {
+          "jp": "A：これ、ケンの本[ほん]？ B：ううん、ケンのじゃない。",
+          "en": "A: Is this Ken's book? B: No, it's not Ken's."
+        },
+        {
+          "jp": "A：週末[しゅうまつ]、何[なに]した？ B：友[とも]だちと海[うみ]に行[い]った。",
+          "en": "A: What did you do on the weekend? B: I went to the beach with friends."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "A：明日[あした]、ひま？ B：うん、ひま＿よ。",
+          "answer": "だ",
+          "options": [
+            "だ",
+            "な",
+            "の",
+            "で"
+          ],
+          "en": "A: Are you free tomorrow? B: Yeah, I'm free."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は雨[あめ]＿。",
+          "answer": "だった",
+          "options": [
+            "だった",
+            "だ",
+            "じゃない",
+            "かった"
+          ],
+          "en": "It was rainy yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]のテスト、難[むずか]し＿？",
+          "answer": "かった",
+          "options": [
+            "かった",
+            "だった",
+            "いだった",
+            "いでした"
+          ],
+          "en": "Was yesterday's test hard?"
+        },
+        {
+          "type": "choice",
+          "jp": "A：コーヒー、飲[の]む？ B：ううん、今[いま]は＿。",
+          "answer": "飲[の]まない",
+          "options": [
+            "飲[の]まない",
+            "飲[の]む",
+            "飲[の]んだ",
+            "飲[の]みたい"
+          ],
+          "en": "A: Want some coffee? B: No, I won't have any right now."
+        },
+        {
+          "type": "choice",
+          "jp": "A：週末[しゅうまつ]、何[なに]した？ B：友[とも]だちと映画[えいが]を＿。",
+          "answer": "見[み]た",
+          "options": [
+            "見[み]た",
+            "見[み]る",
+            "見[み]ない",
+            "見[み]たい"
+          ],
+          "en": "A: What did you do on the weekend? B: I watched a movie with a friend."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "昨日[きのう]の",
+            "パーティー、",
+            "楽[たの]しかった？"
+          ],
+          "en": "Was yesterday's party fun?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "京都[きょうと]の旅行[りょこう] — A trip to Kyoto",
+    "text": "先月[せんげつ]、友[とも]だちと京都[きょうと]へ旅行[りょこう]しました。東京駅[とうきょうえき]から新幹線[しんかんせん]に乗[の]りました。私[わたし]は新幹線[しんかんせん]に乗[の]ったことがありませんでした。とても速[はや]かったです。京都[きょうと]では、お寺[てら]や神社[じんじゃ]を見[み]たり、有名[ゆうめい]な店[みせ]で食[た]べたりしました。お寺[てら]に入[はい]る前[まえ]に、靴[くつ]を脱[ぬ]がなければなりませんでした。夜[よる]は古[ふる]い旅館[りょかん]に泊[と]まりました。旅館[りょかん]の温泉[おんせん]に入[はい]ったとき、とても気持[きも]ちがよかったです。次[つぎ]の日[ひ]、家族[かぞく]にお土産[みやげ]を買[か]った後[あと]で、東京[とうきょう]へ帰[かえ]りました。また京都[きょうと]へ行[い]きたいです。",
+    "en": "Last month I took a trip to Kyoto with a friend. We took the shinkansen from Tokyo Station. I had never ridden the shinkansen before. It was very fast. In Kyoto we did things like see temples and shrines and eat at famous restaurants. Before going into the temples, we had to take off our shoes. At night we stayed at an old Japanese inn. When I got into the inn's hot spring, it felt wonderful. The next day, after buying souvenirs for my family, I went back to Tokyo. I want to go to Kyoto again.",
+    "questions": [
+      {
+        "q": "How did they travel to Kyoto?",
+        "options": [
+          "By plane",
+          "By bus",
+          "By shinkansen",
+          "By car"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What did they have to do before entering the temples?",
+        "options": [
+          "Buy a ticket",
+          "Take off their shoes",
+          "Take photos",
+          "Wash their hands"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where did they stay at night?",
+        "options": [
+          "A modern hotel",
+          "A friend's house",
+          "A temple",
+          "A Japanese inn"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Weekend in Hokkaido (casual)",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "ケンくん、週末[しゅうまつ]どこか行[い]った？",
+        "en": "Ken, did you go anywhere on the weekend?"
+      },
+      {
+        "speaker": "B",
+        "jp": "うん、北海道[ほっかいどう]に行[い]ったよ。",
+        "en": "Yeah, I went to Hokkaido."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいなあ。飛行機[ひこうき]で？",
+        "en": "Lucky you. By plane?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ううん、電車[でんしゃ]で行[い]った。ちょっと遠[とお]かった。でも、楽[たの]しかったよ。",
+        "en": "No, I went by train. It was kind of far. But it was fun."
+      },
+      {
+        "speaker": "A",
+        "jp": "北海道[ほっかいどう]で何[なに]をした？",
+        "en": "What did you do in Hokkaido?"
+      },
+      {
+        "speaker": "B",
+        "jp": "海[うみ]を見[み]たり、おいしいラーメンを食[た]べたりした。ユミは北海道[ほっかいどう]に行[い]ったことある？",
+        "en": "I did things like look at the sea and eat delicious ramen. Yumi, have you ever been to Hokkaido?"
+      },
+      {
+        "speaker": "A",
+        "jp": "ううん、一度[いちど]もない。でも、行[い]きたいなあ。",
+        "en": "No, not even once. But I'd love to go."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃあ、今度[こんど]いっしょに行[い]かない？",
+        "en": "Then why don't we go together next time?"
+      },
+      {
+        "speaker": "A",
+        "jp": "うん、行[い]きたい！",
+        "en": "Yeah, I want to go!"
+      }
+    ],
+    "questions": [
+      {
+        "q": "Has Yumi ever been to Hokkaido?",
+        "options": [
+          "No, never",
+          "Yes, once",
+          "Yes, many times",
+          "She went last weekend"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How did Ken travel to Hokkaido?",
+        "options": [
+          "By plane",
+          "By train",
+          "By car",
+          "By ship"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What did Ken do in Hokkaido?",
+        "options": [
+          "Climbed a mountain",
+          "Went to a hot spring",
+          "Looked at the sea and ate ramen",
+          "Visited temples"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

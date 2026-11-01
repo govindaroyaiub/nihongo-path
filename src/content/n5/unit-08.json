@@ -1,0 +1,1535 @@
+{
+  "id": "n5-u08",
+  "level": "N5",
+  "number": 8,
+  "title": "My family",
+  "goal": "Talk about your family and other people's: how many there are, what they do, where they live, what they're like and what they're good at.",
+  "vocab": [
+    {
+      "id": "n5-u08-v01",
+      "word": "家族[かぞく]",
+      "meaning": "family",
+      "pos": "noun",
+      "example": {
+        "jp": "家族[かぞく]はインドに住[す]んでいます。",
+        "en": "My family lives in India."
+      }
+    },
+    {
+      "id": "n5-u08-v02",
+      "word": "父[ちち]",
+      "meaning": "(my) father",
+      "pos": "noun",
+      "example": {
+        "jp": "父[ちち]は会社員[かいしゃいん]です。",
+        "en": "My father is a company employee."
+      }
+    },
+    {
+      "id": "n5-u08-v03",
+      "word": "お父[とう]さん",
+      "meaning": "(someone's) father; Dad",
+      "pos": "noun",
+      "example": {
+        "jp": "お父[とう]さんはお元気[げんき]ですか。",
+        "en": "Is your father well?"
+      }
+    },
+    {
+      "id": "n5-u08-v04",
+      "word": "母[はは]",
+      "meaning": "(my) mother",
+      "pos": "noun",
+      "example": {
+        "jp": "母[はは]は料理[りょうり]が上手[じょうず]です。",
+        "en": "My mother is good at cooking."
+      }
+    },
+    {
+      "id": "n5-u08-v05",
+      "word": "お母[かあ]さん",
+      "meaning": "(someone's) mother; Mom",
+      "pos": "noun",
+      "example": {
+        "jp": "山田[やまだ]さんのお母[かあ]さんは看護師[かんごし]です。",
+        "en": "Ms. Yamada's mother is a nurse."
+      }
+    },
+    {
+      "id": "n5-u08-v06",
+      "word": "兄[あに]",
+      "meaning": "(my) older brother",
+      "pos": "noun",
+      "example": {
+        "jp": "兄[あに]は背[せ]が高[たか]いです。",
+        "en": "My older brother is tall."
+      }
+    },
+    {
+      "id": "n5-u08-v07",
+      "word": "お兄[にい]さん",
+      "meaning": "(someone's) older brother",
+      "pos": "noun",
+      "example": {
+        "jp": "お兄[にい]さんはおいくつですか。",
+        "en": "How old is your older brother?"
+      }
+    },
+    {
+      "id": "n5-u08-v08",
+      "word": "姉[あね]",
+      "meaning": "(my) older sister",
+      "pos": "noun",
+      "example": {
+        "jp": "姉[あね]は東京[とうきょう]に住[す]んでいます。",
+        "en": "My older sister lives in Tokyo."
+      }
+    },
+    {
+      "id": "n5-u08-v09",
+      "word": "お姉[ねえ]さん",
+      "meaning": "(someone's) older sister",
+      "pos": "noun",
+      "example": {
+        "jp": "ケンさんのお姉[ねえ]さんはきれいですね。",
+        "en": "Ken's older sister is pretty, isn't she?"
+      }
+    },
+    {
+      "id": "n5-u08-v10",
+      "word": "弟[おとうと]",
+      "meaning": "(my) younger brother — someone else's is おとうとさん",
+      "pos": "noun",
+      "example": {
+        "jp": "弟[おとうと]は十五歳[じゅうごさい]です。",
+        "en": "My younger brother is fifteen."
+      }
+    },
+    {
+      "id": "n5-u08-v11",
+      "word": "妹[いもうと]",
+      "meaning": "(my) younger sister — someone else's is いもうとさん",
+      "pos": "noun",
+      "example": {
+        "jp": "妹[いもうと]はまだ小[ちい]さいです。",
+        "en": "My younger sister is still little."
+      }
+    },
+    {
+      "id": "n5-u08-v12",
+      "word": "兄弟[きょうだい]",
+      "meaning": "siblings, brothers and sisters",
+      "pos": "noun",
+      "example": {
+        "jp": "兄弟[きょうだい]がいますか。",
+        "en": "Do you have any brothers or sisters?"
+      }
+    },
+    {
+      "id": "n5-u08-v13",
+      "word": "両親[りょうしん]",
+      "meaning": "(my) parents",
+      "pos": "noun",
+      "example": {
+        "jp": "両親[りょうしん]は大阪[おおさか]に住[す]んでいます。",
+        "en": "My parents live in Osaka."
+      }
+    },
+    {
+      "id": "n5-u08-v14",
+      "word": "おじいさん",
+      "meaning": "grandfather; old man",
+      "pos": "noun",
+      "example": {
+        "jp": "おじいさんは七十五歳[ななじゅうごさい]です。",
+        "en": "My grandfather is seventy-five."
+      }
+    },
+    {
+      "id": "n5-u08-v15",
+      "word": "おばあさん",
+      "meaning": "grandmother; old woman",
+      "pos": "noun",
+      "example": {
+        "jp": "おばあさんはとても元気[げんき]です。",
+        "en": "My grandmother is very energetic."
+      }
+    },
+    {
+      "id": "n5-u08-v16",
+      "word": "夫[おっと]",
+      "meaning": "(my) husband",
+      "pos": "noun",
+      "example": {
+        "jp": "夫[おっと]はエンジニアです。",
+        "en": "My husband is an engineer."
+      }
+    },
+    {
+      "id": "n5-u08-v17",
+      "word": "妻[つま]",
+      "meaning": "(my) wife",
+      "pos": "noun",
+      "example": {
+        "jp": "妻[つま]は日本人[にほんじん]です。",
+        "en": "My wife is Japanese."
+      }
+    },
+    {
+      "id": "n5-u08-v18",
+      "word": "子[こ]ども",
+      "meaning": "child, children",
+      "pos": "noun",
+      "example": {
+        "jp": "子[こ]どもが二人[ふたり]います。",
+        "en": "I have two children."
+      }
+    },
+    {
+      "id": "n5-u08-v19",
+      "word": "息子[むすこ]",
+      "meaning": "(my) son",
+      "pos": "noun",
+      "example": {
+        "jp": "息子[むすこ]は五歳[ごさい]です。",
+        "en": "My son is five."
+      }
+    },
+    {
+      "id": "n5-u08-v20",
+      "word": "娘[むすめ]",
+      "meaning": "(my) daughter",
+      "pos": "noun",
+      "example": {
+        "jp": "娘[むすめ]は音楽[おんがく]が好[す]きです。",
+        "en": "My daughter likes music."
+      }
+    },
+    {
+      "id": "n5-u08-v21",
+      "word": "男[おとこ]の人[ひと]",
+      "meaning": "man",
+      "pos": "noun",
+      "example": {
+        "jp": "あの男[おとこ]の人[ひと]はだれですか。",
+        "en": "Who is that man?"
+      }
+    },
+    {
+      "id": "n5-u08-v22",
+      "word": "女[おんな]の人[ひと]",
+      "meaning": "woman",
+      "pos": "noun",
+      "example": {
+        "jp": "あの女[おんな]の人[ひと]は店員[てんいん]です。",
+        "en": "That woman is a shop clerk."
+      }
+    },
+    {
+      "id": "n5-u08-v23",
+      "word": "男[おとこ]の子[こ]",
+      "meaning": "boy",
+      "pos": "noun",
+      "example": {
+        "jp": "公園[こうえん]に男[おとこ]の子[こ]がいます。",
+        "en": "There is a boy in the park."
+      }
+    },
+    {
+      "id": "n5-u08-v24",
+      "word": "女[おんな]の子[こ]",
+      "meaning": "girl",
+      "pos": "noun",
+      "example": {
+        "jp": "女[おんな]の子[こ]が三人[さんにん]います。",
+        "en": "There are three girls."
+      }
+    },
+    {
+      "id": "n5-u08-v25",
+      "word": "大人[おとな]",
+      "meaning": "adult, grown-up",
+      "pos": "noun",
+      "example": {
+        "jp": "弟[おとうと]はもう大人[おとな]です。",
+        "en": "My younger brother is already an adult."
+      }
+    },
+    {
+      "id": "n5-u08-v26",
+      "word": "一人[ひとり]",
+      "meaning": "one person; alone",
+      "pos": "counter",
+      "example": {
+        "jp": "兄[あに]が一人[ひとり]います。",
+        "en": "I have one older brother."
+      }
+    },
+    {
+      "id": "n5-u08-v27",
+      "word": "二人[ふたり]",
+      "meaning": "two people",
+      "pos": "counter",
+      "example": {
+        "jp": "妹[いもうと]が二人[ふたり]います。",
+        "en": "I have two younger sisters."
+      }
+    },
+    {
+      "id": "n5-u08-v28",
+      "word": "〜人[にん]",
+      "meaning": "counter for people (three or more)",
+      "pos": "counter",
+      "example": {
+        "jp": "教室[きょうしつ]に学生[がくせい]が五人[ごにん]います。",
+        "en": "There are five students in the classroom."
+      }
+    },
+    {
+      "id": "n5-u08-v29",
+      "word": "何人[なんにん]",
+      "meaning": "how many people",
+      "pos": "counter",
+      "example": {
+        "jp": "何人[なんにん]家族[かぞく]ですか。",
+        "en": "How many people are in your family?"
+      }
+    },
+    {
+      "id": "n5-u08-v31",
+      "word": "銀行員[ぎんこういん]",
+      "meaning": "bank employee",
+      "pos": "noun",
+      "example": {
+        "jp": "兄[あに]は銀行員[ぎんこういん]です。",
+        "en": "My older brother is a bank employee."
+      }
+    },
+    {
+      "id": "n5-u08-v32",
+      "word": "看護師[かんごし]",
+      "meaning": "nurse",
+      "pos": "noun",
+      "example": {
+        "jp": "姉[あね]は病院[びょういん]の看護師[かんごし]です。",
+        "en": "My older sister is a hospital nurse."
+      }
+    },
+    {
+      "id": "n5-u08-v33",
+      "word": "警察官[けいさつかん]",
+      "meaning": "police officer",
+      "pos": "noun",
+      "example": {
+        "jp": "山田[やまだ]さんのお父[とう]さんは警察官[けいさつかん]です。",
+        "en": "Ms. Yamada's father is a police officer."
+      }
+    },
+    {
+      "id": "n5-u08-v34",
+      "word": "エンジニア",
+      "meaning": "engineer",
+      "pos": "noun",
+      "example": {
+        "jp": "エンジニアの仕事[しごと]はおもしろいです。",
+        "en": "Engineering work is interesting."
+      }
+    },
+    {
+      "id": "n5-u08-v35",
+      "word": "主婦[しゅふ]",
+      "meaning": "housewife, homemaker",
+      "pos": "noun",
+      "example": {
+        "jp": "母[はは]は主婦[しゅふ]です。",
+        "en": "My mother is a homemaker."
+      }
+    },
+    {
+      "id": "n5-u08-v36",
+      "word": "店員[てんいん]",
+      "meaning": "shop clerk",
+      "pos": "noun",
+      "example": {
+        "jp": "あの店[みせ]の店員[てんいん]はとても親切[しんせつ]です。",
+        "en": "The clerks at that shop are very kind."
+      }
+    },
+    {
+      "id": "n5-u08-v37",
+      "word": "大学生[だいがくせい]",
+      "meaning": "university student",
+      "pos": "noun",
+      "example": {
+        "jp": "姉[あね]は大学生[だいがくせい]です。",
+        "en": "My older sister is a university student."
+      }
+    },
+    {
+      "id": "n5-u08-v38",
+      "word": "高校生[こうこうせい]",
+      "meaning": "high school student",
+      "pos": "noun",
+      "example": {
+        "jp": "高校生[こうこうせい]の妹[いもうと]がいます。",
+        "en": "I have a younger sister in high school."
+      }
+    },
+    {
+      "id": "n5-u08-v39",
+      "word": "留学生[りゅうがくせい]",
+      "meaning": "international student",
+      "pos": "noun",
+      "example": {
+        "jp": "マリアさんはブラジルからの留学生[りゅうがくせい]です。",
+        "en": "Maria is an international student from Brazil."
+      }
+    },
+    {
+      "id": "n5-u08-v40",
+      "word": "趣味[しゅみ]",
+      "meaning": "hobby",
+      "pos": "noun",
+      "example": {
+        "jp": "趣味[しゅみ]は何[なん]ですか。",
+        "en": "What are your hobbies?"
+      }
+    },
+    {
+      "id": "n5-u08-v41",
+      "word": "音楽[おんがく]",
+      "meaning": "music",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の趣味[しゅみ]は音楽[おんがく]です。",
+        "en": "My hobby is music."
+      }
+    },
+    {
+      "id": "n5-u08-v42",
+      "word": "スポーツ",
+      "meaning": "sports",
+      "pos": "noun",
+      "example": {
+        "jp": "どんなスポーツが好[す]きですか。",
+        "en": "What kind of sports do you like?"
+      }
+    },
+    {
+      "id": "n5-u08-v43",
+      "word": "料理[りょうり]",
+      "meaning": "cooking; cuisine, dish",
+      "pos": "noun",
+      "example": {
+        "jp": "父[ちち]は料理[りょうり]が下手[へた]です。",
+        "en": "My father is bad at cooking."
+      }
+    },
+    {
+      "id": "n5-u08-v45",
+      "word": "ピアノ",
+      "meaning": "piano",
+      "pos": "noun",
+      "example": {
+        "jp": "娘[むすめ]はピアノが上手[じょうず]です。",
+        "en": "My daughter is good at the piano."
+      }
+    },
+    {
+      "id": "n5-u08-v47",
+      "word": "まじめ",
+      "meaning": "serious, hard-working, diligent",
+      "pos": "na-adj",
+      "example": {
+        "jp": "兄[あに]はまじめな学生[がくせい]です。",
+        "en": "My older brother is a hard-working student."
+      }
+    },
+    {
+      "id": "n5-u08-v48",
+      "word": "頭[あたま]がいい",
+      "meaning": "smart, clever (lit. head is good)",
+      "pos": "expression",
+      "example": {
+        "jp": "弟[おとうと]は頭[あたま]がいいです。",
+        "en": "My younger brother is smart."
+      }
+    },
+    {
+      "id": "n5-u08-v49",
+      "word": "きびしい",
+      "meaning": "strict",
+      "pos": "i-adj",
+      "example": {
+        "jp": "日本語[にほんご]の先生[せんせい]はきびしいです。",
+        "en": "The Japanese teacher is strict."
+      }
+    },
+    {
+      "id": "n5-u08-v51",
+      "word": "背[せ]が高[たか]い",
+      "meaning": "tall (of a person)",
+      "pos": "expression",
+      "example": {
+        "jp": "ケンさんは背[せ]が高[たか]いですね。",
+        "en": "Ken is tall, isn't he?"
+      }
+    },
+    {
+      "id": "n5-u08-v52",
+      "word": "上手[じょうず]",
+      "meaning": "good at, skillful",
+      "pos": "na-adj",
+      "example": {
+        "jp": "ケンさんは日本語[にほんご]が上手[じょうず]ですね。",
+        "en": "Ken, your Japanese is good!"
+      }
+    },
+    {
+      "id": "n5-u08-v53",
+      "word": "下手[へた]",
+      "meaning": "bad at, unskillful",
+      "pos": "na-adj",
+      "example": {
+        "jp": "私[わたし]はテニスが下手[へた]です。",
+        "en": "I'm bad at tennis."
+      }
+    },
+    {
+      "id": "n5-u08-v54",
+      "word": "好[す]き",
+      "meaning": "liked; to like",
+      "pos": "na-adj",
+      "example": {
+        "jp": "私[わたし]は日本[にほん]の料理[りょうり]が好[す]きです。",
+        "en": "I like Japanese food."
+      }
+    },
+    {
+      "id": "n5-u08-v55",
+      "word": "きらい",
+      "meaning": "disliked; to dislike",
+      "pos": "na-adj",
+      "example": {
+        "jp": "弟[おとうと]は野菜[やさい]がきらいです。",
+        "en": "My younger brother doesn't like vegetables."
+      }
+    },
+    {
+      "id": "n5-u08-v56",
+      "word": "もう",
+      "meaning": "already",
+      "pos": "adverb",
+      "example": {
+        "jp": "もう昼[ひる]ごはんを食[た]べましたか。",
+        "en": "Have you already eaten lunch?"
+      }
+    },
+    {
+      "id": "n5-u08-v57",
+      "word": "まだ",
+      "meaning": "still; not yet",
+      "pos": "adverb",
+      "example": {
+        "jp": "兄[あに]はまだ学生[がくせい]です。",
+        "en": "My older brother is still a student."
+      }
+    },
+    {
+      "id": "n5-u08-v58",
+      "word": "住[す]む",
+      "meaning": "to live (in a place)",
+      "pos": "verb",
+      "example": {
+        "jp": "私[わたし]は東京[とうきょう]に住[す]んでいます。",
+        "en": "I live in Tokyo."
+      }
+    },
+    {
+      "id": "n5-u08-v59",
+      "word": "結婚[けっこん]する",
+      "meaning": "to get married",
+      "pos": "verb",
+      "example": {
+        "jp": "姉[あね]は結婚[けっこん]しています。",
+        "en": "My older sister is married."
+      }
+    },
+    {
+      "id": "n5-u08-v60",
+      "word": "知[し]る",
+      "meaning": "to know (get to know)",
+      "pos": "verb",
+      "example": {
+        "jp": "田中[たなか]さんを知[し]っていますか。",
+        "en": "Do you know Mr. Tanaka?"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u08-k01",
+      "char": "男",
+      "meanings": [
+        "man",
+        "male"
+      ],
+      "on": [
+        "ダン",
+        "ナン"
+      ],
+      "kun": [
+        "おとこ"
+      ],
+      "strokes": 7,
+      "mnemonic": "Power (力) in the rice field (田) — the man who works the field.",
+      "words": [
+        {
+          "word": "男[おとこ]の人[ひと]",
+          "meaning": "man"
+        },
+        {
+          "word": "男[おとこ]の子[こ]",
+          "meaning": "boy"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k02",
+      "char": "女",
+      "meanings": [
+        "woman",
+        "female"
+      ],
+      "on": [
+        "ジョ",
+        "ニョ",
+        "ニョウ"
+      ],
+      "kun": [
+        "おんな",
+        "め"
+      ],
+      "strokes": 3,
+      "mnemonic": "A woman kneeling gracefully with her arms crossed.",
+      "words": [
+        {
+          "word": "女[おんな]の人[ひと]",
+          "meaning": "woman"
+        },
+        {
+          "word": "女[おんな]の子[こ]",
+          "meaning": "girl"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k03",
+      "char": "子",
+      "meanings": [
+        "child"
+      ],
+      "on": [
+        "シ",
+        "ス"
+      ],
+      "kun": [
+        "こ"
+      ],
+      "strokes": 3,
+      "mnemonic": "A baby wrapped in a blanket, with its little arms stretched out.",
+      "words": [
+        {
+          "word": "子[こ]ども",
+          "meaning": "child"
+        },
+        {
+          "word": "男[おとこ]の子[こ]",
+          "meaning": "boy"
+        },
+        {
+          "word": "女[おんな]の子[こ]",
+          "meaning": "girl"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k04",
+      "char": "母",
+      "meanings": [
+        "mother"
+      ],
+      "on": [
+        "ボ"
+      ],
+      "kun": [
+        "はは"
+      ],
+      "strokes": 5,
+      "mnemonic": "A mother's body with two dots — she is feeding her baby.",
+      "words": [
+        {
+          "word": "母[はは]",
+          "meaning": "(my) mother"
+        },
+        {
+          "word": "お母[かあ]さん",
+          "meaning": "(someone's) mother"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k05",
+      "char": "父",
+      "meanings": [
+        "father"
+      ],
+      "on": [
+        "フ"
+      ],
+      "kun": [
+        "ちち"
+      ],
+      "strokes": 4,
+      "mnemonic": "Father's arms crossed under his stern eyebrows.",
+      "words": [
+        {
+          "word": "父[ちち]",
+          "meaning": "(my) father"
+        },
+        {
+          "word": "お父[とう]さん",
+          "meaning": "(someone's) father"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k06",
+      "char": "友",
+      "meanings": [
+        "friend"
+      ],
+      "on": [
+        "ユウ"
+      ],
+      "kun": [
+        "とも"
+      ],
+      "strokes": 4,
+      "mnemonic": "Two hands reaching out to grab each other — friends.",
+      "words": [
+        {
+          "word": "友[とも]だち",
+          "meaning": "friend"
+        },
+        {
+          "word": "友人[ゆうじん]",
+          "meaning": "friend (formal)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k07",
+      "char": "先",
+      "meanings": [
+        "ahead",
+        "previous",
+        "tip"
+      ],
+      "on": [
+        "セン"
+      ],
+      "kun": [
+        "さき"
+      ],
+      "strokes": 6,
+      "mnemonic": "Someone on two legs running ahead of everyone else.",
+      "words": [
+        {
+          "word": "先生[せんせい]",
+          "meaning": "teacher"
+        },
+        {
+          "word": "先週[せんしゅう]",
+          "meaning": "last week"
+        },
+        {
+          "word": "先月[せんげつ]",
+          "meaning": "last month"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k08",
+      "char": "生",
+      "meanings": [
+        "life",
+        "birth",
+        "raw"
+      ],
+      "on": [
+        "セイ",
+        "ショウ"
+      ],
+      "kun": [
+        "い.きる",
+        "う.まれる",
+        "なま"
+      ],
+      "strokes": 5,
+      "mnemonic": "A sprout pushing up out of the ground — new life.",
+      "words": [
+        {
+          "word": "学生[がくせい]",
+          "meaning": "student"
+        },
+        {
+          "word": "先生[せんせい]",
+          "meaning": "teacher"
+        },
+        {
+          "word": "大学生[だいがくせい]",
+          "meaning": "university student"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-k09",
+      "char": "名",
+      "meanings": [
+        "name",
+        "famous"
+      ],
+      "on": [
+        "メイ",
+        "ミョウ"
+      ],
+      "kun": [
+        "な"
+      ],
+      "strokes": 6,
+      "mnemonic": "In the evening (夕) dark, you call out your name with your mouth (口).",
+      "words": [
+        {
+          "word": "名前[なまえ]",
+          "meaning": "name"
+        },
+        {
+          "word": "有名[ゆうめい]",
+          "meaning": "famous"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u08-g01",
+      "title": "Family words — my family vs. your family",
+      "pattern": "父 / 母 (my) ・ お父さん / お母さん (someone's)",
+      "meaning": "Different words for your own family and for other people's families",
+      "explanation": "Japanese has two sets of family words. When you talk about your own family to other people, use the plain, humble words: 父 (my father), 母 (my mother), 兄 (my older brother). When you talk about someone else's family, use the polite words, which often look like お〜さん: お父さん, お母さん, お兄さん. For younger siblings just add さん: 弟さん, 妹さん. Inside the family, you also call older relatives with the polite words — a child calls out お母さん to Mom.",
+      "notes": [
+        "My family: 父 (ちち), 母 (はは), 兄 (あに), 姉 (あね), 弟 (おとうと), 妹 (いもうと), 両親 (りょうしん), 夫 (おっと), 妻 (つま), 息子 (むすこ), 娘 (むすめ).",
+        "Someone's family: お父さん, お母さん, お兄さん, お姉さん, 弟さん, 妹さん, ご両親 (ごりょうしん), 息子さん, 娘さん.",
+        "Japanese always says older or younger: there is no single word for just \"brother\" or \"sister\"."
+      ],
+      "examples": [
+        {
+          "jp": "父[ちち]は会社員[かいしゃいん]です。",
+          "en": "My father is a company employee."
+        },
+        {
+          "jp": "山田[やまだ]さんのお父[とう]さんは医者[いしゃ]です。",
+          "en": "Ms. Yamada's father is a doctor."
+        },
+        {
+          "jp": "お姉[ねえ]さんは学生[がくせい]ですか。……いいえ、姉[あね]は看護師[かんごし]です。",
+          "en": "Is your older sister a student? — No, my sister is a nurse."
+        },
+        {
+          "jp": "お母[かあ]さん、これは何[なん]ですか。",
+          "en": "Mom, what is this?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "山田[やまだ]さんの＿は医者[いしゃ]ですか。",
+          "answer": "お父[とう]さん",
+          "options": [
+            "お父[とう]さん",
+            "父[ちち]",
+            "兄[あに]",
+            "妹[いもうと]"
+          ],
+          "en": "Is Ms. Yamada's father a doctor?"
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]の＿は主婦[しゅふ]です。",
+          "answer": "母[はは]",
+          "options": [
+            "お母[かあ]さん",
+            "母[はは]",
+            "お姉[ねえ]さん",
+            "お兄[にい]さん"
+          ],
+          "en": "My mother is a homemaker."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんの＿は高校生[こうこうせい]です。",
+          "answer": "弟[おとうと]さん",
+          "options": [
+            "弟[おとうと]",
+            "兄[あに]",
+            "弟[おとうと]さん",
+            "姉[あね]"
+          ],
+          "en": "Ken's younger brother is a high school student."
+        },
+        {
+          "type": "choice",
+          "jp": "お兄[にい]さんは学生[がくせい]ですか。……いいえ、＿は銀行員[ぎんこういん]です。",
+          "answer": "兄[あに]",
+          "options": [
+            "お兄[にい]さん",
+            "弟[おとうと]さん",
+            "お父[とう]さん",
+            "兄[あに]"
+          ],
+          "en": "Is your older brother a student? — No, my brother is a bank employee."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "田中[たなか]さんのお母[かあ]さんは",
+            "看護師[かんごし]",
+            "です。"
+          ],
+          "en": "Mr. Tanaka's mother is a nurse."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]の",
+            "姉[あね]は",
+            "大学生[だいがくせい]です。"
+          ],
+          "en": "My older sister is a university student."
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-g02",
+      "title": "〜人 — counting people",
+      "pattern": "一人・二人・三人… ／ 何人",
+      "meaning": "one person, two people, three people… / how many people",
+      "explanation": "To count people, add 人 to a number. The first two are special: 一人 is ひとり and 二人 is ふたり. From three on, 人 is read にん: 三人 (さんにん), 五人 (ごにん), 十人 (じゅうにん). Four people is よにん, not よんにん. To ask how many people, say 何人 (なんにん). To say you have family members, use います from Unit 7: 兄が一人います — I have one older brother.",
+      "notes": [
+        "一人 (ひとり), 二人 (ふたり), 三人 (さんにん), 四人 (よにん), 五人 (ごにん), 六人 (ろくにん), 七人 (ななにん / しちにん), 八人 (はちにん), 九人 (きゅうにん), 十人 (じゅうにん).",
+        "The number usually comes right before います: 子どもが二人います.",
+        "何人家族ですか = How many people are in your family? Answer: 四人家族です."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]の家族[かぞく]は四人[よにん]です。",
+          "en": "There are four people in my family."
+        },
+        {
+          "jp": "兄弟[きょうだい]が三人[さんにん]います。",
+          "en": "I have three brothers and sisters."
+        },
+        {
+          "jp": "何人[なんにん]家族[かぞく]ですか。……五人[ごにん]家族[かぞく]です。",
+          "en": "How many people are in your family? — There are five of us."
+        },
+        {
+          "jp": "教室[きょうしつ]に学生[がくせい]が十人[じゅうにん]います。",
+          "en": "There are ten students in the classroom."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "兄[あに]が＿います。",
+          "answer": "一人[ひとり]",
+          "options": [
+            "一[ひと]つ",
+            "一人[ひとり]",
+            "一枚[いちまい]",
+            "一本[いっぽん]"
+          ],
+          "en": "I have one older brother."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]の家族[かぞく]は＿です。",
+          "answer": "四人[よにん]",
+          "options": [
+            "四人[よにん]",
+            "四人[よんにん]",
+            "四[よっ]つ",
+            "四枚[よんまい]"
+          ],
+          "en": "There are four people in my family."
+        },
+        {
+          "type": "choice",
+          "jp": "子[こ]どもが＿いますか。",
+          "answer": "何人[なんにん]",
+          "options": [
+            "いくら",
+            "だれ",
+            "何時[なんじ]",
+            "何人[なんにん]"
+          ],
+          "en": "How many children do you have?"
+        },
+        {
+          "type": "choice",
+          "jp": "妹[いもうと]が＿います。",
+          "answer": "二人[ふたり]",
+          "options": [
+            "二人[ににん]",
+            "二人[ふたり]",
+            "二[ふた]つ",
+            "二本[にほん]"
+          ],
+          "en": "I have two younger sisters."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "姉[あね]が",
+            "二人[ふたり]",
+            "います。"
+          ],
+          "en": "I have two older sisters."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ご家族[かぞく]は",
+            "何人[なんにん]",
+            "ですか。"
+          ],
+          "en": "How many people are in your family?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-g03",
+      "title": "〜ています — ongoing states (live, married, know)",
+      "pattern": "住んでいます ／ 結婚しています ／ 知っています",
+      "meaning": "live (somewhere) / am married / know",
+      "explanation": "Some verbs describe a state that continues, not a one-time action. Japanese says these with a form ending in 〜ています. For now, learn three as set phrases: 住んでいます (live somewhere), 結婚しています (am married) and 知っています (know). The place where you live takes に: 東京に住んでいます. In Unit 9 you'll learn how to build this form from any verb.",
+      "notes": [
+        "Negative: 住んでいません, 結婚していません — but \"I don't know\" is 知りません, not 知っていません.",
+        "Use に for the place you live: 大阪に住んでいます.",
+        "Use を for the person or thing you know: 田中さんを知っていますか."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は東京[とうきょう]に住[す]んでいます。",
+          "en": "I live in Tokyo."
+        },
+        {
+          "jp": "姉[あね]は結婚[けっこん]しています。子[こ]どもが二人[ふたり]います。",
+          "en": "My older sister is married. She has two children."
+        },
+        {
+          "jp": "山田[やまだ]さんを知[し]っていますか。……いいえ、知[し]りません。",
+          "en": "Do you know Ms. Yamada? — No, I don't."
+        },
+        {
+          "jp": "兄[あに]は結婚[けっこん]していません。",
+          "en": "My older brother isn't married."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "両親[りょうしん]は大阪[おおさか]＿住[す]んでいます。",
+          "answer": "に",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "が"
+          ],
+          "en": "My parents live in Osaka."
+        },
+        {
+          "type": "choice",
+          "jp": "姉[あね]は＿しています。",
+          "answer": "結婚[けっこん]",
+          "options": [
+            "結婚[けっこん]",
+            "住[す]んで",
+            "知[し]って",
+            "好[す]き"
+          ],
+          "en": "My older sister is married."
+        },
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんの電話番号[でんわばんごう]を知[し]っていますか。……いいえ、＿。",
+          "answer": "知[し]りません",
+          "options": [
+            "知[し]っていません",
+            "知[し]っています",
+            "知[し]りません",
+            "住[す]んでいません"
+          ],
+          "en": "Do you know Mr. Tanaka's phone number? — No, I don't."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]はインドに＿います。",
+          "answer": "住[す]んで",
+          "options": [
+            "結婚[けっこん]して",
+            "知[し]って",
+            "住[す]み",
+            "住[す]んで"
+          ],
+          "en": "I live in India."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]の",
+            "両親[りょうしん]は",
+            "結婚[けっこん]して",
+            "います。"
+          ],
+          "en": "My parents are married."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "山田[やまだ]さんを",
+            "知[し]って",
+            "いますか。"
+          ],
+          "en": "Do you know Ms. Yamada?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-g04",
+      "title": "〜くて / 〜で — joining adjectives (\"… and …\")",
+      "pattern": "い-adj: 〜い → 〜くて ／ な-adj: 〜 → 〜で",
+      "meaning": "… and … (linking two descriptions)",
+      "explanation": "To join two descriptions in one sentence, change the first adjective into its て-form. For い-adjectives, drop the final い and add くて: 明るい → 明るくて, 若い → 若くて. For な-adjectives, just add で: まじめ → まじめで, きれい → きれいで. Only the last adjective shows the tense and politeness, so 明るくて、きれいです means \"is cheerful and pretty\". いい is irregular: it becomes よくて.",
+      "notes": [
+        "いい → よくて (irregular): 頭がいい → 頭がよくて.",
+        "Nouns work like な-adjectives: 兄は銀行員で、姉は看護師です (my brother is a bank employee, and my sister is a nurse).",
+        "Join two good things or two bad things. For good + bad, use が (but) instead."
+      ],
+      "examples": [
+        {
+          "jp": "姉[あね]は明[あか]るくて、きれいです。",
+          "en": "My older sister is cheerful and pretty."
+        },
+        {
+          "jp": "兄[あに]はまじめで、頭[あたま]がいいです。",
+          "en": "My older brother is hard-working and smart."
+        },
+        {
+          "jp": "田中[たなか]先生[せんせい]は若[わか]くて、おもしろい先生[せんせい]です。",
+          "en": "Mr. Tanaka is a young, fun teacher."
+        },
+        {
+          "jp": "その町[まち]は静[しず]かで、きれいでした。",
+          "en": "That town was quiet and pretty."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "弟[おとうと]は背[せ]が＿、頭[あたま]がいいです。",
+          "answer": "高[たか]くて",
+          "options": [
+            "高[たか]いで",
+            "高[たか]くて",
+            "高[たか]い",
+            "高[たか]かった"
+          ],
+          "en": "My younger brother is tall and smart."
+        },
+        {
+          "type": "choice",
+          "jp": "山田[やまだ]さんはきれい＿、親切[しんせつ]です。",
+          "answer": "で",
+          "options": [
+            "くて",
+            "な",
+            "で",
+            "の"
+          ],
+          "en": "Ms. Yamada is pretty and kind."
+        },
+        {
+          "type": "choice",
+          "jp": "兄[あに]は頭[あたま]が＿、まじめです。",
+          "answer": "よくて",
+          "options": [
+            "いくて",
+            "いいで",
+            "よい",
+            "よくて"
+          ],
+          "en": "My older brother is smart and hard-working."
+        },
+        {
+          "type": "choice",
+          "jp": "母[はは]は料理[りょうり]が上手[じょうず]＿、明[あか]るいです。",
+          "answer": "で",
+          "options": [
+            "で",
+            "くて",
+            "に",
+            "が"
+          ],
+          "en": "My mother is good at cooking and cheerful."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "姉[あね]は",
+            "明[あか]るくて",
+            "元気[げんき]です。"
+          ],
+          "en": "My older sister is cheerful and energetic."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "若[わか]くて",
+            "まじめな",
+            "先生[せんせい]です。"
+          ],
+          "en": "He's a young, hard-working teacher."
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-g05",
+      "title": "もう / まだ — already, still, not yet",
+      "pattern": "もう Vました ／ いいえ、まだです ／ まだ N です",
+      "meaning": "already did ~ / not yet / still ~",
+      "explanation": "もう means \"already\" and まだ means \"still\" or \"not yet\". Ask もう〜ましたか to find out if someone has already done something: もう昼ごはんを食べましたか. If you have, say はい、もう食べました; if you haven't yet, say いいえ、まだです. With nouns and adjectives, まだ means \"still\": 弟はまだ学生です — my brother is still a student. もう with a noun means \"already\": 娘はもう大人です.",
+      "notes": [
+        "Don't answer \"not yet\" with 食べませんでした — that means \"I didn't eat\". Say まだです.",
+        "With the set phrase from this unit: まだ結婚していません = not married yet.",
+        "In Unit 9 you'll learn the full \"not yet\" form: まだ食べていません."
+      ],
+      "examples": [
+        {
+          "jp": "もう昼[ひる]ごはんを食[た]べましたか。……いいえ、まだです。",
+          "en": "Have you eaten lunch yet? — No, not yet."
+        },
+        {
+          "jp": "兄[あに]はもう結婚[けっこん]しています。",
+          "en": "My older brother is already married."
+        },
+        {
+          "jp": "弟[おとうと]はまだ高校生[こうこうせい]です。",
+          "en": "My younger brother is still a high school student."
+        },
+        {
+          "jp": "九時[くじ]です。父[ちち]はもう会社[かいしゃ]へ行[い]きました。",
+          "en": "It's nine o'clock. My father has already gone to work."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "もう晩[ばん]ごはんを食[た]べましたか。……いいえ、＿です。",
+          "answer": "まだ",
+          "options": [
+            "もう",
+            "まだ",
+            "とても",
+            "あまり"
+          ],
+          "en": "Have you eaten dinner yet? — No, not yet."
+        },
+        {
+          "type": "choice",
+          "jp": "娘[むすめ]は＿大人[おとな]です。二十五歳[にじゅうごさい]です。",
+          "answer": "もう",
+          "options": [
+            "まだ",
+            "あまり",
+            "もう",
+            "何[なに]"
+          ],
+          "en": "My daughter is already an adult. She's twenty-five."
+        },
+        {
+          "type": "choice",
+          "jp": "父[ちち]は七十歳[ななじゅっさい]ですが、＿元気[げんき]です。",
+          "answer": "まだ",
+          "options": [
+            "もう",
+            "あまり",
+            "何[なに]",
+            "まだ"
+          ],
+          "en": "My father is seventy, but he's still full of energy."
+        },
+        {
+          "type": "choice",
+          "jp": "もう薬[くすり]を飲[の]みましたか。……はい、もう＿。",
+          "answer": "飲[の]みました",
+          "options": [
+            "飲[の]みました",
+            "飲[の]みます",
+            "飲[の]みません",
+            "飲[の]みましょう"
+          ],
+          "en": "Have you taken your medicine yet? — Yes, I already took it."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "いいえ、",
+            "まだ",
+            "です。"
+          ],
+          "en": "No, not yet."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "兄[あに]は",
+            "まだ",
+            "大学生[だいがくせい]です。"
+          ],
+          "en": "My older brother is still a university student."
+        }
+      ]
+    },
+    {
+      "id": "n5-u08-g06",
+      "title": "〜が上手 / 下手 / 好き / きらい — skills and likes",
+      "pattern": "A は B が 好き / きらい / 上手 / 下手 です",
+      "meaning": "A likes / dislikes / is good at / is bad at B",
+      "explanation": "With 好き (like), きらい (dislike), 上手 (good at) and 下手 (bad at), the thing you like or are good at is marked with が, not を. So \"I like music\" is 私は音楽が好きです. These four words are な-adjectives, so before a noun they take な: 好きなスポーツ (a sport I like). To ask what someone likes, say 何が好きですか. 上手 is a compliment for other people; about yourself it sounds like bragging, so people usually answer a compliment with いいえ、まだ下手です.",
+      "notes": [
+        "Use が, not を: 料理が上手です.",
+        "大好き (だいすき) = really like, love.",
+        "好きじゃありません (don't like) sounds softer than きらいです."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は音楽[おんがく]が好[す]きです。",
+          "en": "I like music."
+        },
+        {
+          "jp": "母[はは]は料理[りょうり]が上手[じょうず]です。",
+          "en": "My mother is good at cooking."
+        },
+        {
+          "jp": "弟[おとうと]は野菜[やさい]がきらいです。",
+          "en": "My younger brother doesn't like vegetables."
+        },
+        {
+          "jp": "どんなスポーツが好[す]きですか。……サッカーが好[す]きです。",
+          "en": "What kind of sports do you like? — I like soccer."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]は映画[えいが]＿好[す]きです。",
+          "answer": "が",
+          "options": [
+            "を",
+            "に",
+            "が",
+            "で"
+          ],
+          "en": "I like movies."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんは日本語[にほんご]が＿ですね。……いいえ、まだ下手[へた]です。",
+          "answer": "上手[じょうず]",
+          "options": [
+            "上手[じょうず]",
+            "下手[へた]",
+            "きらい",
+            "大人[おとな]"
+          ],
+          "en": "Ken, your Japanese is good! — No, it's still poor."
+        },
+        {
+          "type": "choice",
+          "jp": "＿スポーツが好[す]きですか。……テニスが好[す]きです。",
+          "answer": "どんな",
+          "options": [
+            "どう",
+            "どれ",
+            "だれ",
+            "どんな"
+          ],
+          "en": "What kind of sports do you like? — I like tennis."
+        },
+        {
+          "type": "choice",
+          "jp": "兄[あに]は魚[さかな]が＿です。あまり食[た]べません。",
+          "answer": "きらい",
+          "options": [
+            "好[す]き",
+            "きらい",
+            "上手[じょうず]",
+            "大好[だいす]き"
+          ],
+          "en": "My older brother doesn't like fish. He hardly eats it."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "妹[いもうと]は",
+            "ピアノが",
+            "上手[じょうず]です。"
+          ],
+          "en": "My younger sister is good at the piano."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "日本[にほん]の",
+            "料理[りょうり]が",
+            "大好[だいす]きです。"
+          ],
+          "en": "I love Japanese food."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "わたしのかぞく — My family",
+    "text": "私[わたし]はアンナです。大阪[おおさか]に住[す]んでいます。私[わたし]は五人[ごにん]家族[かぞく]です。父[ちち]と母[はは]と兄[あに]と妹[いもうと]がいます。父[ちち]は警察官[けいさつかん]で、とてもまじめです。母[はは]は看護師[かんごし]です。明[あか]るくて、料理[りょうり]が上手[じょうず]です。兄[あに]は二十五歳[にじゅうごさい]で、もう結婚[けっこん]しています。今[いま]は東京[とうきょう]に住[す]んでいます。妹[いもうと]はまだ高校生[こうこうせい]です。スポーツが大好[だいす]きですが、勉強[べんきょう]はきらいです。私[わたし]の趣味[しゅみ]は音楽[おんがく]です。ピアノが好[す]きですが、まだ下手[へた]です。",
+    "en": "I'm Anna. I live in Osaka. There are five people in my family: my father, my mother, my older brother, my younger sister and me. My father is a police officer, and he is very serious. My mother is a nurse. She is cheerful and good at cooking. My older brother is twenty-five and already married. He lives in Tokyo now. My younger sister is still a high school student. She loves sports, but she doesn't like studying. My hobby is music. I like the piano, but I'm still not good at it.",
+    "questions": [
+      {
+        "q": "How many people are in Anna's family?",
+        "options": [
+          "Three",
+          "Four",
+          "Five",
+          "Six"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does Anna's mother do?",
+        "options": [
+          "Police officer",
+          "Nurse",
+          "Homemaker",
+          "Bank employee"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Which is true about Anna's older brother?",
+        "options": [
+          "He is a high school student",
+          "He lives in Osaka",
+          "He doesn't like sports",
+          "He is married"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Brothers and sisters",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "リンさんは兄弟[きょうだい]がいますか。",
+        "en": "Lin, do you have any brothers or sisters?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、姉[あね]が一人[ひとり]と弟[おとうと]が二人[ふたり]います。",
+        "en": "Yes, I have one older sister and two younger brothers."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。お姉[ねえ]さんのお仕事[しごと]は何[なん]ですか。",
+        "en": "I see. What does your older sister do?"
+      },
+      {
+        "speaker": "B",
+        "jp": "銀行員[ぎんこういん]です。もう結婚[けっこん]しています。",
+        "en": "She's a bank employee. She's already married."
+      },
+      {
+        "speaker": "A",
+        "jp": "弟[おとうと]さんは学生[がくせい]ですか。",
+        "en": "Are your younger brothers students?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、二人[ふたり]とも高校生[こうこうせい]です。サッカーが大好[だいす]きです。",
+        "en": "Yes, both of them are high school students. They love soccer."
+      },
+      {
+        "speaker": "A",
+        "jp": "いいですね。私[わたし]は一人[ひとり]っ子[こ]です。",
+        "en": "That's nice. I'm an only child."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですか。ご両親[りょうしん]はどこに住[す]んでいますか。",
+        "en": "Oh, really? Where do your parents live?"
+      },
+      {
+        "speaker": "A",
+        "jp": "名古屋[なごや]に住[す]んでいます。",
+        "en": "They live in Nagoya."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How many brothers and sisters does Lin have?",
+        "options": [
+          "One",
+          "Two",
+          "Three",
+          "Four"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does Lin's older sister do?",
+        "options": [
+          "She's a bank employee",
+          "She's a nurse",
+          "She's a high school student",
+          "She's an engineer"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Where do A's parents live?",
+        "options": [
+          "Tokyo",
+          "Osaka",
+          "Kyoto",
+          "Nagoya"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

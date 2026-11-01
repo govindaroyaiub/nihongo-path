@@ -1,0 +1,58 @@
+{
+  "unitId": "n5-u04",
+  "place": "Shinjuku",
+  "jp": "新宿[しんじゅく]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.6896,
+  "lng": 139.7006,
+  "tagline": "Skyscrapers, a giant station and a garden built for an emperor",
+  "history": "Shinjuku means 'new lodging': in the Edo period it began as Naitō-Shinjuku, a new post town on the Kōshū Kaidō highway west of Edo, built partly on land of the Naitō family. In the 20th century the railways turned it into a huge transport hub, and Shinjuku Station is often called the busiest station in the world. Since the 1970s its west side has filled with skyscrapers, including the Tokyo Metropolitan Government Building, completed in 1990.",
+  "sites": [
+    {
+      "name": "Shinjuku Gyoen",
+      "jp": "新宿御苑[しんじゅくぎょえん]",
+      "kind": "garden",
+      "year": "1906",
+      "desc": "Once part of the Naitō family's Edo estate, it became an imperial garden in 1906 and opened to the public in 1949. It is one of Tokyo's best cherry-blossom spots."
+    },
+    {
+      "name": "Tokyo Metropolitan Government Building",
+      "jp": "東京都庁[とうきょうとちょう]",
+      "kind": "landmark",
+      "year": "1990",
+      "desc": "Tokyo's 243 m twin-towered city hall, designed by Kenzo Tange. Its observation decks, 202 m up, are free, and on clear days you can see Mt. Fuji."
+    },
+    {
+      "name": "Omoide Yokochō",
+      "jp": "思[おも]い出[で]横丁[よこちょう]",
+      "kind": "street",
+      "year": null,
+      "desc": "A narrow alley of tiny bars and grilled-chicken stalls by the station. It grew out of a market from just after the war."
+    }
+  ],
+  "facts": [
+    "Millions of passengers pass through Shinjuku Station every day.",
+    "The observation decks of the Tokyo Metropolitan Government Building cost nothing to visit.",
+    "The name Shinjuku comes from shin (new) and juku (lodging, post town)."
+  ],
+  "words": [
+    { "word": "新宿[しんじゅく]", "meaning": "Shinjuku" },
+    { "word": "新宿御苑[しんじゅくぎょえん]", "meaning": "Shinjuku Gyoen (garden)" },
+    { "word": "桜[さくら]", "meaning": "cherry blossoms" },
+    { "word": "都庁[とちょう]", "meaning": "Tokyo Metropolitan Government Building" },
+    { "word": "富士山[ふじさん]", "meaning": "Mt. Fuji" },
+    { "word": "原宿[はらじゅく]", "meaning": "Harajuku" }
+  ],
+  "stamp": { "kanji": "新宿", "motif": "tower" },
+  "reading": {
+    "title": "新宿[しんじゅく]の一日[いちにち]",
+    "text": "アンナさんは友[とも]だちのケンさんと電車[でんしゃ]で新宿[しんじゅく]へ行[い]きました。朝[あさ]、新宿御苑[しんじゅくぎょえん]で桜[さくら]を見[み]ました。昼[ひる]、レストランで昼[ひる]ごはんを食[た]べました。午後[ごご]、都庁[とちょう]へ行[い]きました。都庁[とちょう]から富士山[ふじさん]を見[み]ました。\nケン「明日[あした]、一緒[いっしょ]に原宿[はらじゅく]へ行[い]きませんか。」\nアンナ「ええ、行[い]きましょう。」",
+    "en": "Anna went to Shinjuku by train with her friend Ken. In the morning they saw the cherry blossoms at Shinjuku Gyoen. At noon they ate lunch at a restaurant. In the afternoon they went to the Metropolitan Government Building. From there they saw Mt. Fuji.\nKen: \"Shall we go to Harajuku together tomorrow?\"\nAnna: \"Yes, let's go.\"",
+    "questions": [
+      { "q": "How did they get to Shinjuku?", "options": ["By bus", "By train", "On foot", "By taxi"], "answer": 1 },
+      { "q": "What did they see at Shinjuku Gyoen?", "options": ["Cherry blossoms", "Mt. Fuji", "A temple", "A film"], "answer": 0 },
+      { "q": "What does Ken suggest for tomorrow?", "options": ["Going home", "Eating breakfast", "Studying Japanese", "Going to Harajuku together"], "answer": 3 }
+    ]
+  }
+}

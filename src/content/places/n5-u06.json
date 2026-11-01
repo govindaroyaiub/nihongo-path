@@ -1,0 +1,58 @@
+{
+  "unitId": "n5-u06",
+  "place": "Kamakura",
+  "jp": "鎌倉[かまくら]",
+  "prefecture": "Kanagawa",
+  "region": "Kantō",
+  "lat": 35.3192,
+  "lng": 139.5467,
+  "tagline": "Japan's first samurai capital, with a giant open-air Buddha",
+  "history": "In the late 12th century, the warrior Minamoto no Yoritomo made Kamakura his base and set up Japan's first samurai government, the Kamakura shogunate, which ruled until 1333. Protected by hills on three sides and the sea on the fourth, the town filled with temples and shrines. The great bronze Buddha of Kōtoku-in was begun in 1252; the hall around it was lost in the 15th century, most often said to be from a tsunami in 1498, and it has sat in the open air ever since.",
+  "sites": [
+    {
+      "name": "Great Buddha of Kōtoku-in",
+      "jp": "高徳院[こうとくいん]の大仏[だいぶつ]",
+      "kind": "temple",
+      "year": "1252",
+      "desc": "A bronze Buddha about 11 m tall, begun in 1252. It has stood outdoors since its hall was destroyed in the 15th century."
+    },
+    {
+      "name": "Tsurugaoka Hachimangū",
+      "jp": "鶴岡八幡宮[つるがおかはちまんぐう]",
+      "kind": "shrine",
+      "year": "1063",
+      "desc": "Kamakura's most important shrine, first founded near the sea in 1063 by Minamoto no Yoriyoshi. Minamoto no Yoritomo moved it to its present hillside site in 1180."
+    },
+    {
+      "name": "Wakamiya Ōji",
+      "jp": "若宮大路[わかみやおおじ]",
+      "kind": "street",
+      "year": null,
+      "desc": "The long, straight avenue from the sea to Tsurugaoka Hachimangū, laid out by Yoritomo. Its raised central path is lined with cherry trees."
+    }
+  ],
+  "facts": [
+    "For a small fee you can step inside the hollow Great Buddha.",
+    "An earlier wooden Great Buddha was badly damaged by a storm before the bronze one was made.",
+    "The Kamakura period (1185–1333) is named after this small seaside town."
+  ],
+  "words": [
+    { "word": "鎌倉[かまくら]", "meaning": "Kamakura" },
+    { "word": "大仏[だいぶつ]", "meaning": "great Buddha statue" },
+    { "word": "高徳院[こうとくいん]", "meaning": "Kōtoku-in (temple)" },
+    { "word": "お寺[てら]", "meaning": "temple" },
+    { "word": "鶴岡八幡宮[つるがおかはちまんぐう]", "meaning": "Tsurugaoka Hachimangū (shrine)" },
+    { "word": "武士[ぶし]", "meaning": "samurai, warrior" }
+  ],
+  "stamp": { "kanji": "鎌倉", "motif": "torii" },
+  "reading": {
+    "title": "鎌倉[かまくら]の大仏[だいぶつ]",
+    "text": "昨日[きのう]、アンナさんは電車[でんしゃ]で鎌倉[かまくら]へ行[い]きました。鎌倉[かまくら]は古[ふる]い町[まち]です。高徳院[こうとくいん]の大仏[だいぶつ]はとても有名[ゆうめい]です。大仏[だいぶつ]は大[おお]きかったです。でも、お寺[てら]はあまり大[おお]きくなかったです。それから、鶴岡八幡宮[つるがおかはちまんぐう]へ行[い]きました。とてもにぎやかでした。天気[てんき]もよかったです。鎌倉[かまくら]は楽[たの]しかったです。",
+    "en": "Yesterday Anna went to Kamakura by train. Kamakura is an old town. The Great Buddha of Kōtoku-in is very famous. The Buddha was big. But the temple was not very big. After that, she went to Tsurugaoka Hachimangū. It was very lively. The weather was good, too. Kamakura was fun.",
+    "questions": [
+      { "q": "How did Anna go to Kamakura?", "options": ["By car", "By bus", "By train", "By bicycle"], "answer": 2 },
+      { "q": "What was the temple, Kōtoku-in, like?", "options": ["Very big", "Not very big", "Very new", "Very quiet"], "answer": 1 },
+      { "q": "How was the weather?", "options": ["Good", "Rainy", "Cold", "Snowy"], "answer": 0 }
+    ]
+  }
+}

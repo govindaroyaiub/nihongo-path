@@ -1,53 +1,66 @@
 # Nihongo Path
 
-A mobile-first Japanese learning app: hiragana, katakana, grammar, vocabulary and kanji,
-each with flashcards + quizzes scheduled by a simple SM-2 (Anki-style) spaced repetition
-algorithm. No account needed — progress is saved on your device, and it installs as a PWA so
-it feels native on your phone.
+A guided, anime-style path from zero Japanese to JLPT N4, framed as a journey across Japan:
+each unit is an "episode" at a real place (Shibuya → Akihabara → … → Mt. Fuji) with its history,
+famous sites, a travel reading in Japanese, and a goshuin stamp to collect. Every lesson teaches
+before it tests, and every learned item feeds a spaced-repetition review.
+It installs as a PWA and saves progress on the device, with no account.
 
 **Live demo:** [nihongo-path-nine.vercel.app](https://nihongo-path-nine.vercel.app)
 
-## 1. Run locally
+## The course
+
+| Stage | What you learn |
+|-------|----------------|
+| Kana | Hiragana and katakana, 13 lessons each, from vowels up to combinations |
+| N5 Units 1–12 | ~630 words, 101 kanji, ~80 grammar points, a reading, a listening and a travel reading per unit |
+| Places | 14 journey stops with history, sites, fun facts, a stamp book and a Japan map (`src/content/places/`) |
+| N5 exam prep | Timed mock tests in the JLPT format *(in progress)* |
+| N4 Units 13+ | Builds on N5 *(next)* |
+
+Each unit is one file, `src/content/n5/unit-NN.json`. Lessons are generated from it in a fixed rhythm
+(words → grammar → words → … → kanji → reading → listening → checkpoint). The checkpoint
+needs 80% to unlock the next unit.
+
+The design spec is in `docs/superpowers/specs/2026-11-01-n5-n4-path-design.md`, and the N5 syllabus is in
+`docs/superpowers/specs/n5-syllabus.md`.
+
+## Run locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Open the printed local URL. For phone testing on your local network, run `npm run dev -- --host`
-and open `http://<your-computer-ip>:5173` from your phone's browser (same Wi-Fi network).
+## Voice
 
-## 2. Deploy to Vercel
+The app plays pre-recorded neural clips from `public/audio/` when they exist, and otherwise falls back to the
+best Japanese voice the browser has. You can change the fallback voice in Settings.
 
-1. Push this project to a GitHub repo.
-2. In Vercel, **Add New Project** → import the repo. Framework preset: **Vite** (auto-detected).
-3. Deploy. Vercel builds with `npm run build` and serves the `dist` folder automatically.
+Generate the clips (Google Cloud Text-to-Speech, Neural2 voices; the whole course fits in the free tier):
 
-## 3. Install on your phone
+```bash
+GOOGLE_TTS_KEY=your-key npm run audio
+```
 
-Open the deployed URL in Safari (iOS) or Chrome (Android) → **Share → Add to Home Screen**
-(iOS) or the install prompt (Android/Chrome). The app installs with its own icon and opens
-full-screen without browser chrome.
+Re-running only generates clips for new or changed sentences. `npm run audio -- --dry` counts them without
+generating anything.
 
-## How it works
+## Content checks
 
-- **Storage**: `src/lib/store.js` keeps SM-2 progress and the study log in `localStorage`.
-  Progress belongs to that browser on that device — clearing site data resets it, and it
-  doesn't sync between devices.
-- **Content**: each module's cards live in `src/data/*.json` — plain arrays you can edit or
-  extend directly (add a new hiragana variant, more grammar points, more kanji, etc.) without
-  touching any code.
-- **Scheduling**: `src/lib/sm2.js` implements SM-2. Swiping a flashcard right (or answering a
-  quiz question correctly) counts as quality 5; left/incorrect counts as quality 2. Ease factor,
-  interval, and next review date update per the standard SM-2 formula.
-- **Reset Progress** (per module) permanently deletes that module's saved progress —
-  you restart from zero.
-- **Redo Module** sets `next_review_date` to today for all of that module's cards without
-  touching ease factor or correct/incorrect counts — useful for a refresher pass.
-- **Streak** counts consecutive calendar days with at least one review, read from the study log.
+```bash
+npm run validate
+```
 
-## Tech stack
+This checks every unit for missing furigana, broken drills, out-of-range answers, duplicate ids and words
+repeated across units. `npm run build` runs it first.
 
-React + Vite, Tailwind CSS, React Router, lucide-react icons,
-`vite-plugin-pwa` for the installable manifest + service worker.
-# nihongo-path
+## Deploy
+
+Vercel: import the repo, framework preset **Vite**. Docker: `docker build -t nihongo-path .`
+(nginx serves `dist/`, with SPA fallback).
+
+## Tech
+
+React 19 + Vite, Tailwind CSS, React Router, wanakana (romaji → kana typing), lucide-react,
+`vite-plugin-pwa`.

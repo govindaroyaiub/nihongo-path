@@ -1,0 +1,48 @@
+{
+  "unitId": "n5-hiragana",
+  "place": "Narita Airport",
+  "jp": "成田空港[なりたくうこう]",
+  "prefecture": "Chiba",
+  "region": "Kantō",
+  "lat": 35.7720,
+  "lng": 140.3929,
+  "tagline": "Tokyo's main international gateway, out among Chiba's farmland",
+  "history": "Narita International Airport opened on 20 May 1978 to take international flights off crowded Haneda. Its construction was fiercely opposed by local farmers and student activists in the Sanrizuka struggle, which delayed the opening for years. Although it is often called 'Tokyo Narita', the airport sits in Chiba Prefecture, roughly 60 km east of central Tokyo. Long before planes arrived, the town of Narita was known for its great temple, Naritasan Shinshō-ji, which drew pilgrims from Edo.",
+  "sites": [
+    {
+      "name": "Narita International Airport",
+      "jp": "成田国際空港[なりたこくさいくうこう]",
+      "kind": "landmark",
+      "year": "1978",
+      "desc": "One of Japan's busiest gateways for international flights. Terminal 3, for low-cost airlines, was added in 2015."
+    },
+    {
+      "name": "Naritasan Shinshō-ji",
+      "jp": "成田山新勝寺[なりたさんしんしょうじ]",
+      "kind": "temple",
+      "year": "940",
+      "desc": "A large Buddhist temple founded, according to tradition, in 940. Its wide grounds include a pagoda, halls and a peaceful park."
+    },
+    {
+      "name": "Omotesandō of Narita",
+      "jp": "表参道[おもてさんどう]",
+      "kind": "street",
+      "year": null,
+      "desc": "The old approach road to Shinshō-ji, lined with wooden shops. It is famous for restaurants serving grilled eel."
+    }
+  ],
+  "facts": [
+    "Narita Airport is in Chiba Prefecture, not in Tokyo itself.",
+    "Many travellers with a long layover take a short trip from the airport to Naritasan Shinshō-ji.",
+    "Narita's opening was delayed for years by protests over the farmland it was built on."
+  ],
+  "words": [
+    { "word": "空港[くうこう]", "meaning": "airport" },
+    { "word": "飛行機[ひこうき]", "meaning": "airplane" },
+    { "word": "成田[なりた]", "meaning": "Narita" },
+    { "word": "パスポート", "meaning": "passport" },
+    { "word": "ようこそ", "meaning": "welcome" }
+  ],
+  "stamp": { "kanji": "成田", "motif": "plane" },
+  "reading": null
+}

@@ -1,0 +1,58 @@
+{
+  "unitId": "n5-u01",
+  "place": "Shibuya",
+  "jp": "渋谷[しぶや]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.6595,
+  "lng": 139.7005,
+  "tagline": "Home of the famous scramble crossing and Hachikō, the loyal dog",
+  "history": "Shibuya grew around its railway station into one of Tokyo's busiest shopping and youth districts. It is best known for Hachikō, an Akita dog who met his owner, Professor Ueno Hidesaburō, at Shibuya Station every day. After the professor died suddenly in 1925, Hachikō kept coming to the station for nearly ten years, until his own death in 1935. A bronze statue of him was put up in 1934; it was melted down for metal during the war, and the statue you see today was made in 1948.",
+  "sites": [
+    {
+      "name": "Hachikō Statue",
+      "jp": "ハチ公像[こうぞう]",
+      "kind": "landmark",
+      "year": "1948",
+      "desc": "The bronze dog outside Shibuya Station is Tokyo's most famous meeting spot. It replaced the 1934 original, which was lost in the war."
+    },
+    {
+      "name": "Shibuya Scramble Crossing",
+      "jp": "渋谷[しぶや]スクランブル交差点[こうさてん]",
+      "kind": "street",
+      "year": null,
+      "desc": "When the lights turn red for cars, people cross in every direction at once. At busy times thousands of people cross in a single green light."
+    },
+    {
+      "name": "Shibuya Scramble Square",
+      "jp": "渋谷[しぶや]スクランブルスクエア",
+      "kind": "landmark",
+      "year": "2019",
+      "desc": "A tall tower above the station with an open-air rooftop deck, Shibuya Sky, looking down on the crossing."
+    }
+  ],
+  "facts": [
+    "Hachikō was there when his first statue was unveiled in 1934.",
+    "A survey once counted up to about 3,000 people crossing the scramble in one green light.",
+    "The current Hachikō statue was made by the son of the sculptor who made the first one."
+  ],
+  "words": [
+    { "word": "渋谷[しぶや]", "meaning": "Shibuya" },
+    { "word": "ハチ公[こう]", "meaning": "Hachikō (the loyal dog)" },
+    { "word": "犬[いぬ]", "meaning": "dog" },
+    { "word": "上野[うえの]先生[せんせい]", "meaning": "Professor Ueno, Hachikō's owner" },
+    { "word": "秋田犬[あきたいぬ]", "meaning": "Akita (a Japanese dog breed)" },
+    { "word": "交差点[こうさてん]", "meaning": "intersection, crossing" }
+  ],
+  "stamp": { "kanji": "渋谷", "motif": "crossing" },
+  "reading": {
+    "title": "渋谷[しぶや]のハチ公[こう]",
+    "text": "アンナさんはアメリカ人[じん]です。大学[だいがく]の学生[がくせい]です。ケンさんはアンナさんの友[とも]だちです。ケンさんも学生[がくせい]です。\nアンナ「ケンさん、ハチ公[こう]は何[なん]ですか。」\nケン「ハチ公[こう]は犬[いぬ]です。上野[うえの]先生[せんせい]の犬[いぬ]です。」\nアンナ「ハチ公[こう]はアメリカの犬[いぬ]ですか。」\nケン「いいえ、アメリカの犬[いぬ]じゃありません。日本[にほん]の秋田犬[あきたいぬ]です。」\nアンナ「ハチ公[こう]は渋谷[しぶや]のシンボルですか。」\nケン「はい、渋谷[しぶや]のシンボルです。」",
+    "en": "Anna is American. She is a university student. Ken is Anna's friend. Ken is a student too.\nAnna: \"Ken, what is Hachikō?\"\nKen: \"Hachikō is a dog. He is Professor Ueno's dog.\"\nAnna: \"Is Hachikō an American dog?\"\nKen: \"No, he isn't an American dog. He's a Japanese Akita dog.\"\nAnna: \"Is Hachikō the symbol of Shibuya?\"\nKen: \"Yes, he's the symbol of Shibuya.\"",
+    "questions": [
+      { "q": "Who is Ken?", "options": ["Anna's teacher", "Anna's friend", "Hachikō's owner", "A doctor"], "answer": 1 },
+      { "q": "What is Hachikō?", "options": ["A student", "A teacher", "A dog", "A station"], "answer": 2 },
+      { "q": "Whose dog was Hachikō?", "options": ["Professor Ueno's", "Ken's", "Anna's", "A shop owner's"], "answer": 0 }
+    ]
+  }
+}

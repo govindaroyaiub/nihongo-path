@@ -1,0 +1,63 @@
+{
+  "unitId": "n5-u11",
+  "place": "Osaka",
+  "jp": "大阪[おおさか]",
+  "prefecture": "Osaka",
+  "region": "Kansai",
+  "lat": 34.6937,
+  "lng": 135.5023,
+  "tagline": "Merchant city of neon canals, castles and eating till you drop",
+  "history": "Osaka has been a port and trading hub since ancient times. In 1583 Toyotomi Hideyoshi began building Osaka Castle here, and after his family fell in 1615 the city grew into the Edo period's great commercial centre, nicknamed 'the nation's kitchen' because rice and goods from all over Japan passed through it. Merchants dug canals across the city, including Dōtonbori. Today Osaka is Japan's big, friendly second hub after Tokyo, known for comedy, street food and a love of eating out.",
+  "sites": [
+    {
+      "name": "Osaka Castle",
+      "jp": "大阪城[おおさかじょう]",
+      "kind": "castle",
+      "year": "1583",
+      "desc": "Begun by Toyotomi Hideyoshi in 1583 and later rebuilt by the Tokugawa after the siege of 1615. The present main keep is a concrete reconstruction from 1931, paid for by donations from Osaka's citizens."
+    },
+    {
+      "name": "Dōtonbori",
+      "jp": "道頓堀[どうとんぼり]",
+      "kind": "street",
+      "year": "1615",
+      "desc": "A canal dug between 1612 and 1615 that became Osaka's theatre and entertainment district. Today it glows with giant signs, including the Glico running man, first put up in 1935."
+    }
+  ],
+  "facts": [
+    "Takoyaki, batter balls filled with octopus, are usually said to have been invented in Osaka in 1935.",
+    "Osaka's food-loving spirit is summed up in the word kuidaore, 'to eat until you drop'.",
+    "Dōtonbori's giant moving crab sign advertises a crab restaurant that opened there in the 1960s."
+  ],
+  "words": [
+    { "word": "大阪[おおさか]", "meaning": "Osaka" },
+    { "word": "大阪城[おおさかじょう]", "meaning": "Osaka Castle" },
+    { "word": "お城[しろ]", "meaning": "castle" },
+    { "word": "道頓堀[どうとんぼり]", "meaning": "Dōtonbori" },
+    { "word": "たこ焼[や]き", "meaning": "takoyaki (octopus balls)" },
+    { "word": "たこ", "meaning": "octopus" }
+  ],
+  "stamp": { "kanji": "大阪", "motif": "octopus" },
+  "reading": {
+    "title": "大阪[おおさか]のたこ焼[や]き",
+    "text": "去年[きょねん]、友[とも]だちと大阪[おおさか]へ旅行[りょこう]しました。朝[あさ]は大阪城[おおさかじょう]へ行[い]きました。お城[しろ]は大[おお]きくて、とてもきれいでした。お城[しろ]を見[み]た後[あと]で、道頓堀[どうとんぼり]へ行[い]きました。道頓堀[どうとんぼり]はにぎやかで、店[みせ]が多[おお]いです。写真[しゃしん]を撮[と]ったり、お土産[みやげ]を買[か]ったりしました。晩[ばん]ごはんのとき、初[はじ]めてたこ焼[や]きを食[た]べました。たこ焼[や]きを食[た]べたことがありますか。とても熱[あつ]いです。食[た]べる前[まえ]に少[すこ]し待[ま]ってくださいね。",
+    "en": "Last year I travelled to Osaka with a friend. In the morning we went to Osaka Castle. The castle was big and very beautiful. After seeing the castle, we went to Dōtonbori. Dōtonbori is lively and has lots of shops. We did things like take photos and buy souvenirs. At dinner I ate takoyaki for the first time. Have you ever eaten takoyaki? They're very hot. Wait a little before you eat them!",
+    "questions": [
+      {
+        "q": "Where did the writer go first?",
+        "options": ["Dōtonbori", "A souvenir shop", "Osaka Castle", "A restaurant"],
+        "answer": 2
+      },
+      {
+        "q": "What did they do in Dōtonbori?",
+        "options": ["Took photos and bought souvenirs", "Climbed the castle", "Swam in the canal", "Visited a temple"],
+        "answer": 0
+      },
+      {
+        "q": "What is takoyaki like, according to the writer?",
+        "options": ["Very expensive", "Very hot", "Very sweet", "Cold"],
+        "answer": 1
+      }
+    ]
+  }
+}

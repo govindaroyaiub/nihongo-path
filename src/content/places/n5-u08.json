@@ -1,0 +1,63 @@
+{
+  "unitId": "n5-u08",
+  "place": "Nagoya",
+  "jp": "名古屋[なごや]",
+  "prefecture": "Aichi",
+  "region": "Chūbu",
+  "lat": 35.1815,
+  "lng": 136.9066,
+  "tagline": "A castle crowned with golden fish, in the land of the unifiers",
+  "history": "Nagoya grew up around its castle, which Tokugawa Ieyasu ordered built in 1609; the keep was finished in 1612, and a whole town was moved here from nearby Kiyosu. The surrounding region produced all three of Japan's great 16th-century unifiers: Oda Nobunaga, Toyotomi Hideyoshi and Tokugawa Ieyasu. The castle keep burned in an air raid in 1945 and was rebuilt in concrete in 1959. Today Nagoya is one of Japan's largest cities and a centre of industry, known for its hearty local food.",
+  "sites": [
+    {
+      "name": "Nagoya Castle",
+      "jp": "名古屋城[なごやじょう]",
+      "kind": "castle",
+      "year": "1612",
+      "desc": "A Tokugawa castle whose roof is topped by a pair of golden shachihoko, a male and a female. The keep was rebuilt in 1959, and the Honmaru Palace beside it was reconstructed by 2018."
+    },
+    {
+      "name": "Atsuta Shrine",
+      "jp": "熱田神宮[あつたじんぐう]",
+      "kind": "shrine",
+      "year": null,
+      "desc": "One of Japan's most important shrines, said by tradition to be around 1,900 years old. It enshrines Kusanagi, the legendary sword that is one of the three imperial regalia, though no one is allowed to see it."
+    }
+  ],
+  "facts": [
+    "A shachihoko is a mythical creature with a tiger's head and a fish's body, believed to protect buildings from fire.",
+    "Each of Nagoya Castle's golden shachihoko is over 2.5 metres tall and covered in thin gold plate.",
+    "Nagoya is famous for miso katsu, a pork cutlet with a thick red-miso sauce."
+  ],
+  "words": [
+    { "word": "名古屋[なごや]", "meaning": "Nagoya" },
+    { "word": "お城[しろ]", "meaning": "castle" },
+    { "word": "金[きん]", "meaning": "gold" },
+    { "word": "しゃちほこ", "meaning": "shachihoko (tiger-headed fish ornament)" },
+    { "word": "熱田神宮[あつたじんぐう]", "meaning": "Atsuta Shrine" },
+    { "word": "神社[じんじゃ]", "meaning": "Shinto shrine" }
+  ],
+  "stamp": { "kanji": "名古屋", "motif": "castle" },
+  "reading": {
+    "title": "名古屋[なごや]の姉[あね]",
+    "text": "名古屋[なごや]は大[おお]きくて、にぎやかな町[まち]です。私[わたし]の姉[あね]は名古屋[なごや]に住[す]んでいます。姉[あね]は結婚[けっこん]しています。子[こ]どもが二人[ふたり]います。名古屋[なごや]には古[ふる]いお城[しろ]があります。お城[しろ]の上[うえ]に金[きん]のしゃちほこが二[ふた]つあります。姉[あね]の息子[むすこ]はしゃちほこが好[す]きです。お城[しろ]の南[みなみ]には熱田神宮[あつたじんぐう]があります。古[ふる]くて、静[しず]かな神社[じんじゃ]です。姉[あね]は料理[りょうり]が上手[じょうず]です。",
+    "en": "Nagoya is a big, lively city. My older sister lives in Nagoya. She is married. She has two children. In Nagoya there is an old castle. On top of the castle there are two golden shachihoko. My sister's son likes the shachihoko. To the south of the castle is Atsuta Shrine. It is an old, quiet shrine. My sister is good at cooking.",
+    "questions": [
+      {
+        "q": "How many children does the writer's sister have?",
+        "options": ["One", "Three", "Two", "None"],
+        "answer": 2
+      },
+      {
+        "q": "What is on top of the castle?",
+        "options": ["Two golden shachihoko", "A red torii gate", "A shrine", "A big tree"],
+        "answer": 0
+      },
+      {
+        "q": "What is the sister good at?",
+        "options": ["Piano", "Cooking", "Sports", "Japanese"],
+        "answer": 1
+      }
+    ]
+  }
+}

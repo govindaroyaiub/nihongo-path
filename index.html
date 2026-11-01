@@ -5,21 +5,29 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0" />
-    <meta name="theme-color" content="#bc5a3d" />
+    <meta name="theme-color" content="#fff8ef" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#14122a" media="(prefers-color-scheme: dark)" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-status-bar-style" content="default" />
     <meta name="apple-mobile-web-app-title" content="Nihongo" />
-    <meta name="description" content="Learn hiragana, katakana, grammar, vocabulary and kanji with spaced repetition." />
+    <meta name="description" content="A guided path from zero Japanese to JLPT N4 — lessons, natural audio, spaced review and exam prep." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400;500;700;800&family=Dela+Gothic+One&family=Klee+One:wght@400;600&display=swap"
       rel="stylesheet"
     />
     <title>Nihongo Path</title>
   </head>
   <body>
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        var t = (JSON.parse(localStorage.getItem('np2:settings')) || {}).theme
+        if (t === 'dark' || (t !== 'light' && matchMedia('(prefers-color-scheme: dark)').matches)) document.documentElement.dataset.theme = 'dark'
+      } catch (e) {}
+    </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
   </body>

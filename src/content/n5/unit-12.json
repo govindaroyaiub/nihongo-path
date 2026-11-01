@@ -1,0 +1,1686 @@
+{
+  "id": "n5-u12",
+  "level": "N5",
+  "number": 12,
+  "title": "Seasons, weather and plans",
+  "goal": "Talk about the seasons and the weather, compare things, and share your plans and wishes.",
+  "vocab": [
+    {
+      "id": "n5-u12-v01",
+      "word": "季節[きせつ]",
+      "meaning": "season",
+      "pos": "noun",
+      "example": {
+        "jp": "日本[にほん]には季節[きせつ]が四[よっ]つあります。",
+        "en": "Japan has four seasons."
+      }
+    },
+    {
+      "id": "n5-u12-v02",
+      "word": "春[はる]",
+      "meaning": "spring",
+      "pos": "noun",
+      "example": {
+        "jp": "春[はる]は暖[あたた]かいです。",
+        "en": "Spring is warm."
+      }
+    },
+    {
+      "id": "n5-u12-v03",
+      "word": "夏[なつ]",
+      "meaning": "summer",
+      "pos": "noun",
+      "example": {
+        "jp": "夏[なつ]は暑[あつ]いですね。",
+        "en": "Summer is hot, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u12-v04",
+      "word": "秋[あき]",
+      "meaning": "autumn, fall",
+      "pos": "noun",
+      "example": {
+        "jp": "秋[あき]は涼[すず]しくて、いい季節[きせつ]です。",
+        "en": "Autumn is cool and a nice season."
+      }
+    },
+    {
+      "id": "n5-u12-v05",
+      "word": "冬[ふゆ]",
+      "meaning": "winter",
+      "pos": "noun",
+      "example": {
+        "jp": "北海道[ほっかいどう]の冬[ふゆ]はとても寒[さむ]いです。",
+        "en": "Winter in Hokkaido is very cold."
+      }
+    },
+    {
+      "id": "n5-u12-v09",
+      "word": "天気予報[てんきよほう]",
+      "meaning": "weather forecast",
+      "pos": "noun",
+      "example": {
+        "jp": "天気予報[てんきよほう]を見[み]ましたか。",
+        "en": "Did you see the weather forecast?"
+      }
+    },
+    {
+      "id": "n5-u12-v11",
+      "word": "曇[くも]り",
+      "meaning": "cloudy weather",
+      "pos": "noun",
+      "example": {
+        "jp": "今日[きょう]は一日[いちにち]曇[くも]りでした。",
+        "en": "It was cloudy all day today."
+      }
+    },
+    {
+      "id": "n5-u12-v14",
+      "word": "風[かぜ]",
+      "meaning": "wind",
+      "pos": "noun",
+      "example": {
+        "jp": "今日[きょう]は風[かぜ]が強[つよ]いです。",
+        "en": "The wind is strong today."
+      }
+    },
+    {
+      "id": "n5-u12-v15",
+      "word": "台風[たいふう]",
+      "meaning": "typhoon",
+      "pos": "noun",
+      "example": {
+        "jp": "明日[あした]、台風[たいふう]が来[く]るでしょう。",
+        "en": "A typhoon will probably come tomorrow."
+      }
+    },
+    {
+      "id": "n5-u12-v16",
+      "word": "梅雨[つゆ]",
+      "meaning": "the rainy season (early summer)",
+      "pos": "noun",
+      "example": {
+        "jp": "六月[ろくがつ]は梅雨[つゆ]で、雨[あめ]が多[おお]いです。",
+        "en": "June is the rainy season, so it rains a lot."
+      }
+    },
+    {
+      "id": "n5-u12-v17",
+      "word": "降[ふ]る",
+      "meaning": "to fall (rain, snow)",
+      "pos": "verb",
+      "example": {
+        "jp": "雨[あめ]が降[ふ]っていますから、傘[かさ]を持[も]って行[い]ってください。",
+        "en": "It's raining, so please take an umbrella."
+      }
+    },
+    {
+      "id": "n5-u12-v18",
+      "word": "吹[ふ]く",
+      "meaning": "to blow (wind)",
+      "pos": "verb",
+      "example": {
+        "jp": "冷[つめ]たい風[かぜ]が吹[ふ]いています。",
+        "en": "A cold wind is blowing."
+      }
+    },
+    {
+      "id": "n5-u12-v19",
+      "word": "晴[は]れる",
+      "meaning": "to clear up, to be sunny",
+      "pos": "verb",
+      "example": {
+        "jp": "午後[ごご]から晴[は]れるでしょう。",
+        "en": "It will probably clear up from the afternoon."
+      }
+    },
+    {
+      "id": "n5-u12-v20",
+      "word": "止[や]む",
+      "meaning": "to stop (rain, snow)",
+      "pos": "verb",
+      "example": {
+        "jp": "雨[あめ]が止[や]みましたね。",
+        "en": "The rain has stopped, hasn't it?"
+      }
+    },
+    {
+      "id": "n5-u12-v21",
+      "word": "自然[しぜん]",
+      "meaning": "nature",
+      "pos": "noun",
+      "example": {
+        "jp": "この町[まち]は自然[しぜん]が多[おお]いです。",
+        "en": "This town has a lot of nature."
+      }
+    },
+    {
+      "id": "n5-u12-v22",
+      "word": "山[やま]",
+      "meaning": "mountain",
+      "pos": "noun",
+      "example": {
+        "jp": "夏休[なつやす]みに山[やま]に登[のぼ]りました。",
+        "en": "I climbed a mountain during summer vacation."
+      }
+    },
+    {
+      "id": "n5-u12-v23",
+      "word": "川[かわ]",
+      "meaning": "river",
+      "pos": "noun",
+      "example": {
+        "jp": "家[いえ]の近[ちか]くに川[かわ]があります。",
+        "en": "There is a river near my house."
+      }
+    },
+    {
+      "id": "n5-u12-v25",
+      "word": "湖[みずうみ]",
+      "meaning": "lake",
+      "pos": "noun",
+      "example": {
+        "jp": "湖[みずうみ]はとてもきれいでした。",
+        "en": "The lake was very beautiful."
+      }
+    },
+    {
+      "id": "n5-u12-v26",
+      "word": "森[もり]",
+      "meaning": "forest, woods",
+      "pos": "noun",
+      "example": {
+        "jp": "森[もり]の中[なか]を歩[ある]きました。",
+        "en": "I walked through the forest."
+      }
+    },
+    {
+      "id": "n5-u12-v27",
+      "word": "島[しま]",
+      "meaning": "island",
+      "pos": "noun",
+      "example": {
+        "jp": "小[ちい]さい島[しま]に行[い]きたいです。",
+        "en": "I want to go to a small island."
+      }
+    },
+    {
+      "id": "n5-u12-v28",
+      "word": "空[そら]",
+      "meaning": "sky",
+      "pos": "noun",
+      "example": {
+        "jp": "秋[あき]の空[そら]は青[あお]くてきれいです。",
+        "en": "The autumn sky is blue and beautiful."
+      }
+    },
+    {
+      "id": "n5-u12-v29",
+      "word": "星[ほし]",
+      "meaning": "star",
+      "pos": "noun",
+      "example": {
+        "jp": "山[やま]の上[うえ]で星[ほし]をたくさん見[み]ました。",
+        "en": "I saw lots of stars on top of the mountain."
+      }
+    },
+    {
+      "id": "n5-u12-v30",
+      "word": "花[はな]",
+      "meaning": "flower",
+      "pos": "noun",
+      "example": {
+        "jp": "きれいな花[はな]が咲[さ]いています。",
+        "en": "Pretty flowers are blooming."
+      }
+    },
+    {
+      "id": "n5-u12-v31",
+      "word": "桜[さくら]",
+      "meaning": "cherry blossom, cherry tree",
+      "pos": "noun",
+      "example": {
+        "jp": "四月[しがつ]に桜[さくら]が咲[さ]きます。",
+        "en": "The cherry blossoms bloom in April."
+      }
+    },
+    {
+      "id": "n5-u12-v32",
+      "word": "紅葉[もみじ]",
+      "meaning": "autumn leaves; maple",
+      "pos": "noun",
+      "example": {
+        "jp": "秋[あき]は紅葉[もみじ]がきれいです。",
+        "en": "The autumn leaves are beautiful in fall."
+      }
+    },
+    {
+      "id": "n5-u12-v33",
+      "word": "田[た]んぼ",
+      "meaning": "rice paddy, rice field",
+      "pos": "noun",
+      "example": {
+        "jp": "夏[なつ]の田[た]んぼは緑[みどり]がきれいです。",
+        "en": "Rice paddies in summer are a beautiful green."
+      }
+    },
+    {
+      "id": "n5-u12-v34",
+      "word": "景色[けしき]",
+      "meaning": "scenery, view",
+      "pos": "noun",
+      "example": {
+        "jp": "ここからの景色[けしき]はすばらしいです。",
+        "en": "The view from here is wonderful."
+      }
+    },
+    {
+      "id": "n5-u12-v35",
+      "word": "咲[さ]く",
+      "meaning": "to bloom",
+      "pos": "verb",
+      "example": {
+        "jp": "公園[こうえん]の花[はな]が咲[さ]きました。",
+        "en": "The flowers in the park have bloomed."
+      }
+    },
+    {
+      "id": "n5-u12-v37",
+      "word": "夏休[なつやす]み",
+      "meaning": "summer vacation",
+      "pos": "noun",
+      "example": {
+        "jp": "夏休[なつやす]みに何[なに]をしますか。",
+        "en": "What will you do during summer vacation?"
+      }
+    },
+    {
+      "id": "n5-u12-v38",
+      "word": "冬休[ふゆやす]み",
+      "meaning": "winter vacation",
+      "pos": "noun",
+      "example": {
+        "jp": "冬休[ふゆやす]みはスキーに行[い]きます。",
+        "en": "I'm going skiing over winter vacation."
+      }
+    },
+    {
+      "id": "n5-u12-v39",
+      "word": "お正月[しょうがつ]",
+      "meaning": "New Year (holidays)",
+      "pos": "noun",
+      "example": {
+        "jp": "お正月[しょうがつ]に家族[かぞく]と神社[じんじゃ]へ行[い]きます。",
+        "en": "At New Year I go to a shrine with my family."
+      }
+    },
+    {
+      "id": "n5-u12-v40",
+      "word": "誕生日[たんじょうび]",
+      "meaning": "birthday",
+      "pos": "noun",
+      "example": {
+        "jp": "誕生日[たんじょうび]は何月[なんがつ]何日[なんにち]ですか。",
+        "en": "When is your birthday? (What month and day?)"
+      }
+    },
+    {
+      "id": "n5-u12-v41",
+      "word": "お祭[まつ]り",
+      "meaning": "festival",
+      "pos": "noun",
+      "example": {
+        "jp": "夏[なつ]は町[まち]でお祭[まつ]りがあります。",
+        "en": "There is a festival in town in summer."
+      }
+    },
+    {
+      "id": "n5-u12-v42",
+      "word": "花見[はなみ]",
+      "meaning": "cherry-blossom viewing",
+      "pos": "noun",
+      "example": {
+        "jp": "週末[しゅうまつ]、友[とも]だちと花見[はなみ]をします。",
+        "en": "This weekend I'm going cherry-blossom viewing with friends."
+      }
+    },
+    {
+      "id": "n5-u12-v43",
+      "word": "花火[はなび]",
+      "meaning": "fireworks",
+      "pos": "noun",
+      "example": {
+        "jp": "川[かわ]の近[ちか]くで花火[はなび]を見[み]ました。",
+        "en": "I watched fireworks near the river."
+      }
+    },
+    {
+      "id": "n5-u12-v44",
+      "word": "七夕[たなばた]",
+      "meaning": "Tanabata, the Star Festival (July 7)",
+      "pos": "noun",
+      "example": {
+        "jp": "七夕[たなばた]は七月[しちがつ]七日[なのか]です。",
+        "en": "Tanabata is on July 7th."
+      }
+    },
+    {
+      "id": "n5-u12-v45",
+      "word": "クリスマス",
+      "meaning": "Christmas",
+      "pos": "noun",
+      "example": {
+        "jp": "クリスマスに何[なに]がほしいですか。",
+        "en": "What do you want for Christmas?"
+      }
+    },
+    {
+      "id": "n5-u12-v46",
+      "word": "プレゼント",
+      "meaning": "present, gift",
+      "pos": "noun",
+      "example": {
+        "jp": "母[はは]に誕生日[たんじょうび]のプレゼントを買[か]いました。",
+        "en": "I bought my mother a birthday present."
+      }
+    },
+    {
+      "id": "n5-u12-v48",
+      "word": "スキー",
+      "meaning": "skiing",
+      "pos": "noun",
+      "example": {
+        "jp": "北海道[ほっかいどう]へスキーをしに行[い]きます。",
+        "en": "I'm going to Hokkaido to ski."
+      }
+    },
+    {
+      "id": "n5-u12-v49",
+      "word": "予定[よてい]",
+      "meaning": "plan, schedule",
+      "pos": "noun",
+      "example": {
+        "jp": "週末[しゅうまつ]は何[なに]か予定[よてい]がありますか。",
+        "en": "Do you have any plans this weekend?"
+      }
+    },
+    {
+      "id": "n5-u12-v50",
+      "word": "つもり",
+      "meaning": "intention, plan (to do)",
+      "pos": "noun",
+      "example": {
+        "jp": "来年[らいねん]、日本[にほん]へ行[い]くつもりです。",
+        "en": "I intend to go to Japan next year."
+      }
+    },
+    {
+      "id": "n5-u12-v51",
+      "word": "ほしい",
+      "meaning": "wanted; to want (a thing)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "新[あたら]しいカメラがほしいです。",
+        "en": "I want a new camera."
+      }
+    },
+    {
+      "id": "n5-u12-v52",
+      "word": "夢[ゆめ]",
+      "meaning": "dream",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の夢[ゆめ]は日本[にほん]に住[す]むことです。",
+        "en": "My dream is to live in Japan."
+      }
+    },
+    {
+      "id": "n5-u12-v53",
+      "word": "将来[しょうらい]",
+      "meaning": "the future (one's own)",
+      "pos": "noun",
+      "example": {
+        "jp": "将来[しょうらい]、先生[せんせい]になりたいです。",
+        "en": "In the future, I want to become a teacher."
+      }
+    },
+    {
+      "id": "n5-u12-v54",
+      "word": "今年[ことし]",
+      "meaning": "this year",
+      "pos": "noun",
+      "example": {
+        "jp": "今年[ことし]の冬[ふゆ]は寒[さむ]いですね。",
+        "en": "This winter is cold, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u12-v55",
+      "word": "来年[らいねん]",
+      "meaning": "next year",
+      "pos": "noun",
+      "example": {
+        "jp": "来年[らいねん]は大学生[だいがくせい]になります。",
+        "en": "Next year I'll become a university student."
+      }
+    },
+    {
+      "id": "n5-u12-v56",
+      "word": "なる",
+      "meaning": "to become",
+      "pos": "verb",
+      "example": {
+        "jp": "暑[あつ]くなりましたね。",
+        "en": "It's gotten hot, hasn't it?"
+      }
+    },
+    {
+      "id": "n5-u12-v57",
+      "word": "より",
+      "meaning": "than (in comparisons)",
+      "pos": "particle",
+      "example": {
+        "jp": "今日[きょう]は昨日[きのう]より寒[さむ]いです。",
+        "en": "Today is colder than yesterday."
+      }
+    },
+    {
+      "id": "n5-u12-v58",
+      "word": "ほう",
+      "meaning": "side, one (of two being compared)",
+      "pos": "noun",
+      "example": {
+        "jp": "夏[なつ]より冬[ふゆ]のほうが好[す]きです。",
+        "en": "I like winter more than summer."
+      }
+    },
+    {
+      "id": "n5-u12-v59",
+      "word": "いちばん",
+      "meaning": "the most, number one",
+      "pos": "adverb",
+      "example": {
+        "jp": "一年[いちねん]で八月[はちがつ]がいちばん暑[あつ]いです。",
+        "en": "August is the hottest month of the year."
+      }
+    },
+    {
+      "id": "n5-u12-v60",
+      "word": "たぶん",
+      "meaning": "probably, perhaps",
+      "pos": "adverb",
+      "example": {
+        "jp": "明日[あした]はたぶん雨[あめ]でしょう。",
+        "en": "It will probably rain tomorrow."
+      }
+    },
+    {
+      "id": "n5-u12-v61",
+      "word": "きっと",
+      "meaning": "surely, definitely",
+      "pos": "adverb",
+      "example": {
+        "jp": "明日[あした]はきっと晴[は]れますよ。",
+        "en": "It will surely be sunny tomorrow."
+      }
+    },
+    {
+      "id": "n5-u12-v62",
+      "word": "だんだん",
+      "meaning": "gradually, little by little",
+      "pos": "adverb",
+      "example": {
+        "jp": "だんだん寒[さむ]くなりました。",
+        "en": "It has gradually gotten colder."
+      }
+    },
+    {
+      "id": "n5-u12-v63",
+      "word": "楽[たの]しみ",
+      "meaning": "something to look forward to",
+      "pos": "noun",
+      "example": {
+        "jp": "夏休[なつやす]みが楽[たの]しみです。",
+        "en": "I'm looking forward to summer vacation."
+      }
+    },
+    {
+      "id": "n5-u12-v64",
+      "word": "いつか",
+      "meaning": "someday, sometime",
+      "pos": "adverb",
+      "example": {
+        "jp": "いつか北海道[ほっかいどう]に行[い]きたいです。",
+        "en": "I want to go to Hokkaido someday."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u12-k01",
+      "char": "山",
+      "meanings": [
+        "mountain"
+      ],
+      "on": [
+        "サン"
+      ],
+      "kun": [
+        "やま"
+      ],
+      "strokes": 3,
+      "mnemonic": "Three peaks rising from the ground, the middle one tallest, make a mountain.",
+      "words": [
+        {
+          "word": "山[やま]",
+          "meaning": "mountain"
+        },
+        {
+          "word": "富士山[ふじさん]",
+          "meaning": "Mt. Fuji"
+        },
+        {
+          "word": "山登[やまのぼ]り",
+          "meaning": "mountain climbing"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k02",
+      "char": "川",
+      "meanings": [
+        "river"
+      ],
+      "on": [
+        "セン"
+      ],
+      "kun": [
+        "かわ"
+      ],
+      "strokes": 3,
+      "mnemonic": "Three lines of water flowing downhill side by side make a river.",
+      "words": [
+        {
+          "word": "川[かわ]",
+          "meaning": "river"
+        },
+        {
+          "word": "天[あま]の川[がわ]",
+          "meaning": "the Milky Way"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k03",
+      "char": "田",
+      "meanings": [
+        "rice field",
+        "paddy"
+      ],
+      "on": [
+        "デン"
+      ],
+      "kun": [
+        "た"
+      ],
+      "strokes": 5,
+      "mnemonic": "A rice field seen from above, divided into four neat plots.",
+      "words": [
+        {
+          "word": "田[た]んぼ",
+          "meaning": "rice paddy"
+        },
+        {
+          "word": "田中[たなか]",
+          "meaning": "Tanaka (surname)"
+        },
+        {
+          "word": "山田[やまだ]",
+          "meaning": "Yamada (surname)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k04",
+      "char": "天",
+      "meanings": [
+        "heaven",
+        "sky"
+      ],
+      "on": [
+        "テン"
+      ],
+      "kun": [
+        "あめ",
+        "あま-"
+      ],
+      "strokes": 4,
+      "mnemonic": "A big person (大) with the endless sky stretched above their head (一).",
+      "words": [
+        {
+          "word": "天気[てんき]",
+          "meaning": "weather"
+        },
+        {
+          "word": "天気予報[てんきよほう]",
+          "meaning": "weather forecast"
+        },
+        {
+          "word": "天[てん]ぷら",
+          "meaning": "tempura"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k05",
+      "char": "気",
+      "meanings": [
+        "spirit",
+        "energy",
+        "air",
+        "mood"
+      ],
+      "on": [
+        "キ",
+        "ケ"
+      ],
+      "kun": [],
+      "strokes": 6,
+      "mnemonic": "Steam rising from a pot with an X inside: invisible energy in the air.",
+      "words": [
+        {
+          "word": "天気[てんき]",
+          "meaning": "weather"
+        },
+        {
+          "word": "元気[げんき]",
+          "meaning": "healthy, energetic"
+        },
+        {
+          "word": "人気[にんき]",
+          "meaning": "popularity"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k06",
+      "char": "雨",
+      "meanings": [
+        "rain"
+      ],
+      "on": [
+        "ウ"
+      ],
+      "kun": [
+        "あめ",
+        "あま-"
+      ],
+      "strokes": 8,
+      "mnemonic": "A cloud hanging from the sky with four raindrops falling inside it.",
+      "words": [
+        {
+          "word": "雨[あめ]",
+          "meaning": "rain"
+        },
+        {
+          "word": "大雨[おおあめ]",
+          "meaning": "heavy rain"
+        },
+        {
+          "word": "梅雨[つゆ]",
+          "meaning": "the rainy season"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-k07",
+      "char": "花",
+      "meanings": [
+        "flower"
+      ],
+      "on": [
+        "カ"
+      ],
+      "kun": [
+        "はな"
+      ],
+      "strokes": 7,
+      "mnemonic": "Under the grass (艹) a bud changes (化) and becomes a flower.",
+      "words": [
+        {
+          "word": "花[はな]",
+          "meaning": "flower"
+        },
+        {
+          "word": "花見[はなみ]",
+          "meaning": "cherry-blossom viewing"
+        },
+        {
+          "word": "花火[はなび]",
+          "meaning": "fireworks"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u12-g01",
+      "title": "より / のほうが — comparing two things",
+      "pattern": "A は B より [adj] です / B より A のほうが [adj] です",
+      "meaning": "A is more ~ than B",
+      "explanation": "To compare two things, put より (\"than\") after the thing you are comparing against: 今日は昨日より寒いです means \"Today is colder than yesterday.\" Japanese adjectives have no \"-er\" form — より does all the work. To ask which of two things is more ~, say A と B と、どちらが〜ですか. Answer with 〜のほうが〜です, where ほう means \"side\": 夏のほうが好きです = \"I like summer better.\"",
+      "notes": [
+        "Question: A と B と、どちらが〜ですか。",
+        "If both are the same: どちらも〜です。",
+        "The adjective never changes: 高い = high / higher."
+      ],
+      "examples": [
+        {
+          "jp": "今日[きょう]は昨日[きのう]より寒[さむ]いです。",
+          "en": "Today is colder than yesterday."
+        },
+        {
+          "jp": "夏[なつ]と冬[ふゆ]と、どちらが好[す]きですか。",
+          "en": "Which do you like better, summer or winter?"
+        },
+        {
+          "jp": "冬[ふゆ]より夏[なつ]のほうが好[す]きです。",
+          "en": "I like summer more than winter."
+        },
+        {
+          "jp": "東京[とうきょう]より北海道[ほっかいどう]のほうが涼[すず]しいです。",
+          "en": "Hokkaido is cooler than Tokyo."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "今日[きょう]は昨日[きのう]＿暖[あたた]かいです。",
+          "answer": "より",
+          "options": [
+            "より",
+            "ほう",
+            "の",
+            "を"
+          ],
+          "en": "Today is warmer than yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "山[やま]より海[うみ]の＿が好[す]きです。",
+          "answer": "ほう",
+          "options": [
+            "ほう",
+            "より",
+            "から",
+            "で"
+          ],
+          "en": "I like the sea more than the mountains."
+        },
+        {
+          "type": "choice",
+          "jp": "電車[でんしゃ]とバスと、＿が速[はや]いですか。",
+          "answer": "どちら",
+          "options": [
+            "どちら",
+            "どこ",
+            "だれ",
+            "いつ"
+          ],
+          "en": "Which is faster, the train or the bus?"
+        },
+        {
+          "type": "choice",
+          "jp": "春[はる]と秋[あき]と、どちら＿好[す]きですか。",
+          "answer": "が",
+          "options": [
+            "が",
+            "は",
+            "を",
+            "の"
+          ],
+          "en": "Which do you like better, spring or autumn?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "夏[なつ]と冬[ふゆ]と、",
+            "どちらが",
+            "好[す]きですか。"
+          ],
+          "en": "Which do you like better, summer or winter?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "夏[なつ]より冬[ふゆ]のほうが",
+            "好[す]きです。"
+          ],
+          "en": "I like winter more than summer."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g02",
+      "title": "の中で〜がいちばん — the most",
+      "pattern": "[group] の中で A が いちばん [adj] です",
+      "meaning": "Among [group], A is the most ~",
+      "explanation": "When you compare three or more things, use いちばん, which means \"number one\" or \"the most\". The group comes first with の中で (\"among\"), then the winner with が: 季節の中で春がいちばん好きです = \"Of all the seasons, I like spring best.\" To ask, put a question word before が: 何, どこ, だれ or いつ. With a time period or a place, で alone is enough: 一年で八月がいちばん暑いです.",
+      "notes": [
+        "Ask: 〜の中で何／どこ／だれ／いつがいちばん〜ですか。",
+        "Use 何 for things, どこ for places, だれ for people, いつ for times.",
+        "With a period or place, で alone works: 一年で, 日本で."
+      ],
+      "examples": [
+        {
+          "jp": "季節[きせつ]の中[なか]で春[はる]がいちばん好[す]きです。",
+          "en": "Of all the seasons, I like spring the best."
+        },
+        {
+          "jp": "スポーツの中[なか]で何[なに]がいちばん好[す]きですか。",
+          "en": "Which sport do you like the best?"
+        },
+        {
+          "jp": "一年[いちねん]で二月[にがつ]がいちばん寒[さむ]いです。",
+          "en": "February is the coldest month of the year."
+        },
+        {
+          "jp": "日本[にほん]でいちばん高[たか]い山[やま]は富士山[ふじさん]です。",
+          "en": "The highest mountain in Japan is Mt. Fuji."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "季節[きせつ]の中[なか]＿冬[ふゆ]がいちばん好[す]きです。",
+          "answer": "で",
+          "options": [
+            "で",
+            "に",
+            "を",
+            "より"
+          ],
+          "en": "Of all the seasons, I like winter the best."
+        },
+        {
+          "type": "choice",
+          "jp": "果物[くだもの]の中[なか]で何[なに]が＿好[す]きですか。",
+          "answer": "いちばん",
+          "options": [
+            "いちばん",
+            "より",
+            "ほう",
+            "もっと"
+          ],
+          "en": "Which fruit do you like the best?"
+        },
+        {
+          "type": "choice",
+          "jp": "家族[かぞく]の中[なか]で＿がいちばん背[せ]が高[たか]いですか。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "何[なに]",
+            "どこ",
+            "いつ"
+          ],
+          "en": "Who is the tallest in your family?"
+        },
+        {
+          "type": "choice",
+          "jp": "日本[にほん]の町[まち]の中[なか]で＿がいちばん好[す]きですか。",
+          "answer": "どこ",
+          "options": [
+            "どこ",
+            "だれ",
+            "いつ",
+            "どう"
+          ],
+          "en": "Which Japanese town do you like the best?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "一年[いちねん]で八月[はちがつ]が",
+            "いちばん",
+            "暑[あつ]いです。"
+          ],
+          "en": "August is the hottest month of the year."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "スポーツの中[なか]で何[なに]が",
+            "いちばん",
+            "好[す]きですか。"
+          ],
+          "en": "Which sport do you like the best?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g03",
+      "title": "でしょう — probably",
+      "pattern": "[noun / な-adj / い-adj / plain verb] + でしょう",
+      "meaning": "probably ~; I think ~ (a guess)",
+      "explanation": "でしょう shows a guess: something you think is likely but aren't sure about. You hear it every day in weather forecasts: 明日は雨でしょう = \"It will probably rain tomorrow.\" Put it straight after a noun or な-adjective (no だ or です), after an い-adjective, or after a verb in plain form. たぶん (probably) often comes earlier in the sentence to make the guess clear.",
+      "notes": [
+        "Noun / な-adj: 雨でしょう, 静かでしょう (no だ).",
+        "い-adj / verb: 寒いでしょう, 降るでしょう, 来ないでしょう.",
+        "たぶん〜でしょう = probably; きっと〜でしょう = surely."
+      ],
+      "examples": [
+        {
+          "jp": "明日[あした]は雨[あめ]でしょう。",
+          "en": "It will probably rain tomorrow."
+        },
+        {
+          "jp": "午後[ごご]から晴[は]れるでしょう。",
+          "en": "It will probably clear up from the afternoon."
+        },
+        {
+          "jp": "北海道[ほっかいどう]は今[いま]、寒[さむ]いでしょう。",
+          "en": "It's probably cold in Hokkaido now."
+        },
+        {
+          "jp": "田中[たなか]さんはたぶん来[こ]ないでしょう。",
+          "en": "Mr. Tanaka probably won't come."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "明日[あした]は雪[ゆき]＿。",
+          "answer": "でしょう",
+          "options": [
+            "でしょう",
+            "ましょう",
+            "ません",
+            "ください"
+          ],
+          "en": "It will probably snow tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "明日[あした]は雨[あめ]が＿でしょう。",
+          "answer": "降[ふ]る",
+          "options": [
+            "降[ふ]る",
+            "降[ふ]ります",
+            "降[ふ]って",
+            "降[ふ]り"
+          ],
+          "en": "It will probably rain tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "明日[あした]は＿晴[は]れるでしょう。",
+          "answer": "たぶん",
+          "options": [
+            "たぶん",
+            "あまり",
+            "まだ",
+            "いちばん"
+          ],
+          "en": "It will probably be sunny tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "山[やま]の上[うえ]は静[しず]か＿。",
+          "answer": "でしょう",
+          "options": [
+            "でしょう",
+            "だでしょう",
+            "なでしょう",
+            "いでしょう"
+          ],
+          "en": "It's probably quiet up in the mountains."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "午後[ごご]から",
+            "晴[は]れる",
+            "でしょう。"
+          ],
+          "en": "It will probably clear up from the afternoon."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "田中[たなか]さんは",
+            "来[こ]ない",
+            "でしょう。"
+          ],
+          "en": "Mr. Tanaka probably won't come."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g04",
+      "title": "つもりです — intending to",
+      "pattern": "V (dictionary form) つもりです / V-ない つもりです",
+      "meaning": "I intend to ~; I plan to ~",
+      "explanation": "つもり means \"intention\". Put a verb in dictionary form before it to say what you plan to do: 来年日本へ行くつもりです = \"I'm planning to go to Japan next year.\" For something you plan NOT to do, use the ない form: 国へ帰らないつもりです. It shows a decision you have already made, so it is firmer than just wanting to (〜たい). Use it mainly for your own plans.",
+      "notes": [
+        "Dictionary form + つもり: 行くつもり, 見るつもり, するつもり.",
+        "Negative: 行かないつもりです (I don't plan to go).",
+        "For fixed schedules, 予定です is common: 旅行の予定です。"
+      ],
+      "examples": [
+        {
+          "jp": "来年[らいねん]、日本[にほん]へ行[い]くつもりです。",
+          "en": "I intend to go to Japan next year."
+        },
+        {
+          "jp": "夏休[なつやす]みに富士山[ふじさん]に登[のぼ]るつもりです。",
+          "en": "I plan to climb Mt. Fuji during summer vacation."
+        },
+        {
+          "jp": "今年[ことし]の冬[ふゆ]は国[くに]へ帰[かえ]らないつもりです。",
+          "en": "I'm not planning to go back to my country this winter."
+        },
+        {
+          "jp": "週末[しゅうまつ]は何[なに]をするつもりですか。",
+          "en": "What do you plan to do this weekend?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "来年[らいねん]、北海道[ほっかいどう]へ＿つもりです。",
+          "answer": "行[い]く",
+          "options": [
+            "行[い]く",
+            "行[い]きます",
+            "行[い]って",
+            "行[い]った"
+          ],
+          "en": "I plan to go to Hokkaido next year."
+        },
+        {
+          "type": "choice",
+          "jp": "明日[あした]は雨[あめ]ですから、出[で]かけない＿です。",
+          "answer": "つもり",
+          "options": [
+            "つもり",
+            "でしょう",
+            "ほしい",
+            "より"
+          ],
+          "en": "It's going to rain tomorrow, so I don't plan to go out."
+        },
+        {
+          "type": "choice",
+          "jp": "今年[ことし]はお酒[さけ]を＿つもりです。",
+          "answer": "飲[の]まない",
+          "options": [
+            "飲[の]まない",
+            "飲[の]みません",
+            "飲[の]まないで",
+            "飲[の]んで"
+          ],
+          "en": "I don't plan to drink alcohol this year."
+        },
+        {
+          "type": "choice",
+          "jp": "夏休[なつやす]みは何[なに]を＿つもりですか。",
+          "answer": "する",
+          "options": [
+            "する",
+            "します",
+            "して",
+            "した"
+          ],
+          "en": "What do you plan to do over summer vacation?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "来年[らいねん]、",
+            "日本[にほん]へ行[い]く",
+            "つもりです。"
+          ],
+          "en": "I intend to go to Japan next year."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "夏休[なつやす]みに",
+            "富士山[ふじさん]に登[のぼ]る",
+            "つもりです。"
+          ],
+          "en": "I plan to climb Mt. Fuji during summer vacation."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g05",
+      "title": "がほしいです — wanting something",
+      "pattern": "N が ほしいです",
+      "meaning": "I want (a thing)",
+      "explanation": "ほしい is an い-adjective meaning \"wanted\". The thing you want is marked with が: 新しいカメラがほしいです = \"I want a new camera.\" Use ほしい for things (nouns) and 〜たい for actions (verbs): 本がほしいです vs. 本を読みたいです. Because it is an い-adjective, it changes like one: ほしくないです (don't want), ほしかったです (wanted). Use it for your own wishes, or to ask someone: 何がほしいですか.",
+      "notes": [
+        "Thing → ほしい; action → 〜たい.",
+        "Negative: 何もほしくないです (I don't want anything).",
+        "Don't say \"Tanaka-san wants…\" with ほしいです — ask the person instead."
+      ],
+      "examples": [
+        {
+          "jp": "新[あたら]しいカメラがほしいです。",
+          "en": "I want a new camera."
+        },
+        {
+          "jp": "誕生日[たんじょうび]に何[なに]がほしいですか。",
+          "en": "What do you want for your birthday?"
+        },
+        {
+          "jp": "もっと時間[じかん]がほしいです。",
+          "en": "I want more time."
+        },
+        {
+          "jp": "子[こ]どものとき、犬[いぬ]がほしかったです。",
+          "en": "When I was a child, I wanted a dog."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "新[あたら]しい自転車[じてんしゃ]＿ほしいです。",
+          "answer": "が",
+          "options": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "en": "I want a new bicycle."
+        },
+        {
+          "type": "choice",
+          "jp": "クリスマスに何[なに]が＿ですか。",
+          "answer": "ほしい",
+          "options": [
+            "ほしい",
+            "ほしく",
+            "たい",
+            "つもり"
+          ],
+          "en": "What do you want for Christmas?"
+        },
+        {
+          "type": "choice",
+          "jp": "今[いま]は何[なに]も＿ないです。",
+          "answer": "ほしく",
+          "options": [
+            "ほしく",
+            "ほしい",
+            "ほし",
+            "ほしか"
+          ],
+          "en": "I don't want anything right now."
+        },
+        {
+          "type": "choice",
+          "jp": "子[こ]どものとき、犬[いぬ]が＿です。",
+          "answer": "ほしかった",
+          "options": [
+            "ほしかった",
+            "ほしい",
+            "ほしくて",
+            "ほしく"
+          ],
+          "en": "When I was a child, I wanted a dog."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "誕生日[たんじょうび]に何[なに]が",
+            "ほしい",
+            "ですか。"
+          ],
+          "en": "What do you want for your birthday?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "大[おお]きい",
+            "車[くるま]が",
+            "ほしいです。"
+          ],
+          "en": "I want a big car."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g06",
+      "title": "〜くなる / 〜になる — becoming",
+      "pattern": "い-adj (〜い → 〜く) なります / な-adj・N に なります",
+      "meaning": "to become ~; to get ~",
+      "explanation": "なる means \"to become\". With an い-adjective, change the final い to く: 暑い → 暑くなります (it gets hot). With a な-adjective or a noun, add に: 静かになります, 春になります. Use the past なりました to say a change has happened: 寒くなりましたね = \"It's gotten cold, hasn't it?\" You'll use it all the time for seasons, weather and growing up.",
+      "notes": [
+        "いい is irregular: よくなります (gets better).",
+        "Future dream: 先生になりたいです (I want to become a teacher).",
+        "だんだん (gradually) often goes with なる."
+      ],
+      "examples": [
+        {
+          "jp": "だんだん暑[あつ]くなりました。",
+          "en": "It has gradually gotten hotter."
+        },
+        {
+          "jp": "四月[しがつ]になりました。桜[さくら]がきれいです。",
+          "en": "It's April now. The cherry blossoms are beautiful."
+        },
+        {
+          "jp": "夜[よる]は町[まち]が静[しず]かになります。",
+          "en": "The town becomes quiet at night."
+        },
+        {
+          "jp": "天気[てんき]がよくなりましたね。",
+          "en": "The weather has gotten better, hasn't it?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "秋[あき]になって、涼[すず]し＿なりました。",
+          "answer": "く",
+          "options": [
+            "く",
+            "に",
+            "い",
+            "な"
+          ],
+          "en": "Autumn has come and it has gotten cool."
+        },
+        {
+          "type": "choice",
+          "jp": "もうすぐ春[はる]＿なります。",
+          "answer": "に",
+          "options": [
+            "に",
+            "く",
+            "が",
+            "を"
+          ],
+          "en": "It will soon be spring."
+        },
+        {
+          "type": "choice",
+          "jp": "天気[てんき]が＿なりました。",
+          "answer": "よく",
+          "options": [
+            "よく",
+            "いい",
+            "よい",
+            "いく"
+          ],
+          "en": "The weather has gotten better."
+        },
+        {
+          "type": "choice",
+          "jp": "町[まち]がきれい＿なりました。",
+          "answer": "に",
+          "options": [
+            "に",
+            "く",
+            "な",
+            "で"
+          ],
+          "en": "The town has become clean."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "だんだん",
+            "寒[さむ]く",
+            "なりました。"
+          ],
+          "en": "It has gradually gotten colder."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "将来[しょうらい]、",
+            "医者[いしゃ]に",
+            "なりたいです。"
+          ],
+          "en": "In the future, I want to become a doctor."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g07",
+      "title": "〜に行きます — going to do something",
+      "pattern": "V-stem (ます form minus ます) に 行きます / 来ます / 帰ります",
+      "meaning": "go (come / go home) to do ~",
+      "explanation": "To give the purpose of going somewhere, take the ます form of a verb, drop ます, and add に行きます: 見ます → 見に行きます (go to see). The place takes へ or に and the object takes を: 公園へ花を見に行きます = \"I'm going to the park to see the flowers.\" With activity nouns like スキー or 買い物, you can put に straight after the noun: スキーに行きます. 来ます and 帰ります work the same way.",
+      "notes": [
+        "食べます → 食べに, 泳ぎます → 泳ぎに, 見ます → 見に.",
+        "Activity nouns work too: 散歩に行きます, 買い物に行きます.",
+        "Order: place へ + object を + V-stem に行きます."
+      ],
+      "examples": [
+        {
+          "jp": "友[とも]だちと桜[さくら]を見[み]に行[い]きます。",
+          "en": "I'm going to see the cherry blossoms with a friend."
+        },
+        {
+          "jp": "海[うみ]へ泳[およ]ぎに行[い]きました。",
+          "en": "I went to the sea to swim."
+        },
+        {
+          "jp": "週末[しゅうまつ]、北海道[ほっかいどう]へスキーに行[い]きます。",
+          "en": "This weekend I'm going to Hokkaido to ski."
+        },
+        {
+          "jp": "日本[にほん]へ日本語[にほんご]を勉強[べんきょう]しに来[き]ました。",
+          "en": "I came to Japan to study Japanese."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "公園[こうえん]へ花[はな]を見[み]＿行[い]きます。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "で",
+            "と"
+          ],
+          "en": "I'm going to the park to see the flowers."
+        },
+        {
+          "type": "choice",
+          "jp": "海[うみ]へ＿に行[い]きました。",
+          "answer": "泳[およ]ぎ",
+          "options": [
+            "泳[およ]ぎ",
+            "泳[およ]ぐ",
+            "泳[およ]いで",
+            "泳[およ]ぎます"
+          ],
+          "en": "I went to the sea to swim."
+        },
+        {
+          "type": "choice",
+          "jp": "レストランへ晩[ばん]ご飯[はん]を＿に行[い]きましょう。",
+          "answer": "食[た]べ",
+          "options": [
+            "食[た]べ",
+            "食[た]べる",
+            "食[た]べて",
+            "食[た]べた"
+          ],
+          "en": "Let's go to a restaurant to eat dinner."
+        },
+        {
+          "type": "choice",
+          "jp": "冬休[ふゆやす]みに山[やま]へスキー＿行[い]きます。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "が",
+            "から"
+          ],
+          "en": "I'm going to the mountains to ski over winter vacation."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "友[とも]だちと桜[さくら]を",
+            "見[み]に",
+            "行[い]きます。"
+          ],
+          "en": "I'm going to see the cherry blossoms with a friend."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "日本[にほん]へ日本語[にほんご]を",
+            "勉強[べんきょう]しに",
+            "来[き]ました。"
+          ],
+          "en": "I came to Japan to study Japanese."
+        }
+      ]
+    },
+    {
+      "id": "n5-u12-g08",
+      "title": "から / けど — so, but",
+      "pattern": "Sentence 1 から、Sentence 2 / Sentence 1 けど、Sentence 2",
+      "meaning": "S1, so S2 (reason) / S1, but S2",
+      "explanation": "から after a sentence gives a reason, and the result comes second: 雨が降っていますから、出かけません = \"It's raining, so I won't go out.\" The order is the reverse of English \"because\": the reason comes first. けど means \"but\" and joins two contrasting ideas: 寒いですけど、いい天気です = \"It's cold, but the weather is nice.\" けど is a little more conversational than が (\"but\") from Unit 6. Both can follow です/ます forms or plain forms.",
+      "notes": [
+        "Reason first, result second: 〜から、〜。",
+        "Answering どうして (why): 〜からです。",
+        "が and けど both mean \"but\"; けど sounds more conversational."
+      ],
+      "examples": [
+        {
+          "jp": "雨[あめ]が降[ふ]っていますから、今日[きょう]は家[いえ]にいます。",
+          "en": "It's raining, so I'm staying home today."
+        },
+        {
+          "jp": "明日[あした]はテストですから、勉強[べんきょう]します。",
+          "en": "I have a test tomorrow, so I'll study."
+        },
+        {
+          "jp": "冬[ふゆ]は寒[さむ]いですけど、雪[ゆき]がきれいです。",
+          "en": "Winter is cold, but the snow is beautiful."
+        },
+        {
+          "jp": "海[うみ]に行[い]きたいですけど、時間[じかん]がありません。",
+          "en": "I want to go to the sea, but I don't have time."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "天気[てんき]がいいです＿、散歩[さんぽ]しましょう。",
+          "answer": "から",
+          "options": [
+            "から",
+            "けど",
+            "より",
+            "まで"
+          ],
+          "en": "The weather is nice, so let's take a walk."
+        },
+        {
+          "type": "choice",
+          "jp": "花見[はなみ]に行[い]きたいです＿、雨[あめ]が降[ふ]っています。",
+          "answer": "けど",
+          "options": [
+            "けど",
+            "から",
+            "より",
+            "まで"
+          ],
+          "en": "I want to go cherry-blossom viewing, but it's raining."
+        },
+        {
+          "type": "choice",
+          "jp": "「どうして傘[かさ]を持[も]って行[い]きますか。」「雨[あめ]が降[ふ]る＿です。」",
+          "answer": "から",
+          "options": [
+            "から",
+            "けど",
+            "より",
+            "ほう"
+          ],
+          "en": "\"Why are you taking an umbrella?\" \"Because it's going to rain.\""
+        },
+        {
+          "type": "choice",
+          "jp": "このレストランは安[やす]いです＿、とてもおいしいです。",
+          "answer": "けど",
+          "options": [
+            "けど",
+            "から",
+            "より",
+            "まで"
+          ],
+          "en": "This restaurant is cheap, but the food is very good."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "雨[あめ]が",
+            "降[ふ]っていますから、",
+            "出[で]かけません。"
+          ],
+          "en": "It's raining, so I won't go out."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "寒[さむ]いですけど、",
+            "いい",
+            "天気[てんき]です。"
+          ],
+          "en": "It's cold, but the weather is nice."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "なつやすみのよてい — Summer vacation plans",
+    "text": "ケンさん、お元気[げんき]ですか。東京[とうきょう]は毎日[まいにち]暑[あつ]いです。先週[せんしゅう]までは梅雨[つゆ]で雨[あめ]が多[おお]かったですけど、今週[こんしゅう]はずっと晴[は]れています。来週[らいしゅう]から夏休[なつやす]みです。私[わたし]は友[とも]だちと北海道[ほっかいどう]へ行[い]くつもりです。北海道[ほっかいどう]は東京[とうきょう]より涼[すず]しいでしょう。山[やま]に登[のぼ]ったり、きれいな川[かわ]の近[ちか]くでキャンプをしたりしたいです。八月[はちがつ]には、町[まち]で大[おお]きいお祭[まつ]りがあります。花火[はなび]も見[み]に行[い]きます。夏[なつ]のイベントの中[なか]で、花火[はなび]がいちばん楽[たの]しみです。新[あたら]しいカメラがほしいですから、今[いま]、アルバイトをしています。ケンさんは夏休[なつやす]みに何[なに]をするつもりですか。ラジ",
+    "en": "Ken, how are you? It's hot every day in Tokyo. Until last week it was the rainy season and it rained a lot, but this week it has been sunny the whole time. Summer vacation starts next week. I'm planning to go to Hokkaido with friends. Hokkaido will probably be cooler than Tokyo. I want to do things like climb mountains and go camping near a beautiful river. In August there's a big festival in town. I'm going to see the fireworks too. Of all the summer events, I'm looking forward to the fireworks the most. I want a new camera, so I'm working a part-time job now. What are you planning to do over summer vacation, Ken? Raj",
+    "questions": [
+      {
+        "q": "What has the weather been like in Tokyo this week?",
+        "options": [
+          "Rainy every day",
+          "Sunny the whole time",
+          "Snowy",
+          "Cool and windy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where is Raj planning to go with his friends?",
+        "options": [
+          "Okinawa",
+          "Kyoto",
+          "Hokkaido",
+          "Mt. Fuji"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is Raj looking forward to the most?",
+        "options": [
+          "Climbing mountains",
+          "Camping by the river",
+          "Buying a camera",
+          "The fireworks"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "Why is Raj working a part-time job?",
+        "options": [
+          "He wants a new camera",
+          "He needs money for the festival",
+          "His teacher told him to",
+          "He has nothing to do in summer"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  "listening": {
+    "title": "Planning a cherry-blossom picnic",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "暖[あたた]かくなりましたね。",
+        "en": "It's gotten warm, hasn't it?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、もう春[はる]ですね。駅[えき]の近[ちか]くの公園[こうえん]で桜[さくら]が咲[さ]きましたよ。",
+        "en": "Yes, it's spring already. The cherry blossoms have bloomed in the park near the station."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。土曜日[どようび]に花見[はなみ]に行[い]きませんか。",
+        "en": "Really? Would you like to go cherry-blossom viewing on Saturday?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。でも、天気予報[てんきよほう]では土曜日[どようび]は雨[あめ]ですよ。",
+        "en": "Sounds good. But the weather forecast says it will rain on Saturday."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃあ、日曜日[にちようび]はどうですか。",
+        "en": "Then how about Sunday?"
+      },
+      {
+        "speaker": "B",
+        "jp": "日曜日[にちようび]は晴[は]れるでしょう。日曜日[にちようび]のほうがいいですね。",
+        "en": "It will probably be sunny on Sunday. Sunday is better."
+      },
+      {
+        "speaker": "A",
+        "jp": "何[なに]を持[も]って行[い]きましょうか。",
+        "en": "What shall we bring?"
+      },
+      {
+        "speaker": "B",
+        "jp": "私[わたし]はお弁当[べんとう]を作[つく]りますから、飲[の]み物[もの]をお願[ねが]いします。",
+        "en": "I'll make a boxed lunch, so could you bring the drinks?"
+      },
+      {
+        "speaker": "A",
+        "jp": "わかりました。何時[なんじ]に会[あ]いましょうか。",
+        "en": "Got it. What time shall we meet?"
+      },
+      {
+        "speaker": "B",
+        "jp": "十一時[じゅういちじ]に駅[えき]の前[まえ]で会[あ]いましょう。",
+        "en": "Let's meet in front of the station at eleven."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Why aren't they going on Saturday?",
+        "options": [
+          "It will be too cold",
+          "The cherry blossoms haven't bloomed yet",
+          "Rain is forecast",
+          "B has to work"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What will A bring?",
+        "options": [
+          "A boxed lunch",
+          "Drinks",
+          "A camera",
+          "An umbrella"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where and when will they meet?",
+        "options": [
+          "At the park at 10:00",
+          "At the station at 1:00",
+          "In front of the park at 11:00",
+          "In front of the station at 11:00"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

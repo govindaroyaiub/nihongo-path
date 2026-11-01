@@ -50,3 +50,12 @@ export function playFanfare() {
   const chordStart = now + notes.length * 0.11 + 0.05
   ;[659.25, 830.61, 1046.5].forEach((freq) => tone(audioCtx, freq, chordStart, 0.7, 0.18, 'triangle'))
 }
+
+// Soft low blip for a wrong answer — noticeable, not punishing.
+export function playMiss() {
+  const audioCtx = getCtx()
+  if (!audioCtx) return
+  const now = audioCtx.currentTime
+  tone(audioCtx, 330, now, 0.16, 0.12, 'triangle')
+  tone(audioCtx, 262, now + 0.09, 0.22, 0.12, 'triangle')
+}

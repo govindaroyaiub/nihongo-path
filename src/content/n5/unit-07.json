@@ -1,0 +1,1507 @@
+{
+  "id": "n5-u07",
+  "level": "N5",
+  "number": 7,
+  "title": "Where is it?",
+  "goal": "Say what is where, and ask and give simple directions around a house or town.",
+  "vocab": [
+    {
+      "id": "n5-u07-v01",
+      "word": "ある",
+      "meaning": "to be, to exist (things, plants); to have",
+      "pos": "verb",
+      "example": {
+        "jp": "机[つくえ]の上[うえ]に本[ほん]があります。",
+        "en": "There is a book on the desk."
+      }
+    },
+    {
+      "id": "n5-u07-v02",
+      "word": "いる",
+      "meaning": "to be, to exist (people, animals)",
+      "pos": "verb",
+      "example": {
+        "jp": "教室[きょうしつ]に先生[せんせい]がいます。",
+        "en": "The teacher is in the classroom."
+      }
+    },
+    {
+      "id": "n5-u07-v03",
+      "word": "上[うえ]",
+      "meaning": "on, above, top",
+      "pos": "noun",
+      "example": {
+        "jp": "かばんは机[つくえ]の上[うえ]にあります。",
+        "en": "The bag is on the desk."
+      }
+    },
+    {
+      "id": "n5-u07-v04",
+      "word": "下[した]",
+      "meaning": "under, below",
+      "pos": "noun",
+      "example": {
+        "jp": "猫[ねこ]は机[つくえ]の下[した]にいます。",
+        "en": "The cat is under the desk."
+      }
+    },
+    {
+      "id": "n5-u07-v05",
+      "word": "中[なか]",
+      "meaning": "inside, in",
+      "pos": "noun",
+      "example": {
+        "jp": "箱[はこ]の中[なか]に時計[とけい]があります。",
+        "en": "There is a watch in the box."
+      }
+    },
+    {
+      "id": "n5-u07-v06",
+      "word": "外[そと]",
+      "meaning": "outside",
+      "pos": "noun",
+      "example": {
+        "jp": "外[そと]に犬[いぬ]がいます。",
+        "en": "There is a dog outside."
+      }
+    },
+    {
+      "id": "n5-u07-v07",
+      "word": "前[まえ]",
+      "meaning": "in front of, front",
+      "pos": "noun",
+      "example": {
+        "jp": "駅[えき]の前[まえ]に銀行[ぎんこう]があります。",
+        "en": "There is a bank in front of the station."
+      }
+    },
+    {
+      "id": "n5-u07-v08",
+      "word": "後[うし]ろ",
+      "meaning": "behind, back",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の後[うし]ろに田中[たなか]さんがいます。",
+        "en": "Mr. Tanaka is behind me."
+      }
+    },
+    {
+      "id": "n5-u07-v09",
+      "word": "横[よこ]",
+      "meaning": "beside, side",
+      "pos": "noun",
+      "example": {
+        "jp": "ベッドの横[よこ]に本棚[ほんだな]があります。",
+        "en": "There is a bookshelf beside the bed."
+      }
+    },
+    {
+      "id": "n5-u07-v10",
+      "word": "隣[となり]",
+      "meaning": "next to, next door",
+      "pos": "noun",
+      "example": {
+        "jp": "病院[びょういん]の隣[となり]にスーパーがあります。",
+        "en": "There is a supermarket next to the hospital."
+      }
+    },
+    {
+      "id": "n5-u07-v11",
+      "word": "近[ちか]く",
+      "meaning": "near, nearby, the vicinity",
+      "pos": "noun",
+      "example": {
+        "jp": "家[いえ]の近[ちか]くに公園[こうえん]があります。",
+        "en": "There is a park near my house."
+      }
+    },
+    {
+      "id": "n5-u07-v12",
+      "word": "間[あいだ]",
+      "meaning": "between",
+      "pos": "noun",
+      "example": {
+        "jp": "銀行[ぎんこう]とホテルの間[あいだ]に交番[こうばん]があります。",
+        "en": "There is a police box between the bank and the hotel."
+      }
+    },
+    {
+      "id": "n5-u07-v13",
+      "word": "左[ひだり]",
+      "meaning": "left",
+      "pos": "noun",
+      "example": {
+        "jp": "トイレは左[ひだり]にあります。",
+        "en": "The toilet is on the left."
+      }
+    },
+    {
+      "id": "n5-u07-v14",
+      "word": "右[みぎ]",
+      "meaning": "right",
+      "pos": "noun",
+      "example": {
+        "jp": "階段[かいだん]は右[みぎ]にあります。",
+        "en": "The stairs are on the right."
+      }
+    },
+    {
+      "id": "n5-u07-v15",
+      "word": "東[ひがし]",
+      "meaning": "east",
+      "pos": "noun",
+      "example": {
+        "jp": "公園[こうえん]は町[まち]の東[ひがし]にあります。",
+        "en": "The park is in the east of the town."
+      }
+    },
+    {
+      "id": "n5-u07-v16",
+      "word": "西[にし]",
+      "meaning": "west",
+      "pos": "noun",
+      "example": {
+        "jp": "駅[えき]の西[にし]にデパートがあります。",
+        "en": "There is a department store west of the station."
+      }
+    },
+    {
+      "id": "n5-u07-v17",
+      "word": "南[みなみ]",
+      "meaning": "south",
+      "pos": "noun",
+      "example": {
+        "jp": "大学[だいがく]は駅[えき]の南[みなみ]にあります。",
+        "en": "The university is south of the station."
+      }
+    },
+    {
+      "id": "n5-u07-v18",
+      "word": "北[きた]",
+      "meaning": "north",
+      "pos": "noun",
+      "example": {
+        "jp": "ホテルは駅[えき]の北[きた]にあります。",
+        "en": "The hotel is north of the station."
+      }
+    },
+    {
+      "id": "n5-u07-v19",
+      "word": "家[いえ]",
+      "meaning": "house, home",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の家[いえ]は古[ふる]いです。",
+        "en": "My house is old."
+      }
+    },
+    {
+      "id": "n5-u07-v21",
+      "word": "台所[だいどころ]",
+      "meaning": "kitchen",
+      "pos": "noun",
+      "example": {
+        "jp": "台所[だいどころ]に冷蔵庫[れいぞうこ]があります。",
+        "en": "There is a refrigerator in the kitchen."
+      }
+    },
+    {
+      "id": "n5-u07-v22",
+      "word": "お風呂[ふろ]",
+      "meaning": "bath, bathroom (for bathing)",
+      "pos": "noun",
+      "example": {
+        "jp": "お風呂[ふろ]は一階[いっかい]にあります。",
+        "en": "The bath is on the first floor."
+      }
+    },
+    {
+      "id": "n5-u07-v23",
+      "word": "庭[にわ]",
+      "meaning": "garden, yard",
+      "pos": "noun",
+      "example": {
+        "jp": "庭[にわ]に大[おお]きい木[き]があります。",
+        "en": "There is a big tree in the garden."
+      }
+    },
+    {
+      "id": "n5-u07-v24",
+      "word": "窓[まど]",
+      "meaning": "window",
+      "pos": "noun",
+      "example": {
+        "jp": "窓[まど]の前[まえ]に机[つくえ]があります。",
+        "en": "There is a desk in front of the window."
+      }
+    },
+    {
+      "id": "n5-u07-v25",
+      "word": "ドア",
+      "meaning": "door",
+      "pos": "noun",
+      "example": {
+        "jp": "ドアの前[まえ]にだれかいます。",
+        "en": "Someone is in front of the door."
+      }
+    },
+    {
+      "id": "n5-u07-v26",
+      "word": "階段[かいだん]",
+      "meaning": "stairs",
+      "pos": "noun",
+      "example": {
+        "jp": "階段[かいだん]はあそこにあります。",
+        "en": "The stairs are over there."
+      }
+    },
+    {
+      "id": "n5-u07-v28",
+      "word": "ベッド",
+      "meaning": "bed",
+      "pos": "noun",
+      "example": {
+        "jp": "ベッドの上[うえ]に猫[ねこ]がいます。",
+        "en": "There is a cat on the bed."
+      }
+    },
+    {
+      "id": "n5-u07-v29",
+      "word": "本棚[ほんだな]",
+      "meaning": "bookshelf",
+      "pos": "noun",
+      "example": {
+        "jp": "本棚[ほんだな]に古[ふる]い本[ほん]があります。",
+        "en": "There are old books on the bookshelf."
+      }
+    },
+    {
+      "id": "n5-u07-v30",
+      "word": "冷蔵庫[れいぞうこ]",
+      "meaning": "refrigerator",
+      "pos": "noun",
+      "example": {
+        "jp": "冷蔵庫[れいぞうこ]の中[なか]に何[なに]もありません。",
+        "en": "There's nothing in the refrigerator."
+      }
+    },
+    {
+      "id": "n5-u07-v32",
+      "word": "ソファ",
+      "meaning": "sofa",
+      "pos": "noun",
+      "example": {
+        "jp": "ソファの上[うえ]に犬[いぬ]がいます。",
+        "en": "There is a dog on the sofa."
+      }
+    },
+    {
+      "id": "n5-u07-v33",
+      "word": "箱[はこ]",
+      "meaning": "box",
+      "pos": "noun",
+      "example": {
+        "jp": "箱[はこ]の中[なか]に何[なに]がありますか。",
+        "en": "What is in the box?"
+      }
+    },
+    {
+      "id": "n5-u07-v34",
+      "word": "建物[たてもの]",
+      "meaning": "building",
+      "pos": "noun",
+      "example": {
+        "jp": "あの建物[たてもの]は何[なん]ですか。",
+        "en": "What is that building?"
+      }
+    },
+    {
+      "id": "n5-u07-v35",
+      "word": "ビル",
+      "meaning": "(multi-story) building",
+      "pos": "noun",
+      "example": {
+        "jp": "駅[えき]の前[まえ]に高[たか]いビルがあります。",
+        "en": "There is a tall building in front of the station."
+      }
+    },
+    {
+      "id": "n5-u07-v37",
+      "word": "公園[こうえん]",
+      "meaning": "park",
+      "pos": "noun",
+      "example": {
+        "jp": "公園[こうえん]に犬[いぬ]がいます。",
+        "en": "There is a dog in the park."
+      }
+    },
+    {
+      "id": "n5-u07-v40",
+      "word": "ホテル",
+      "meaning": "hotel",
+      "pos": "noun",
+      "example": {
+        "jp": "ホテルの隣[となり]に銀行[ぎんこう]があります。",
+        "en": "There is a bank next to the hotel."
+      }
+    },
+    {
+      "id": "n5-u07-v41",
+      "word": "交番[こうばん]",
+      "meaning": "police box",
+      "pos": "noun",
+      "example": {
+        "jp": "交番[こうばん]はあそこにあります。",
+        "en": "The police box is over there."
+      }
+    },
+    {
+      "id": "n5-u07-v42",
+      "word": "動物[どうぶつ]",
+      "meaning": "animal",
+      "pos": "noun",
+      "example": {
+        "jp": "この公園[こうえん]に動物[どうぶつ]がいます。",
+        "en": "There are animals in this park."
+      }
+    },
+    {
+      "id": "n5-u07-v43",
+      "word": "犬[いぬ]",
+      "meaning": "dog",
+      "pos": "noun",
+      "example": {
+        "jp": "庭[にわ]に犬[いぬ]がいます。",
+        "en": "There is a dog in the garden."
+      }
+    },
+    {
+      "id": "n5-u07-v44",
+      "word": "猫[ねこ]",
+      "meaning": "cat",
+      "pos": "noun",
+      "example": {
+        "jp": "猫[ねこ]はどこにいますか。",
+        "en": "Where is the cat?"
+      }
+    },
+    {
+      "id": "n5-u07-v45",
+      "word": "鳥[とり]",
+      "meaning": "bird",
+      "pos": "noun",
+      "example": {
+        "jp": "木[き]の上[うえ]に鳥[とり]がいます。",
+        "en": "There is a bird in the tree."
+      }
+    },
+    {
+      "id": "n5-u07-v46",
+      "word": "木[き]",
+      "meaning": "tree",
+      "pos": "noun",
+      "example": {
+        "jp": "公園[こうえん]に大[おお]きい木[き]があります。",
+        "en": "There is a big tree in the park."
+      }
+    },
+    {
+      "id": "n5-u07-v47",
+      "word": "池[いけ]",
+      "meaning": "pond",
+      "pos": "noun",
+      "example": {
+        "jp": "公園[こうえん]の中[なか]に池[いけ]があります。",
+        "en": "There is a pond in the park."
+      }
+    },
+    {
+      "id": "n5-u07-v48",
+      "word": "地図[ちず]",
+      "meaning": "map",
+      "pos": "noun",
+      "example": {
+        "jp": "地図[ちず]はかばんの中[なか]にあります。",
+        "en": "The map is in the bag."
+      }
+    },
+    {
+      "id": "n5-u07-v49",
+      "word": "近[ちか]い",
+      "meaning": "near, close",
+      "pos": "i-adj",
+      "example": {
+        "jp": "駅[えき]は近[ちか]いです。",
+        "en": "The station is close."
+      }
+    },
+    {
+      "id": "n5-u07-v50",
+      "word": "遠[とお]い",
+      "meaning": "far",
+      "pos": "i-adj",
+      "example": {
+        "jp": "大学[だいがく]は遠[とお]いですか。",
+        "en": "Is the university far?"
+      }
+    },
+    {
+      "id": "n5-u07-v51",
+      "word": "何[なに]か",
+      "meaning": "something, anything",
+      "pos": "pronoun",
+      "example": {
+        "jp": "何[なに]か飲[の]みませんか。",
+        "en": "Would you like something to drink?"
+      }
+    },
+    {
+      "id": "n5-u07-v52",
+      "word": "だれか",
+      "meaning": "someone, anyone",
+      "pos": "pronoun",
+      "example": {
+        "jp": "だれかいますか。",
+        "en": "Is anyone there?"
+      }
+    },
+    {
+      "id": "n5-u07-v53",
+      "word": "何[なに]も",
+      "meaning": "nothing (with a negative verb)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "箱[はこ]の中[なか]に何[なに]もありません。",
+        "en": "There is nothing in the box."
+      }
+    },
+    {
+      "id": "n5-u07-v54",
+      "word": "だれも",
+      "meaning": "nobody (with a negative verb)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "教室[きょうしつ]にだれもいません。",
+        "en": "There is nobody in the classroom."
+      }
+    },
+    {
+      "id": "n5-u07-v55",
+      "word": "や",
+      "meaning": "and (listing some examples)",
+      "pos": "particle",
+      "example": {
+        "jp": "公園[こうえん]に犬[いぬ]や鳥[とり]がいます。",
+        "en": "There are dogs, birds and so on in the park."
+      }
+    },
+    {
+      "id": "n5-u07-v56",
+      "word": "など",
+      "meaning": "and so on, etc.",
+      "pos": "particle",
+      "example": {
+        "jp": "かばんの中[なか]に本[ほん]やペンなどがあります。",
+        "en": "There are books, pens and so on in the bag."
+      }
+    },
+    {
+      "id": "n5-u07-v57",
+      "word": "ポスト",
+      "meaning": "postbox, mailbox",
+      "pos": "noun",
+      "example": {
+        "jp": "郵便局[ゆうびんきょく]の前[まえ]にポストがあります。",
+        "en": "There is a postbox in front of the post office."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u07-k01",
+      "char": "上",
+      "meanings": [
+        "up",
+        "above",
+        "top"
+      ],
+      "on": [
+        "ジョウ",
+        "ショウ"
+      ],
+      "kun": [
+        "うえ",
+        "うわ-",
+        "かみ",
+        "あ.げる",
+        "あ.がる",
+        "のぼ.る"
+      ],
+      "strokes": 3,
+      "mnemonic": "A little flag standing up on top of the ground line.",
+      "words": [
+        {
+          "word": "上[うえ]",
+          "meaning": "on, above"
+        },
+        {
+          "word": "上手[じょうず]",
+          "meaning": "good at, skillful"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k02",
+      "char": "下",
+      "meanings": [
+        "down",
+        "below",
+        "under"
+      ],
+      "on": [
+        "カ",
+        "ゲ"
+      ],
+      "kun": [
+        "した",
+        "しも",
+        "もと",
+        "さ.げる",
+        "さ.がる",
+        "くだ.る",
+        "お.りる"
+      ],
+      "strokes": 3,
+      "mnemonic": "A root hanging down below the ground line — the opposite of 上.",
+      "words": [
+        {
+          "word": "下[した]",
+          "meaning": "under, below"
+        },
+        {
+          "word": "地下鉄[ちかてつ]",
+          "meaning": "subway"
+        },
+        {
+          "word": "下手[へた]",
+          "meaning": "bad at, unskillful"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k03",
+      "char": "中",
+      "meanings": [
+        "middle",
+        "inside",
+        "in"
+      ],
+      "on": [
+        "チュウ"
+      ],
+      "kun": [
+        "なか"
+      ],
+      "strokes": 4,
+      "mnemonic": "An arrow shot right through the middle of a box.",
+      "words": [
+        {
+          "word": "中[なか]",
+          "meaning": "inside"
+        },
+        {
+          "word": "中国[ちゅうごく]",
+          "meaning": "China"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k04",
+      "char": "外",
+      "meanings": [
+        "outside",
+        "foreign"
+      ],
+      "on": [
+        "ガイ",
+        "ゲ"
+      ],
+      "kun": [
+        "そと",
+        "ほか",
+        "はず.す",
+        "はず.れる"
+      ],
+      "strokes": 5,
+      "mnemonic": "In the evening (夕) a fortune-teller (卜) waits outside the house.",
+      "words": [
+        {
+          "word": "外[そと]",
+          "meaning": "outside"
+        },
+        {
+          "word": "外国[がいこく]",
+          "meaning": "foreign country"
+        },
+        {
+          "word": "外国人[がいこくじん]",
+          "meaning": "foreigner"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k05",
+      "char": "左",
+      "meanings": [
+        "left"
+      ],
+      "on": [
+        "サ"
+      ],
+      "kun": [
+        "ひだり"
+      ],
+      "strokes": 5,
+      "mnemonic": "A hand holding a carpenter's tool (工) — most tools hang on the left wall.",
+      "words": [
+        {
+          "word": "左[ひだり]",
+          "meaning": "left"
+        },
+        {
+          "word": "左手[ひだりて]",
+          "meaning": "left hand"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k06",
+      "char": "右",
+      "meanings": [
+        "right"
+      ],
+      "on": [
+        "ウ",
+        "ユウ"
+      ],
+      "kun": [
+        "みぎ"
+      ],
+      "strokes": 5,
+      "mnemonic": "A hand bringing food to the mouth (口) — most people eat with the right hand.",
+      "words": [
+        {
+          "word": "右[みぎ]",
+          "meaning": "right"
+        },
+        {
+          "word": "右手[みぎて]",
+          "meaning": "right hand"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k07",
+      "char": "東",
+      "meanings": [
+        "east"
+      ],
+      "on": [
+        "トウ"
+      ],
+      "kun": [
+        "ひがし"
+      ],
+      "strokes": 8,
+      "mnemonic": "The sun (日) rising behind a tree (木) — that's the east.",
+      "words": [
+        {
+          "word": "東[ひがし]",
+          "meaning": "east"
+        },
+        {
+          "word": "東京[とうきょう]",
+          "meaning": "Tokyo"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k08",
+      "char": "西",
+      "meanings": [
+        "west"
+      ],
+      "on": [
+        "セイ",
+        "サイ"
+      ],
+      "kun": [
+        "にし"
+      ],
+      "strokes": 6,
+      "mnemonic": "A bird settling into its nest in a box as the sun sets in the west.",
+      "words": [
+        {
+          "word": "西[にし]",
+          "meaning": "west"
+        },
+        {
+          "word": "西口[にしぐち]",
+          "meaning": "west exit"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k09",
+      "char": "南",
+      "meanings": [
+        "south"
+      ],
+      "on": [
+        "ナン",
+        "ナ"
+      ],
+      "kun": [
+        "みなみ"
+      ],
+      "strokes": 9,
+      "mnemonic": "A warm tent with a cross (十) on top — heading south for the sun.",
+      "words": [
+        {
+          "word": "南[みなみ]",
+          "meaning": "south"
+        },
+        {
+          "word": "南口[みなみぐち]",
+          "meaning": "south exit"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-k10",
+      "char": "北",
+      "meanings": [
+        "north"
+      ],
+      "on": [
+        "ホク"
+      ],
+      "kun": [
+        "きた"
+      ],
+      "strokes": 5,
+      "mnemonic": "Two people sitting back to back to keep warm in the cold north.",
+      "words": [
+        {
+          "word": "北[きた]",
+          "meaning": "north"
+        },
+        {
+          "word": "北口[きたぐち]",
+          "meaning": "north exit"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u07-g01",
+      "title": "あります / います — \"there is\"",
+      "pattern": "N が あります (things) / N が います (people, animals)",
+      "meaning": "there is N / N exists",
+      "explanation": "Japanese has two verbs for \"there is\". Use あります for things that don't move by themselves — books, buildings, and also plants and trees. Use います for people and animals. The particle が marks the thing that exists. They change like any ます verb: ありません / ありました, いません / いました.",
+      "notes": [
+        "Trees and flowers use あります, even though they are alive.",
+        "あります can also mean \"have\": 時間がありません = I don't have time."
+      ],
+      "examples": [
+        {
+          "jp": "ペンがあります。",
+          "en": "There is a pen."
+        },
+        {
+          "jp": "猫[ねこ]がいます。",
+          "en": "There is a cat."
+        },
+        {
+          "jp": "時間[じかん]がありません。",
+          "en": "I don't have time."
+        },
+        {
+          "jp": "犬[いぬ]がいました。",
+          "en": "There was a dog."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "犬[いぬ]が＿。",
+          "answer": "います",
+          "options": [
+            "います",
+            "あります",
+            "です",
+            "ありません"
+          ],
+          "en": "There is a dog."
+        },
+        {
+          "type": "choice",
+          "jp": "本[ほん]が＿。",
+          "answer": "あります",
+          "options": [
+            "あります",
+            "います",
+            "いません",
+            "です"
+          ],
+          "en": "There is a book."
+        },
+        {
+          "type": "choice",
+          "jp": "木[き]が＿。",
+          "answer": "あります",
+          "options": [
+            "あります",
+            "います",
+            "いました",
+            "いません"
+          ],
+          "en": "There is a tree."
+        },
+        {
+          "type": "choice",
+          "jp": "先生[せんせい]が＿。",
+          "answer": "いません",
+          "options": [
+            "いません",
+            "ありません",
+            "じゃありません",
+            "くないです"
+          ],
+          "en": "The teacher isn't here."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "白[しろ]い",
+            "猫[ねこ]が",
+            "います。"
+          ],
+          "en": "There is a white cat."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "新[あたら]しい",
+            "ベッドが",
+            "あります。"
+          ],
+          "en": "There is a new bed."
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-g02",
+      "title": "Place に N が あります — \"In the room there is a TV\"",
+      "pattern": "Place に N が あります / います",
+      "meaning": "There is N in/at Place",
+      "explanation": "To say what is in a place, start with the place and に, then the thing and が, then あります or います: 部屋にテレビがあります (There is a TV in the room). に here means \"in / at\" for where something exists. This pattern introduces something new — the listener didn't know about the TV before. To ask, use 何 or だれ with が: 部屋に何がありますか.",
+      "notes": [
+        "Use に, not で, for where something exists: 部屋でテレビがあります is wrong.",
+        "何[なに]がありますか asks about things; だれがいますか asks about people."
+      ],
+      "examples": [
+        {
+          "jp": "部屋[へや]にテレビがあります。",
+          "en": "There is a TV in the room."
+        },
+        {
+          "jp": "公園[こうえん]に犬[いぬ]がいます。",
+          "en": "There is a dog in the park."
+        },
+        {
+          "jp": "一階[いっかい]に台所[だいどころ]があります。",
+          "en": "There is a kitchen on the first floor."
+        },
+        {
+          "jp": "教室[きょうしつ]にだれがいますか。",
+          "en": "Who is in the classroom?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "部屋[へや]＿テレビがあります。",
+          "answer": "に",
+          "options": [
+            "に",
+            "で",
+            "を",
+            "へ"
+          ],
+          "en": "There is a TV in the room."
+        },
+        {
+          "type": "choice",
+          "jp": "公園[こうえん]に犬[いぬ]＿います。",
+          "answer": "が",
+          "options": [
+            "が",
+            "を",
+            "で",
+            "の"
+          ],
+          "en": "There is a dog in the park."
+        },
+        {
+          "type": "choice",
+          "jp": "庭[にわ]に猫[ねこ]が＿。",
+          "answer": "います",
+          "options": [
+            "います",
+            "あります",
+            "です",
+            "でした"
+          ],
+          "en": "There is a cat in the garden."
+        },
+        {
+          "type": "choice",
+          "jp": "教室[きょうしつ]に＿がいますか。田中[たなか]さんがいます。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "何[なに]",
+            "どこ",
+            "どれ"
+          ],
+          "en": "Who is in the classroom? Mr. Tanaka is."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "駅[えき]の",
+            "前[まえ]に",
+            "銀行[ぎんこう]があります。"
+          ],
+          "en": "There is a bank in front of the station."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "箱[はこ]の",
+            "中[なか]に",
+            "何[なに]がありますか。"
+          ],
+          "en": "What is in the box?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-g03",
+      "title": "N は Place に あります — \"The TV is in the room\"",
+      "pattern": "N は Place に あります / います",
+      "meaning": "N is in/at Place",
+      "explanation": "When you already know which thing you mean and want to say where it is, make the thing the topic with は and put the place after it: テレビは部屋にあります (The TV is in the room). This is how you answer \"Where is …?\": トイレはどこにありますか. Compare: 部屋にテレビがあります tells you what is in the room; テレビは部屋にあります tells you where the TV is.",
+      "notes": [
+        "In conversation you can shorten it with です: トイレはあそこです.",
+        "Use います for people and animals here too: 田中さんは二階にいます."
+      ],
+      "examples": [
+        {
+          "jp": "トイレはあそこにあります。",
+          "en": "The toilet is over there."
+        },
+        {
+          "jp": "田中[たなか]さんは二階[にかい]にいます。",
+          "en": "Mr. Tanaka is on the second floor."
+        },
+        {
+          "jp": "猫[ねこ]は庭[にわ]にいます。",
+          "en": "The cat is in the garden."
+        },
+        {
+          "jp": "病院[びょういん]はどこにありますか。",
+          "en": "Where is the hospital?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんはどこ＿いますか。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "が",
+            "へ"
+          ],
+          "en": "Where is Mr. Tanaka?"
+        },
+        {
+          "type": "choice",
+          "jp": "かばんは机[つくえ]の上[うえ]に＿。",
+          "answer": "あります",
+          "options": [
+            "あります",
+            "います",
+            "いません",
+            "いました"
+          ],
+          "en": "The bag is on the desk."
+        },
+        {
+          "type": "choice",
+          "jp": "病院[びょういん]＿駅[えき]の前[まえ]にあります。",
+          "answer": "は",
+          "options": [
+            "は",
+            "を",
+            "に",
+            "で"
+          ],
+          "en": "The hospital is in front of the station."
+        },
+        {
+          "type": "choice",
+          "jp": "猫[ねこ]はどこにいますか。＿にいます。",
+          "answer": "庭[にわ]",
+          "options": [
+            "庭[にわ]",
+            "だれ",
+            "何[なに]",
+            "どう"
+          ],
+          "en": "Where is the cat? It's in the garden."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "トイレは",
+            "あそこに",
+            "あります。"
+          ],
+          "en": "The toilet is over there."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "山田[やまだ]さんは",
+            "二階[にかい]に",
+            "います。"
+          ],
+          "en": "Ms. Yamada is on the second floor."
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-g04",
+      "title": "Position words — on, under, in front of…",
+      "pattern": "N の 上 / 下 / 中 / 外 / 前 / 後ろ / 横 / 隣 / 近く に",
+      "meaning": "on / under / in / outside / in front of / behind / beside / next to / near N",
+      "explanation": "In Japanese, position words are nouns, so they come after the thing they relate to, joined with の: 机の上 is literally \"the desk's top\" — on the desk. Then add に to say something is there: 机の上に本があります. Think of it as reading backwards: 駅の前 = \"station's front\" = in front of the station. Useful words: 上 (on), 下 (under), 中 (in), 外 (outside), 前 (in front), 後ろ (behind), 横 (beside), 隣 (next to), 近く (near).",
+      "notes": [
+        "隣 is for two similar things side by side (house next to house, person next to person); 横 is simply \"at the side\".",
+        "Between A and B: A と B の間 (あいだ).",
+        "近く is a noun (\"nearby\"); 近い is an adjective (\"is near\")."
+      ],
+      "examples": [
+        {
+          "jp": "机[つくえ]の上[うえ]にかばんがあります。",
+          "en": "There is a bag on the desk."
+        },
+        {
+          "jp": "銀行[ぎんこう]は駅[えき]の前[まえ]にあります。",
+          "en": "The bank is in front of the station."
+        },
+        {
+          "jp": "猫[ねこ]はベッドの下[した]にいます。",
+          "en": "The cat is under the bed."
+        },
+        {
+          "jp": "病院[びょういん]の隣[となり]にスーパーがあります。",
+          "en": "There is a supermarket next to the hospital."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "机[つくえ]＿上[うえ]に時計[とけい]があります。",
+          "answer": "の",
+          "options": [
+            "の",
+            "に",
+            "が",
+            "を"
+          ],
+          "en": "There is a watch on the desk."
+        },
+        {
+          "type": "choice",
+          "jp": "銀行[ぎんこう]は駅[えき]の前[まえ]＿あります。",
+          "answer": "に",
+          "options": [
+            "に",
+            "を",
+            "で",
+            "へ"
+          ],
+          "en": "The bank is in front of the station."
+        },
+        {
+          "type": "choice",
+          "jp": "病院[びょういん]とスーパーの＿に公園[こうえん]があります。",
+          "answer": "間[あいだ]",
+          "options": [
+            "間[あいだ]",
+            "上[うえ]",
+            "中[なか]",
+            "下[した]"
+          ],
+          "en": "There is a park between the hospital and the supermarket."
+        },
+        {
+          "type": "choice",
+          "jp": "交番[こうばん]は駅[えき]の＿にあります。",
+          "answer": "近[ちか]く",
+          "options": [
+            "近[ちか]く",
+            "近[ちか]い",
+            "近[ちか]かった",
+            "近[ちか]くない"
+          ],
+          "en": "The police box is near the station."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ベッドの",
+            "下[した]に",
+            "います。"
+          ],
+          "en": "(The cat) is under the bed."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "銀行[ぎんこう]と",
+            "病院[びょういん]の",
+            "間[あいだ]に",
+            "あります。"
+          ],
+          "en": "It's between the bank and the hospital."
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-g05",
+      "title": "や〜など — \"A, B and so on\"",
+      "pattern": "A や B (など)",
+      "meaning": "A and B (among other things)",
+      "explanation": "や joins nouns like と, but with a difference. と lists everything: 本とペン means \"a book and a pen\" — that's all. や gives just a few examples: 本やペン means \"books, pens and things like that\". You can add など (\"and so on\") after the last item to make that even clearer: 本やペンなどがあります.",
+      "notes": [
+        "と = the complete list; や = some examples from a longer list.",
+        "Particles like が and を come after など: ペンなどがあります."
+      ],
+      "examples": [
+        {
+          "jp": "部屋[へや]にベッドや机[つくえ]などがあります。",
+          "en": "There's a bed, a desk and so on in the room."
+        },
+        {
+          "jp": "公園[こうえん]に犬[いぬ]や鳥[とり]がいます。",
+          "en": "There are dogs, birds and other animals in the park."
+        },
+        {
+          "jp": "かばんの中[なか]に本[ほん]やペンなどがあります。",
+          "en": "There are books, pens and so on in the bag."
+        },
+        {
+          "jp": "デパートで時計[とけい]やかばんを買[か]いました。",
+          "en": "I bought things like a watch and a bag at the department store."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "部屋[へや]にテレビ＿ベッドなどがあります。",
+          "answer": "や",
+          "options": [
+            "や",
+            "の",
+            "を",
+            "も"
+          ],
+          "en": "There's a TV, a bed and so on in the room."
+        },
+        {
+          "type": "choice",
+          "jp": "公園[こうえん]に犬[いぬ]や猫[ねこ]＿がいます。",
+          "answer": "など",
+          "options": [
+            "など",
+            "や",
+            "と",
+            "に"
+          ],
+          "en": "There are dogs, cats and so on in the park."
+        },
+        {
+          "type": "choice",
+          "jp": "かばんの中[なか]に本[ほん]やペンなど＿あります。",
+          "answer": "が",
+          "options": [
+            "が",
+            "を",
+            "で",
+            "へ"
+          ],
+          "en": "There are books, pens and so on in the bag."
+        },
+        {
+          "type": "choice",
+          "jp": "デパートで時計[とけい]やかばん＿買[か]いました。",
+          "answer": "を",
+          "options": [
+            "を",
+            "が",
+            "に",
+            "で"
+          ],
+          "en": "I bought things like a watch and a bag at the department store."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "犬[いぬ]や",
+            "猫[ねこ]が",
+            "います。"
+          ],
+          "en": "There are dogs, cats and other animals."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "本[ほん]や",
+            "ペンなどが",
+            "あります。"
+          ],
+          "en": "There are books, pens and so on."
+        }
+      ]
+    },
+    {
+      "id": "n5-u07-g06",
+      "title": "何か / だれか / 何も — \"something\", \"someone\", \"nothing\"",
+      "pattern": "何か / だれか + question ・ 何も / だれも + negative",
+      "meaning": "something, someone / nothing, nobody",
+      "explanation": "Add か to a question word and it becomes \"some-\": 何か (something), だれか (someone). Add も instead and use a negative verb, and it becomes \"no-\": 何もありません (there's nothing), だれもいません (there's nobody). The particles が and を are usually dropped after 何か / だれか (何かありますか is more natural than 何かがありますか), and they are never used with 何も / だれも: say 何もありません, not 何もがありません. Note the reading: 何か is なにか and 何も is なにも.",
+      "notes": [
+        "何も and だれも always need a negative: 何も食べませんでした = I didn't eat anything.",
+        "何か飲みませんか = Would you like something to drink?",
+        "何 is read なに here, not なん."
+      ],
+      "examples": [
+        {
+          "jp": "箱[はこ]の中[なか]に何[なに]かありますか。",
+          "en": "Is there something in the box?"
+        },
+        {
+          "jp": "いいえ、何[なに]もありません。",
+          "en": "No, there's nothing."
+        },
+        {
+          "jp": "教室[きょうしつ]にだれもいません。",
+          "en": "There is nobody in the classroom."
+        },
+        {
+          "jp": "昨日[きのう]は何[なに]も食[た]べませんでした。",
+          "en": "I didn't eat anything yesterday."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "箱[はこ]の中[なか]に何[なに]かありますか。いいえ、何[なに]＿ありません。",
+          "answer": "も",
+          "options": [
+            "も",
+            "か",
+            "が",
+            "を"
+          ],
+          "en": "Is there something in the box? No, there's nothing."
+        },
+        {
+          "type": "choice",
+          "jp": "教室[きょうしつ]にだれ＿いますか。",
+          "answer": "か",
+          "options": [
+            "か",
+            "も",
+            "を",
+            "で"
+          ],
+          "en": "Is there anyone in the classroom?"
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は何[なに]も＿。",
+          "answer": "食[た]べませんでした",
+          "options": [
+            "食[た]べませんでした",
+            "食[た]べました",
+            "食[た]べましょう",
+            "食[た]べます"
+          ],
+          "en": "I didn't eat anything yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "＿かいますか。いいえ、だれもいません。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "何[なに]",
+            "どう",
+            "どんな"
+          ],
+          "en": "Is anyone there? No, there's nobody."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "冷蔵庫[れいぞうこ]の",
+            "中[なか]に",
+            "何[なに]もありません。"
+          ],
+          "en": "There's nothing in the refrigerator."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "箱[はこ]の",
+            "中[なか]に",
+            "何[なに]かありますか。"
+          ],
+          "en": "Is there something in the box?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "私[わたし]の部屋[へや] — My room",
+    "text": "私[わたし]の部屋[へや]は二階[にかい]にあります。あまり広[ひろ]くないですが、明[あか]るい部屋[へや]です。窓[まど]の前[まえ]に机[つくえ]があります。机[つくえ]の上[うえ]にパソコンや本[ほん]などがあります。ベッドは机[つくえ]の右[みぎ]にあります。ベッドの上[うえ]に猫[ねこ]がいます。名前[なまえ]はミケです。テレビは一階[いっかい]にあります。家[いえ]の近[ちか]くに公園[こうえん]があります。公園[こうえん]にきれいな池[いけ]があります。",
+    "en": "My room is on the second floor. It isn't very big, but it's a bright room. There is a desk in front of the window. On the desk there are a computer, books and so on. The bed is to the right of the desk. There is a cat on the bed. Its name is Mike. The TV is on the first floor. There is a park near my house. There is a pretty pond in the park.",
+    "questions": [
+      {
+        "q": "Where is the writer's room?",
+        "options": [
+          "On the first floor",
+          "On the second floor",
+          "On the third floor",
+          "In the basement"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is on the bed?",
+        "options": [
+          "A computer",
+          "Some books",
+          "A cat",
+          "A TV"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is near the house?",
+        "options": [
+          "A station",
+          "A hospital",
+          "A supermarket",
+          "A park"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Is there a post office near here?",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "すみません。この近[ちか]くに郵便局[ゆうびんきょく]がありますか。",
+        "en": "Excuse me. Is there a post office near here?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、ありますよ。あの白[しろ]いビルの隣[となり]です。",
+        "en": "Yes, there is. It's next to that white building."
+      },
+      {
+        "speaker": "A",
+        "jp": "あのビルは何[なん]ですか。",
+        "en": "What is that building?"
+      },
+      {
+        "speaker": "B",
+        "jp": "病院[びょういん]です。郵便局[ゆうびんきょく]は病院[びょういん]の左[ひだり]にあります。",
+        "en": "It's a hospital. The post office is to the left of the hospital."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。近[ちか]くにスーパーもありますか。",
+        "en": "I see. Is there a supermarket nearby too?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい。スーパーは病院[びょういん]の後[うし]ろにあります。",
+        "en": "Yes. The supermarket is behind the hospital."
+      },
+      {
+        "speaker": "A",
+        "jp": "わかりました。ありがとうございます。",
+        "en": "Got it. Thank you very much."
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ。",
+        "en": "You're welcome."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What is the white building?",
+        "options": [
+          "A post office",
+          "A supermarket",
+          "A hospital",
+          "A bank"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Where is the post office?",
+        "options": [
+          "Behind the hospital",
+          "To the left of the hospital",
+          "In front of the station",
+          "To the right of the hospital"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Where is the supermarket?",
+        "options": [
+          "Behind the hospital",
+          "Next to the station",
+          "In front of the post office",
+          "Inside the white building"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

@@ -1,0 +1,1498 @@
+{
+  "id": "n5-u03",
+  "level": "N5",
+  "number": 3,
+  "title": "Time and places",
+  "goal": "Ask where places are, tell the time, and say what days and hours places are open.",
+  "vocab": [
+    {
+      "id": "n5-u03-v01",
+      "word": "ここ",
+      "meaning": "here (near me)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "ここは教室[きょうしつ]です。",
+        "en": "This is the classroom."
+      }
+    },
+    {
+      "id": "n5-u03-v02",
+      "word": "そこ",
+      "meaning": "there (near you)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "そこはトイレですよ。",
+        "en": "That's the toilet there, you know."
+      }
+    },
+    {
+      "id": "n5-u03-v03",
+      "word": "あそこ",
+      "meaning": "over there",
+      "pos": "pronoun",
+      "example": {
+        "jp": "銀行[ぎんこう]はあそこです。",
+        "en": "The bank is over there."
+      }
+    },
+    {
+      "id": "n5-u03-v04",
+      "word": "どこ",
+      "meaning": "where",
+      "pos": "pronoun",
+      "example": {
+        "jp": "駅[えき]はどこですか。",
+        "en": "Where is the station?"
+      }
+    },
+    {
+      "id": "n5-u03-v05",
+      "word": "こちら",
+      "meaning": "this way, here (polite)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "受付[うけつけ]はこちらです。",
+        "en": "Reception is this way."
+      }
+    },
+    {
+      "id": "n5-u03-v06",
+      "word": "そちら",
+      "meaning": "that way, there (polite, near you)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "エレベーターはそちらです。",
+        "en": "The elevator is that way."
+      }
+    },
+    {
+      "id": "n5-u03-v07",
+      "word": "あちら",
+      "meaning": "that way over there (polite)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "お手洗[てあら]いはあちらです。",
+        "en": "The restroom is over that way."
+      }
+    },
+    {
+      "id": "n5-u03-v08",
+      "word": "どちら",
+      "meaning": "which way, where (polite)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "会社[かいしゃ]はどちらですか。",
+        "en": "Where is your company? / Which company are you with? (polite)"
+      }
+    },
+    {
+      "id": "n5-u03-v09",
+      "word": "銀行[ぎんこう]",
+      "meaning": "bank",
+      "pos": "noun",
+      "example": {
+        "jp": "あそこは銀行[ぎんこう]です。",
+        "en": "That's a bank over there."
+      }
+    },
+    {
+      "id": "n5-u03-v10",
+      "word": "郵便局[ゆうびんきょく]",
+      "meaning": "post office",
+      "pos": "noun",
+      "example": {
+        "jp": "郵便局[ゆうびんきょく]は九時[くじ]からです。",
+        "en": "The post office opens at nine."
+      }
+    },
+    {
+      "id": "n5-u03-v11",
+      "word": "トイレ",
+      "meaning": "toilet, restroom",
+      "pos": "noun",
+      "example": {
+        "jp": "すみません、トイレはどこですか。",
+        "en": "Excuse me, where is the restroom?"
+      }
+    },
+    {
+      "id": "n5-u03-v12",
+      "word": "お手洗[てあら]い",
+      "meaning": "restroom (polite)",
+      "pos": "noun",
+      "example": {
+        "jp": "お手洗[てあら]いはどちらですか。",
+        "en": "Where is the restroom? (polite)"
+      }
+    },
+    {
+      "id": "n5-u03-v13",
+      "word": "教室[きょうしつ]",
+      "meaning": "classroom",
+      "pos": "noun",
+      "example": {
+        "jp": "ここは日本語[にほんご]の教室[きょうしつ]です。",
+        "en": "This is the Japanese classroom."
+      }
+    },
+    {
+      "id": "n5-u03-v14",
+      "word": "図書館[としょかん]",
+      "meaning": "library",
+      "pos": "noun",
+      "example": {
+        "jp": "図書館[としょかん]は夜[よる]九時[くじ]までです。",
+        "en": "The library is open until 9 p.m."
+      }
+    },
+    {
+      "id": "n5-u03-v15",
+      "word": "駅[えき]",
+      "meaning": "station",
+      "pos": "noun",
+      "example": {
+        "jp": "駅[えき]はあそこですよ。",
+        "en": "The station is over there."
+      }
+    },
+    {
+      "id": "n5-u03-v16",
+      "word": "学校[がっこう]",
+      "meaning": "school",
+      "pos": "noun",
+      "example": {
+        "jp": "ここは私[わたし]の学校[がっこう]です。",
+        "en": "This is my school."
+      }
+    },
+    {
+      "id": "n5-u03-v17",
+      "word": "病院[びょういん]",
+      "meaning": "hospital",
+      "pos": "noun",
+      "example": {
+        "jp": "病院[びょういん]はどこですか。",
+        "en": "Where is the hospital?"
+      }
+    },
+    {
+      "id": "n5-u03-v18",
+      "word": "食堂[しょくどう]",
+      "meaning": "cafeteria, dining hall",
+      "pos": "noun",
+      "example": {
+        "jp": "大学[だいがく]の食堂[しょくどう]はこちらです。",
+        "en": "The university cafeteria is this way."
+      }
+    },
+    {
+      "id": "n5-u03-v19",
+      "word": "事務所[じむしょ]",
+      "meaning": "office",
+      "pos": "noun",
+      "example": {
+        "jp": "事務所[じむしょ]はそこです。",
+        "en": "The office is there."
+      }
+    },
+    {
+      "id": "n5-u03-v20",
+      "word": "受付[うけつけ]",
+      "meaning": "reception (desk)",
+      "pos": "noun",
+      "example": {
+        "jp": "受付[うけつけ]はどこですか。",
+        "en": "Where is reception?"
+      }
+    },
+    {
+      "id": "n5-u03-v21",
+      "word": "部屋[へや]",
+      "meaning": "room",
+      "pos": "noun",
+      "example": {
+        "jp": "ここは私[わたし]の部屋[へや]です。",
+        "en": "This is my room."
+      }
+    },
+    {
+      "id": "n5-u03-v22",
+      "word": "会社[かいしゃ]",
+      "meaning": "company, office (workplace)",
+      "pos": "noun",
+      "example": {
+        "jp": "ここはケンさんの会社[かいしゃ]です。",
+        "en": "This is Ken's company."
+      }
+    },
+    {
+      "id": "n5-u03-v23",
+      "word": "デパート",
+      "meaning": "department store",
+      "pos": "noun",
+      "example": {
+        "jp": "デパートは十時[じゅうじ]からです。",
+        "en": "The department store opens at ten."
+      }
+    },
+    {
+      "id": "n5-u03-v24",
+      "word": "コンビニ",
+      "meaning": "convenience store",
+      "pos": "noun",
+      "example": {
+        "jp": "あそこはコンビニですか。",
+        "en": "Is that a convenience store over there?"
+      }
+    },
+    {
+      "id": "n5-u03-v25",
+      "word": "売[う]り場[ば]",
+      "meaning": "sales floor, department (in a store)",
+      "pos": "noun",
+      "example": {
+        "jp": "かばん売[う]り場[ば]は何階[なんがい]ですか。",
+        "en": "Which floor is the bag department on?"
+      }
+    },
+    {
+      "id": "n5-u03-v26",
+      "word": "〜階[かい]",
+      "meaning": "~th floor (3rd floor = さんがい, which floor = なんがい)",
+      "pos": "counter",
+      "example": {
+        "jp": "トイレは二階[にかい]です。",
+        "en": "The restroom is on the second floor."
+      }
+    },
+    {
+      "id": "n5-u03-v27",
+      "word": "日曜日[にちようび]",
+      "meaning": "Sunday",
+      "pos": "noun",
+      "example": {
+        "jp": "郵便局[ゆうびんきょく]は日曜日[にちようび]も休[やす]みですか。",
+        "en": "Is the post office closed on Sundays too?"
+      }
+    },
+    {
+      "id": "n5-u03-v28",
+      "word": "月曜日[げつようび]",
+      "meaning": "Monday",
+      "pos": "noun",
+      "example": {
+        "jp": "試験[しけん]は月曜日[げつようび]です。",
+        "en": "The exam is on Monday."
+      }
+    },
+    {
+      "id": "n5-u03-v29",
+      "word": "火曜日[かようび]",
+      "meaning": "Tuesday",
+      "pos": "noun",
+      "example": {
+        "jp": "会議[かいぎ]は火曜日[かようび]の午後[ごご]です。",
+        "en": "The meeting is on Tuesday afternoon."
+      }
+    },
+    {
+      "id": "n5-u03-v30",
+      "word": "水曜日[すいようび]",
+      "meaning": "Wednesday",
+      "pos": "noun",
+      "example": {
+        "jp": "水曜日[すいようび]の授業[じゅぎょう]は九時[くじ]からです。",
+        "en": "Wednesday's class starts at nine."
+      }
+    },
+    {
+      "id": "n5-u03-v31",
+      "word": "木曜日[もくようび]",
+      "meaning": "Thursday",
+      "pos": "noun",
+      "example": {
+        "jp": "木曜日[もくようび]の午後[ごご]は会議[かいぎ]です。",
+        "en": "Thursday afternoon there's a meeting."
+      }
+    },
+    {
+      "id": "n5-u03-v32",
+      "word": "金曜日[きんようび]",
+      "meaning": "Friday",
+      "pos": "noun",
+      "example": {
+        "jp": "金曜日[きんようび]の夜[よる]はパーティーです。",
+        "en": "Friday night is the party."
+      }
+    },
+    {
+      "id": "n5-u03-v33",
+      "word": "土曜日[どようび]",
+      "meaning": "Saturday",
+      "pos": "noun",
+      "example": {
+        "jp": "土曜日[どようび]の午後[ごご]は休[やす]みです。",
+        "en": "Saturday afternoon is off."
+      }
+    },
+    {
+      "id": "n5-u03-v34",
+      "word": "何曜日[なんようび]",
+      "meaning": "what day of the week",
+      "pos": "noun",
+      "example": {
+        "jp": "試験[しけん]は何曜日[なんようび]ですか。",
+        "en": "What day is the exam?"
+      }
+    },
+    {
+      "id": "n5-u03-v35",
+      "word": "今[いま]",
+      "meaning": "now",
+      "pos": "noun",
+      "example": {
+        "jp": "今[いま]何時[なんじ]ですか。",
+        "en": "What time is it now?"
+      }
+    },
+    {
+      "id": "n5-u03-v36",
+      "word": "朝[あさ]",
+      "meaning": "morning",
+      "pos": "noun",
+      "example": {
+        "jp": "銀行[ぎんこう]は朝[あさ]九時[くじ]からです。",
+        "en": "The bank opens at nine in the morning."
+      }
+    },
+    {
+      "id": "n5-u03-v37",
+      "word": "昼[ひる]",
+      "meaning": "noon, daytime",
+      "pos": "noun",
+      "example": {
+        "jp": "授業[じゅぎょう]は朝[あさ]から昼[ひる]までです。",
+        "en": "Classes are from morning until noon."
+      }
+    },
+    {
+      "id": "n5-u03-v38",
+      "word": "晩[ばん]",
+      "meaning": "evening",
+      "pos": "noun",
+      "example": {
+        "jp": "晩[ばん]の授業[じゅぎょう]は七時[しちじ]からです。",
+        "en": "The evening class starts at seven."
+      }
+    },
+    {
+      "id": "n5-u03-v39",
+      "word": "夜[よる]",
+      "meaning": "night",
+      "pos": "noun",
+      "example": {
+        "jp": "今[いま]、夜[よる]十時[じゅうじ]です。",
+        "en": "It's ten at night now."
+      }
+    },
+    {
+      "id": "n5-u03-v40",
+      "word": "午前[ごぜん]",
+      "meaning": "a.m., morning",
+      "pos": "noun",
+      "example": {
+        "jp": "試験[しけん]は午前[ごぜん]十時[じゅうじ]からです。",
+        "en": "The exam starts at 10 a.m."
+      }
+    },
+    {
+      "id": "n5-u03-v41",
+      "word": "午後[ごご]",
+      "meaning": "p.m., afternoon",
+      "pos": "noun",
+      "example": {
+        "jp": "今[いま]、午後[ごご]二時[にじ]です。",
+        "en": "It's 2 p.m. now."
+      }
+    },
+    {
+      "id": "n5-u03-v42",
+      "word": "〜時[じ]",
+      "meaning": "~ o'clock",
+      "pos": "counter",
+      "example": {
+        "jp": "今[いま]、八時[はちじ]です。",
+        "en": "It's eight o'clock now."
+      }
+    },
+    {
+      "id": "n5-u03-v43",
+      "word": "〜分[ふん]",
+      "meaning": "~ minute(s) (also read ぷん)",
+      "pos": "counter",
+      "example": {
+        "jp": "今[いま]、三時[さんじ]五分[ごふん]です。",
+        "en": "It's 3:05 now."
+      }
+    },
+    {
+      "id": "n5-u03-v44",
+      "word": "半[はん]",
+      "meaning": "half; half past (the hour)",
+      "pos": "noun",
+      "example": {
+        "jp": "今[いま]、六時半[ろくじはん]です。",
+        "en": "It's 6:30 now."
+      }
+    },
+    {
+      "id": "n5-u03-v45",
+      "word": "何時[なんじ]",
+      "meaning": "what time",
+      "pos": "noun",
+      "example": {
+        "jp": "会議[かいぎ]は何時[なんじ]からですか。",
+        "en": "What time does the meeting start?"
+      }
+    },
+    {
+      "id": "n5-u03-v46",
+      "word": "休[やす]み",
+      "meaning": "day off, holiday, break; closed",
+      "pos": "noun",
+      "example": {
+        "jp": "図書館[としょかん]の休[やす]みは月曜日[げつようび]です。",
+        "en": "The library is closed on Mondays."
+      }
+    },
+    {
+      "id": "n5-u03-v47",
+      "word": "昼休[ひるやす]み",
+      "meaning": "lunch break",
+      "pos": "noun",
+      "example": {
+        "jp": "昼休[ひるやす]みは十二時[じゅうにじ]から一時[いちじ]までです。",
+        "en": "Lunch break is from twelve to one."
+      }
+    },
+    {
+      "id": "n5-u03-v48",
+      "word": "試験[しけん]",
+      "meaning": "exam, test",
+      "pos": "noun",
+      "example": {
+        "jp": "試験[しけん]は水曜日[すいようび]の午前[ごぜん]です。",
+        "en": "The exam is Wednesday morning."
+      }
+    },
+    {
+      "id": "n5-u03-v49",
+      "word": "会議[かいぎ]",
+      "meaning": "meeting",
+      "pos": "noun",
+      "example": {
+        "jp": "会議[かいぎ]は二時[にじ]からです。",
+        "en": "The meeting starts at two."
+      }
+    },
+    {
+      "id": "n5-u03-v50",
+      "word": "から",
+      "meaning": "from (a time or place)",
+      "pos": "particle",
+      "example": {
+        "jp": "授業[じゅぎょう]は九時[くじ]からです。",
+        "en": "Class starts at (is from) nine."
+      }
+    },
+    {
+      "id": "n5-u03-v51",
+      "word": "まで",
+      "meaning": "until, up to (a time or place)",
+      "pos": "particle",
+      "example": {
+        "jp": "銀行[ぎんこう]は三時[さんじ]までです。",
+        "en": "The bank is open until three."
+      }
+    },
+    {
+      "id": "n5-u03-v52",
+      "word": "番号[ばんごう]",
+      "meaning": "number (phone, room, etc.)",
+      "pos": "noun",
+      "example": {
+        "jp": "電話[でんわ]番号[ばんごう]は何番[なんばん]ですか。",
+        "en": "What's your phone number?"
+      }
+    },
+    {
+      "id": "n5-u03-v53",
+      "word": "映画館[えいがかん]",
+      "meaning": "movie theater",
+      "pos": "noun",
+      "example": {
+        "jp": "あそこは映画館[えいがかん]です。",
+        "en": "That's a movie theater over there."
+      }
+    },
+    {
+      "id": "n5-u03-v54",
+      "word": "エレベーター",
+      "meaning": "elevator",
+      "pos": "noun",
+      "example": {
+        "jp": "エレベーターはあちらです。",
+        "en": "The elevator is over that way."
+      }
+    },
+    {
+      "id": "n5-u03-v55",
+      "word": "授業[じゅぎょう]",
+      "meaning": "class, lesson",
+      "pos": "noun",
+      "example": {
+        "jp": "授業[じゅぎょう]は何時[なんじ]までですか。",
+        "en": "Until what time is class?"
+      }
+    },
+    {
+      "id": "n5-u03-v56",
+      "word": "レストラン",
+      "meaning": "restaurant",
+      "pos": "noun",
+      "example": {
+        "jp": "レストランは五時[ごじ]からです。",
+        "en": "The restaurant opens at five."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u03-k01",
+      "char": "日",
+      "meanings": [
+        "sun",
+        "day"
+      ],
+      "on": [
+        "ニチ",
+        "ジツ"
+      ],
+      "kun": [
+        "ひ",
+        "-び",
+        "-か"
+      ],
+      "strokes": 4,
+      "mnemonic": "A window with the sun shining through it — sun, and day.",
+      "words": [
+        {
+          "word": "日曜日[にちようび]",
+          "meaning": "Sunday"
+        },
+        {
+          "word": "日本[にほん]",
+          "meaning": "Japan"
+        },
+        {
+          "word": "三日[みっか]",
+          "meaning": "the 3rd (of the month); three days"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k02",
+      "char": "月",
+      "meanings": [
+        "moon",
+        "month"
+      ],
+      "on": [
+        "ゲツ",
+        "ガツ"
+      ],
+      "kun": [
+        "つき"
+      ],
+      "strokes": 4,
+      "mnemonic": "A crescent moon with two shadow lines across it.",
+      "words": [
+        {
+          "word": "月[つき]",
+          "meaning": "moon"
+        },
+        {
+          "word": "月曜日[げつようび]",
+          "meaning": "Monday"
+        },
+        {
+          "word": "一月[いちがつ]",
+          "meaning": "January"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k03",
+      "char": "火",
+      "meanings": [
+        "fire"
+      ],
+      "on": [
+        "カ"
+      ],
+      "kun": [
+        "ひ",
+        "-び",
+        "ほ-"
+      ],
+      "strokes": 4,
+      "mnemonic": "A campfire with sparks flying out on both sides.",
+      "words": [
+        {
+          "word": "火[ひ]",
+          "meaning": "fire"
+        },
+        {
+          "word": "火曜日[かようび]",
+          "meaning": "Tuesday"
+        },
+        {
+          "word": "花火[はなび]",
+          "meaning": "fireworks"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k04",
+      "char": "水",
+      "meanings": [
+        "water"
+      ],
+      "on": [
+        "スイ"
+      ],
+      "kun": [
+        "みず"
+      ],
+      "strokes": 4,
+      "mnemonic": "A stream down the middle with water splashing off to each side.",
+      "words": [
+        {
+          "word": "水[みず]",
+          "meaning": "water"
+        },
+        {
+          "word": "水曜日[すいようび]",
+          "meaning": "Wednesday"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k05",
+      "char": "木",
+      "meanings": [
+        "tree",
+        "wood"
+      ],
+      "on": [
+        "モク",
+        "ボク"
+      ],
+      "kun": [
+        "き",
+        "こ-"
+      ],
+      "strokes": 4,
+      "mnemonic": "A tree: a trunk, two branches and roots spreading below.",
+      "words": [
+        {
+          "word": "木[き]",
+          "meaning": "tree"
+        },
+        {
+          "word": "木曜日[もくようび]",
+          "meaning": "Thursday"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k06",
+      "char": "金",
+      "meanings": [
+        "gold",
+        "money",
+        "metal"
+      ],
+      "on": [
+        "キン",
+        "コン"
+      ],
+      "kun": [
+        "かね",
+        "かな-"
+      ],
+      "strokes": 8,
+      "mnemonic": "Two gold nuggets buried in the earth under a roof.",
+      "words": [
+        {
+          "word": "お金[かね]",
+          "meaning": "money"
+        },
+        {
+          "word": "金曜日[きんようび]",
+          "meaning": "Friday"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k07",
+      "char": "土",
+      "meanings": [
+        "earth",
+        "soil"
+      ],
+      "on": [
+        "ド",
+        "ト"
+      ],
+      "kun": [
+        "つち"
+      ],
+      "strokes": 3,
+      "mnemonic": "A sprout pushing up out of the ground.",
+      "words": [
+        {
+          "word": "土[つち]",
+          "meaning": "soil, earth"
+        },
+        {
+          "word": "土曜日[どようび]",
+          "meaning": "Saturday"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k08",
+      "char": "年",
+      "meanings": [
+        "year"
+      ],
+      "on": [
+        "ネン"
+      ],
+      "kun": [
+        "とし"
+      ],
+      "strokes": 6,
+      "mnemonic": "A farmer carrying a heavy sheaf of rice — one harvest every year.",
+      "words": [
+        {
+          "word": "今年[ことし]",
+          "meaning": "this year"
+        },
+        {
+          "word": "来年[らいねん]",
+          "meaning": "next year"
+        },
+        {
+          "word": "一年[いちねん]",
+          "meaning": "one year"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k09",
+      "char": "時",
+      "meanings": [
+        "time",
+        "hour"
+      ],
+      "on": [
+        "ジ"
+      ],
+      "kun": [
+        "とき"
+      ],
+      "strokes": 10,
+      "mnemonic": "The sun (日) beside a temple (寺) whose bell rings out the hours.",
+      "words": [
+        {
+          "word": "時間[じかん]",
+          "meaning": "time; hours"
+        },
+        {
+          "word": "時計[とけい]",
+          "meaning": "watch, clock"
+        },
+        {
+          "word": "時[とき]",
+          "meaning": "time, when"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k10",
+      "char": "分",
+      "meanings": [
+        "minute",
+        "part",
+        "understand"
+      ],
+      "on": [
+        "ブン",
+        "フン",
+        "ブ"
+      ],
+      "kun": [
+        "わ.ける",
+        "わ.かる",
+        "わ.かれる"
+      ],
+      "strokes": 4,
+      "mnemonic": "A knife (刀) slicing something into eight (八) parts — minutes divide the hour.",
+      "words": [
+        {
+          "word": "五分[ごふん]",
+          "meaning": "five minutes"
+        },
+        {
+          "word": "半分[はんぶん]",
+          "meaning": "half"
+        },
+        {
+          "word": "分[わ]かる",
+          "meaning": "to understand"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-k11",
+      "char": "半",
+      "meanings": [
+        "half"
+      ],
+      "on": [
+        "ハン"
+      ],
+      "kun": [
+        "なか.ば"
+      ],
+      "strokes": 5,
+      "mnemonic": "One long stroke slices the shape straight down the middle — half.",
+      "words": [
+        {
+          "word": "半[はん]",
+          "meaning": "half past"
+        },
+        {
+          "word": "半分[はんぶん]",
+          "meaning": "half"
+        },
+        {
+          "word": "三時半[さんじはん]",
+          "meaning": "half past three, 3:30"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u03-g01",
+      "title": "ここ・そこ・あそこ・どこ — here, there, where",
+      "pattern": "ここ は N です / N は どこ ですか",
+      "meaning": "This place is N / Where is N?",
+      "explanation": "ここ, そこ, あそこ and どこ are the place words of the これ / それ / あれ / どれ family. ここ is \"here\" (near me), そこ is \"there\" (near you), あそこ is \"over there\" (far from both of us), and どこ is \"where?\". To ask where something is, say N はどこですか. こちら, そちら, あちら and どちら are the polite versions, and they also mean \"this way / that way\".",
+      "notes": [
+        "Staff in shops and hotels almost always use こちら / あちら to be polite.",
+        "お国はどちらですか is a polite way to ask which country someone is from."
+      ],
+      "examples": [
+        {
+          "jp": "ここは図書館[としょかん]です。",
+          "en": "This (place) is the library."
+        },
+        {
+          "jp": "「トイレはどこですか。」「あそこです。」",
+          "en": "\"Where is the restroom?\" \"It's over there.\""
+        },
+        {
+          "jp": "受付[うけつけ]はこちらです。",
+          "en": "Reception is this way."
+        },
+        {
+          "jp": "お国[くに]はどちらですか。",
+          "en": "Which country are you from? (polite)"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "すみません、トイレは＿ですか。",
+          "answer": "どこ",
+          "options": [
+            "どこ",
+            "だれ",
+            "どの",
+            "この"
+          ],
+          "en": "Excuse me, where is the restroom?"
+        },
+        {
+          "type": "choice",
+          "jp": "＿は教室[きょうしつ]です。",
+          "answer": "ここ",
+          "options": [
+            "ここ",
+            "この",
+            "どこ",
+            "だれ"
+          ],
+          "en": "This is the classroom."
+        },
+        {
+          "type": "choice",
+          "jp": "受付[うけつけ]は＿です。どうぞ。",
+          "answer": "こちら",
+          "options": [
+            "こちら",
+            "この",
+            "どちら",
+            "だれ"
+          ],
+          "en": "Reception is this way. Please, go ahead."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "銀行[ぎんこう]は",
+            "どこ",
+            "ですか。"
+          ],
+          "en": "Where is the bank?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "エレベーターは",
+            "あそこ",
+            "です。"
+          ],
+          "en": "The elevator is over there."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "すみません、",
+            "お手洗[てあら]いは",
+            "どちらですか。"
+          ],
+          "en": "Excuse me, where is the restroom? (polite)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-g02",
+      "title": "〜時〜分 — telling the time",
+      "pattern": "〜時〜分です / 今何時ですか",
+      "meaning": "It's ~ o'clock and ~ minutes / What time is it now?",
+      "explanation": "For hours, say the number plus 時 (じ): 三時 is three o'clock. For minutes, say the number plus 分, which is read ふん or ぷん depending on the number: 五分 (ごふん), 十分 (じゅっぷん). 半 means \"half past\": 二時半 is 2:30. To ask the time, say 今何時ですか — \"What time is it now?\" 午前 (a.m.) and 午後 (p.m.) go before the time: 午後三時 is 3 p.m.",
+      "notes": [
+        "Special hour readings: 四時 (よじ), 七時 (しちじ), 九時 (くじ).",
+        "Special minute readings: 一分 (いっぷん), 三分 (さんぷん), 四分 (よんぷん), 六分 (ろっぷん), 八分 (はっぷん), 十分 (じゅっぷん).",
+        "11 and 12 are simply 十一 (じゅういち) and 十二 (じゅうに): 十二時 is twelve o'clock."
+      ],
+      "examples": [
+        {
+          "jp": "「今[いま]何時[なんじ]ですか。」「九時[くじ]五分[ごふん]です。」",
+          "en": "\"What time is it now?\" \"It's 9:05.\""
+        },
+        {
+          "jp": "今[いま]、午後[ごご]三時[さんじ]です。",
+          "en": "It's 3 p.m. now."
+        },
+        {
+          "jp": "今[いま]、四時[よじ]十分[じゅっぷん]です。",
+          "en": "It's 4:10 now."
+        },
+        {
+          "jp": "今[いま]、七時半[しちじはん]です。",
+          "en": "It's 7:30 now."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "今[いま]＿ですか。",
+          "answer": "何時[なんじ]",
+          "options": [
+            "何時[なんじ]",
+            "だれ",
+            "どれ",
+            "どの"
+          ],
+          "en": "What time is it now?"
+        },
+        {
+          "type": "choice",
+          "jp": "今[いま]、二時[にじ]＿です。",
+          "answer": "半[はん]",
+          "options": [
+            "半[はん]",
+            "時[じ]",
+            "分[ふん]",
+            "何[なん]"
+          ],
+          "en": "It's 2:30 now."
+        },
+        {
+          "type": "choice",
+          "jp": "今[いま]、六時[ろくじ]五[ご]＿です。",
+          "answer": "分[ふん]",
+          "options": [
+            "分[ふん]",
+            "時[じ]",
+            "半[はん]",
+            "曜日[ようび]"
+          ],
+          "en": "It's 6:05 now."
+        },
+        {
+          "type": "choice",
+          "jp": "＿三時[さんじ]です。",
+          "answer": "午後[ごご]",
+          "options": [
+            "午後[ごご]",
+            "半[はん]",
+            "分[ふん]",
+            "何[なん]"
+          ],
+          "en": "It's 3 p.m."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今[いま]",
+            "何時[なんじ]",
+            "ですか。"
+          ],
+          "en": "What time is it now?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今[いま]、",
+            "九時[くじ]",
+            "十分[じゅっぷん]",
+            "です。"
+          ],
+          "en": "It's 9:10 now."
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-g03",
+      "title": "〜から〜まで — from ~ until ~",
+      "pattern": "A から B まで",
+      "meaning": "from A until B",
+      "explanation": "から marks a starting point and まで marks an end point. They come after the word they belong to, so 九時から means \"from nine\" and 五時まで means \"until five\". With です you can give opening hours or schedules: 銀行は九時から三時までです — The bank is open from nine to three. You can also use just one of them: 授業は九時からです — Class is from nine (starts at nine).",
+      "notes": [
+        "から and まで also work with days: 月曜日から金曜日まで (Monday to Friday).",
+        "They work with places too (駅から学校まで — from the station to school); you'll use that with verbs in Unit 4."
+      ],
+      "examples": [
+        {
+          "jp": "銀行[ぎんこう]は九時[くじ]から三時[さんじ]までです。",
+          "en": "The bank is open from nine to three."
+        },
+        {
+          "jp": "昼休[ひるやす]みは十二時[じゅうにじ]から一時[いちじ]までです。",
+          "en": "Lunch break is from twelve to one."
+        },
+        {
+          "jp": "試験[しけん]は月曜日[げつようび]から金曜日[きんようび]までです。",
+          "en": "Exams run from Monday to Friday."
+        },
+        {
+          "jp": "授業[じゅぎょう]は九時[くじ]からです。",
+          "en": "Class starts at nine."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "郵便局[ゆうびんきょく]は九時[くじ]＿五時[ごじ]までです。",
+          "answer": "から",
+          "options": [
+            "から",
+            "まで",
+            "の",
+            "も"
+          ],
+          "en": "The post office is open from nine to five."
+        },
+        {
+          "type": "choice",
+          "jp": "図書館[としょかん]は朝[あさ]九時[くじ]から夜[よる]八時[はちじ]＿です。",
+          "answer": "まで",
+          "options": [
+            "まで",
+            "から",
+            "の",
+            "は"
+          ],
+          "en": "The library is open from 9 a.m. to 8 p.m."
+        },
+        {
+          "type": "choice",
+          "jp": "会議[かいぎ]は二時[にじ]から＿までですか。",
+          "answer": "何時[なんじ]",
+          "options": [
+            "何時[なんじ]",
+            "どこ",
+            "だれ",
+            "どれ"
+          ],
+          "en": "The meeting is from two until what time?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "銀行[ぎんこう]は",
+            "九時[くじ]から",
+            "三時[さんじ]まで",
+            "です。"
+          ],
+          "en": "The bank is open from nine to three."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "試験[しけん]は",
+            "月曜日[げつようび]から",
+            "金曜日[きんようび]までです。"
+          ],
+          "en": "Exams are from Monday to Friday."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "昼休[ひるやす]みは",
+            "何時[なんじ]から",
+            "ですか。"
+          ],
+          "en": "What time does lunch break start?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-g04",
+      "title": "曜日 — days of the week",
+      "pattern": "〜曜日 / 何曜日ですか",
+      "meaning": "(day) of the week / What day is it?",
+      "explanation": "Each day of the week is a nature word plus 曜日 (ようび): 月 moon = Monday, 火 fire = Tuesday, 水 water = Wednesday, 木 wood = Thursday, 金 gold = Friday, 土 earth = Saturday, and 日 sun = Sunday. To ask what day something is, use 何曜日ですか. Join a day and a time of day with の: 金曜日の夜 is Friday night.",
+      "notes": [
+        "In conversation 日 is often dropped: 月曜 = Monday.",
+        "Order: 日 月 火 水 木 金 土 — Sunday to Saturday on a Japanese calendar."
+      ],
+      "examples": [
+        {
+          "jp": "図書館[としょかん]の休[やす]みは日曜日[にちようび]です。",
+          "en": "The library is closed on Sundays."
+        },
+        {
+          "jp": "「試験[しけん]は何曜日[なんようび]ですか。」「水曜日[すいようび]です。」",
+          "en": "\"What day is the exam?\" \"It's Wednesday.\""
+        },
+        {
+          "jp": "銀行[ぎんこう]は月曜日[げつようび]から金曜日[きんようび]までです。",
+          "en": "The bank is open Monday to Friday."
+        },
+        {
+          "jp": "会議[かいぎ]は木曜日[もくようび]の午後[ごご]です。",
+          "en": "The meeting is on Thursday afternoon."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "試験[しけん]は＿ですか。",
+          "answer": "何曜日[なんようび]",
+          "options": [
+            "何曜日[なんようび]",
+            "だれ",
+            "どの",
+            "この"
+          ],
+          "en": "What day is the exam?"
+        },
+        {
+          "type": "choice",
+          "jp": "会議[かいぎ]は木曜日[もくようび]＿午後[ごご]です。",
+          "answer": "の",
+          "options": [
+            "の",
+            "から",
+            "も",
+            "か"
+          ],
+          "en": "The meeting is on Thursday afternoon."
+        },
+        {
+          "type": "choice",
+          "jp": "休[やす]みは土曜日[どようび]＿日曜日[にちようび]までです。",
+          "answer": "から",
+          "options": [
+            "から",
+            "まで",
+            "の",
+            "は"
+          ],
+          "en": "The break is from Saturday to Sunday."
+        },
+        {
+          "type": "choice",
+          "jp": "「試験[しけん]は月曜日[げつようび]ですか。」「いいえ、＿です。」",
+          "answer": "火曜日[かようび]",
+          "options": [
+            "火曜日[かようび]",
+            "何曜日[なんようび]",
+            "どこ",
+            "だれ"
+          ],
+          "en": "\"Is the exam on Monday?\" \"No, it's on Tuesday.\""
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "休[やす]みは",
+            "何曜日[なんようび]",
+            "ですか。"
+          ],
+          "en": "What day is your day off?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "試験[しけん]は",
+            "水曜日[すいようび]の",
+            "午前[ごぜん]です。"
+          ],
+          "en": "The exam is on Wednesday morning."
+        }
+      ]
+    },
+    {
+      "id": "n5-u03-g05",
+      "title": "の with places — \"the university's library\"",
+      "pattern": "Place の N",
+      "meaning": "the N of / at a place",
+      "explanation": "You already know の for possession (私の本). It also links a place or organization to something that belongs to it: 大学の図書館 is \"the university library\" and 駅のトイレ is \"the station restroom\". As always, the bigger thing comes first and the thing you mean comes last. どこの + noun asks where something is from: どこのカメラですか — Where is this camera from (which country or company)?",
+      "notes": [
+        "Read it backwards into English: 銀行の受付 → the reception of the bank.",
+        "Answer どこの questions with the place + の: 日本のです (It's from Japan)."
+      ],
+      "examples": [
+        {
+          "jp": "ここはさくら大学[だいがく]の図書館[としょかん]です。",
+          "en": "This is Sakura University's library."
+        },
+        {
+          "jp": "駅[えき]のトイレはあそこです。",
+          "en": "The station restroom is over there."
+        },
+        {
+          "jp": "「これはどこのカメラですか。」「日本[にほん]のです。」",
+          "en": "\"Where is this camera from?\" \"It's from Japan.\""
+        },
+        {
+          "jp": "銀行[ぎんこう]の受付[うけつけ]はこちらです。",
+          "en": "The bank's reception desk is this way."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "ここは大学[だいがく]＿食堂[しょくどう]です。",
+          "answer": "の",
+          "options": [
+            "の",
+            "は",
+            "か",
+            "も"
+          ],
+          "en": "This is the university cafeteria."
+        },
+        {
+          "type": "choice",
+          "jp": "「これは＿の時計[とけい]ですか。」「スイスのです。」",
+          "answer": "どこ",
+          "options": [
+            "どこ",
+            "どれ",
+            "どの",
+            "あれ"
+          ],
+          "en": "\"Where is this watch from?\" \"It's from Switzerland.\""
+        },
+        {
+          "type": "choice",
+          "jp": "駅[えき]の＿はあそこです。",
+          "answer": "トイレ",
+          "options": [
+            "トイレ",
+            "だれ",
+            "何[なん]",
+            "どこ"
+          ],
+          "en": "The station restroom is over there."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ここは",
+            "銀行[ぎんこう]の",
+            "受付[うけつけ]です。"
+          ],
+          "en": "This is the bank's reception desk."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "これは",
+            "日本[にほん]の",
+            "カメラです。"
+          ],
+          "en": "This is a Japanese camera."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ここは",
+            "デパートの",
+            "何階[なんがい]ですか。"
+          ],
+          "en": "What floor of the department store is this?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "私[わたし]の大学[だいがく] — My university",
+    "text": "ここはさくら大学[だいがく]です。私[わたし]の大学[だいがく]です。あそこは図書館[としょかん]です。図書館[としょかん]は月曜日[げつようび]から土曜日[どようび]までです。朝[あさ]九時[くじ]から夜[よる]九時[くじ]までです。日曜日[にちようび]は休[やす]みです。食堂[しょくどう]はこちらです。食堂[しょくどう]は十一時[じゅういちじ]から二時[にじ]までです。日本語[にほんご]の授業[じゅぎょう]は午前[ごぜん]です。九時半[くじはん]から十二時[じゅうにじ]までです。",
+    "en": "This is Sakura University. It's my university. That over there is the library. The library is open from Monday to Saturday, from 9 in the morning to 9 at night. It's closed on Sundays. The cafeteria is this way. The cafeteria is open from 11 to 2. Japanese class is in the morning, from 9:30 to 12:00.",
+    "questions": [
+      {
+        "q": "Which day is the library closed?",
+        "options": [
+          "Saturday",
+          "Monday",
+          "Sunday",
+          "Friday"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What time does the cafeteria open?",
+        "options": [
+          "9:00",
+          "11:00",
+          "2:00",
+          "9:30"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When is Japanese class?",
+        "options": [
+          "9:00 a.m. to 9:00 p.m.",
+          "11:00 to 2:00",
+          "In the afternoon",
+          "9:30 to 12:00"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Where's the post office?",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "すみません、郵便局[ゆうびんきょく]はどこですか。",
+        "en": "Excuse me, where is the post office?"
+      },
+      {
+        "speaker": "B",
+        "jp": "郵便局[ゆうびんきょく]ですか。あそこですよ。",
+        "en": "The post office? It's over there."
+      },
+      {
+        "speaker": "A",
+        "jp": "あ、あそこですね。郵便局[ゆうびんきょく]は何時[なんじ]までですか。",
+        "en": "Oh, over there. Until what time is the post office open?"
+      },
+      {
+        "speaker": "B",
+        "jp": "五時[ごじ]までです。",
+        "en": "Until five."
+      },
+      {
+        "speaker": "A",
+        "jp": "今[いま]何時[なんじ]ですか。",
+        "en": "What time is it now?"
+      },
+      {
+        "speaker": "B",
+        "jp": "四時半[よじはん]です。",
+        "en": "It's 4:30."
+      },
+      {
+        "speaker": "A",
+        "jp": "銀行[ぎんこう]もあそこですか。",
+        "en": "Is the bank over there too?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、銀行[ぎんこう]はあちらです。銀行[ぎんこう]は三時[さんじ]までですよ。",
+        "en": "No, the bank is over that way. The bank is only open until three, you know."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。ありがとうございます。",
+        "en": "I see. Thank you."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Until what time is the post office open?",
+        "options": [
+          "3:00",
+          "4:30",
+          "5:00",
+          "9:00"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What time is it now?",
+        "options": [
+          "4:00",
+          "4:30",
+          "5:00",
+          "3:30"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "Until what time is the bank open?",
+        "options": [
+          "5:00",
+          "4:30",
+          "9:00",
+          "3:00"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

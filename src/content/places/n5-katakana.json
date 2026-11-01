@@ -1,0 +1,48 @@
+{
+  "unitId": "n5-katakana",
+  "place": "Tokyo Station",
+  "jp": "東京駅[とうきょうえき]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.6812,
+  "lng": 139.7671,
+  "tagline": "A red-brick station from 1914 and the start of the shinkansen",
+  "history": "Tokyo Station opened on 20 December 1914. Its red-brick Marunouchi building was designed by Tatsuno Kingo, often called the father of modern Japanese architecture. The station survived the 1923 Great Kantō Earthquake, but bombing in May 1945 destroyed its domes, and it was patched up with a simpler roof after the war. A five-year restoration finished in 2012 brought back the third floor and the domes as they looked in 1914.",
+  "sites": [
+    {
+      "name": "Marunouchi Station Building",
+      "jp": "丸[まる]の内[うち]駅舎[えきしゃ]",
+      "kind": "landmark",
+      "year": "1914",
+      "desc": "The red-brick front of Tokyo Station, restored in 2012. Look up inside the domes to see the restored decorations."
+    },
+    {
+      "name": "Tokyo Station Hotel",
+      "jp": "東京[とうきょう]ステーションホテル",
+      "kind": "landmark",
+      "year": "1915",
+      "desc": "A hotel built right inside the station building. Some rooms look straight down onto the station's halls."
+    },
+    {
+      "name": "Imperial Palace East Gardens",
+      "jp": "皇居東御苑[こうきょひがしぎょえん]",
+      "kind": "garden",
+      "year": null,
+      "desc": "A short walk from the station, on the grounds of old Edo Castle. Opened to the public in 1968, with stone walls and the base of the castle keep."
+    }
+  ],
+  "facts": [
+    "The Tōkaidō Shinkansen, the world's first high-speed rail line, started running from Tokyo Station in 1964.",
+    "Tokyo Station is famous for ekiben, boxed lunches made to eat on the train.",
+    "The 2012 restoration rebuilt the domes that were lost in 1945."
+  ],
+  "words": [
+    { "word": "駅[えき]", "meaning": "station" },
+    { "word": "新幹線[しんかんせん]", "meaning": "shinkansen, bullet train" },
+    { "word": "電車[でんしゃ]", "meaning": "train" },
+    { "word": "駅弁[えきべん]", "meaning": "station boxed lunch" },
+    { "word": "切符[きっぷ]", "meaning": "ticket" }
+  ],
+  "stamp": { "kanji": "東京", "motif": "train" },
+  "reading": null
+}

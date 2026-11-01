@@ -1,0 +1,1679 @@
+{
+  "id": "n5-u06",
+  "level": "N5",
+  "number": 6,
+  "title": "Describing things",
+  "goal": "Describe people, places, things and the weather with adjectives, now and in the past.",
+  "vocab": [
+    {
+      "id": "n5-u06-v01",
+      "word": "大[おお]きい",
+      "meaning": "big, large",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この大学[だいがく]は大[おお]きいです。",
+        "en": "This university is big."
+      }
+    },
+    {
+      "id": "n5-u06-v02",
+      "word": "小[ちい]さい",
+      "meaning": "small, little",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このかばんは小[ちい]さいです。",
+        "en": "This bag is small."
+      }
+    },
+    {
+      "id": "n5-u06-v03",
+      "word": "新[あたら]しい",
+      "meaning": "new",
+      "pos": "i-adj",
+      "example": {
+        "jp": "私[わたし]の時計[とけい]は新[あたら]しいです。",
+        "en": "My watch is new."
+      }
+    },
+    {
+      "id": "n5-u06-v04",
+      "word": "古[ふる]い",
+      "meaning": "old (things, not people)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この本[ほん]は古[ふる]いです。",
+        "en": "This book is old."
+      }
+    },
+    {
+      "id": "n5-u06-v05",
+      "word": "高[たか]い",
+      "meaning": "expensive; tall, high",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このかばんは高[たか]いです。",
+        "en": "This bag is expensive."
+      }
+    },
+    {
+      "id": "n5-u06-v06",
+      "word": "安[やす]い",
+      "meaning": "cheap, inexpensive",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このレストランは安[やす]いです。",
+        "en": "This restaurant is cheap."
+      }
+    },
+    {
+      "id": "n5-u06-v07",
+      "word": "低[ひく]い",
+      "meaning": "low; short (height)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このいすは低[ひく]いです。",
+        "en": "This chair is low."
+      }
+    },
+    {
+      "id": "n5-u06-v08",
+      "word": "長[なが]い",
+      "meaning": "long",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この映画[えいが]は長[なが]いです。",
+        "en": "This movie is long."
+      }
+    },
+    {
+      "id": "n5-u06-v09",
+      "word": "短[みじか]い",
+      "meaning": "short (length)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このペンは短[みじか]いです。",
+        "en": "This pen is short."
+      }
+    },
+    {
+      "id": "n5-u06-v10",
+      "word": "多[おお]い",
+      "meaning": "many, a lot",
+      "pos": "i-adj",
+      "example": {
+        "jp": "東京[とうきょう]は人[ひと]が多[おお]いです。",
+        "en": "Tokyo has a lot of people."
+      }
+    },
+    {
+      "id": "n5-u06-v11",
+      "word": "少[すく]ない",
+      "meaning": "few, little (in amount)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この町[まち]は人[ひと]が少[すく]ないです。",
+        "en": "This town has few people."
+      }
+    },
+    {
+      "id": "n5-u06-v12",
+      "word": "少[すこ]し",
+      "meaning": "a little, a bit",
+      "pos": "adverb",
+      "example": {
+        "jp": "今日[きょう]は少[すこ]し寒[さむ]いです。",
+        "en": "It's a little cold today."
+      }
+    },
+    {
+      "id": "n5-u06-v13",
+      "word": "暑[あつ]い",
+      "meaning": "hot (weather)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "今日[きょう]は暑[あつ]いです。",
+        "en": "It's hot today."
+      }
+    },
+    {
+      "id": "n5-u06-v14",
+      "word": "寒[さむ]い",
+      "meaning": "cold (weather)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "昨日[きのう]は寒[さむ]かったです。",
+        "en": "It was cold yesterday."
+      }
+    },
+    {
+      "id": "n5-u06-v15",
+      "word": "熱[あつ]い",
+      "meaning": "hot (to the touch)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このコーヒーは熱[あつ]いです。",
+        "en": "This coffee is hot."
+      }
+    },
+    {
+      "id": "n5-u06-v16",
+      "word": "冷[つめ]たい",
+      "meaning": "cold (to the touch)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "冷[つめ]たい水[みず]をください。",
+        "en": "Cold water, please."
+      }
+    },
+    {
+      "id": "n5-u06-v17",
+      "word": "暖[あたた]かい",
+      "meaning": "warm",
+      "pos": "i-adj",
+      "example": {
+        "jp": "今日[きょう]は暖[あたた]かいですね。",
+        "en": "It's warm today, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u06-v18",
+      "word": "涼[すず]しい",
+      "meaning": "cool, refreshing",
+      "pos": "i-adj",
+      "example": {
+        "jp": "朝[あさ]は涼[すず]しいです。",
+        "en": "Mornings are cool."
+      }
+    },
+    {
+      "id": "n5-u06-v19",
+      "word": "おいしい",
+      "meaning": "delicious, tasty",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このケーキはおいしいです。",
+        "en": "This cake is delicious."
+      }
+    },
+    {
+      "id": "n5-u06-v20",
+      "word": "まずい",
+      "meaning": "bad-tasting",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このコーヒーはまずいです。",
+        "en": "This coffee tastes bad."
+      }
+    },
+    {
+      "id": "n5-u06-v21",
+      "word": "おもしろい",
+      "meaning": "interesting; funny",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この本[ほん]はおもしろいです。",
+        "en": "This book is interesting."
+      }
+    },
+    {
+      "id": "n5-u06-v22",
+      "word": "つまらない",
+      "meaning": "boring, dull",
+      "pos": "i-adj",
+      "example": {
+        "jp": "昨日[きのう]の映画[えいが]はつまらなかったです。",
+        "en": "Yesterday's movie was boring."
+      }
+    },
+    {
+      "id": "n5-u06-v23",
+      "word": "いい",
+      "meaning": "good (also よい)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この本[ほん]はとてもいいです。",
+        "en": "This book is very good."
+      }
+    },
+    {
+      "id": "n5-u06-v24",
+      "word": "悪[わる]い",
+      "meaning": "bad",
+      "pos": "i-adj",
+      "example": {
+        "jp": "ケンさんは悪[わる]い人[ひと]じゃありません。",
+        "en": "Ken is not a bad person."
+      }
+    },
+    {
+      "id": "n5-u06-v25",
+      "word": "難[むずか]しい",
+      "meaning": "difficult",
+      "pos": "i-adj",
+      "example": {
+        "jp": "漢字[かんじ]は難[むずか]しいです。",
+        "en": "Kanji are difficult."
+      }
+    },
+    {
+      "id": "n5-u06-v26",
+      "word": "やさしい",
+      "meaning": "kind, gentle; easy",
+      "pos": "i-adj",
+      "example": {
+        "jp": "日本語[にほんご]の先生[せんせい]はやさしいです。",
+        "en": "The Japanese teacher is kind."
+      }
+    },
+    {
+      "id": "n5-u06-v27",
+      "word": "忙[いそが]しい",
+      "meaning": "busy",
+      "pos": "i-adj",
+      "example": {
+        "jp": "今週[こんしゅう]は忙[いそが]しいです。",
+        "en": "I'm busy this week."
+      }
+    },
+    {
+      "id": "n5-u06-v28",
+      "word": "楽[たの]しい",
+      "meaning": "fun, enjoyable",
+      "pos": "i-adj",
+      "example": {
+        "jp": "日本語[にほんご]の勉強[べんきょう]は楽[たの]しいです。",
+        "en": "Studying Japanese is fun."
+      }
+    },
+    {
+      "id": "n5-u06-v29",
+      "word": "広[ひろ]い",
+      "meaning": "spacious, wide",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この教室[きょうしつ]は広[ひろ]いです。",
+        "en": "This classroom is spacious."
+      }
+    },
+    {
+      "id": "n5-u06-v30",
+      "word": "狭[せま]い",
+      "meaning": "cramped, narrow (space)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このレストランは狭[せま]いです。",
+        "en": "This restaurant is cramped."
+      }
+    },
+    {
+      "id": "n5-u06-v31",
+      "word": "重[おも]い",
+      "meaning": "heavy",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このかばんは重[おも]いです。",
+        "en": "This bag is heavy."
+      }
+    },
+    {
+      "id": "n5-u06-v32",
+      "word": "軽[かる]い",
+      "meaning": "light (in weight)",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このパソコンは軽[かる]いです。",
+        "en": "This computer is light."
+      }
+    },
+    {
+      "id": "n5-u06-v33",
+      "word": "白[しろ]い",
+      "meaning": "white",
+      "pos": "i-adj",
+      "example": {
+        "jp": "これは白[しろ]いかばんです。",
+        "en": "This is a white bag."
+      }
+    },
+    {
+      "id": "n5-u06-v34",
+      "word": "明[あか]るい",
+      "meaning": "bright, light",
+      "pos": "i-adj",
+      "example": {
+        "jp": "この教室[きょうしつ]は明[あか]るいです。",
+        "en": "This classroom is bright."
+      }
+    },
+    {
+      "id": "n5-u06-v35",
+      "word": "暗[くら]い",
+      "meaning": "dark",
+      "pos": "i-adj",
+      "example": {
+        "jp": "夜[よる]は暗[くら]いです。",
+        "en": "It's dark at night."
+      }
+    },
+    {
+      "id": "n5-u06-v36",
+      "word": "かわいい",
+      "meaning": "cute",
+      "pos": "i-adj",
+      "example": {
+        "jp": "このペンはかわいいですね。",
+        "en": "This pen is cute, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u06-v37",
+      "word": "若[わか]い",
+      "meaning": "young",
+      "pos": "i-adj",
+      "example": {
+        "jp": "山田[やまだ]先生[せんせい]は若[わか]いです。",
+        "en": "Ms. Yamada (the teacher) is young."
+      }
+    },
+    {
+      "id": "n5-u06-v38",
+      "word": "静[しず]か",
+      "meaning": "quiet",
+      "pos": "na-adj",
+      "example": {
+        "jp": "図書館[としょかん]は静[しず]かです。",
+        "en": "The library is quiet."
+      }
+    },
+    {
+      "id": "n5-u06-v39",
+      "word": "にぎやか",
+      "meaning": "lively, busy (with people)",
+      "pos": "na-adj",
+      "example": {
+        "jp": "東京[とうきょう]はにぎやかです。",
+        "en": "Tokyo is lively."
+      }
+    },
+    {
+      "id": "n5-u06-v40",
+      "word": "きれい",
+      "meaning": "pretty, beautiful; clean",
+      "pos": "na-adj",
+      "example": {
+        "jp": "京都[きょうと]はきれいな町[まち]です。",
+        "en": "Kyoto is a beautiful town."
+      }
+    },
+    {
+      "id": "n5-u06-v41",
+      "word": "有名[ゆうめい]",
+      "meaning": "famous",
+      "pos": "na-adj",
+      "example": {
+        "jp": "このレストランは有名[ゆうめい]です。",
+        "en": "This restaurant is famous."
+      }
+    },
+    {
+      "id": "n5-u06-v42",
+      "word": "親切[しんせつ]",
+      "meaning": "kind, helpful",
+      "pos": "na-adj",
+      "example": {
+        "jp": "田中[たなか]さんは親切[しんせつ]です。",
+        "en": "Mr. Tanaka is kind."
+      }
+    },
+    {
+      "id": "n5-u06-v43",
+      "word": "元気[げんき]",
+      "meaning": "healthy, well, energetic",
+      "pos": "na-adj",
+      "example": {
+        "jp": "お元気[げんき]ですか。",
+        "en": "How are you? (Are you well?)"
+      }
+    },
+    {
+      "id": "n5-u06-v44",
+      "word": "便利[べんり]",
+      "meaning": "convenient",
+      "pos": "na-adj",
+      "example": {
+        "jp": "電車[でんしゃ]は便利[べんり]です。",
+        "en": "Trains are convenient."
+      }
+    },
+    {
+      "id": "n5-u06-v45",
+      "word": "不便[ふべん]",
+      "meaning": "inconvenient",
+      "pos": "na-adj",
+      "example": {
+        "jp": "この町[まち]は少[すこ]し不便[ふべん]です。",
+        "en": "This town is a little inconvenient."
+      }
+    },
+    {
+      "id": "n5-u06-v46",
+      "word": "暇[ひま]",
+      "meaning": "free (not busy)",
+      "pos": "na-adj",
+      "example": {
+        "jp": "明日[あした]は暇[ひま]です。",
+        "en": "I'm free tomorrow."
+      }
+    },
+    {
+      "id": "n5-u06-v47",
+      "word": "大変[たいへん]",
+      "meaning": "hard, tough",
+      "pos": "na-adj",
+      "example": {
+        "jp": "仕事[しごと]は大変[たいへん]です。",
+        "en": "Work is tough."
+      }
+    },
+    {
+      "id": "n5-u06-v48",
+      "word": "簡単[かんたん]",
+      "meaning": "simple, easy",
+      "pos": "na-adj",
+      "example": {
+        "jp": "このテストは簡単[かんたん]でした。",
+        "en": "This test was easy."
+      }
+    },
+    {
+      "id": "n5-u06-v49",
+      "word": "とても",
+      "meaning": "very",
+      "pos": "adverb",
+      "example": {
+        "jp": "このケーキはとてもおいしいです。",
+        "en": "This cake is very delicious."
+      }
+    },
+    {
+      "id": "n5-u06-v50",
+      "word": "あまり",
+      "meaning": "(not) very, (not) much — used with a negative",
+      "pos": "adverb",
+      "example": {
+        "jp": "このかばんはあまり高[たか]くないです。",
+        "en": "This bag is not very expensive."
+      }
+    },
+    {
+      "id": "n5-u06-v51",
+      "word": "どう",
+      "meaning": "how",
+      "pos": "adverb",
+      "example": {
+        "jp": "日本[にほん]はどうですか。",
+        "en": "How do you like Japan?"
+      }
+    },
+    {
+      "id": "n5-u06-v52",
+      "word": "どんな",
+      "meaning": "what kind of",
+      "pos": "expression",
+      "example": {
+        "jp": "どんな本[ほん]ですか。",
+        "en": "What kind of book is it?"
+      }
+    },
+    {
+      "id": "n5-u06-v53",
+      "word": "でも",
+      "meaning": "but, however (starts a sentence)",
+      "pos": "expression",
+      "example": {
+        "jp": "高[たか]いです。でも、おいしいです。",
+        "en": "It's expensive. But it's delicious."
+      }
+    },
+    {
+      "id": "n5-u06-v54",
+      "word": "天気[てんき]",
+      "meaning": "weather",
+      "pos": "noun",
+      "example": {
+        "jp": "今日[きょう]はいい天気[てんき]ですね。",
+        "en": "It's nice weather today, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u06-v55",
+      "word": "雨[あめ]",
+      "meaning": "rain",
+      "pos": "noun",
+      "example": {
+        "jp": "昨日[きのう]は雨[あめ]でした。",
+        "en": "It was rainy yesterday."
+      }
+    },
+    {
+      "id": "n5-u06-v56",
+      "word": "雪[ゆき]",
+      "meaning": "snow",
+      "pos": "noun",
+      "example": {
+        "jp": "雪[ゆき]はきれいです。",
+        "en": "Snow is pretty."
+      }
+    },
+    {
+      "id": "n5-u06-v57",
+      "word": "晴[は]れ",
+      "meaning": "sunny weather, clear skies",
+      "pos": "noun",
+      "example": {
+        "jp": "明日[あした]は晴[は]れです。",
+        "en": "It will be sunny tomorrow."
+      }
+    },
+    {
+      "id": "n5-u06-v58",
+      "word": "町[まち]",
+      "meaning": "town",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の町[まち]は静[しず]かです。",
+        "en": "My town is quiet."
+      }
+    },
+    {
+      "id": "n5-u06-v59",
+      "word": "所[ところ]",
+      "meaning": "place",
+      "pos": "noun",
+      "example": {
+        "jp": "ここはいい所[ところ]ですね。",
+        "en": "This is a nice place, isn't it?"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u06-k01",
+      "char": "大",
+      "meanings": [
+        "big",
+        "large"
+      ],
+      "on": [
+        "ダイ",
+        "タイ"
+      ],
+      "kun": [
+        "おお-",
+        "おお.きい",
+        "おお.いに"
+      ],
+      "strokes": 3,
+      "mnemonic": "A person stretching their arms out wide to show how big the fish was.",
+      "words": [
+        {
+          "word": "大[おお]きい",
+          "meaning": "big"
+        },
+        {
+          "word": "大人[おとな]",
+          "meaning": "adult"
+        },
+        {
+          "word": "大学[だいがく]",
+          "meaning": "university"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k02",
+      "char": "小",
+      "meanings": [
+        "small",
+        "little"
+      ],
+      "on": [
+        "ショウ"
+      ],
+      "kun": [
+        "ちい.さい",
+        "こ-",
+        "お-"
+      ],
+      "strokes": 3,
+      "mnemonic": "A tiny hook with two little drops beside it — everything here is small.",
+      "words": [
+        {
+          "word": "小[ちい]さい",
+          "meaning": "small"
+        },
+        {
+          "word": "小学生[しょうがくせい]",
+          "meaning": "elementary school student"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k03",
+      "char": "高",
+      "meanings": [
+        "tall",
+        "high",
+        "expensive"
+      ],
+      "on": [
+        "コウ"
+      ],
+      "kun": [
+        "たか.い",
+        "たか",
+        "たか.まる",
+        "たか.める"
+      ],
+      "strokes": 10,
+      "mnemonic": "A tall tower with a roof, a window and a gate — high up and expensive to build.",
+      "words": [
+        {
+          "word": "高[たか]い",
+          "meaning": "expensive; tall, high"
+        },
+        {
+          "word": "高校[こうこう]",
+          "meaning": "high school"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k04",
+      "char": "安",
+      "meanings": [
+        "cheap",
+        "peaceful",
+        "safe"
+      ],
+      "on": [
+        "アン"
+      ],
+      "kun": [
+        "やす.い"
+      ],
+      "strokes": 6,
+      "mnemonic": "A woman (女) safe under a roof feels at peace — and rent here is cheap.",
+      "words": [
+        {
+          "word": "安[やす]い",
+          "meaning": "cheap"
+        },
+        {
+          "word": "安心[あんしん]",
+          "meaning": "relief, peace of mind"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k05",
+      "char": "新",
+      "meanings": [
+        "new"
+      ],
+      "on": [
+        "シン"
+      ],
+      "kun": [
+        "あたら.しい",
+        "あら.た",
+        "にい-"
+      ],
+      "strokes": 13,
+      "mnemonic": "Stand on a tree and cut it with an axe (斤) to get fresh, new wood.",
+      "words": [
+        {
+          "word": "新[あたら]しい",
+          "meaning": "new"
+        },
+        {
+          "word": "新聞[しんぶん]",
+          "meaning": "newspaper"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k06",
+      "char": "古",
+      "meanings": [
+        "old"
+      ],
+      "on": [
+        "コ"
+      ],
+      "kun": [
+        "ふる.い",
+        "ふる-"
+      ],
+      "strokes": 5,
+      "mnemonic": "A story passed through ten (十) mouths (口) is very old.",
+      "words": [
+        {
+          "word": "古[ふる]い",
+          "meaning": "old (things)"
+        },
+        {
+          "word": "古本[ふるほん]",
+          "meaning": "second-hand book"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k07",
+      "char": "長",
+      "meanings": [
+        "long",
+        "leader"
+      ],
+      "on": [
+        "チョウ"
+      ],
+      "kun": [
+        "なが.い",
+        "おさ"
+      ],
+      "strokes": 8,
+      "mnemonic": "An old leader with long, flowing hair blowing in the wind.",
+      "words": [
+        {
+          "word": "長[なが]い",
+          "meaning": "long"
+        },
+        {
+          "word": "社長[しゃちょう]",
+          "meaning": "company president"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k08",
+      "char": "多",
+      "meanings": [
+        "many",
+        "much"
+      ],
+      "on": [
+        "タ"
+      ],
+      "kun": [
+        "おお.い"
+      ],
+      "strokes": 6,
+      "mnemonic": "Two evenings (夕) stacked up — so many nights.",
+      "words": [
+        {
+          "word": "多[おお]い",
+          "meaning": "many, a lot"
+        },
+        {
+          "word": "多分[たぶん]",
+          "meaning": "probably"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k09",
+      "char": "少",
+      "meanings": [
+        "few",
+        "a little"
+      ],
+      "on": [
+        "ショウ"
+      ],
+      "kun": [
+        "すく.ない",
+        "すこ.し"
+      ],
+      "strokes": 4,
+      "mnemonic": "Small (小) with one more drop slipping away — now there's only a little left.",
+      "words": [
+        {
+          "word": "少[すく]ない",
+          "meaning": "few, little"
+        },
+        {
+          "word": "少[すこ]し",
+          "meaning": "a little, a bit"
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-k10",
+      "char": "白",
+      "meanings": [
+        "white"
+      ],
+      "on": [
+        "ハク",
+        "ビャク"
+      ],
+      "kun": [
+        "しろ",
+        "しろ.い",
+        "しら-"
+      ],
+      "strokes": 5,
+      "mnemonic": "The sun (日) with one ray of light on top shines bright white.",
+      "words": [
+        {
+          "word": "白[しろ]い",
+          "meaning": "white"
+        },
+        {
+          "word": "白[しろ]",
+          "meaning": "white (the color)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u06-g01",
+      "title": "い-adjectives — \"is big\", \"isn't big\"",
+      "pattern": "N は い-adj です / い-adj (drop い) + くないです",
+      "meaning": "N is (not) adj",
+      "explanation": "Japanese has two kinds of adjectives. い-adjectives always end in い, like 高い (expensive) and おいしい (delicious). To describe something, put the adjective before です: このかばんは高いです. To make it negative, drop the final い and add くないです: 高い → 高くないです. The です just adds politeness — the adjective itself carries the meaning.",
+      "notes": [
+        "いい (good) is irregular: the negative is よくないです, never いくないです.",
+        "高くありません means the same as 高くないです and is a little more formal.",
+        "With 多い and 少ない you will often see this shape: 東京は人が多いです — \"Tokyo has many people.\""
+      ],
+      "examples": [
+        {
+          "jp": "この本[ほん]はおもしろいです。",
+          "en": "This book is interesting."
+        },
+        {
+          "jp": "今日[きょう]は暑[あつ]いです。",
+          "en": "It's hot today."
+        },
+        {
+          "jp": "このかばんは高[たか]くないです。",
+          "en": "This bag is not expensive."
+        },
+        {
+          "jp": "日本語[にほんご]は難[むずか]しくないです。",
+          "en": "Japanese is not difficult."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このケーキはおいしい＿。",
+          "answer": "です",
+          "options": [
+            "です",
+            "じゃありません",
+            "の",
+            "を"
+          ],
+          "en": "This cake is delicious."
+        },
+        {
+          "type": "choice",
+          "jp": "このかばんは高[たか]＿ないです。",
+          "answer": "く",
+          "options": [
+            "く",
+            "い",
+            "な",
+            "で"
+          ],
+          "en": "This bag is not expensive."
+        },
+        {
+          "type": "choice",
+          "jp": "日本語[にほんご]は難[むずか]しいですか。いいえ、難[むずか]しく＿。",
+          "answer": "ないです",
+          "options": [
+            "ないです",
+            "です",
+            "じゃありません",
+            "でした"
+          ],
+          "en": "Is Japanese difficult? No, it isn't difficult."
+        },
+        {
+          "type": "choice",
+          "jp": "この本[ほん]は＿ないです。",
+          "answer": "よく",
+          "options": [
+            "よく",
+            "いく",
+            "いい",
+            "よい"
+          ],
+          "en": "This book is not good."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今日[きょう]は",
+            "寒[さむ]く",
+            "ないです。"
+          ],
+          "en": "It's not cold today."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "日本語[にほんご]は",
+            "おもしろい",
+            "です。"
+          ],
+          "en": "Japanese is interesting."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g02",
+      "title": "な-adjectives — \"is quiet\", \"isn't quiet\"",
+      "pattern": "N は な-adj です / な-adj じゃありません",
+      "meaning": "N is (not) adj",
+      "explanation": "な-adjectives are the second kind of adjective, like 静か (quiet) and 親切 (kind). At the end of a sentence they act just like nouns: add です to say \"is\", and じゃありません to say \"is not\". You do not add な here — the な only shows up when the adjective comes right before a noun (next lesson). Be careful: きれい and 有名 end in い, but they are な-adjectives.",
+      "notes": [
+        "きれい (pretty) and 有名 (famous) are な-adjectives, so the negative is きれいじゃありません, never きれくないです.",
+        "ではありません is a more formal version of じゃありません."
+      ],
+      "examples": [
+        {
+          "jp": "この町[まち]は静[しず]かです。",
+          "en": "This town is quiet."
+        },
+        {
+          "jp": "田中[たなか]さんは親切[しんせつ]です。",
+          "en": "Mr. Tanaka is kind."
+        },
+        {
+          "jp": "京都[きょうと]は有名[ゆうめい]です。",
+          "en": "Kyoto is famous."
+        },
+        {
+          "jp": "今日[きょう]は暇[ひま]じゃありません。",
+          "en": "I'm not free today."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "この町[まち]は静[しず]か＿。",
+          "answer": "です",
+          "options": [
+            "です",
+            "いです",
+            "なです",
+            "くないです"
+          ],
+          "en": "This town is quiet."
+        },
+        {
+          "type": "choice",
+          "jp": "今日[きょう]は暇[ひま]＿。",
+          "answer": "じゃありません",
+          "options": [
+            "じゃありません",
+            "くないです",
+            "なです",
+            "いです"
+          ],
+          "en": "I'm not free today."
+        },
+        {
+          "type": "choice",
+          "jp": "この大学[だいがく]は有名[ゆうめい]＿ありません。",
+          "answer": "じゃ",
+          "options": [
+            "じゃ",
+            "く",
+            "な",
+            "の"
+          ],
+          "en": "This university is not famous."
+        },
+        {
+          "type": "choice",
+          "jp": "先生[せんせい]は＿です。",
+          "answer": "親切[しんせつ]",
+          "options": [
+            "親切[しんせつ]",
+            "親切[しんせつ]な",
+            "親切[しんせつ]い",
+            "親切[しんせつ]く"
+          ],
+          "en": "The teacher is kind."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "東京[とうきょう]は",
+            "にぎやか",
+            "です。"
+          ],
+          "en": "Tokyo is lively."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この町[まち]は",
+            "きれい",
+            "じゃありません。"
+          ],
+          "en": "This town is not clean."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g03",
+      "title": "Adjective + noun — \"a big bag\"",
+      "pattern": "い-adj + N / な-adj + な + N",
+      "meaning": "an adj N",
+      "explanation": "To describe a noun directly, put the adjective in front of it, just like English. い-adjectives go straight in front with their い: 新しい時計 (a new watch). な-adjectives need な between the adjective and the noun: 静かな町 (a quiet town). That little な is how these adjectives got their name.",
+      "notes": [
+        "いい also works before a noun: いい天気 = nice weather.",
+        "Don't use の between an adjective and a noun: 静かの町 is wrong."
+      ],
+      "examples": [
+        {
+          "jp": "これは新[あたら]しい時計[とけい]です。",
+          "en": "This is a new watch."
+        },
+        {
+          "jp": "京都[きょうと]は古[ふる]い町[まち]です。",
+          "en": "Kyoto is an old town."
+        },
+        {
+          "jp": "田中[たなか]さんは親切[しんせつ]な先生[せんせい]です。",
+          "en": "Mr. Tanaka is a kind teacher."
+        },
+        {
+          "jp": "東京[とうきょう]はにぎやかな町[まち]です。",
+          "en": "Tokyo is a lively city."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんは親切[しんせつ]＿先生[せんせい]です。",
+          "answer": "な",
+          "options": [
+            "な",
+            "の",
+            "い",
+            "く"
+          ],
+          "en": "Mr. Tanaka is a kind teacher."
+        },
+        {
+          "type": "choice",
+          "jp": "これは新[あたら]し＿かばんです。",
+          "answer": "い",
+          "options": [
+            "い",
+            "な",
+            "く",
+            "の"
+          ],
+          "en": "This is a new bag."
+        },
+        {
+          "type": "choice",
+          "jp": "今日[きょう]は＿天気[てんき]ですね。",
+          "answer": "いい",
+          "options": [
+            "いい",
+            "よく",
+            "いいな",
+            "よいの"
+          ],
+          "en": "It's nice weather today, isn't it?"
+        },
+        {
+          "type": "choice",
+          "jp": "東京[とうきょう]は＿町[まち]です。",
+          "answer": "にぎやかな",
+          "options": [
+            "にぎやかな",
+            "にぎやか",
+            "にぎやかい",
+            "にぎやかの"
+          ],
+          "en": "Tokyo is a lively city."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "これは",
+            "高[たか]い",
+            "時計[とけい]",
+            "です。"
+          ],
+          "en": "This is an expensive watch."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "京都[きょうと]は",
+            "きれいな",
+            "町[まち]です。"
+          ],
+          "en": "Kyoto is a beautiful town."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g04",
+      "title": "Past adjectives — \"was\", \"wasn't\"",
+      "pattern": "い-adj: 〜かったです / 〜くなかったです ・ な-adj, N: 〜でした / 〜じゃありませんでした",
+      "meaning": "was (not) adj",
+      "explanation": "い-adjectives change their own ending for the past: drop い and add かったです (暑い → 暑かったです, \"was hot\"). For \"wasn't\", take the negative くない and change it the same way: 暑くなかったです. な-adjectives and nouns keep the adjective as it is and change the ending instead: 暇でした (was free), 暇じゃありませんでした (wasn't free). So い-adjectives put the past inside the word, and な-adjectives put it in です.",
+      "notes": [
+        "いい → よかったです (was good) and よくなかったです (wasn't good).",
+        "おいしいでした is a very common mistake — say おいしかったです.",
+        "Nouns work like な-adjectives: 雨でした (it was rainy)."
+      ],
+      "examples": [
+        {
+          "jp": "昨日[きのう]は寒[さむ]かったです。",
+          "en": "It was cold yesterday."
+        },
+        {
+          "jp": "昨日[きのう]のケーキはおいしかったです。",
+          "en": "Yesterday's cake was delicious."
+        },
+        {
+          "jp": "天気[てんき]はよくなかったです。",
+          "en": "The weather wasn't good."
+        },
+        {
+          "jp": "昨日[きのう]は暇[ひま]じゃありませんでした。",
+          "en": "I wasn't free yesterday."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は暑[あつ]＿。",
+          "answer": "かったです",
+          "options": [
+            "かったです",
+            "いでした",
+            "でした",
+            "かったでした"
+          ],
+          "en": "It was hot yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は暇[ひま]＿。",
+          "answer": "でした",
+          "options": [
+            "でした",
+            "かったです",
+            "いでした",
+            "なでした"
+          ],
+          "en": "I was free yesterday."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]の天気[てんき]は＿なかったです。",
+          "answer": "よく",
+          "options": [
+            "よく",
+            "いく",
+            "いい",
+            "よかった"
+          ],
+          "en": "Yesterday's weather wasn't good."
+        },
+        {
+          "type": "choice",
+          "jp": "パーティーは静[しず]か＿ありませんでした。",
+          "answer": "じゃ",
+          "options": [
+            "じゃ",
+            "く",
+            "な",
+            "かった"
+          ],
+          "en": "The party wasn't quiet."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "昨日[きのう]の",
+            "ケーキは",
+            "おいしかったです。"
+          ],
+          "en": "Yesterday's cake was delicious."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "先週[せんしゅう]は",
+            "忙[いそが]しかった",
+            "です。"
+          ],
+          "en": "I was busy last week."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g05",
+      "title": "とても / あまり〜ない — \"very\" and \"not very\"",
+      "pattern": "とても + adj / あまり + negative",
+      "meaning": "very adj / not very adj",
+      "explanation": "とても means \"very\" and goes right before the adjective: とても高いです (very expensive). あまり means \"not very\" or \"not much\", but only together with a negative ending: あまり高くないです (not very expensive). It works with verbs too: あまり飲みません means \"I don't drink much.\" Never use あまり with a positive sentence.",
+      "notes": [
+        "あまり always needs a negative: あまり高いです is wrong.",
+        "とても goes with positive sentences: とても高くないです sounds wrong."
+      ],
+      "examples": [
+        {
+          "jp": "東京[とうきょう]はとてもにぎやかです。",
+          "en": "Tokyo is very lively."
+        },
+        {
+          "jp": "このコーヒーはとてもおいしいです。",
+          "en": "This coffee is very good."
+        },
+        {
+          "jp": "日本語[にほんご]はあまり難[むずか]しくないです。",
+          "en": "Japanese is not very difficult."
+        },
+        {
+          "jp": "この町[まち]はあまり有名[ゆうめい]じゃありません。",
+          "en": "This town isn't very famous."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このカレーは＿おいしいです。",
+          "answer": "とても",
+          "options": [
+            "とても",
+            "あまり",
+            "何[なん]",
+            "も"
+          ],
+          "en": "This curry is very delicious."
+        },
+        {
+          "type": "choice",
+          "jp": "今日[きょう]は＿寒[さむ]くないです。",
+          "answer": "あまり",
+          "options": [
+            "あまり",
+            "とても",
+            "どう",
+            "どんな"
+          ],
+          "en": "It isn't very cold today."
+        },
+        {
+          "type": "choice",
+          "jp": "この本[ほん]はあまりおもしろく＿。",
+          "answer": "ないです",
+          "options": [
+            "ないです",
+            "です",
+            "いです",
+            "かったです"
+          ],
+          "en": "This book isn't very interesting."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]はコーヒーをあまり＿。",
+          "answer": "飲[の]みません",
+          "options": [
+            "飲[の]みません",
+            "飲[の]みます",
+            "飲[の]みましょう",
+            "飲[の]みますか"
+          ],
+          "en": "I don't drink coffee much."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "京都[きょうと]は",
+            "とても",
+            "きれいです。"
+          ],
+          "en": "Kyoto is very beautiful."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この町[まち]は",
+            "あまり",
+            "にぎやかじゃありません。"
+          ],
+          "en": "This town isn't very lively."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g06",
+      "title": "が — \"but\"",
+      "pattern": "Sentence 1 が、Sentence 2",
+      "meaning": "S1, but S2",
+      "explanation": "が joins two sentences and means \"but\". Put it right after the first sentence's です or ます, then a comma, then the second sentence: 高いですが、おいしいです (It's expensive, but delicious). It usually connects two ideas that contrast. You can also split it into two sentences with でも: 高いです。でも、おいしいです。",
+      "notes": [
+        "が comes after です / ます, not in place of them.",
+        "This が (but) is different from the が you'll meet in the next unit that marks a subject — look at its position: \"but\" が comes at the end of a full sentence."
+      ],
+      "examples": [
+        {
+          "jp": "この時計[とけい]は高[たか]いですが、とてもいいです。",
+          "en": "This watch is expensive, but it's very good."
+        },
+        {
+          "jp": "日本語[にほんご]は難[むずか]しいですが、おもしろいです。",
+          "en": "Japanese is difficult, but interesting."
+        },
+        {
+          "jp": "東京[とうきょう]はにぎやかですが、京都[きょうと]は静[しず]かです。",
+          "en": "Tokyo is lively, but Kyoto is quiet."
+        },
+        {
+          "jp": "今日[きょう]は暇[ひま]ですが、明日[あした]は忙[いそが]しいです。",
+          "en": "I'm free today, but I'm busy tomorrow."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このレストランは安[やす]いです＿、おいしいです。",
+          "answer": "が",
+          "options": [
+            "が",
+            "か",
+            "も",
+            "の"
+          ],
+          "en": "This restaurant is cheap, but the food is good."
+        },
+        {
+          "type": "choice",
+          "jp": "日本語[にほんご]は難[むずか]しいですが、＿です。",
+          "answer": "おもしろい",
+          "options": [
+            "おもしろい",
+            "難[むずか]しい",
+            "大変[たいへん]",
+            "難[むずか]しく"
+          ],
+          "en": "Japanese is difficult, but interesting."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は暑[あつ]かったです＿、今日[きょう]は寒[さむ]いです。",
+          "answer": "が",
+          "options": [
+            "が",
+            "と",
+            "を",
+            "に"
+          ],
+          "en": "It was hot yesterday, but it's cold today."
+        },
+        {
+          "type": "choice",
+          "jp": "このかばんは＿ですが、高[たか]いです。",
+          "answer": "きれい",
+          "options": [
+            "きれい",
+            "安[やす]い",
+            "高[たか]い",
+            "高[たか]く"
+          ],
+          "en": "This bag is pretty, but it's expensive."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "東京[とうきょう]はにぎやかですが、",
+            "京都[きょうと]は",
+            "静[しず]かです。"
+          ],
+          "en": "Tokyo is lively, but Kyoto is quiet."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "日本語[にほんご]は",
+            "難[むずか]しいですが、",
+            "おもしろいです。"
+          ],
+          "en": "Japanese is difficult, but interesting."
+        }
+      ]
+    },
+    {
+      "id": "n5-u06-g07",
+      "title": "どう / どんな — \"how?\" and \"what kind of?\"",
+      "pattern": "N はどうですか / どんな N ですか",
+      "meaning": "How is N? / What kind of N is it?",
+      "explanation": "どう means \"how\" and asks for your impression: 日本はどうですか (How is Japan? / How do you like Japan?). Answer with an adjective: とてもおもしろいです. どんな means \"what kind of\" and must have a noun right after it: どんな町ですか (What kind of town is it?). Answer with an adjective plus a noun: にぎやかな町です.",
+      "notes": [
+        "For the past, ask どうでしたか (How was it?).",
+        "コーヒーはどうですか can also be an offer: \"How about some coffee?\"",
+        "どんな always needs a noun after it; どう never does."
+      ],
+      "examples": [
+        {
+          "jp": "日本[にほん]の料理[りょうり]はどうですか。",
+          "en": "How do you like Japanese food?"
+        },
+        {
+          "jp": "東京[とうきょう]はどんな町[まち]ですか。",
+          "en": "What kind of city is Tokyo?"
+        },
+        {
+          "jp": "にぎやかな町[まち]です。",
+          "en": "It's a lively city."
+        },
+        {
+          "jp": "天気[てんき]はどうでしたか。",
+          "en": "How was the weather?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "京都[きょうと]は＿町[まち]ですか。",
+          "answer": "どんな",
+          "options": [
+            "どんな",
+            "どう",
+            "どれ",
+            "どこ"
+          ],
+          "en": "What kind of town is Kyoto?"
+        },
+        {
+          "type": "choice",
+          "jp": "日本語[にほんご]の勉強[べんきょう]は＿ですか。",
+          "answer": "どう",
+          "options": [
+            "どう",
+            "どんな",
+            "どれ",
+            "どの"
+          ],
+          "en": "How is your Japanese study going?"
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]のパーティーはどう＿。",
+          "answer": "でしたか",
+          "options": [
+            "でしたか",
+            "かったですか",
+            "なでしたか",
+            "くないですか"
+          ],
+          "en": "How was yesterday's party?"
+        },
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんはどんな人[ひと]ですか。＿人[ひと]です。",
+          "answer": "親切[しんせつ]な",
+          "options": [
+            "親切[しんせつ]な",
+            "親切[しんせつ]",
+            "親切[しんせつ]の",
+            "親切[しんせつ]い"
+          ],
+          "en": "What kind of person is Mr. Tanaka? He's a kind person."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "東京[とうきょう]は",
+            "どんな",
+            "町[まち]ですか。"
+          ],
+          "en": "What kind of city is Tokyo?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "日本[にほん]の",
+            "天気[てんき]は",
+            "どうですか。"
+          ],
+          "en": "How is the weather in Japan?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "京都[きょうと]へ行[い]きました — A trip to Kyoto",
+    "text": "先週[せんしゅう]、友[とも]だちと京都[きょうと]へ行[い]きました。京都[きょうと]は古[ふる]い町[まち]です。とてもきれいでした。天気[てんき]はよかったですが、少[すこ]し寒[さむ]かったです。京都[きょうと]の料理[りょうり]はとてもおいしかったです。あまり高[たか]くなかったです。ホテルは新[あたら]しかったですが、あまり広[ひろ]くなかったです。東京[とうきょう]はにぎやかですが、京都[きょうと]は静[しず]かです。とても楽[たの]しかったです。",
+    "en": "Last week I went to Kyoto with a friend. Kyoto is an old town. It was very beautiful. The weather was good, but it was a little cold. The food in Kyoto was very delicious. It wasn't very expensive. The hotel was new, but it wasn't very spacious. Tokyo is lively, but Kyoto is quiet. It was a lot of fun.",
+    "questions": [
+      {
+        "q": "Who did the writer go to Kyoto with?",
+        "options": [
+          "Alone",
+          "With family",
+          "With a friend",
+          "With a teacher"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "How was the weather?",
+        "options": [
+          "Rainy and cold",
+          "Good, but a little cold",
+          "Very hot",
+          "Snowy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What was the hotel like?",
+        "options": [
+          "Old and quiet",
+          "Expensive and big",
+          "Cheap and spacious",
+          "New, but not very spacious"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "How's life in Tokyo?",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "マリアさん、東京[とうきょう]はどうですか。",
+        "en": "Maria, how do you like Tokyo?"
+      },
+      {
+        "speaker": "B",
+        "jp": "とてもにぎやかです。おもしろいですよ。",
+        "en": "It's very lively. It's fun!"
+      },
+      {
+        "speaker": "A",
+        "jp": "日本[にほん]の料理[りょうり]はどうですか。",
+        "en": "How about Japanese food?"
+      },
+      {
+        "speaker": "B",
+        "jp": "おいしいです。でも、少[すこ]し高[たか]いです。",
+        "en": "It's delicious. But it's a little expensive."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。マリアさんのアパートはどんなアパートですか。",
+        "en": "I see. What kind of apartment do you have?"
+      },
+      {
+        "speaker": "B",
+        "jp": "新[あたら]しいアパートですが、あまり広[ひろ]くないです。",
+        "en": "It's a new apartment, but it's not very big."
+      },
+      {
+        "speaker": "A",
+        "jp": "今日[きょう]は寒[さむ]いですね。",
+        "en": "It's cold today, isn't it?"
+      },
+      {
+        "speaker": "B",
+        "jp": "ええ、とても寒[さむ]いです。ブラジルは暖[あたた]かいですよ。",
+        "en": "Yes, it's very cold. Brazil is warm, you know."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Maria say about Japanese food?",
+        "options": [
+          "Cheap and delicious",
+          "Delicious, but a little expensive",
+          "Not very tasty",
+          "Too spicy"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is Maria's apartment like?",
+        "options": [
+          "Old, but big",
+          "Big and cheap",
+          "New, but not very big",
+          "Quiet and pretty"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "How is the weather today?",
+        "options": [
+          "Very cold",
+          "Warm",
+          "Hot",
+          "Rainy"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

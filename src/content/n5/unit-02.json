@@ -1,0 +1,1354 @@
+{
+  "id": "n5-u02",
+  "level": "N5",
+  "number": 2,
+  "title": "What's this?",
+  "goal": "Point at things, ask what they are and whose they are, and name everyday objects and parts of the body.",
+  "vocab": [
+    {
+      "id": "n5-u02-v01",
+      "word": "これ",
+      "meaning": "this (one, near me)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "これは本[ほん]です。",
+        "en": "This is a book."
+      }
+    },
+    {
+      "id": "n5-u02-v02",
+      "word": "それ",
+      "meaning": "that (one, near you)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "それは何[なん]ですか。",
+        "en": "What is that?"
+      }
+    },
+    {
+      "id": "n5-u02-v03",
+      "word": "あれ",
+      "meaning": "that (one, over there)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "あれは私[わたし]の車[くるま]です。",
+        "en": "That (over there) is my car."
+      }
+    },
+    {
+      "id": "n5-u02-v04",
+      "word": "どれ",
+      "meaning": "which one (of three or more)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "ケンさんのかばんはどれですか。",
+        "en": "Which bag is Ken's?"
+      }
+    },
+    {
+      "id": "n5-u02-v05",
+      "word": "この",
+      "meaning": "this ~ (+ noun)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "この本[ほん]は私[わたし]のです。",
+        "en": "This book is mine."
+      }
+    },
+    {
+      "id": "n5-u02-v06",
+      "word": "その",
+      "meaning": "that ~ (+ noun, near you)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "その傘[かさ]はだれのですか。",
+        "en": "Whose umbrella is that?"
+      }
+    },
+    {
+      "id": "n5-u02-v07",
+      "word": "あの",
+      "meaning": "that ~ over there (+ noun)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "あの人[ひと]は先生[せんせい]です。",
+        "en": "That person is a teacher."
+      }
+    },
+    {
+      "id": "n5-u02-v08",
+      "word": "どの",
+      "meaning": "which ~ (+ noun)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "どのかばんですか。",
+        "en": "Which bag is it?"
+      }
+    },
+    {
+      "id": "n5-u02-v09",
+      "word": "だれ",
+      "meaning": "who",
+      "pos": "pronoun",
+      "example": {
+        "jp": "あの人[ひと]はだれですか。",
+        "en": "Who is that person?"
+      }
+    },
+    {
+      "id": "n5-u02-v10",
+      "word": "どなた",
+      "meaning": "who (polite)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "あの方[かた]はどなたですか。",
+        "en": "Who is that person? (polite)"
+      }
+    },
+    {
+      "id": "n5-u02-v11",
+      "word": "人[ひと]",
+      "meaning": "person",
+      "pos": "noun",
+      "example": {
+        "jp": "あの人[ひと]は医者[いしゃ]です。",
+        "en": "That person is a doctor."
+      }
+    },
+    {
+      "id": "n5-u02-v12",
+      "word": "本[ほん]",
+      "meaning": "book",
+      "pos": "noun",
+      "example": {
+        "jp": "これは日本語[にほんご]の本[ほん]です。",
+        "en": "This is a Japanese(-language) book."
+      }
+    },
+    {
+      "id": "n5-u02-v13",
+      "word": "辞書[じしょ]",
+      "meaning": "dictionary",
+      "pos": "noun",
+      "example": {
+        "jp": "それは英語[えいご]の辞書[じしょ]ですか。",
+        "en": "Is that an English dictionary?"
+      }
+    },
+    {
+      "id": "n5-u02-v14",
+      "word": "ノート",
+      "meaning": "notebook",
+      "pos": "noun",
+      "example": {
+        "jp": "このノートはケンさんのです。",
+        "en": "This notebook is Ken's."
+      }
+    },
+    {
+      "id": "n5-u02-v15",
+      "word": "ペン",
+      "meaning": "pen",
+      "pos": "noun",
+      "example": {
+        "jp": "これはだれのペンですか。",
+        "en": "Whose pen is this?"
+      }
+    },
+    {
+      "id": "n5-u02-v16",
+      "word": "鉛筆[えんぴつ]",
+      "meaning": "pencil",
+      "pos": "noun",
+      "example": {
+        "jp": "それは私[わたし]の鉛筆[えんぴつ]です。",
+        "en": "That's my pencil."
+      }
+    },
+    {
+      "id": "n5-u02-v17",
+      "word": "かばん",
+      "meaning": "bag",
+      "pos": "noun",
+      "example": {
+        "jp": "あのかばんは山田[やまだ]さんのです。",
+        "en": "That bag over there is Ms. Yamada's."
+      }
+    },
+    {
+      "id": "n5-u02-v18",
+      "word": "傘[かさ]",
+      "meaning": "umbrella",
+      "pos": "noun",
+      "example": {
+        "jp": "この傘[かさ]は私[わたし]のじゃありません。",
+        "en": "This umbrella isn't mine."
+      }
+    },
+    {
+      "id": "n5-u02-v19",
+      "word": "かぎ",
+      "meaning": "key",
+      "pos": "noun",
+      "example": {
+        "jp": "これは車[くるま]のかぎです。",
+        "en": "This is the car key."
+      }
+    },
+    {
+      "id": "n5-u02-v20",
+      "word": "時計[とけい]",
+      "meaning": "watch, clock",
+      "pos": "noun",
+      "example": {
+        "jp": "その時計[とけい]は日本[にほん]のですか。",
+        "en": "Is that watch Japanese-made?"
+      }
+    },
+    {
+      "id": "n5-u02-v21",
+      "word": "スマホ",
+      "meaning": "smartphone",
+      "pos": "noun",
+      "example": {
+        "jp": "あれはマリアさんのスマホですよ。",
+        "en": "That's Maria's smartphone, you know."
+      }
+    },
+    {
+      "id": "n5-u02-v22",
+      "word": "電話[でんわ]",
+      "meaning": "telephone",
+      "pos": "noun",
+      "example": {
+        "jp": "これは私[わたし]の電話[でんわ]じゃありません。",
+        "en": "This isn't my phone."
+      }
+    },
+    {
+      "id": "n5-u02-v23",
+      "word": "いす",
+      "meaning": "chair",
+      "pos": "noun",
+      "example": {
+        "jp": "これは先生[せんせい]のいすです。",
+        "en": "This is the teacher's chair."
+      }
+    },
+    {
+      "id": "n5-u02-v24",
+      "word": "机[つくえ]",
+      "meaning": "desk",
+      "pos": "noun",
+      "example": {
+        "jp": "その机[つくえ]はだれのですか。",
+        "en": "Whose desk is that?"
+      }
+    },
+    {
+      "id": "n5-u02-v25",
+      "word": "雑誌[ざっし]",
+      "meaning": "magazine",
+      "pos": "noun",
+      "example": {
+        "jp": "これは何[なん]の雑誌[ざっし]ですか。",
+        "en": "What kind of magazine is this?"
+      }
+    },
+    {
+      "id": "n5-u02-v26",
+      "word": "新聞[しんぶん]",
+      "meaning": "newspaper",
+      "pos": "noun",
+      "example": {
+        "jp": "それは英語[えいご]の新聞[しんぶん]ですね。",
+        "en": "That's an English newspaper, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u02-v27",
+      "word": "財布[さいふ]",
+      "meaning": "wallet, purse",
+      "pos": "noun",
+      "example": {
+        "jp": "この財布[さいふ]はだれのですか。",
+        "en": "Whose wallet is this?"
+      }
+    },
+    {
+      "id": "n5-u02-v28",
+      "word": "パソコン",
+      "meaning": "computer (PC, laptop)",
+      "pos": "noun",
+      "example": {
+        "jp": "あのパソコンは先生[せんせい]のです。",
+        "en": "That computer over there is the teacher's."
+      }
+    },
+    {
+      "id": "n5-u02-v29",
+      "word": "テレビ",
+      "meaning": "television, TV",
+      "pos": "noun",
+      "example": {
+        "jp": "これは日本[にほん]のテレビです。",
+        "en": "This is a Japanese TV."
+      }
+    },
+    {
+      "id": "n5-u02-v30",
+      "word": "カメラ",
+      "meaning": "camera",
+      "pos": "noun",
+      "example": {
+        "jp": "そのカメラはラジさんのですか。",
+        "en": "Is that camera Raj's?"
+      }
+    },
+    {
+      "id": "n5-u02-v31",
+      "word": "写真[しゃしん]",
+      "meaning": "photograph",
+      "pos": "noun",
+      "example": {
+        "jp": "これは友[とも]だちの写真[しゃしん]です。",
+        "en": "This is a photo of my friend."
+      }
+    },
+    {
+      "id": "n5-u02-v32",
+      "word": "帽子[ぼうし]",
+      "meaning": "hat, cap",
+      "pos": "noun",
+      "example": {
+        "jp": "あの帽子[ぼうし]はケンさんのですよ。",
+        "en": "That hat over there is Ken's, you know."
+      }
+    },
+    {
+      "id": "n5-u02-v33",
+      "word": "靴[くつ]",
+      "meaning": "shoes",
+      "pos": "noun",
+      "example": {
+        "jp": "この靴[くつ]は私[わたし]のです。",
+        "en": "These shoes are mine."
+      }
+    },
+    {
+      "id": "n5-u02-v34",
+      "word": "めがね",
+      "meaning": "glasses (spectacles)",
+      "pos": "noun",
+      "example": {
+        "jp": "それは私[わたし]のめがねです。",
+        "en": "Those are my glasses."
+      }
+    },
+    {
+      "id": "n5-u02-v35",
+      "word": "車[くるま]",
+      "meaning": "car",
+      "pos": "noun",
+      "example": {
+        "jp": "あれは先生[せんせい]の車[くるま]ですか。",
+        "en": "Is that the teacher's car over there?"
+      }
+    },
+    {
+      "id": "n5-u02-v36",
+      "word": "消[け]しゴム",
+      "meaning": "eraser",
+      "pos": "noun",
+      "example": {
+        "jp": "これは消[け]しゴムですか。",
+        "en": "Is this an eraser?"
+      }
+    },
+    {
+      "id": "n5-u02-v37",
+      "word": "頭[あたま]",
+      "meaning": "head",
+      "pos": "noun",
+      "example": {
+        "jp": "あれはロボットの頭[あたま]ですか。",
+        "en": "Is that the robot's head over there?"
+      }
+    },
+    {
+      "id": "n5-u02-v38",
+      "word": "顔[かお]",
+      "meaning": "face",
+      "pos": "noun",
+      "example": {
+        "jp": "これはパンダの顔[かお]です。",
+        "en": "This is a panda's face."
+      }
+    },
+    {
+      "id": "n5-u02-v39",
+      "word": "目[め]",
+      "meaning": "eye",
+      "pos": "noun",
+      "example": {
+        "jp": "それは目[め]じゃありません。口[くち]ですよ。",
+        "en": "That's not an eye. It's a mouth!"
+      }
+    },
+    {
+      "id": "n5-u02-v40",
+      "word": "耳[みみ]",
+      "meaning": "ear",
+      "pos": "noun",
+      "example": {
+        "jp": "これはロボットの耳[みみ]です。",
+        "en": "This is the robot's ear."
+      }
+    },
+    {
+      "id": "n5-u02-v41",
+      "word": "口[くち]",
+      "meaning": "mouth",
+      "pos": "noun",
+      "example": {
+        "jp": "これはパンダの口[くち]です。",
+        "en": "This is the panda's mouth."
+      }
+    },
+    {
+      "id": "n5-u02-v42",
+      "word": "鼻[はな]",
+      "meaning": "nose",
+      "pos": "noun",
+      "example": {
+        "jp": "これは鼻[はな]ですか。",
+        "en": "Is this the nose?"
+      }
+    },
+    {
+      "id": "n5-u02-v43",
+      "word": "歯[は]",
+      "meaning": "tooth, teeth",
+      "pos": "noun",
+      "example": {
+        "jp": "これは歯[は]の写真[しゃしん]です。",
+        "en": "This is a picture of teeth."
+      }
+    },
+    {
+      "id": "n5-u02-v44",
+      "word": "手[て]",
+      "meaning": "hand",
+      "pos": "noun",
+      "example": {
+        "jp": "これは私[わたし]の手[て]です。",
+        "en": "This is my hand."
+      }
+    },
+    {
+      "id": "n5-u02-v45",
+      "word": "足[あし]",
+      "meaning": "foot, leg",
+      "pos": "noun",
+      "example": {
+        "jp": "それはロボットの足[あし]ですね。",
+        "en": "That's the robot's leg, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u02-v46",
+      "word": "体[からだ]",
+      "meaning": "body",
+      "pos": "noun"
+    },
+    {
+      "id": "n5-u02-v47",
+      "word": "そうです",
+      "meaning": "that's right",
+      "pos": "expression",
+      "example": {
+        "jp": "はい、そうです。",
+        "en": "Yes, that's right."
+      }
+    },
+    {
+      "id": "n5-u02-v48",
+      "word": "ちがいます",
+      "meaning": "that's wrong; no, it isn't",
+      "pos": "expression",
+      "example": {
+        "jp": "いいえ、ちがいます。",
+        "en": "No, that's not right."
+      }
+    },
+    {
+      "id": "n5-u02-v49",
+      "word": "どうぞ",
+      "meaning": "here you are; please (go ahead)",
+      "pos": "expression",
+      "example": {
+        "jp": "はい、どうぞ。",
+        "en": "Here you are."
+      }
+    },
+    {
+      "id": "n5-u02-v50",
+      "word": "英語[えいご]",
+      "meaning": "English (language)",
+      "pos": "noun",
+      "example": {
+        "jp": "これは英語[えいご]の本[ほん]です。",
+        "en": "This is an English book."
+      }
+    },
+    {
+      "id": "n5-u02-v51",
+      "word": "お土産[みやげ]",
+      "meaning": "souvenir, gift brought back from a trip",
+      "pos": "noun",
+      "example": {
+        "jp": "これは日本[にほん]のお土産[みやげ]です。",
+        "en": "This is a souvenir from Japan."
+      }
+    },
+    {
+      "id": "n5-u02-v52",
+      "word": "名刺[めいし]",
+      "meaning": "business card",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の名刺[めいし]です。どうぞ。",
+        "en": "Here's my business card."
+      }
+    },
+    {
+      "id": "n5-u02-v53",
+      "word": "あのう",
+      "meaning": "um, excuse me (hesitating)",
+      "pos": "expression",
+      "example": {
+        "jp": "あのう、これはだれの傘[かさ]ですか。",
+        "en": "Um, whose umbrella is this?"
+      }
+    },
+    {
+      "id": "n5-u02-v54",
+      "word": "シャツ",
+      "meaning": "shirt",
+      "pos": "noun",
+      "example": {
+        "jp": "このシャツは私[わたし]のじゃありません。",
+        "en": "This shirt isn't mine."
+      }
+    },
+    {
+      "id": "n5-u02-v55",
+      "word": "紙[かみ]",
+      "meaning": "paper",
+      "pos": "noun",
+      "example": {
+        "jp": "これは何[なん]の紙[かみ]ですか。",
+        "en": "What is this piece of paper (for)?"
+      }
+    },
+    {
+      "id": "n5-u02-v56",
+      "word": "ええ",
+      "meaning": "yes (softer, conversational)",
+      "pos": "expression",
+      "example": {
+        "jp": "ええ、そうです。",
+        "en": "Yeah, that's right."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u02-k01",
+      "char": "人",
+      "meanings": [
+        "person"
+      ],
+      "on": [
+        "ジン",
+        "ニン"
+      ],
+      "kun": [
+        "ひと"
+      ],
+      "strokes": 2,
+      "mnemonic": "A person striding along on two legs.",
+      "words": [
+        {
+          "word": "人[ひと]",
+          "meaning": "person"
+        },
+        {
+          "word": "日本人[にほんじん]",
+          "meaning": "Japanese person"
+        },
+        {
+          "word": "一人[ひとり]",
+          "meaning": "one person; alone"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k02",
+      "char": "本",
+      "meanings": [
+        "book",
+        "origin",
+        "main"
+      ],
+      "on": [
+        "ホン"
+      ],
+      "kun": [
+        "もと"
+      ],
+      "strokes": 5,
+      "mnemonic": "A tree (木) with a line marking its root — the origin, and books come from trees.",
+      "words": [
+        {
+          "word": "本[ほん]",
+          "meaning": "book"
+        },
+        {
+          "word": "日本[にほん]",
+          "meaning": "Japan (origin of the sun)"
+        },
+        {
+          "word": "一本[いっぽん]",
+          "meaning": "one (long, thin thing)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k03",
+      "char": "口",
+      "meanings": [
+        "mouth",
+        "opening"
+      ],
+      "on": [
+        "コウ",
+        "ク"
+      ],
+      "kun": [
+        "くち"
+      ],
+      "strokes": 3,
+      "mnemonic": "A wide-open square mouth.",
+      "words": [
+        {
+          "word": "口[くち]",
+          "meaning": "mouth"
+        },
+        {
+          "word": "出口[でぐち]",
+          "meaning": "exit"
+        },
+        {
+          "word": "入[い]り口[ぐち]",
+          "meaning": "entrance"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k04",
+      "char": "目",
+      "meanings": [
+        "eye"
+      ],
+      "on": [
+        "モク",
+        "ボク"
+      ],
+      "kun": [
+        "め",
+        "ま-"
+      ],
+      "strokes": 5,
+      "mnemonic": "An eye turned on its side, with lines for the pupil inside.",
+      "words": [
+        {
+          "word": "目[め]",
+          "meaning": "eye"
+        },
+        {
+          "word": "一[ひと]つ目[め]",
+          "meaning": "the first (one)"
+        },
+        {
+          "word": "二[ふた]つ目[め]",
+          "meaning": "the second (one)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k05",
+      "char": "耳",
+      "meanings": [
+        "ear"
+      ],
+      "on": [
+        "ジ"
+      ],
+      "kun": [
+        "みみ"
+      ],
+      "strokes": 6,
+      "mnemonic": "An ear with folds inside and the lobe sticking out at the bottom.",
+      "words": [
+        {
+          "word": "耳[みみ]",
+          "meaning": "ear"
+        },
+        {
+          "word": "右耳[みぎみみ]",
+          "meaning": "right ear"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k06",
+      "char": "手",
+      "meanings": [
+        "hand"
+      ],
+      "on": [
+        "シュ"
+      ],
+      "kun": [
+        "て"
+      ],
+      "strokes": 4,
+      "mnemonic": "A hand with fingers spread, the hooked line running down to the wrist.",
+      "words": [
+        {
+          "word": "手[て]",
+          "meaning": "hand"
+        },
+        {
+          "word": "上手[じょうず]",
+          "meaning": "skillful, good at"
+        },
+        {
+          "word": "切手[きって]",
+          "meaning": "postage stamp"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-k07",
+      "char": "足",
+      "meanings": [
+        "foot",
+        "leg",
+        "be enough"
+      ],
+      "on": [
+        "ソク"
+      ],
+      "kun": [
+        "あし",
+        "た.りる",
+        "た.る",
+        "た.す"
+      ],
+      "strokes": 7,
+      "mnemonic": "A kneecap (口) on top of a leg with a foot stepping out.",
+      "words": [
+        {
+          "word": "足[あし]",
+          "meaning": "foot, leg"
+        },
+        {
+          "word": "足[た]りる",
+          "meaning": "to be enough"
+        },
+        {
+          "word": "一足[いっそく]",
+          "meaning": "one pair (of shoes or socks)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u02-g01",
+      "title": "これ・それ・あれ・どれ — this, that, which",
+      "pattern": "これ / それ / あれ は N です",
+      "meaning": "This / that / that over there is N",
+      "explanation": "これ means \"this thing\" near you, the speaker. それ is \"that thing\" near the person you're talking to, and あれ is \"that thing over there\", far from both of you. どれ means \"which one?\" when choosing from three or more. These words stand alone like nouns — never put another noun right after them.",
+      "notes": [
+        "どれ is a question word, so it never comes before は: say ケンさんのかばんはどれですか, not どれはケンさんのかばんですか.",
+        "If someone asks about それ (near you), answer with これ, and vice versa."
+      ],
+      "examples": [
+        {
+          "jp": "これは本[ほん]です。",
+          "en": "This is a book."
+        },
+        {
+          "jp": "それは何[なん]ですか。",
+          "en": "What is that?"
+        },
+        {
+          "jp": "あれは私[わたし]の車[くるま]です。",
+          "en": "That (over there) is my car."
+        },
+        {
+          "jp": "ラジさんの傘[かさ]はどれですか。",
+          "en": "Which umbrella is Raj's?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "＿は辞書[じしょ]です。",
+          "answer": "これ",
+          "options": [
+            "これ",
+            "この",
+            "どの",
+            "だれ"
+          ],
+          "en": "This is a dictionary."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんのかばんは＿ですか。",
+          "answer": "どれ",
+          "options": [
+            "どれ",
+            "どの",
+            "あの",
+            "その"
+          ],
+          "en": "Which bag is Ken's?"
+        },
+        {
+          "type": "choice",
+          "jp": "あれ＿私[わたし]の車[くるま]です。",
+          "answer": "は",
+          "options": [
+            "は",
+            "か",
+            "の",
+            "ね"
+          ],
+          "en": "That over there is my car."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "それは",
+            "何[なん]",
+            "ですか。"
+          ],
+          "en": "What is that?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "これは",
+            "私[わたし]の",
+            "傘[かさ]",
+            "です。"
+          ],
+          "en": "This is my umbrella."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "あれは",
+            "先生[せんせい]の",
+            "車[くるま]ですか。"
+          ],
+          "en": "Is that the teacher's car over there?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-g02",
+      "title": "この・その・あの・どの + noun",
+      "pattern": "この / その / あの / どの + N",
+      "meaning": "this N / that N / that N over there / which N",
+      "explanation": "この, その, あの and どの work like これ, それ, あれ and どれ, but they must be followed by a noun. この本 means \"this book\" and あの人 means \"that person over there\". Compare: これは本です (This is a book) and この本は私の本です (This book is my book). Think of the の at the end as a hook that grabs the next noun.",
+      "notes": [
+        "Never use この / その / あの / どの alone: × このは本です.",
+        "あの人 (that person) is very common; あの方 is the polite version."
+      ],
+      "examples": [
+        {
+          "jp": "この傘[かさ]は私[わたし]の傘[かさ]です。",
+          "en": "This umbrella is my umbrella."
+        },
+        {
+          "jp": "その辞書[じしょ]は英語[えいご]の辞書[じしょ]ですか。",
+          "en": "Is that dictionary an English dictionary?"
+        },
+        {
+          "jp": "あの人[ひと]は先生[せんせい]です。",
+          "en": "That person over there is a teacher."
+        },
+        {
+          "jp": "「ケンさんのかばんです。」「どのかばんですか。」",
+          "en": "\"It's Ken's bag.\" \"Which bag?\""
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "＿本[ほん]は私[わたし]の本[ほん]です。",
+          "answer": "この",
+          "options": [
+            "この",
+            "これ",
+            "どれ",
+            "だれ"
+          ],
+          "en": "This book is my book."
+        },
+        {
+          "type": "choice",
+          "jp": "＿人[ひと]は山田[やまだ]さんです。",
+          "answer": "あの",
+          "options": [
+            "あの",
+            "あれ",
+            "それ",
+            "どれ"
+          ],
+          "en": "That person over there is Ms. Yamada."
+        },
+        {
+          "type": "choice",
+          "jp": "ラジさんの傘[かさ]は＿傘[かさ]ですか。",
+          "answer": "どの",
+          "options": [
+            "どの",
+            "どれ",
+            "これ",
+            "だれ"
+          ],
+          "en": "Which umbrella is Raj's?"
+        },
+        {
+          "type": "choice",
+          "jp": "その＿は英語[えいご]の辞書[じしょ]ですか。",
+          "answer": "辞書[じしょ]",
+          "options": [
+            "辞書[じしょ]",
+            "だれ",
+            "どれ",
+            "これ"
+          ],
+          "en": "Is that dictionary an English dictionary?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "あの",
+            "人[ひと]は",
+            "だれですか。"
+          ],
+          "en": "Who is that person over there?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "その",
+            "ペンは",
+            "ケンさんのですか。"
+          ],
+          "en": "Is that pen Ken's?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-g03",
+      "title": "何・だれ — what? who?",
+      "pattern": "N は 何 / だれ ですか",
+      "meaning": "What / who is N?",
+      "explanation": "何 means \"what\" and だれ means \"who\". Put the question word exactly where the answer would go and add か at the end — the word order does not change. だれの means \"whose\": だれのかばんですか = Whose bag is it? 何の + noun asks \"what kind of\": 何の本ですか = What kind of book is it?",
+      "notes": [
+        "何 is read なん before です, の and counters, and なに in most other places.",
+        "どなた is a polite version of だれ; use it about people you respect.",
+        "Never use 何 to ask about a person: ask あの人はだれですか."
+      ],
+      "examples": [
+        {
+          "jp": "これは何[なん]ですか。",
+          "en": "What is this?"
+        },
+        {
+          "jp": "あの人[ひと]はだれですか。",
+          "en": "Who is that person?"
+        },
+        {
+          "jp": "それはだれのかばんですか。",
+          "en": "Whose bag is that?"
+        },
+        {
+          "jp": "「何[なん]の本[ほん]ですか。」「日本語[にほんご]の本[ほん]です。」",
+          "en": "\"What kind of book is it?\" \"It's a Japanese book.\""
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "あの人[ひと]は＿ですか。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "何[なん]",
+            "どれ",
+            "どの"
+          ],
+          "en": "Who is that person?"
+        },
+        {
+          "type": "choice",
+          "jp": "それは＿ですか。",
+          "answer": "何[なん]",
+          "options": [
+            "何[なん]",
+            "だれ",
+            "どの",
+            "この"
+          ],
+          "en": "What is that?"
+        },
+        {
+          "type": "choice",
+          "jp": "これは＿のかばんですか。",
+          "answer": "だれ",
+          "options": [
+            "だれ",
+            "どの",
+            "あれ",
+            "この"
+          ],
+          "en": "Whose bag is this?"
+        },
+        {
+          "type": "choice",
+          "jp": "「これは何[なん]ですか。」「＿です。」",
+          "answer": "かぎ",
+          "options": [
+            "かぎ",
+            "だれ",
+            "どれ",
+            "何[なん]"
+          ],
+          "en": "\"What is this?\" \"It's a key.\""
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "これは",
+            "だれの",
+            "時計[とけい]ですか。"
+          ],
+          "en": "Whose watch is this?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "あの方[かた]は",
+            "どなた",
+            "ですか。"
+          ],
+          "en": "Who is that person? (polite)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-g04",
+      "title": "の — \"mine, yours, Ken's\"",
+      "pattern": "N の です",
+      "meaning": "It's N's (one)",
+      "explanation": "When everyone already knows which thing you mean, you can drop the noun after の. この傘は私のです means \"This umbrella is mine.\" To ask who owns something, say だれのですか — \"Whose is it?\" This saves you from repeating the same noun twice.",
+      "notes": [
+        "私の = mine, あなたの = yours, 先生の = the teacher's.",
+        "Only drop the noun for things, not people: say あの人は日本語の先生です, not × あの人は日本語のです."
+      ],
+      "examples": [
+        {
+          "jp": "この傘[かさ]は私[わたし]のです。",
+          "en": "This umbrella is mine."
+        },
+        {
+          "jp": "「そのかばんはだれのですか。」「ケンさんのです。」",
+          "en": "\"Whose bag is that?\" \"It's Ken's.\""
+        },
+        {
+          "jp": "あの車[くるま]は先生[せんせい]のです。",
+          "en": "That car over there is the teacher's."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このペンは私[わたし]＿です。",
+          "answer": "の",
+          "options": [
+            "の",
+            "は",
+            "か",
+            "も"
+          ],
+          "en": "This pen is mine."
+        },
+        {
+          "type": "choice",
+          "jp": "そのかぎはだれ＿ですか。",
+          "answer": "の",
+          "options": [
+            "の",
+            "も",
+            "は",
+            "ね"
+          ],
+          "en": "Whose key is that?"
+        },
+        {
+          "type": "choice",
+          "jp": "「この時計[とけい]はラジさんのですか。」「いいえ、＿のです。」",
+          "answer": "ケンさん",
+          "options": [
+            "ケンさん",
+            "だれ",
+            "どれ",
+            "これ"
+          ],
+          "en": "\"Is this watch Raj's?\" \"No, it's Ken's.\""
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "あの",
+            "車[くるま]は",
+            "先生[せんせい]のです。"
+          ],
+          "en": "That car over there is the teacher's."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "その",
+            "かばんは",
+            "だれのですか。"
+          ],
+          "en": "Whose bag is that?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この",
+            "傘[かさ]は",
+            "私[わたし]のじゃありません。"
+          ],
+          "en": "This umbrella isn't mine."
+        }
+      ]
+    },
+    {
+      "id": "n5-u02-g05",
+      "title": "ね・よ — \"right?\" and \"you know\"",
+      "pattern": "〜ですね / 〜ですよ",
+      "meaning": "…, isn't it? / …, you know!",
+      "explanation": "Japanese adds small words to the end of a sentence to show feeling. ね asks the listener to agree or confirm, like \"…, right?\" or \"…, isn't it?\". よ tells the listener something they don't know yet, like \"…, you know!\" or \"Hey, …!\". そうですね means \"That's right\" or \"Let me see…\".",
+      "notes": [
+        "Use ね when you think the listener already knows or agrees.",
+        "Use よ to give new information; using it too much can sound pushy."
+      ],
+      "examples": [
+        {
+          "jp": "「これは日本[にほん]のカメラですね。」「はい、そうです。」",
+          "en": "\"This is a Japanese camera, isn't it?\" \"Yes, it is.\""
+        },
+        {
+          "jp": "あれは先生[せんせい]の車[くるま]ですよ。",
+          "en": "That's the teacher's car over there, you know."
+        },
+        {
+          "jp": "「これはラジさんのですか。」「いいえ、私[わたし]のじゃありませんよ。」",
+          "en": "\"Is this yours, Raj?\" \"No, it's not mine.\""
+        },
+        {
+          "jp": "「あの人[ひと]は山田[やまだ]さんですね。」「ええ、そうです。」",
+          "en": "\"That's Ms. Yamada over there, right?\" \"Yes, that's right.\""
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "あ、それは私[わたし]の傘[かさ]です＿。",
+          "answer": "よ",
+          "options": [
+            "よ",
+            "か",
+            "の",
+            "も"
+          ],
+          "en": "Oh, that's my umbrella, you know!"
+        },
+        {
+          "type": "choice",
+          "jp": "「ケンさんはアメリカ人[じん]です＿。」「はい、そうです。」",
+          "answer": "ね",
+          "options": [
+            "ね",
+            "の",
+            "も",
+            "は"
+          ],
+          "en": "\"Ken is American, right?\" \"Yes, that's right.\""
+        },
+        {
+          "type": "choice",
+          "jp": "「これはラジさんのですか。」「いいえ、ちがいます＿。」",
+          "answer": "よ",
+          "options": [
+            "よ",
+            "か",
+            "の",
+            "も"
+          ],
+          "en": "\"Is this Raj's?\" \"No, it isn't.\""
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "それは",
+            "先生[せんせい]の",
+            "本[ほん]ですよ。"
+          ],
+          "en": "That's the teacher's book, you know."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "あの",
+            "人[ひと]は",
+            "医者[いしゃ]ですね。"
+          ],
+          "en": "That person is a doctor, right?"
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "ラジさんの机[つくえ] — Raj's desk",
+    "text": "これは私[わたし]の机[つくえ]です。これは日本語[にほんご]の本[ほん]です。それは英語[えいご]の辞書[じしょ]です。その辞書[じしょ]は私[わたし]のじゃありません。友[とも]だちのケンさんのです。あの傘[かさ]も私[わたし]のじゃありません。だれのですか。ああ、山田[やまだ]先生[せんせい]のですね。このカメラは日本[にほん]のカメラです。私[わたし]のですよ。",
+    "en": "This is my desk. This is a Japanese book. That is an English dictionary. That dictionary isn't mine. It's my friend Ken's. That umbrella over there isn't mine either. Whose is it? Oh, it's Ms. Yamada's (the teacher's), right. This camera is a Japanese camera. It's mine!",
+    "questions": [
+      {
+        "q": "Whose is the English dictionary?",
+        "options": [
+          "Raj's",
+          "Ms. Yamada's",
+          "Ken's",
+          "Maria's"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Whose is the umbrella?",
+        "options": [
+          "Ken's",
+          "Raj's",
+          "Maria's",
+          "Ms. Yamada's"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "What does Raj say about the camera?",
+        "options": [
+          "It's Ken's",
+          "It's a Japanese camera and it's his",
+          "It's an American camera",
+          "It's the teacher's"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "listening": {
+    "title": "Whose is this?",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "これはだれのペンですか。",
+        "en": "Whose pen is this?"
+      },
+      {
+        "speaker": "B",
+        "jp": "あ、私[わたし]のです。",
+        "en": "Oh, it's mine."
+      },
+      {
+        "speaker": "A",
+        "jp": "このノートもマリアさんのですか。",
+        "en": "Is this notebook yours too, Maria?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、ちがいます。ケンさんのです。",
+        "en": "No, it isn't. It's Ken's."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。あの辞書[じしょ]もケンさんのですか。",
+        "en": "I see. Is that dictionary over there Ken's too?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、あれは先生[せんせい]のですよ。",
+        "en": "No, that one is the teacher's, you know."
+      },
+      {
+        "speaker": "A",
+        "jp": "あ、そうですね。ありがとうございます。",
+        "en": "Oh, that's right. Thank you."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Whose is the pen?",
+        "options": [
+          "Ken's",
+          "The teacher's",
+          "Maria's",
+          "Raj's"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Whose is the notebook?",
+        "options": [
+          "Ken's",
+          "Maria's",
+          "The teacher's",
+          "Nobody knows"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "Whose is the dictionary?",
+        "options": [
+          "Maria's",
+          "Ken's",
+          "Raj's",
+          "The teacher's"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

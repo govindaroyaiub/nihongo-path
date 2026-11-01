@@ -1,0 +1,1603 @@
+{
+  "id": "n5-u10",
+  "level": "N5",
+  "number": 10,
+  "title": "Wants, rules and abilities",
+  "goal": "Say what you want to do, what you can do, and what you must or don't have to do.",
+  "vocab": [
+    {
+      "id": "n5-u10-v01",
+      "word": "泳[およ]ぐ",
+      "meaning": "to swim",
+      "pos": "verb",
+      "example": {
+        "jp": "私[わたし]は毎朝[まいあさ]泳[およ]ぎます。",
+        "en": "I swim every morning."
+      }
+    },
+    {
+      "id": "n5-u10-v02",
+      "word": "歌[うた]う",
+      "meaning": "to sing",
+      "pos": "verb",
+      "example": {
+        "jp": "いっしょに歌[うた]いましょう。",
+        "en": "Let's sing together."
+      }
+    },
+    {
+      "id": "n5-u10-v03",
+      "word": "歌[うた]",
+      "meaning": "song",
+      "pos": "noun",
+      "example": {
+        "jp": "この歌[うた]が好[す]きです。",
+        "en": "I like this song."
+      }
+    },
+    {
+      "id": "n5-u10-v04",
+      "word": "弾[ひ]く",
+      "meaning": "to play (piano, guitar or other keyboard/string instrument)",
+      "pos": "verb",
+      "example": {
+        "jp": "姉[あね]はピアノを弾[ひ]きます。",
+        "en": "My older sister plays the piano."
+      }
+    },
+    {
+      "id": "n5-u10-v06",
+      "word": "ギター",
+      "meaning": "guitar",
+      "pos": "noun",
+      "example": {
+        "jp": "ギターを弾[ひ]くことができますか。",
+        "en": "Can you play the guitar?"
+      }
+    },
+    {
+      "id": "n5-u10-v07",
+      "word": "運転[うんてん]する",
+      "meaning": "to drive",
+      "pos": "verb",
+      "example": {
+        "jp": "父[ちち]は毎日[まいにち]車[くるま]を運転[うんてん]します。",
+        "en": "My father drives a car every day."
+      }
+    },
+    {
+      "id": "n5-u10-v09",
+      "word": "覚[おぼ]える",
+      "meaning": "to memorize, to remember",
+      "pos": "verb",
+      "example": {
+        "jp": "毎日[まいにち]漢字[かんじ]を五[いつ]つ覚[おぼ]えます。",
+        "en": "I memorize five kanji every day."
+      }
+    },
+    {
+      "id": "n5-u10-v10",
+      "word": "忘[わす]れる",
+      "meaning": "to forget; to leave (something) behind",
+      "pos": "verb",
+      "example": {
+        "jp": "宿題[しゅくだい]を忘[わす]れました。",
+        "en": "I forgot my homework."
+      }
+    },
+    {
+      "id": "n5-u10-v11",
+      "word": "遊[あそ]ぶ",
+      "meaning": "to play, to hang out",
+      "pos": "verb",
+      "example": {
+        "jp": "子[こ]どもたちは公園[こうえん]で遊[あそ]んでいます。",
+        "en": "The children are playing in the park."
+      }
+    },
+    {
+      "id": "n5-u10-v12",
+      "word": "踊[おど]る",
+      "meaning": "to dance",
+      "pos": "verb",
+      "example": {
+        "jp": "パーティーで踊[おど]りましょう。",
+        "en": "Let's dance at the party."
+      }
+    },
+    {
+      "id": "n5-u10-v13",
+      "word": "走[はし]る",
+      "meaning": "to run",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]公園[こうえん]を走[はし]ります。",
+        "en": "I run in the park every morning."
+      }
+    },
+    {
+      "id": "n5-u10-v14",
+      "word": "作[つく]る",
+      "meaning": "to make",
+      "pos": "verb",
+      "example": {
+        "jp": "母[はは]はケーキを作[つく]るのが上手[じょうず]です。",
+        "en": "My mother is good at making cakes."
+      }
+    },
+    {
+      "id": "n5-u10-v15",
+      "word": "描[か]く",
+      "meaning": "to draw, to paint (a picture)",
+      "pos": "verb",
+      "example": {
+        "jp": "弟[おとうと]は絵[え]を描[か]いています。",
+        "en": "My younger brother is drawing a picture."
+      }
+    },
+    {
+      "id": "n5-u10-v16",
+      "word": "絵[え]",
+      "meaning": "picture, drawing, painting",
+      "pos": "noun",
+      "example": {
+        "jp": "きれいな絵[え]ですね。",
+        "en": "What a beautiful picture."
+      }
+    },
+    {
+      "id": "n5-u10-v17",
+      "word": "練習[れんしゅう]する",
+      "meaning": "to practice",
+      "pos": "verb",
+      "example": {
+        "jp": "毎晩[まいばん]ギターを練習[れんしゅう]します。",
+        "en": "I practice the guitar every night."
+      }
+    },
+    {
+      "id": "n5-u10-v18",
+      "word": "できる",
+      "meaning": "can, to be able to",
+      "pos": "verb",
+      "example": {
+        "jp": "私[わたし]はテニスができます。",
+        "en": "I can play tennis."
+      }
+    },
+    {
+      "id": "n5-u10-v19",
+      "word": "こと",
+      "meaning": "thing, act (turns a verb into a noun)",
+      "pos": "noun",
+      "example": {
+        "jp": "日本語[にほんご]を話[はな]すことができます。",
+        "en": "I can speak Japanese."
+      }
+    },
+    {
+      "id": "n5-u10-v20",
+      "word": "漢字[かんじ]",
+      "meaning": "kanji (Chinese characters)",
+      "pos": "noun",
+      "example": {
+        "jp": "この漢字[かんじ]は読[よ]むことができません。",
+        "en": "I can't read this kanji."
+      }
+    },
+    {
+      "id": "n5-u10-v21",
+      "word": "ひらがな",
+      "meaning": "hiragana",
+      "pos": "noun",
+      "example": {
+        "jp": "ひらがなで名前[なまえ]を書[か]いてください。",
+        "en": "Please write your name in hiragana."
+      }
+    },
+    {
+      "id": "n5-u10-v22",
+      "word": "カタカナ",
+      "meaning": "katakana",
+      "pos": "noun",
+      "example": {
+        "jp": "カタカナはまだ下手[へた]です。",
+        "en": "I'm still bad at katakana."
+      }
+    },
+    {
+      "id": "n5-u10-v24",
+      "word": "外国語[がいこくご]",
+      "meaning": "foreign language",
+      "pos": "noun",
+      "example": {
+        "jp": "外国語[がいこくご]を勉強[べんきょう]するのが好[す]きです。",
+        "en": "I like studying foreign languages."
+      }
+    },
+    {
+      "id": "n5-u10-v25",
+      "word": "字[じ]",
+      "meaning": "written character; handwriting",
+      "pos": "noun",
+      "example": {
+        "jp": "田中[たなか]さんは字[じ]がきれいです。",
+        "en": "Mr. Tanaka has beautiful handwriting."
+      }
+    },
+    {
+      "id": "n5-u10-v27",
+      "word": "ダンス",
+      "meaning": "dance, dancing",
+      "pos": "noun",
+      "example": {
+        "jp": "妹[いもうと]はダンスを習[なら]っています。",
+        "en": "My younger sister is taking dance lessons."
+      }
+    },
+    {
+      "id": "n5-u10-v28",
+      "word": "水泳[すいえい]",
+      "meaning": "swimming (as a sport)",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]は水泳[すいえい]が好[す]きです。",
+        "en": "I like swimming."
+      }
+    },
+    {
+      "id": "n5-u10-v29",
+      "word": "テニス",
+      "meaning": "tennis",
+      "pos": "noun",
+      "example": {
+        "jp": "週末[しゅうまつ]はテニスをします。",
+        "en": "I play tennis on weekends."
+      }
+    },
+    {
+      "id": "n5-u10-v30",
+      "word": "サッカー",
+      "meaning": "soccer, football",
+      "pos": "noun",
+      "example": {
+        "jp": "兄[あに]はサッカーが上手[じょうず]です。",
+        "en": "My older brother is good at soccer."
+      }
+    },
+    {
+      "id": "n5-u10-v31",
+      "word": "ゲーム",
+      "meaning": "game, video game",
+      "pos": "noun",
+      "example": {
+        "jp": "弟[おとうと]は毎日[まいにち]ゲームをします。",
+        "en": "My younger brother plays video games every day."
+      }
+    },
+    {
+      "id": "n5-u10-v32",
+      "word": "カラオケ",
+      "meaning": "karaoke",
+      "pos": "noun",
+      "example": {
+        "jp": "友[とも]だちとカラオケに行[い]きました。",
+        "en": "I went to karaoke with friends."
+      }
+    },
+    {
+      "id": "n5-u10-v33",
+      "word": "漫画[まんが]",
+      "meaning": "manga, comics",
+      "pos": "noun",
+      "example": {
+        "jp": "漫画[まんが]を読[よ]むのが好[す]きです。",
+        "en": "I like reading manga."
+      }
+    },
+    {
+      "id": "n5-u10-v34",
+      "word": "習[なら]う",
+      "meaning": "to learn (from someone), to take lessons",
+      "pos": "verb",
+      "example": {
+        "jp": "山田[やまだ]先生[せんせい]に日本語[にほんご]を習[なら]っています。",
+        "en": "I'm learning Japanese from Ms. Yamada."
+      }
+    },
+    {
+      "id": "n5-u10-v35",
+      "word": "払[はら]う",
+      "meaning": "to pay",
+      "pos": "verb",
+      "example": {
+        "jp": "カードで払[はら]うことができますか。",
+        "en": "Can I pay by card?"
+      }
+    },
+    {
+      "id": "n5-u10-v39",
+      "word": "守[まも]る",
+      "meaning": "to keep, to follow (a rule or promise); to protect",
+      "pos": "verb",
+      "example": {
+        "jp": "ルールを守[まも]ってください。",
+        "en": "Please follow the rules."
+      }
+    },
+    {
+      "id": "n5-u10-v40",
+      "word": "ルール",
+      "meaning": "rule",
+      "pos": "noun",
+      "example": {
+        "jp": "この学校[がっこう]にはルールがたくさんあります。",
+        "en": "This school has a lot of rules."
+      }
+    },
+    {
+      "id": "n5-u10-v41",
+      "word": "約束[やくそく]",
+      "meaning": "promise; appointment",
+      "pos": "noun",
+      "example": {
+        "jp": "約束[やくそく]を忘[わす]れないでください。",
+        "en": "Please don't forget your promise."
+      }
+    },
+    {
+      "id": "n5-u10-v43",
+      "word": "薬[くすり]",
+      "meaning": "medicine",
+      "pos": "noun",
+      "example": {
+        "jp": "毎晩[まいばん]この薬[くすり]を飲[の]んでください。",
+        "en": "Please take this medicine every night."
+      }
+    },
+    {
+      "id": "n5-u10-v45",
+      "word": "心配[しんぱい]する",
+      "meaning": "to worry",
+      "pos": "verb",
+      "example": {
+        "jp": "心配[しんぱい]しないでください。",
+        "en": "Please don't worry."
+      }
+    },
+    {
+      "id": "n5-u10-v46",
+      "word": "さわる",
+      "meaning": "to touch",
+      "pos": "verb",
+      "example": {
+        "jp": "この絵[え]にさわらないでください。",
+        "en": "Please don't touch this painting."
+      }
+    },
+    {
+      "id": "n5-u10-v48",
+      "word": "捨[す]てる",
+      "meaning": "to throw away",
+      "pos": "verb",
+      "example": {
+        "jp": "古[ふる]い雑誌[ざっし]を捨[す]てました。",
+        "en": "I threw away some old magazines."
+      }
+    },
+    {
+      "id": "n5-u10-v49",
+      "word": "ごみ",
+      "meaning": "garbage, trash",
+      "pos": "noun",
+      "example": {
+        "jp": "ごみはここに捨[す]ててください。",
+        "en": "Please throw your trash away here."
+      }
+    },
+    {
+      "id": "n5-u10-v50",
+      "word": "遅[おく]れる",
+      "meaning": "to be late",
+      "pos": "verb",
+      "example": {
+        "jp": "約束[やくそく]の時間[じかん]に遅[おく]れました。",
+        "en": "I was late for the time we'd agreed on."
+      }
+    },
+    {
+      "id": "n5-u10-v51",
+      "word": "プール",
+      "meaning": "swimming pool",
+      "pos": "noun",
+      "example": {
+        "jp": "このプールは大[おお]きいですね。",
+        "en": "This pool is big, isn't it?"
+      }
+    },
+    {
+      "id": "n5-u10-v52",
+      "word": "早[はや]く",
+      "meaning": "early; quickly",
+      "pos": "adverb",
+      "example": {
+        "jp": "明日[あした]は早[はや]く起[お]きます。",
+        "en": "I'll get up early tomorrow."
+      }
+    },
+    {
+      "id": "n5-u10-v54",
+      "word": "もっと",
+      "meaning": "more",
+      "pos": "adverb",
+      "example": {
+        "jp": "もっと練習[れんしゅう]したいです。",
+        "en": "I want to practice more."
+      }
+    },
+    {
+      "id": "n5-u10-v55",
+      "word": "だめ",
+      "meaning": "no good; not allowed",
+      "pos": "na-adj",
+      "example": {
+        "jp": "それはだめです。",
+        "en": "That's not allowed."
+      }
+    },
+    {
+      "id": "n5-u10-v56",
+      "word": "大丈夫[だいじょうぶ]",
+      "meaning": "all right, OK, fine",
+      "pos": "na-adj",
+      "example": {
+        "jp": "私[わたし]は大丈夫[だいじょうぶ]です。",
+        "en": "I'm all right."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u10-k01",
+      "char": "読",
+      "meanings": [
+        "read"
+      ],
+      "on": [
+        "ドク",
+        "トク",
+        "トウ"
+      ],
+      "kun": [
+        "よ.む"
+      ],
+      "strokes": 14,
+      "mnemonic": "Words (言) shouted out like a seller (売) at the market — reading aloud.",
+      "words": [
+        {
+          "word": "読[よ]む",
+          "meaning": "to read"
+        },
+        {
+          "word": "読書[どくしょ]",
+          "meaning": "reading (books)"
+        },
+        {
+          "word": "読[よ]み方[かた]",
+          "meaning": "way of reading, reading (of a kanji)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k02",
+      "char": "書",
+      "meanings": [
+        "write"
+      ],
+      "on": [
+        "ショ"
+      ],
+      "kun": [
+        "か.く"
+      ],
+      "strokes": 10,
+      "mnemonic": "A hand gripping a brush stands over a sheet of paper — writing.",
+      "words": [
+        {
+          "word": "書[か]く",
+          "meaning": "to write"
+        },
+        {
+          "word": "辞書[じしょ]",
+          "meaning": "dictionary"
+        },
+        {
+          "word": "図書館[としょかん]",
+          "meaning": "library"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k03",
+      "char": "聞",
+      "meanings": [
+        "hear",
+        "listen",
+        "ask"
+      ],
+      "on": [
+        "ブン",
+        "モン"
+      ],
+      "kun": [
+        "き.く",
+        "き.こえる"
+      ],
+      "strokes": 14,
+      "mnemonic": "An ear (耳) pressed against a gate (門) — listening in.",
+      "words": [
+        {
+          "word": "聞[き]く",
+          "meaning": "to listen; to ask"
+        },
+        {
+          "word": "新聞[しんぶん]",
+          "meaning": "newspaper"
+        },
+        {
+          "word": "聞[き]こえる",
+          "meaning": "to be heard, can hear"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k04",
+      "char": "話",
+      "meanings": [
+        "talk",
+        "story"
+      ],
+      "on": [
+        "ワ"
+      ],
+      "kun": [
+        "はな.す",
+        "はなし"
+      ],
+      "strokes": 13,
+      "mnemonic": "Words (言) roll off the tongue (舌) when you talk.",
+      "words": [
+        {
+          "word": "話[はな]す",
+          "meaning": "to speak, to talk"
+        },
+        {
+          "word": "電話[でんわ]",
+          "meaning": "telephone"
+        },
+        {
+          "word": "話[はなし]",
+          "meaning": "talk, story"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k05",
+      "char": "言",
+      "meanings": [
+        "say",
+        "word"
+      ],
+      "on": [
+        "ゲン",
+        "ゴン"
+      ],
+      "kun": [
+        "い.う",
+        "こと"
+      ],
+      "strokes": 7,
+      "mnemonic": "Lines of speech floating up out of a mouth (口) — to say.",
+      "words": [
+        {
+          "word": "言[い]う",
+          "meaning": "to say"
+        },
+        {
+          "word": "言葉[ことば]",
+          "meaning": "word; language"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k06",
+      "char": "買",
+      "meanings": [
+        "buy"
+      ],
+      "on": [
+        "バイ"
+      ],
+      "kun": [
+        "か.う"
+      ],
+      "strokes": 12,
+      "mnemonic": "A net (罒) scooping up shells (貝), the old money — buying.",
+      "words": [
+        {
+          "word": "買[か]う",
+          "meaning": "to buy"
+        },
+        {
+          "word": "買[か]い物[もの]",
+          "meaning": "shopping"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k07",
+      "char": "休",
+      "meanings": [
+        "rest",
+        "day off"
+      ],
+      "on": [
+        "キュウ"
+      ],
+      "kun": [
+        "やす.む",
+        "やす.まる",
+        "やす.める"
+      ],
+      "strokes": 6,
+      "mnemonic": "A person (亻) leaning against a tree (木) — taking a rest.",
+      "words": [
+        {
+          "word": "休[やす]む",
+          "meaning": "to rest; to take a day off"
+        },
+        {
+          "word": "休[やす]み",
+          "meaning": "break, holiday, day off"
+        },
+        {
+          "word": "夏休[なつやす]み",
+          "meaning": "summer vacation"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-k08",
+      "char": "立",
+      "meanings": [
+        "stand"
+      ],
+      "on": [
+        "リツ",
+        "リュウ"
+      ],
+      "kun": [
+        "た.つ",
+        "た.てる"
+      ],
+      "strokes": 5,
+      "mnemonic": "A person standing tall on the ground with arms spread wide.",
+      "words": [
+        {
+          "word": "立[た]つ",
+          "meaning": "to stand"
+        },
+        {
+          "word": "立[た]てる",
+          "meaning": "to stand (something) up"
+        },
+        {
+          "word": "国立[こくりつ]",
+          "meaning": "national (run by the state)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u10-g01",
+      "title": "Dictionary form — the plain present",
+      "pattern": "V (dictionary form): 書く, 食べる, する, 来る",
+      "meaning": "the plain, non-past form of a verb (the form listed in dictionaries)",
+      "explanation": "Every verb has a plain \"dictionary form\" — the form you look up in a dictionary. You need it for many patterns in this unit, like のが好きです and ことができます. To get it from the ます form: for u-verbs (group 1), change the い-sound before ます into the matching う-sound: 書きます → 書く, 飲みます → 飲む, 話します → 話す, 待ちます → 待つ, 買います → 買う. For ru-verbs (group 2), drop ます and add る: 食べます → 食べる, 見ます → 見る. The two irregular verbs are します → する and 来ます (きます) → 来る (くる).",
+      "notes": [
+        "Dictionary forms always end in an う-row sound: う, く, ぐ, す, つ, ぬ, ぶ, む or る.",
+        "Some u-verbs end in る too: 帰る (かえる), 走る, 入る. Their ます form is 帰ります, not 帰ます.",
+        "Between friends, the dictionary form alone is used instead of ます (you'll practice this in the next unit)."
+      ],
+      "examples": [
+        {
+          "jp": "書[か]きます → 書[か]く",
+          "en": "write (group 1: き → く)"
+        },
+        {
+          "jp": "泳[およ]ぎます → 泳[およ]ぐ",
+          "en": "swim (group 1: ぎ → ぐ)"
+        },
+        {
+          "jp": "食[た]べます → 食[た]べる",
+          "en": "eat (group 2: drop ます, add る)"
+        },
+        {
+          "jp": "します → する、来[き]ます → 来[く]る",
+          "en": "do, come (irregular)"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "飲[の]みます → ＿",
+          "answer": "飲[の]む",
+          "options": [
+            "飲[の]む",
+            "飲[の]る",
+            "飲[の]く",
+            "飲[の]みる"
+          ],
+          "en": "drink: polite → dictionary form"
+        },
+        {
+          "type": "choice",
+          "jp": "話[はな]します → ＿",
+          "answer": "話[はな]す",
+          "options": [
+            "話[はな]す",
+            "話[はな]しる",
+            "話[はな]つ",
+            "話[はな]する"
+          ],
+          "en": "speak: polite → dictionary form"
+        },
+        {
+          "type": "choice",
+          "jp": "見[み]ます → ＿",
+          "answer": "見[み]る",
+          "options": [
+            "見[み]る",
+            "見[み]う",
+            "見[み]す",
+            "見[み]むる"
+          ],
+          "en": "see: polite → dictionary form"
+        },
+        {
+          "type": "choice",
+          "jp": "来[き]ます → ＿",
+          "answer": "来[く]る",
+          "options": [
+            "来[く]る",
+            "来[き]る",
+            "来[こ]る",
+            "来[く]す"
+          ],
+          "en": "come: polite → dictionary form"
+        },
+        {
+          "type": "choice",
+          "jp": "遊[あそ]びます → ＿",
+          "answer": "遊[あそ]ぶ",
+          "options": [
+            "遊[あそ]ぶ",
+            "遊[あそ]びる",
+            "遊[あそ]む",
+            "遊[あそ]う"
+          ],
+          "en": "play: polite → dictionary form"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "漢字[かんじ]を書[か]く",
+            "ことができます。"
+          ],
+          "en": "I can write kanji."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g02",
+      "title": "ない form — the plain negative",
+      "pattern": "V (ない form): 書かない, 食べない, しない, 来ない",
+      "meaning": "do not ~ (plain negative)",
+      "explanation": "The ない form is the plain way to say a verb is NOT done, and it's the base for several patterns in this unit. Group 1 (u-verbs): change the final う-sound to its あ-sound and add ない: 書く → 書かない, 読む → 読まない, 話す → 話さない, 待つ → 待たない, 帰る → 帰らない. If the verb ends in just う, it becomes わ, not あ: 買う → 買わない, 言う → 言わない. Group 2 (ru-verbs): drop る and add ない: 食べる → 食べない, 見る → 見ない. Irregular: する → しない, 来る (くる) → 来ない (こない). One special case: ある (to exist) becomes simply ない.",
+      "notes": [
+        "う-ending verbs take わ: 買わない, 歌わない, 習わない — never 買あない.",
+        "ある → ない (not あらない).",
+        "Watch 来る: the kanji stays the same but the reading changes — 来る (くる) → 来ない (こない)."
+      ],
+      "examples": [
+        {
+          "jp": "行[い]く → 行[い]かない、読[よ]む → 読[よ]まない",
+          "en": "go → not go, read → not read (group 1)"
+        },
+        {
+          "jp": "買[か]う → 買[か]わない",
+          "en": "buy → not buy (う becomes わ)"
+        },
+        {
+          "jp": "食[た]べる → 食[た]べない",
+          "en": "eat → not eat (group 2)"
+        },
+        {
+          "jp": "する → しない、来[く]る → 来[こ]ない、ある → ない",
+          "en": "do, come, exist (irregular)"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "飲[の]む → ＿",
+          "answer": "飲[の]まない",
+          "options": [
+            "飲[の]まない",
+            "飲[の]みない",
+            "飲[の]むない",
+            "飲[の]らない"
+          ],
+          "en": "drink → not drink"
+        },
+        {
+          "type": "choice",
+          "jp": "買[か]う → ＿",
+          "answer": "買[か]わない",
+          "options": [
+            "買[か]わない",
+            "買[か]あない",
+            "買[か]いない",
+            "買[か]うない"
+          ],
+          "en": "buy → not buy"
+        },
+        {
+          "type": "choice",
+          "jp": "見[み]る → ＿",
+          "answer": "見[み]ない",
+          "options": [
+            "見[み]ない",
+            "見[み]らない",
+            "見[み]るない",
+            "見[み]あない"
+          ],
+          "en": "see → not see"
+        },
+        {
+          "type": "choice",
+          "jp": "来[く]る → ＿",
+          "answer": "来[こ]ない",
+          "options": [
+            "来[こ]ない",
+            "来[く]ない",
+            "来[き]ない",
+            "来[く]らない"
+          ],
+          "en": "come → not come"
+        },
+        {
+          "type": "choice",
+          "jp": "ある → ＿",
+          "answer": "ない",
+          "options": [
+            "ない",
+            "あらない",
+            "あない",
+            "ありない"
+          ],
+          "en": "exist → not exist"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ここで",
+            "写真[しゃしん]を",
+            "撮[と]らないでください。"
+          ],
+          "en": "Please don't take pictures here."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g03",
+      "title": "〜たいです — \"I want to ~\"",
+      "pattern": "V-stem + たいです",
+      "meaning": "I want to do ~",
+      "explanation": "To say what you want to do, take the ます form, remove ます, and add たいです: 行きます → 行きたいです (I want to go). たい works like an い-adjective, so the negative is たくないです (don't want to) and the past is たかったです (wanted to). The object particle を may change to が: 水を飲みたいです or 水が飲みたいです — both are fine. Use たい for your own wishes, or to ask someone else directly (何が食べたいですか).",
+      "notes": [
+        "Negative: 行きたくないです. Past: 行きたかったです.",
+        "Don't say たいです about a third person (\"Ken wants to…\"); Japanese uses a different form for that.",
+        "To someone above you, 〜たいですか can sound too direct; offer with 〜ませんか instead."
+      ],
+      "examples": [
+        {
+          "jp": "日本[にほん]へ行[い]きたいです。",
+          "en": "I want to go to Japan."
+        },
+        {
+          "jp": "暑[あつ]いですね。冷[つめ]たい水[みず]が飲[の]みたいです。",
+          "en": "It's hot, isn't it? I want to drink some cold water."
+        },
+        {
+          "jp": "今日[きょう]は何[なに]もしたくないです。",
+          "en": "I don't want to do anything today."
+        },
+        {
+          "jp": "昨日[きのう]はすしが食[た]べたかったです。",
+          "en": "Yesterday I wanted to eat sushi."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "日本[にほん]へ行[い]き＿です。",
+          "answer": "たい",
+          "options": [
+            "たい",
+            "ます",
+            "て",
+            "ない"
+          ],
+          "en": "I want to go to Japan."
+        },
+        {
+          "type": "choice",
+          "jp": "暑[あつ]いですね。冷[つめ]たい水[みず]が＿たいです。",
+          "answer": "飲[の]み",
+          "options": [
+            "飲[の]み",
+            "飲[の]む",
+            "飲[の]んで",
+            "飲[の]ま"
+          ],
+          "en": "It's hot, isn't it? I want to drink some cold water."
+        },
+        {
+          "type": "choice",
+          "jp": "今日[きょう]は日曜日[にちようび]です。何[なに]もし＿ないです。",
+          "answer": "たく",
+          "options": [
+            "たく",
+            "たい",
+            "て",
+            "ない"
+          ],
+          "en": "Today is Sunday. I don't want to do anything."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]はすしが食[た]べ＿です。",
+          "answer": "たかった",
+          "options": [
+            "たかった",
+            "たい",
+            "たくて",
+            "ます"
+          ],
+          "en": "Yesterday I wanted to eat sushi."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "ピアノを",
+            "習[なら]いたいです。"
+          ],
+          "en": "I want to learn the piano."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "週末[しゅうまつ]は",
+            "どこへ",
+            "行[い]きたいですか。"
+          ],
+          "en": "Where do you want to go this weekend?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g04",
+      "title": "〜ないでください — \"Please don't ~\"",
+      "pattern": "V (ない form) + でください",
+      "meaning": "Please don't do ~",
+      "explanation": "You already know 〜てください for \"please do\". To ask someone NOT to do something, use the ない form and add でください: 撮らない → 撮らないでください (please don't take [photos]). You'll see this on signs and hear it in classrooms, museums and trains. It's polite, but it is still a clear request.",
+      "notes": [
+        "Compare: 座ってください (please sit) / 座らないでください (please don't sit).",
+        "心配しないでください (please don't worry) is a kind, very common phrase."
+      ],
+      "examples": [
+        {
+          "jp": "ここで写真[しゃしん]を撮[と]らないでください。",
+          "en": "Please don't take pictures here."
+        },
+        {
+          "jp": "宿題[しゅくだい]を忘[わす]れないでください。",
+          "en": "Please don't forget your homework."
+        },
+        {
+          "jp": "教室[きょうしつ]で大[おお]きい声[こえ]で話[はな]さないでください。",
+          "en": "Please don't talk loudly in the classroom."
+        },
+        {
+          "jp": "心配[しんぱい]しないでください。",
+          "en": "Please don't worry."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "ここでたばこを吸[す]わ＿でください。",
+          "answer": "ない",
+          "options": [
+            "ない",
+            "て",
+            "たい",
+            "なく"
+          ],
+          "en": "Please don't smoke here."
+        },
+        {
+          "type": "choice",
+          "jp": "約束[やくそく]の時間[じかん]に＿ないでください。",
+          "answer": "遅[おく]れ",
+          "options": [
+            "遅[おく]れ",
+            "遅[おく]れる",
+            "遅[おく]れて",
+            "遅[おく]れた"
+          ],
+          "en": "Please don't be late for the agreed time."
+        },
+        {
+          "type": "choice",
+          "jp": "この絵[え]に＿ないでください。",
+          "answer": "さわら",
+          "options": [
+            "さわら",
+            "さわり",
+            "さわる",
+            "さわって"
+          ],
+          "en": "Please don't touch this painting."
+        },
+        {
+          "type": "choice",
+          "jp": "心配[しんぱい]＿でください。",
+          "answer": "しない",
+          "options": [
+            "しない",
+            "すない",
+            "さない",
+            "しなく"
+          ],
+          "en": "Please don't worry."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ここに",
+            "ごみを",
+            "捨[す]てないでください。"
+          ],
+          "en": "Please don't throw trash here."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "かさを",
+            "忘[わす]れないで",
+            "ください。"
+          ],
+          "en": "Please don't forget your umbrella."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g05",
+      "title": "〜なければなりません — \"must ~\"",
+      "pattern": "V (ない form, drop い) + ければなりません",
+      "meaning": "must do ~, have to do ~",
+      "explanation": "To say you must do something, take the ない form, drop the final い, and add ければなりません: 行かない → 行かなければなりません (I have to go). Literally it means \"if I don't go, it won't do\". It's long, but every verb follows the same rule: 食べなければなりません, しなければなりません, 来なければなりません (こなければ). The past is なければなりませんでした (had to).",
+      "notes": [
+        "Past: 行かなければなりませんでした (I had to go).",
+        "You'll also hear 〜なくてはいけません with the same meaning.",
+        "Among friends it shortens to 〜なきゃ."
+      ],
+      "examples": [
+        {
+          "jp": "明日[あした]は六時[ろくじ]に起[お]きなければなりません。",
+          "en": "I have to get up at six tomorrow."
+        },
+        {
+          "jp": "毎日[まいにち]薬[くすり]を飲[の]まなければなりません。",
+          "en": "I have to take medicine every day."
+        },
+        {
+          "jp": "図書館[としょかん]の本[ほん]を返[かえ]さなければなりません。",
+          "en": "I have to return the library book."
+        },
+        {
+          "jp": "今晩[こんばん]、宿題[しゅくだい]をしなければなりません。",
+          "en": "I have to do my homework tonight."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "明日[あした]は早[はや]く起[お]き＿なりません。",
+          "answer": "なければ",
+          "options": [
+            "なければ",
+            "なくても",
+            "ないで",
+            "たい"
+          ],
+          "en": "I have to get up early tomorrow."
+        },
+        {
+          "type": "choice",
+          "jp": "毎日[まいにち]薬[くすり]を＿なければなりません。",
+          "answer": "飲[の]ま",
+          "options": [
+            "飲[の]ま",
+            "飲[の]み",
+            "飲[の]む",
+            "飲[の]んで"
+          ],
+          "en": "I have to take medicine every day."
+        },
+        {
+          "type": "choice",
+          "jp": "日本[にほん]では、車[くるま]は左[ひだり]を走[はし]ら＿。",
+          "answer": "なければなりません",
+          "options": [
+            "なければなりません",
+            "なければです",
+            "ないなりません",
+            "なくてなりません"
+          ],
+          "en": "In Japan, cars must drive on the left."
+        },
+        {
+          "type": "choice",
+          "jp": "本[ほん]を図書館[としょかん]に＿なければなりません。",
+          "answer": "返[かえ]さ",
+          "options": [
+            "返[かえ]さ",
+            "返[かえ]し",
+            "返[かえ]す",
+            "返[かえ]そ"
+          ],
+          "en": "I have to return the book to the library."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今晩[こんばん]",
+            "漢字[かんじ]を",
+            "覚[おぼ]えなければなりません。"
+          ],
+          "en": "I have to memorize kanji tonight."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "お金[かね]を",
+            "払[はら]わなければ",
+            "なりません。"
+          ],
+          "en": "You have to pay money."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g06",
+      "title": "〜なくてもいいです — \"don't have to ~\"",
+      "pattern": "V (ない form, drop い) + くてもいいです",
+      "meaning": "you don't have to do ~, it's OK not to ~",
+      "explanation": "To say something is NOT necessary, take the ない form, drop the final い, and add くてもいいです: 行かない → 行かなくてもいいです (you don't have to go). It's the natural answer to a なければなりませんか question: 明日も来なければなりませんか — いいえ、来なくてもいいです. Think of it as \"even if you don't, it's fine\".",
+      "notes": [
+        "Q: 〜なければなりませんか。 A: はい、〜なければなりません / いいえ、〜なくてもいいです。",
+        "Don't confuse it with 〜てもいいです (you may do ~), which you learned with the te-form."
+      ],
+      "examples": [
+        {
+          "jp": "明日[あした]は来[こ]なくてもいいです。",
+          "en": "You don't have to come tomorrow."
+        },
+        {
+          "jp": "名前[なまえ]は書[か]かなくてもいいです。",
+          "en": "You don't have to write your name."
+        },
+        {
+          "jp": "全部[ぜんぶ]食[た]べなくてもいいですよ。",
+          "en": "You don't have to eat all of it."
+        },
+        {
+          "jp": "土曜日[どようび]は会社[かいしゃ]へ行[い]かなくてもいいです。",
+          "en": "I don't have to go to the office on Saturdays."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "日曜日[にちようび]は学校[がっこう]へ行[い]か＿いいです。",
+          "answer": "なくても",
+          "options": [
+            "なくても",
+            "なければ",
+            "ないで",
+            "たくて"
+          ],
+          "en": "You don't have to go to school on Sundays."
+        },
+        {
+          "type": "choice",
+          "jp": "お金[かね]は＿なくてもいいです。",
+          "answer": "払[はら]わ",
+          "options": [
+            "払[はら]わ",
+            "払[はら]い",
+            "払[はら]う",
+            "払[はら]あ"
+          ],
+          "en": "You don't have to pay."
+        },
+        {
+          "type": "choice",
+          "jp": "A：明日[あした]も来[こ]なければなりませんか。B：いいえ、来[こ]＿。",
+          "answer": "なくてもいいです",
+          "options": [
+            "なくてもいいです",
+            "なければなりません",
+            "なかったです",
+            "なくてもいいですか"
+          ],
+          "en": "A: Do I have to come tomorrow too? B: No, you don't have to come."
+        },
+        {
+          "type": "choice",
+          "jp": "この漢字[かんじ]は覚[おぼ]えなくても＿。",
+          "answer": "いいです",
+          "options": [
+            "いいです",
+            "なりません",
+            "ください",
+            "ありません"
+          ],
+          "en": "You don't have to memorize this kanji."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "名前[なまえ]は",
+            "書[か]かなくても",
+            "いいです。"
+          ],
+          "en": "You don't have to write your name."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "今日[きょう]は",
+            "宿題[しゅくだい]を",
+            "しなくてもいいです。"
+          ],
+          "en": "You don't have to do homework today."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g07",
+      "title": "Vのが好き / 上手 — liking or being good at doing",
+      "pattern": "V (dictionary form) + のが 好きです / 上手です / 下手です",
+      "meaning": "I like doing ~ / (someone) is good / bad at doing ~",
+      "explanation": "好き, きらい, 上手 and 下手 take a noun with が: テニスが好きです. To use a verb instead, put it in the dictionary form and add の — this の turns the action into a noun, like \"-ing\" in English: 泳ぐのが好きです (I like swimming). The whole phrase, objects included, goes before のが: 本を読むのが好きです (I like reading books).",
+      "notes": [
+        "Use 上手 for other people's skills; saying it about yourself sounds like bragging. 下手 about yourself is fine and modest.",
+        "きらい works the same way: 走るのがきらいです (I don't like running)."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は泳[およ]ぐのが好[す]きです。",
+          "en": "I like swimming."
+        },
+        {
+          "jp": "母[はは]は料理[りょうり]を作[つく]るのが上手[じょうず]です。",
+          "en": "My mother is good at cooking."
+        },
+        {
+          "jp": "私[わたし]は歌[うた]を歌[うた]うのが下手[へた]です。",
+          "en": "I'm bad at singing."
+        },
+        {
+          "jp": "兄[あに]は絵[え]を描[か]くのが好[す]きです。",
+          "en": "My older brother likes drawing pictures."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]は本[ほん]を読[よ]む＿が好[す]きです。",
+          "answer": "の",
+          "options": [
+            "の",
+            "を",
+            "に",
+            "で"
+          ],
+          "en": "I like reading books."
+        },
+        {
+          "type": "choice",
+          "jp": "姉[あね]はピアノを＿のが上手[じょうず]です。",
+          "answer": "弾[ひ]く",
+          "options": [
+            "弾[ひ]く",
+            "弾[ひ]きます",
+            "弾[ひ]いて",
+            "弾[ひ]か"
+          ],
+          "en": "My older sister is good at playing the piano."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]は歌[うた]を歌[うた]うのが＿です。でも、カラオケは好[す]きです。",
+          "answer": "下手[へた]",
+          "options": [
+            "下手[へた]",
+            "上手[じょうず]",
+            "好[す]き",
+            "元気[げんき]"
+          ],
+          "en": "I'm bad at singing. But I like karaoke."
+        },
+        {
+          "type": "choice",
+          "jp": "弟[おとうと]は走[はし]る＿好[す]きです。",
+          "answer": "のが",
+          "options": [
+            "のが",
+            "のを",
+            "のに",
+            "のと"
+          ],
+          "en": "My younger brother likes running."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "泳[およ]ぐのが",
+            "好[す]きです。"
+          ],
+          "en": "I like swimming."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "兄[あに]は",
+            "絵[え]を描[か]くのが",
+            "上手[じょうず]です。"
+          ],
+          "en": "My older brother is good at drawing pictures."
+        }
+      ]
+    },
+    {
+      "id": "n5-u10-g08",
+      "title": "〜ことができます — \"can ~\"",
+      "pattern": "V (dictionary form) + ことができます / N + ができます",
+      "meaning": "can do ~, be able to do ~",
+      "explanation": "To say you can do something, put the verb in the dictionary form and add ことができます: 泳ぐことができます (I can swim). With a noun you just need ができます: テニスができます, 日本語ができます. The negative is できません (can't). This pattern covers both skills (I can play guitar) and permission or possibility (you can pay by card here).",
+      "notes": [
+        "The particle before できます is が, not を: ピアノができます.",
+        "Past: できました / できませんでした."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は漢字[かんじ]を読[よ]むことができます。",
+          "en": "I can read kanji."
+        },
+        {
+          "jp": "マリアさんはピアノを弾[ひ]くことができます。",
+          "en": "Maria can play the piano."
+        },
+        {
+          "jp": "この図書館[としょかん]では本[ほん]を借[か]りることができません。",
+          "en": "You can't borrow books at this library."
+        },
+        {
+          "jp": "兄[あに]は車[くるま]の運転[うんてん]ができます。",
+          "en": "My older brother can drive a car."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]は日本語[にほんご]を話[はな]す＿ができます。",
+          "answer": "こと",
+          "options": [
+            "こと",
+            "もの",
+            "ため",
+            "ところ"
+          ],
+          "en": "I can speak Japanese."
+        },
+        {
+          "type": "choice",
+          "jp": "ラジさんは漢字[かんじ]を＿ことができます。",
+          "answer": "書[か]く",
+          "options": [
+            "書[か]く",
+            "書[か]き",
+            "書[か]いて",
+            "書[か]きます"
+          ],
+          "en": "Raj can write kanji."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんはテニス＿できます。",
+          "answer": "が",
+          "options": [
+            "が",
+            "を",
+            "に",
+            "で"
+          ],
+          "en": "Ken can play tennis."
+        },
+        {
+          "type": "choice",
+          "jp": "このプールは今日[きょう]休[やす]みです。泳[およ]ぐことが＿。",
+          "answer": "できません",
+          "options": [
+            "できません",
+            "ありません",
+            "いません",
+            "しません"
+          ],
+          "en": "This pool is closed today. You can't swim."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "ギターを弾[ひ]く",
+            "ことができます。"
+          ],
+          "en": "I can play the guitar."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "マリアさんは",
+            "日本語[にほんご]と英語[えいご]を",
+            "話[はな]すことができます。"
+          ],
+          "en": "Maria can speak Japanese and English."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "プールのルール — Pool rules",
+    "text": "私[わたし]はケンです。泳[およ]ぐのが大好[だいす]きです。毎週[まいしゅう]土曜日[どようび]に、近[ちか]くのプールで泳[およ]ぎます。このプールにはルールがあります。みんなシャワーを浴[あ]びなければなりません。プールのそばで走[はし]ってはいけません。プールの中[なか]でジュースを飲[の]んではいけません。でも、帽子[ぼうし]はかぶらなくてもいいです。私[わたし]は千[せん]メートル泳[およ]ぐことができます。妹[いもうと]はまだ泳[およ]ぐことができません。来月[らいげつ]から、いっしょに練習[れんしゅう]します。妹[いもうと]は泳[およ]ぐのは下手[へた]ですが、歌[うた]を歌[うた]うのが上手[じょうず]です。",
+    "en": "I'm Ken. I love swimming. Every Saturday I swim at a pool near my home. This pool has rules. Everyone has to take a shower. You must not run beside the pool. You must not drink juice in the pool. But you don't have to wear a cap. I can swim 1,000 meters. My younger sister can't swim yet. From next month we'll practice together. My sister is bad at swimming, but she's good at singing.",
+    "questions": [
+      {
+        "q": "When does Ken go swimming?",
+        "options": [
+          "Every day",
+          "Every Sunday",
+          "Every Saturday",
+          "Once a month"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What does everyone have to do at the pool?",
+        "options": [
+          "Wear a cap",
+          "Take a shower",
+          "Swim 1,000 meters",
+          "Run beside the pool"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is Ken's younger sister good at?",
+        "options": [
+          "Swimming",
+          "Running",
+          "Drawing",
+          "Singing"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Guitar practice",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "マリアさん、趣味[しゅみ]は何[なん]ですか。",
+        "en": "Maria, what are your hobbies?"
+      },
+      {
+        "speaker": "B",
+        "jp": "歌[うた]を歌[うた]うのが好[す]きです。よくカラオケに行[い]きます。",
+        "en": "I like singing. I often go to karaoke."
+      },
+      {
+        "speaker": "A",
+        "jp": "そうですか。私[わたし]は歌[うた]うのが下手[へた]です。でも、ギターを弾[ひ]くことができます。",
+        "en": "Really? I'm bad at singing. But I can play the guitar."
+      },
+      {
+        "speaker": "B",
+        "jp": "すごいですね。私[わたし]もギターを習[なら]いたいです。",
+        "en": "That's great. I want to learn the guitar too."
+      },
+      {
+        "speaker": "A",
+        "jp": "じゃ、今度[こんど]の日曜日[にちようび]、いっしょに練習[れんしゅう]しませんか。",
+        "en": "Then why don't we practice together this coming Sunday?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいですね。ギターを買[か]わなければなりませんか。",
+        "en": "Sounds good. Do I have to buy a guitar?"
+      },
+      {
+        "speaker": "A",
+        "jp": "いいえ、買[か]わなくてもいいです。私[わたし]のギターを貸[か]します。",
+        "en": "No, you don't have to buy one. I'll lend you my guitar."
+      },
+      {
+        "speaker": "B",
+        "jp": "ありがとうございます。楽[たの]しみです。",
+        "en": "Thank you. I'm looking forward to it."
+      }
+    ],
+    "questions": [
+      {
+        "q": "What does Maria like doing?",
+        "options": [
+          "Playing the guitar",
+          "Swimming",
+          "Singing",
+          "Drawing"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "Does Maria have to buy a guitar?",
+        "options": [
+          "Yes, before Sunday",
+          "No, she'll borrow one",
+          "Yes, a new one",
+          "No, she already has one"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "When will they practice?",
+        "options": [
+          "Today",
+          "On Saturday",
+          "This coming Sunday",
+          "Every day"
+        ],
+        "answer": 2
+      }
+    ]
+  }
+}

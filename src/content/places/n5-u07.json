@@ -1,0 +1,70 @@
+{
+  "unitId": "n5-u07",
+  "place": "Hakone",
+  "jp": "箱根[はこね]",
+  "prefecture": "Kanagawa",
+  "region": "Kantō",
+  "lat": 35.2324,
+  "lng": 139.1069,
+  "tagline": "Hot springs, a volcanic lake and a red torii standing in the water",
+  "history": "Hakone sits inside the caldera of an old volcano in the mountains west of Tokyo, and its hot springs have drawn visitors for centuries. In the Edo period the great Tōkaidō road between Edo (Tokyo) and Kyoto crossed these mountains, and the shogunate ran a checkpoint here to control travellers. Today Hakone is part of Fuji-Hakone-Izu National Park and is one of the most popular weekend escapes from Tokyo, famous for its onsen inns, Lake Ashi and views of Mt. Fuji on clear days.",
+  "sites": [
+    {
+      "name": "Lake Ashi",
+      "jp": "芦[あし]ノ湖[こ]",
+      "kind": "nature",
+      "year": null,
+      "desc": "A lake in the caldera of the Hakone volcano, crossed by sightseeing boats dressed up as pirate ships. On clear days Mt. Fuji rises behind it."
+    },
+    {
+      "name": "Hakone Shrine",
+      "jp": "箱根神社[はこねじんじゃ]",
+      "kind": "shrine",
+      "year": "757",
+      "desc": "By tradition founded in 757, this shrine stands in a cedar forest on the lakeshore. Its red 'Peace Torii', put up in 1952, stands right in the water of Lake Ashi."
+    },
+    {
+      "name": "Ōwakudani",
+      "jp": "大涌谷[おおわくだに]",
+      "kind": "nature",
+      "year": null,
+      "desc": "A steaming volcanic valley created by an eruption around 3,000 years ago. Eggs boiled in its hot springs turn black."
+    }
+  ],
+  "facts": [
+    "Ōwakudani's black eggs (kuro-tamago) are said to add seven years to your life.",
+    "The eggshells turn black because of minerals and sulfur in the hot-spring water.",
+    "Hakone's lakeside torii is one of the most photographed gates in Japan."
+  ],
+  "words": [
+    { "word": "箱根[はこね]", "meaning": "Hakone" },
+    { "word": "温泉[おんせん]", "meaning": "hot spring" },
+    { "word": "湖[みずうみ]", "meaning": "lake" },
+    { "word": "神社[じんじゃ]", "meaning": "Shinto shrine" },
+    { "word": "鳥居[とりい]", "meaning": "torii gate" },
+    { "word": "山[やま]", "meaning": "mountain" }
+  ],
+  "stamp": { "kanji": "箱根", "motif": "onsen" },
+  "reading": {
+    "title": "箱根[はこね]の湖[みずうみ]",
+    "text": "箱根[はこね]は東京[とうきょう]の西[にし]にあります。山[やま]の中[なか]の町[まち]です。温泉[おんせん]や古[ふる]いホテルなどがあります。箱根[はこね]には大[おお]きい湖[みずうみ]もあります。湖[みずうみ]の近[ちか]くに古[ふる]い神社[じんじゃ]があります。湖[みずうみ]の中[なか]に赤[あか]い鳥居[とりい]があります。とてもきれいですよ。山[やま]の上[うえ]の店[みせ]には黒[くろ]い卵[たまご]があります。おいしいですよ。",
+    "en": "Hakone is to the west of Tokyo. It is a town in the mountains. There are hot springs, old hotels and so on. Hakone also has a big lake. Near the lake there is an old shrine. In the lake there is a red torii gate. It's very pretty! At a shop on top of the mountain there are black eggs. They're delicious!",
+    "questions": [
+      {
+        "q": "Where is Hakone?",
+        "options": ["East of Tokyo", "West of Tokyo", "South of Kyoto", "Inside Tokyo"],
+        "answer": 1
+      },
+      {
+        "q": "What is in the lake?",
+        "options": ["An old hotel", "A black egg", "A shop", "A red torii gate"],
+        "answer": 3
+      },
+      {
+        "q": "What can you find at the shop on top of the mountain?",
+        "options": ["Black eggs", "Red torii", "Hot-spring towels", "Old books"],
+        "answer": 0
+      }
+    ]
+  }
+}

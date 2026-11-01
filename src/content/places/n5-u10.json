@@ -1,0 +1,70 @@
+{
+  "unitId": "n5-u10",
+  "place": "Nara",
+  "jp": "奈良[なら]",
+  "prefecture": "Nara",
+  "region": "Kansai",
+  "lat": 34.6851,
+  "lng": 135.8048,
+  "tagline": "Japan's first great capital, where deer roam the temple grounds",
+  "history": "In 710 the imperial court settled at Heijō-kyō, in today's Nara, making it Japan's first long-lasting capital. During the Nara period Buddhism flourished with state support, and Emperor Shōmu built Tōdai-ji and its giant bronze Buddha. The capital moved away in 784, and in 794 settled in Kyoto, which helped preserve many of Nara's ancient temples. Its historic monuments became a UNESCO World Heritage Site in 1998.",
+  "sites": [
+    {
+      "name": "Tōdai-ji",
+      "jp": "東大寺[とうだいじ]",
+      "kind": "temple",
+      "year": "752",
+      "desc": "Emperor Shōmu's great temple, whose bronze Great Buddha (about 15 m tall, seated) was dedicated in 752. The present Great Buddha Hall, rebuilt in 1709, is one of the largest wooden buildings in the world."
+    },
+    {
+      "name": "Nara Park",
+      "jp": "奈良公園[ならこうえん]",
+      "kind": "nature",
+      "year": null,
+      "desc": "A wide park linking Nara's main temples and shrines, home to more than a thousand free-roaming deer. Visitors can buy special crackers (shika senbei) to feed them."
+    },
+    {
+      "name": "Kasuga Taisha",
+      "jp": "春日大社[かすがたいしゃ]",
+      "kind": "shrine",
+      "year": "768",
+      "desc": "A shrine founded in 768 with bright vermilion buildings at the foot of a sacred forest. It is famous for its roughly 3,000 stone and bronze lanterns."
+    }
+  ],
+  "facts": [
+    "Nara's deer are seen as messengers of the gods and are protected as a natural monument.",
+    "Some deer have learned to bow to visitors holding crackers.",
+    "Kasuga Taisha lights all of its lanterns at special festivals in February and August."
+  ],
+  "words": [
+    { "word": "鹿[しか]", "meaning": "deer" },
+    { "word": "せんべい", "meaning": "rice cracker" },
+    { "word": "東大寺[とうだいじ]", "meaning": "Tōdai-ji" },
+    { "word": "大仏[だいぶつ]", "meaning": "great Buddha statue" },
+    { "word": "春日大社[かすがたいしゃ]", "meaning": "Kasuga Taisha" },
+    { "word": "灯籠[とうろう]", "meaning": "lantern (stone or bronze)" }
+  ],
+  "stamp": { "kanji": "奈良", "motif": "deer" },
+  "reading": {
+    "title": "奈良[なら]の鹿[しか]",
+    "text": "奈良[なら]は京都[きょうと]の南[みなみ]にあります。奈良公園[ならこうえん]には鹿[しか]が多[おお]いです。鹿[しか]はせんべいが好[す]きです。公園[こうえん]の店[みせ]でせんべいを買[か]うことができます。鹿[しか]にさわってもいいですが、ごみを捨[す]てないでください。公園[こうえん]の近[ちか]くに東大寺[とうだいじ]があります。東大寺[とうだいじ]には大[おお]きい大仏[だいぶつ]があります。私[わたし]は大仏[だいぶつ]が見[み]たいです。でも、お金[かね]を払[はら]わなければなりません。春日大社[かすがたいしゃ]にも行[い]きたいです。春日大社[かすがたいしゃ]は灯籠[とうろう]が多[おお]いです。",
+    "en": "Nara is to the south of Kyoto. There are many deer in Nara Park. The deer like rice crackers. You can buy crackers at the shops in the park. You may touch the deer, but please don't throw away litter. Near the park is Tōdai-ji. Tōdai-ji has a big Great Buddha. I want to see the Great Buddha. But you have to pay. I also want to go to Kasuga Taisha. Kasuga Taisha has many lanterns.",
+    "questions": [
+      {
+        "q": "What do the deer like?",
+        "options": ["Apples", "Bread", "Rice crackers", "Fish"],
+        "answer": 2
+      },
+      {
+        "q": "What must you not do in the park?",
+        "options": ["Touch the deer", "Throw away litter", "Buy crackers", "Take photos"],
+        "answer": 1
+      },
+      {
+        "q": "What does Kasuga Taisha have many of?",
+        "options": ["Deer", "Shops", "Buddha statues", "Lanterns"],
+        "answer": 3
+      }
+    ]
+  }
+}

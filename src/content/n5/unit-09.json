@@ -1,0 +1,1677 @@
+{
+  "id": "n5-u09",
+  "level": "N5",
+  "number": 9,
+  "title": "Please wait! — the te-form",
+  "goal": "Ask people to do things, ask for and give permission, state rules, and describe actions in progress or in order using the て-form.",
+  "vocab": [
+    {
+      "id": "n5-u09-v01",
+      "word": "開[あ]ける",
+      "meaning": "to open (something)",
+      "pos": "verb",
+      "example": {
+        "jp": "窓[まど]を開[あ]けてください。",
+        "en": "Please open the window."
+      }
+    },
+    {
+      "id": "n5-u09-v02",
+      "word": "閉[し]める",
+      "meaning": "to close (something)",
+      "pos": "verb",
+      "example": {
+        "jp": "ドアを閉[し]めてください。",
+        "en": "Please close the door."
+      }
+    },
+    {
+      "id": "n5-u09-v03",
+      "word": "待[ま]つ",
+      "meaning": "to wait (for)",
+      "pos": "verb",
+      "example": {
+        "jp": "駅[えき]で友[とも]だちを待[ま]ちます。",
+        "en": "I'll wait for my friend at the station."
+      }
+    },
+    {
+      "id": "n5-u09-v04",
+      "word": "使[つか]う",
+      "meaning": "to use",
+      "pos": "verb",
+      "example": {
+        "jp": "このパソコンを使[つか]ってもいいですか。",
+        "en": "May I use this computer?"
+      }
+    },
+    {
+      "id": "n5-u09-v05",
+      "word": "取[と]る",
+      "meaning": "to take, to pick up; to pass (to someone)",
+      "pos": "verb",
+      "example": {
+        "jp": "すみません、塩[しお]を取[と]ってください。",
+        "en": "Excuse me, please pass the salt."
+      }
+    },
+    {
+      "id": "n5-u09-v06",
+      "word": "つける",
+      "meaning": "to turn on (a light, TV, etc.)",
+      "pos": "verb",
+      "example": {
+        "jp": "電気[でんき]をつけてください。",
+        "en": "Please turn on the light."
+      }
+    },
+    {
+      "id": "n5-u09-v07",
+      "word": "消[け]す",
+      "meaning": "to turn off; to erase",
+      "pos": "verb",
+      "example": {
+        "jp": "テレビを消[け]してください。",
+        "en": "Please turn off the TV."
+      }
+    },
+    {
+      "id": "n5-u09-v08",
+      "word": "座[すわ]る",
+      "meaning": "to sit down",
+      "pos": "verb",
+      "example": {
+        "jp": "どうぞ、座[すわ]ってください。",
+        "en": "Please have a seat."
+      }
+    },
+    {
+      "id": "n5-u09-v09",
+      "word": "立[た]つ",
+      "meaning": "to stand up",
+      "pos": "verb",
+      "example": {
+        "jp": "ここに立[た]ってはいけません。",
+        "en": "You must not stand here."
+      }
+    },
+    {
+      "id": "n5-u09-v10",
+      "word": "入[はい]る",
+      "meaning": "to enter, to go in",
+      "pos": "verb",
+      "example": {
+        "jp": "どうぞ、入[はい]ってください。",
+        "en": "Please come in."
+      }
+    },
+    {
+      "id": "n5-u09-v11",
+      "word": "出[で]る",
+      "meaning": "to leave, to go out (of)",
+      "pos": "verb",
+      "example": {
+        "jp": "毎朝[まいあさ]八時[はちじ]に家[いえ]を出[で]ます。",
+        "en": "I leave home at eight every morning."
+      }
+    },
+    {
+      "id": "n5-u09-v12",
+      "word": "出[で]かける",
+      "meaning": "to go out (on an outing)",
+      "pos": "verb",
+      "example": {
+        "jp": "日曜日[にちようび]に家族[かぞく]と出[で]かけます。",
+        "en": "I go out with my family on Sunday."
+      }
+    },
+    {
+      "id": "n5-u09-v13",
+      "word": "撮[と]る",
+      "meaning": "to take (a photo)",
+      "pos": "verb",
+      "example": {
+        "jp": "ここで写真[しゃしん]を撮[と]ってもいいですか。",
+        "en": "May I take a photo here?"
+      }
+    },
+    {
+      "id": "n5-u09-v14",
+      "word": "吸[す]う",
+      "meaning": "to smoke; to breathe in",
+      "pos": "verb",
+      "example": {
+        "jp": "父[ちち]はたばこを吸[す]いません。",
+        "en": "My father doesn't smoke."
+      }
+    },
+    {
+      "id": "n5-u09-v15",
+      "word": "押[お]す",
+      "meaning": "to push, to press",
+      "pos": "verb",
+      "example": {
+        "jp": "このボタンを押[お]してください。",
+        "en": "Please press this button."
+      }
+    },
+    {
+      "id": "n5-u09-v16",
+      "word": "引[ひ]く",
+      "meaning": "to pull",
+      "pos": "verb",
+      "example": {
+        "jp": "このドアは引[ひ]いてください。",
+        "en": "Please pull this door."
+      }
+    },
+    {
+      "id": "n5-u09-v17",
+      "word": "貸[か]す",
+      "meaning": "to lend",
+      "pos": "verb",
+      "example": {
+        "jp": "ペンを貸[か]してください。",
+        "en": "Please lend me a pen."
+      }
+    },
+    {
+      "id": "n5-u09-v18",
+      "word": "借[か]りる",
+      "meaning": "to borrow",
+      "pos": "verb",
+      "example": {
+        "jp": "図書館[としょかん]で本[ほん]を借[か]ります。",
+        "en": "I borrow books at the library."
+      }
+    },
+    {
+      "id": "n5-u09-v19",
+      "word": "手伝[てつだ]う",
+      "meaning": "to help",
+      "pos": "verb",
+      "example": {
+        "jp": "ちょっと手伝[てつだ]ってください。",
+        "en": "Please give me a hand."
+      }
+    },
+    {
+      "id": "n5-u09-v20",
+      "word": "急[いそ]ぐ",
+      "meaning": "to hurry",
+      "pos": "verb",
+      "example": {
+        "jp": "急[いそ]いでください。電車[でんしゃ]が来[き]ますよ。",
+        "en": "Please hurry. The train is coming!"
+      }
+    },
+    {
+      "id": "n5-u09-v21",
+      "word": "呼[よ]ぶ",
+      "meaning": "to call (someone), to call for",
+      "pos": "verb",
+      "example": {
+        "jp": "タクシーを呼[よ]んでください。",
+        "en": "Please call a taxi."
+      }
+    },
+    {
+      "id": "n5-u09-v22",
+      "word": "置[お]く",
+      "meaning": "to put, to place",
+      "pos": "verb",
+      "example": {
+        "jp": "かばんはここに置[お]いてください。",
+        "en": "Please put your bag here."
+      }
+    },
+    {
+      "id": "n5-u09-v23",
+      "word": "持[も]つ",
+      "meaning": "to hold, to carry; to have",
+      "pos": "verb",
+      "example": {
+        "jp": "傘[かさ]を持[も]っていますか。",
+        "en": "Do you have an umbrella?"
+      }
+    },
+    {
+      "id": "n5-u09-v24",
+      "word": "洗[あら]う",
+      "meaning": "to wash",
+      "pos": "verb",
+      "example": {
+        "jp": "手[て]を洗[あら]ってください。",
+        "en": "Please wash your hands."
+      }
+    },
+    {
+      "id": "n5-u09-v25",
+      "word": "見[み]せる",
+      "meaning": "to show",
+      "pos": "verb",
+      "example": {
+        "jp": "パスポートを見[み]せてください。",
+        "en": "Please show me your passport."
+      }
+    },
+    {
+      "id": "n5-u09-v26",
+      "word": "教[おし]える",
+      "meaning": "to teach; to tell",
+      "pos": "verb",
+      "example": {
+        "jp": "電話番号[でんわばんごう]を教[おし]えてください。",
+        "en": "Please tell me your phone number."
+      }
+    },
+    {
+      "id": "n5-u09-v27",
+      "word": "止[と]める",
+      "meaning": "to stop (something); to park",
+      "pos": "verb",
+      "example": {
+        "jp": "ここに車[くるま]を止[と]めてもいいですか。",
+        "en": "May I park my car here?"
+      }
+    },
+    {
+      "id": "n5-u09-v28",
+      "word": "渡[わた]る",
+      "meaning": "to cross (a road, bridge)",
+      "pos": "verb",
+      "example": {
+        "jp": "この橋[はし]を渡[わた]ります。",
+        "en": "I cross this bridge."
+      }
+    },
+    {
+      "id": "n5-u09-v29",
+      "word": "曲[ま]がる",
+      "meaning": "to turn (a corner)",
+      "pos": "verb",
+      "example": {
+        "jp": "次[つぎ]の角[かど]を右[みぎ]に曲[ま]がってください。",
+        "en": "Please turn right at the next corner."
+      }
+    },
+    {
+      "id": "n5-u09-v30",
+      "word": "脱[ぬ]ぐ",
+      "meaning": "to take off (shoes, clothes)",
+      "pos": "verb",
+      "example": {
+        "jp": "ここで靴[くつ]を脱[ぬ]いでください。",
+        "en": "Please take off your shoes here."
+      }
+    },
+    {
+      "id": "n5-u09-v32",
+      "word": "返[かえ]す",
+      "meaning": "to return (something), to give back",
+      "pos": "verb",
+      "example": {
+        "jp": "明日[あした]、本[ほん]を返[かえ]します。",
+        "en": "I'll return the book tomorrow."
+      }
+    },
+    {
+      "id": "n5-u09-v33",
+      "word": "始[はじ]める",
+      "meaning": "to begin, to start (something)",
+      "pos": "verb",
+      "example": {
+        "jp": "では、授業[じゅぎょう]を始[はじ]めましょう。",
+        "en": "Well then, let's start the class."
+      }
+    },
+    {
+      "id": "n5-u09-v35",
+      "word": "たばこ",
+      "meaning": "cigarette, tobacco",
+      "pos": "noun",
+      "example": {
+        "jp": "ここでたばこを吸[す]ってはいけません。",
+        "en": "You must not smoke here."
+      }
+    },
+    {
+      "id": "n5-u09-v37",
+      "word": "電気[でんき]",
+      "meaning": "light; electricity",
+      "pos": "noun",
+      "example": {
+        "jp": "部屋[へや]の電気[でんき]を消[け]してください。",
+        "en": "Please turn off the light in the room."
+      }
+    },
+    {
+      "id": "n5-u09-v38",
+      "word": "エアコン",
+      "meaning": "air conditioner",
+      "pos": "noun",
+      "example": {
+        "jp": "エアコンをつけてもいいですか。",
+        "en": "May I turn on the air conditioner?"
+      }
+    },
+    {
+      "id": "n5-u09-v39",
+      "word": "シャワー",
+      "meaning": "shower",
+      "pos": "noun",
+      "example": {
+        "jp": "シャワーを浴[あ]びてから、会社[かいしゃ]へ行[い]きます。",
+        "en": "After taking a shower, I go to work."
+      }
+    },
+    {
+      "id": "n5-u09-v40",
+      "word": "ボタン",
+      "meaning": "button",
+      "pos": "noun",
+      "example": {
+        "jp": "赤[あか]いボタンを押[お]してはいけません。",
+        "en": "You must not press the red button."
+      }
+    },
+    {
+      "id": "n5-u09-v41",
+      "word": "宿題[しゅくだい]",
+      "meaning": "homework",
+      "pos": "noun",
+      "example": {
+        "jp": "宿題[しゅくだい]をしてから寝[ね]ます。",
+        "en": "I go to bed after doing my homework."
+      }
+    },
+    {
+      "id": "n5-u09-v42",
+      "word": "質問[しつもん]",
+      "meaning": "question",
+      "pos": "noun",
+      "example": {
+        "jp": "質問[しつもん]がありますか。",
+        "en": "Do you have any questions?"
+      }
+    },
+    {
+      "id": "n5-u09-v43",
+      "word": "答[こた]え",
+      "meaning": "answer",
+      "pos": "noun",
+      "example": {
+        "jp": "答[こた]えを教[おし]えてください。",
+        "en": "Please tell me the answer."
+      }
+    },
+    {
+      "id": "n5-u09-v44",
+      "word": "問題[もんだい]",
+      "meaning": "problem; question (on a test)",
+      "pos": "noun",
+      "example": {
+        "jp": "この問題[もんだい]はやさしいです。",
+        "en": "This question is easy."
+      }
+    },
+    {
+      "id": "n5-u09-v45",
+      "word": "教科書[きょうかしょ]",
+      "meaning": "textbook",
+      "pos": "noun",
+      "example": {
+        "jp": "教科書[きょうかしょ]の三十[さんじゅっ]ページを見[み]てください。",
+        "en": "Please look at page thirty of the textbook."
+      }
+    },
+    {
+      "id": "n5-u09-v46",
+      "word": "練習[れんしゅう]",
+      "meaning": "practice",
+      "pos": "noun",
+      "example": {
+        "jp": "もう一度[いちど]練習[れんしゅう]しましょう。",
+        "en": "Let's practice once more."
+      }
+    },
+    {
+      "id": "n5-u09-v47",
+      "word": "意味[いみ]",
+      "meaning": "meaning",
+      "pos": "noun",
+      "example": {
+        "jp": "この言葉[ことば]の意味[いみ]を教[おし]えてください。",
+        "en": "Please tell me the meaning of this word."
+      }
+    },
+    {
+      "id": "n5-u09-v49",
+      "word": "黒板[こくばん]",
+      "meaning": "blackboard",
+      "pos": "noun",
+      "example": {
+        "jp": "黒板[こくばん]を見[み]てください。",
+        "en": "Please look at the blackboard."
+      }
+    },
+    {
+      "id": "n5-u09-v50",
+      "word": "声[こえ]",
+      "meaning": "voice",
+      "pos": "noun",
+      "example": {
+        "jp": "もう少[すこ]し大[おお]きい声[こえ]でお願[ねが]いします。",
+        "en": "A little louder, please."
+      }
+    },
+    {
+      "id": "n5-u09-v51",
+      "word": "〜ページ",
+      "meaning": "page ~",
+      "pos": "counter",
+      "example": {
+        "jp": "二十五[にじゅうご]ページを見[み]てください。",
+        "en": "Please look at page twenty-five."
+      }
+    },
+    {
+      "id": "n5-u09-v52",
+      "word": "もう一度[いちど]",
+      "meaning": "once more, one more time",
+      "pos": "expression",
+      "example": {
+        "jp": "すみません、もう一度[いちど]お願[ねが]いします。",
+        "en": "Sorry, once more, please."
+      }
+    },
+    {
+      "id": "n5-u09-v53",
+      "word": "ゆっくり",
+      "meaning": "slowly; take your time",
+      "pos": "adverb",
+      "example": {
+        "jp": "ゆっくり食[た]べてください。",
+        "en": "Please take your time eating."
+      }
+    },
+    {
+      "id": "n5-u09-v54",
+      "word": "すぐ",
+      "meaning": "right away, immediately",
+      "pos": "adverb",
+      "example": {
+        "jp": "すぐ来[き]てください。",
+        "en": "Please come right away."
+      }
+    },
+    {
+      "id": "n5-u09-v55",
+      "word": "ちょっと",
+      "meaning": "a little; just a moment",
+      "pos": "adverb",
+      "example": {
+        "jp": "ちょっと待[ま]ってください。",
+        "en": "Please wait a moment."
+      }
+    },
+    {
+      "id": "n5-u09-v56",
+      "word": "次[つぎ]",
+      "meaning": "next",
+      "pos": "noun",
+      "example": {
+        "jp": "次[つぎ]は田中[たなか]さんの番[ばん]です。",
+        "en": "Next is Mr. Tanaka's turn."
+      }
+    },
+    {
+      "id": "n5-u09-v57",
+      "word": "〜番[ばん]",
+      "meaning": "number ~; (someone's) turn",
+      "pos": "suffix",
+      "example": {
+        "jp": "三番[さんばん]の答[こた]えは何[なん]ですか。",
+        "en": "What is the answer to number three?"
+      }
+    },
+    {
+      "id": "n5-u09-v58",
+      "word": "テスト",
+      "meaning": "test, quiz",
+      "pos": "noun",
+      "example": {
+        "jp": "明日[あした]テストがあります。",
+        "en": "There's a test tomorrow."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u09-k01",
+      "char": "見",
+      "meanings": [
+        "see",
+        "look"
+      ],
+      "on": [
+        "ケン"
+      ],
+      "kun": [
+        "み.る",
+        "み.える",
+        "み.せる"
+      ],
+      "strokes": 7,
+      "mnemonic": "A big eye (目) on legs, walking around to see everything.",
+      "words": [
+        {
+          "word": "見[み]る",
+          "meaning": "to see, to watch"
+        },
+        {
+          "word": "見[み]せる",
+          "meaning": "to show"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k02",
+      "char": "行",
+      "meanings": [
+        "go",
+        "conduct",
+        "line"
+      ],
+      "on": [
+        "コウ",
+        "ギョウ"
+      ],
+      "kun": [
+        "い.く",
+        "ゆ.く",
+        "おこな.う"
+      ],
+      "strokes": 6,
+      "mnemonic": "A crossroads seen from above — the place where you go.",
+      "words": [
+        {
+          "word": "行[い]く",
+          "meaning": "to go"
+        },
+        {
+          "word": "銀行[ぎんこう]",
+          "meaning": "bank"
+        },
+        {
+          "word": "旅行[りょこう]",
+          "meaning": "trip, travel"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k03",
+      "char": "来",
+      "meanings": [
+        "come",
+        "next"
+      ],
+      "on": [
+        "ライ"
+      ],
+      "kun": [
+        "く.る",
+        "きた.る"
+      ],
+      "strokes": 7,
+      "mnemonic": "A tree (木) waving its two extra arms — \"Come here!\"",
+      "words": [
+        {
+          "word": "来[く]る",
+          "meaning": "to come"
+        },
+        {
+          "word": "来週[らいしゅう]",
+          "meaning": "next week"
+        },
+        {
+          "word": "来年[らいねん]",
+          "meaning": "next year"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k04",
+      "char": "出",
+      "meanings": [
+        "exit",
+        "go out",
+        "put out"
+      ],
+      "on": [
+        "シュツ",
+        "スイ"
+      ],
+      "kun": [
+        "で.る",
+        "だ.す"
+      ],
+      "strokes": 5,
+      "mnemonic": "Two mountains stacked up — climb over them to get out.",
+      "words": [
+        {
+          "word": "出[で]る",
+          "meaning": "to leave, to go out"
+        },
+        {
+          "word": "出口[でぐち]",
+          "meaning": "exit"
+        },
+        {
+          "word": "出[だ]す",
+          "meaning": "to take out; to hand in"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k05",
+      "char": "入",
+      "meanings": [
+        "enter",
+        "put in"
+      ],
+      "on": [
+        "ニュウ"
+      ],
+      "kun": [
+        "い.る",
+        "い.れる",
+        "はい.る"
+      ],
+      "strokes": 2,
+      "mnemonic": "A person stepping in through a narrow tent flap.",
+      "words": [
+        {
+          "word": "入[はい]る",
+          "meaning": "to enter"
+        },
+        {
+          "word": "入口[いりぐち]",
+          "meaning": "entrance"
+        },
+        {
+          "word": "入[い]れる",
+          "meaning": "to put in"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k06",
+      "char": "食",
+      "meanings": [
+        "eat",
+        "food"
+      ],
+      "on": [
+        "ショク",
+        "ジキ"
+      ],
+      "kun": [
+        "た.べる",
+        "く.う"
+      ],
+      "strokes": 9,
+      "mnemonic": "A lid on top of a bowl of good rice — time to eat.",
+      "words": [
+        {
+          "word": "食[た]べる",
+          "meaning": "to eat"
+        },
+        {
+          "word": "食[た]べ物[もの]",
+          "meaning": "food"
+        },
+        {
+          "word": "食堂[しょくどう]",
+          "meaning": "cafeteria, dining hall"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-k07",
+      "char": "飲",
+      "meanings": [
+        "drink"
+      ],
+      "on": [
+        "イン"
+      ],
+      "kun": [
+        "の.む"
+      ],
+      "strokes": 12,
+      "mnemonic": "Food (食) on the left, a wide-open mouth (欠) on the right — gulp down a drink.",
+      "words": [
+        {
+          "word": "飲[の]む",
+          "meaning": "to drink"
+        },
+        {
+          "word": "飲[の]み物[もの]",
+          "meaning": "a drink, beverage"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u09-g01",
+      "title": "Verb groups — u-verbs, ru-verbs, irregular",
+      "pattern": "Group 1 (う-verbs) ・ Group 2 (る-verbs) ・ Group 3 (する / 来る)",
+      "meaning": "The three kinds of Japanese verbs",
+      "explanation": "Every Japanese verb belongs to one of three groups, and the group tells you how the verb changes. Group 2 (ru-verbs) end in る with an \"e\" or \"i\" sound just before it, like 食べる, 見る and 開ける; drop る to make the ます-form: 食べます. Group 3 has only two irregular verbs: する (do) and 来る (come). Everything else is Group 1 (u-verbs), like 飲む, 待つ and 座る; the last sound changes from an \"u\" sound to an \"i\" sound before ます: 飲む → 飲みます. A few verbs look like Group 2 but are Group 1, such as 帰る, 入る and 知る — learn them as exceptions.",
+      "notes": [
+        "Group 1: 待つ → 待ちます, 使う → 使います, 座る → 座ります, 帰る → 帰ります.",
+        "Group 2: drop る — 開ける → 開けます, 見る → 見ます.",
+        "Group 3: する → します, 来る (くる) → 来ます (きます). Nouns + する work the same: 勉強する → 勉強します."
+      ],
+      "examples": [
+        {
+          "jp": "ドアを開[あ]けます。",
+          "en": "I open the door. (開ける — Group 2)"
+        },
+        {
+          "jp": "ここで待[ま]ちます。",
+          "en": "I'll wait here. (待つ — Group 1)"
+        },
+        {
+          "jp": "八時[はちじ]に家[いえ]に帰[かえ]ります。",
+          "en": "I go home at eight. (帰る — Group 1, an exception)"
+        },
+        {
+          "jp": "毎日[まいにち]日本語[にほんご]を勉強[べんきょう]します。",
+          "en": "I study Japanese every day. (勉強する — Group 3)"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "待[ま]ちます → 待[ま]＿",
+          "answer": "つ",
+          "options": [
+            "つ",
+            "る",
+            "ち",
+            "す"
+          ],
+          "en": "machimasu → matsu (to wait): Group 1"
+        },
+        {
+          "type": "choice",
+          "jp": "開[あ]けます → 開[あ]け＿",
+          "answer": "る",
+          "options": [
+            "う",
+            "る",
+            "く",
+            "す"
+          ],
+          "en": "akemasu → akeru (to open): Group 2"
+        },
+        {
+          "type": "choice",
+          "jp": "使[つか]います → 使[つか]＿",
+          "answer": "う",
+          "options": [
+            "る",
+            "つ",
+            "う",
+            "く"
+          ],
+          "en": "tsukaimasu → tsukau (to use): Group 1"
+        },
+        {
+          "type": "choice",
+          "jp": "来[き]ます → ＿",
+          "answer": "来[く]る",
+          "options": [
+            "来[き]る",
+            "来[こ]る",
+            "来[き]す",
+            "来[く]る"
+          ],
+          "en": "kimasu → kuru (to come): Group 3, irregular"
+        },
+        {
+          "type": "choice",
+          "jp": "帰[かえ]る → 帰[かえ]＿ます",
+          "answer": "り",
+          "options": [
+            "り",
+            "る",
+            "ら",
+            "れ"
+          ],
+          "en": "kaeru → kaerimasu (to go home): Group 1, not Group 2"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "電気[でんき]を",
+            "消[け]し",
+            "ます。"
+          ],
+          "en": "I turn off the light."
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g02",
+      "title": "The て-form — how to make it",
+      "pattern": "Group 1: う・つ・る → って ／ む・ぶ・ぬ → んで ／ く → いて ／ ぐ → いで ／ す → して ・ Group 2: る → て ・ する → して, 来る → 来て",
+      "meaning": "The connecting form of a verb",
+      "explanation": "The て-form is one of the most useful verb forms: you use it to make requests, ask permission, link actions and much more. Group 2 is easy — drop る and add て: 食べる → 食べて, 見る → 見て. Group 3 is irregular: する → して, 来る (くる) → 来て (きて). Group 1 depends on the last sound: う, つ, る → って (使って, 待って, 座って); む, ぶ, ぬ → んで (飲んで, 呼んで, 死んで); く → いて (置いて); ぐ → いで (急いで); す → して (消して). There is one exception: 行く becomes 行って, not 行いて.",
+      "notes": [
+        "The one Group 1 exception: 行く (いく) → 行って (いって).",
+        "A chant to memorize: う・つ・る → って, む・ぶ・ぬ → んで, く → いて, ぐ → いで, す → して.",
+        "Look-alike verbs follow Group 1: 帰る → 帰って, 入る → 入って, 知る → 知って."
+      ],
+      "examples": [
+        {
+          "jp": "待[ま]つ → 待[ま]って",
+          "en": "to wait → te-form (つ → って)"
+        },
+        {
+          "jp": "飲[の]む → 飲[の]んで",
+          "en": "to drink → te-form (む → んで)"
+        },
+        {
+          "jp": "置[お]く → 置[お]いて ／ 行[い]く → 行[い]って",
+          "en": "to put → te-form (く → いて) / to go → te-form (the exception)"
+        },
+        {
+          "jp": "食[た]べる → 食[た]べて ／ する → して ／ 来[く]る → 来[き]て",
+          "en": "to eat / to do / to come → te-form"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "待[ま]つ → 待[ま]＿",
+          "answer": "って",
+          "options": [
+            "って",
+            "んで",
+            "いて",
+            "して"
+          ],
+          "en": "matsu → matte (wait)"
+        },
+        {
+          "type": "choice",
+          "jp": "飲[の]む → 飲[の]＿",
+          "answer": "んで",
+          "options": [
+            "って",
+            "んで",
+            "みて",
+            "いで"
+          ],
+          "en": "nomu → nonde (drink)"
+        },
+        {
+          "type": "choice",
+          "jp": "急[いそ]ぐ → 急[いそ]＿",
+          "answer": "いで",
+          "options": [
+            "いて",
+            "って",
+            "いで",
+            "んで"
+          ],
+          "en": "isogu → isoide (hurry)"
+        },
+        {
+          "type": "choice",
+          "jp": "行[い]く → 行[い]＿",
+          "answer": "って",
+          "options": [
+            "いて",
+            "いで",
+            "んで",
+            "って"
+          ],
+          "en": "iku → itte (go) — the exception"
+        },
+        {
+          "type": "choice",
+          "jp": "帰[かえ]る → 帰[かえ]＿",
+          "answer": "って",
+          "options": [
+            "て",
+            "って",
+            "んで",
+            "いて"
+          ],
+          "en": "kaeru → kaette (go home) — Group 1"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "電気[でんき]を",
+            "消[け]して",
+            "ください。"
+          ],
+          "en": "Please turn off the light."
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g03",
+      "title": "〜てください — please do…",
+      "pattern": "V-て ください",
+      "meaning": "Please do ~",
+      "explanation": "Put ください after the て-form to politely ask someone to do something: 待ってください (please wait), 座ってください (please sit down). You already know N をください for asking for things — this is the same word, now used for actions. Teachers use it all the time in class: 見てください, 立ってください. Add ちょっと or すみません to sound softer.",
+      "notes": [
+        "N をください = please give me N; V-てください = please do V.",
+        "Classroom favorites: もう一度お願いします (once more, please), 教科書を見てください (please look at the textbook).",
+        "With friends, the て-form alone is a casual request: ちょっと待って (wait a sec)."
+      ],
+      "examples": [
+        {
+          "jp": "ちょっと待[ま]ってください。",
+          "en": "Please wait a moment."
+        },
+        {
+          "jp": "どうぞ、ここに座[すわ]ってください。",
+          "en": "Please sit here."
+        },
+        {
+          "jp": "教科書[きょうかしょ]の十五[じゅうご]ページを見[み]てください。",
+          "en": "Please look at page fifteen of the textbook."
+        },
+        {
+          "jp": "すみません、窓[まど]を開[あ]けてください。",
+          "en": "Excuse me, please open the window."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "すみません、ちょっと＿ください。",
+          "answer": "待[ま]って",
+          "options": [
+            "待[ま]ち",
+            "待[ま]って",
+            "待[ま]つ",
+            "待[ま]んで"
+          ],
+          "en": "Excuse me, please wait a moment."
+        },
+        {
+          "type": "choice",
+          "jp": "暑[あつ]いですね。窓[まど]を＿ください。",
+          "answer": "開[あ]けて",
+          "options": [
+            "開[あ]ける",
+            "開[あ]け",
+            "開[あ]けて",
+            "開[あ]けって"
+          ],
+          "en": "It's hot, isn't it? Please open the window."
+        },
+        {
+          "type": "choice",
+          "jp": "寒[さむ]いです。エアコンを＿ください。",
+          "answer": "消[け]して",
+          "options": [
+            "消[け]いて",
+            "つけって",
+            "消[け]って",
+            "消[け]して"
+          ],
+          "en": "I'm cold. Please turn off the air conditioner."
+        },
+        {
+          "type": "choice",
+          "jp": "どうぞ、ここに＿ください。",
+          "answer": "座[すわ]って",
+          "options": [
+            "座[すわ]って",
+            "座[すわ]んで",
+            "座[すわ]りて",
+            "座[すわ]て"
+          ],
+          "en": "Please, sit here."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "写真[しゃしん]を",
+            "撮[と]って",
+            "ください。"
+          ],
+          "en": "Please take a photo."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "お名前[なまえ]を",
+            "教[おし]えて",
+            "ください。"
+          ],
+          "en": "Please tell me your name."
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g04",
+      "title": "〜ています — doing right now",
+      "pattern": "V-て います",
+      "meaning": "is doing ~ (action in progress)",
+      "explanation": "て-form + います describes an action happening right now, like English \"-ing\": 待っています (I'm waiting), 何をしていますか (what are you doing?). In Unit 8 you met 住んでいます and 知っています — they use the same form for a continuing state. The context tells you which meaning it is. The negative is 〜ていません and the past is 〜ていました.",
+      "notes": [
+        "Negative: 待っていません (I'm not waiting). Past: 待っていました (I was waiting).",
+        "It is also used for jobs and habits: 銀行で働いています (I work at a bank).",
+        "Now you can say \"not yet\" in full: まだ食べていません (I haven't eaten yet)."
+      ],
+      "examples": [
+        {
+          "jp": "今[いま]、何[なに]をしていますか。……テレビを見[み]ています。",
+          "en": "What are you doing now? — I'm watching TV."
+        },
+        {
+          "jp": "兄[あに]は部屋[へや]で勉強[べんきょう]しています。",
+          "en": "My older brother is studying in his room."
+        },
+        {
+          "jp": "駅[えき]の前[まえ]で友[とも]だちを待[ま]っています。",
+          "en": "I'm waiting for a friend in front of the station."
+        },
+        {
+          "jp": "弟[おとうと]は公園[こうえん]でサッカーをしています。",
+          "en": "My younger brother is playing soccer in the park."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "今[いま]、何[なに]を＿いますか。",
+          "answer": "して",
+          "options": [
+            "し",
+            "する",
+            "して",
+            "します"
+          ],
+          "en": "What are you doing now?"
+        },
+        {
+          "type": "choice",
+          "jp": "父[ちち]は今[いま]、シャワーを＿います。",
+          "answer": "浴[あ]びて",
+          "options": [
+            "浴[あ]びって",
+            "浴[あ]びて",
+            "浴[あ]び",
+            "浴[あ]んで"
+          ],
+          "en": "My father is taking a shower now."
+        },
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんは外[そと]でたばこを＿います。",
+          "answer": "吸[す]って",
+          "options": [
+            "吸[す]いて",
+            "吸[す]んで",
+            "吸[す]して",
+            "吸[す]って"
+          ],
+          "en": "Mr. Tanaka is smoking outside."
+        },
+        {
+          "type": "choice",
+          "jp": "駅[えき]の前[まえ]でケンさんを＿います。",
+          "answer": "待[ま]って",
+          "options": [
+            "待[ま]って",
+            "待[ま]ちて",
+            "待[ま]んで",
+            "待[ま]つ"
+          ],
+          "en": "I'm waiting for Ken in front of the station."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "テレビを",
+            "見[み]て",
+            "います。"
+          ],
+          "en": "I'm watching TV."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "何[なに]を",
+            "して",
+            "いますか。"
+          ],
+          "en": "What are you doing?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g05",
+      "title": "〜てもいいです — permission (may I…?)",
+      "pattern": "V-て も いいです（か）",
+      "meaning": "You may ~ / May I ~?",
+      "explanation": "Add もいいです to the て-form to say something is allowed: ここに座ってもいいです — you may sit here. Add か to ask for permission: 写真を撮ってもいいですか — may I take a photo? To say yes, answer はい、どうぞ or ええ、いいですよ. To say no politely, people often say すみません、ちょっと… and let the sentence trail off — a flat \"no\" sounds rude.",
+      "notes": [
+        "Yes: はい、どうぞ。／ ええ、いいですよ。",
+        "Soft no: すみません、ちょっと…。",
+        "A firm no uses 〜てはいけません (the next pattern)."
+      ],
+      "examples": [
+        {
+          "jp": "写真[しゃしん]を撮[と]ってもいいですか。……はい、どうぞ。",
+          "en": "May I take a photo? — Yes, go ahead."
+        },
+        {
+          "jp": "この部屋[へや]を使[つか]ってもいいですよ。",
+          "en": "You may use this room."
+        },
+        {
+          "jp": "窓[まど]を開[あ]けてもいいですか。……すみません、ちょっと……。",
+          "en": "May I open the window? — Sorry, I'd rather you didn't…"
+        },
+        {
+          "jp": "ここでたばこを吸[す]ってもいいですか。",
+          "en": "May I smoke here?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "すみません、ここに座[すわ]って＿いいですか。",
+          "answer": "も",
+          "options": [
+            "は",
+            "も",
+            "を",
+            "が"
+          ],
+          "en": "Excuse me, may I sit here?"
+        },
+        {
+          "type": "choice",
+          "jp": "このペンを＿もいいですか。……はい、どうぞ。",
+          "answer": "借[か]りて",
+          "options": [
+            "借[か]り",
+            "借[か]りって",
+            "借[か]ります",
+            "借[か]りて"
+          ],
+          "en": "May I borrow this pen? — Yes, go ahead."
+        },
+        {
+          "type": "choice",
+          "jp": "写真[しゃしん]を撮[と]ってもいいですか。……はい、＿。",
+          "answer": "どうぞ",
+          "options": [
+            "いけません",
+            "どうぞ",
+            "ちがいます",
+            "まだです"
+          ],
+          "en": "May I take a photo? — Yes, go ahead."
+        },
+        {
+          "type": "choice",
+          "jp": "暑[あつ]いですね。エアコンを＿もいいですか。",
+          "answer": "つけて",
+          "options": [
+            "つけて",
+            "つける",
+            "つけって",
+            "つけ"
+          ],
+          "en": "It's hot, isn't it? May I turn on the air conditioner?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "トイレに",
+            "行[い]っても",
+            "いいですか。"
+          ],
+          "en": "May I go to the bathroom?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この辞書[じしょ]を",
+            "使[つか]っても",
+            "いいですか。"
+          ],
+          "en": "May I use this dictionary?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g06",
+      "title": "〜てはいけません — must not",
+      "pattern": "V-て は いけません",
+      "meaning": "You must not ~",
+      "explanation": "て-form + はいけません means something is not allowed: ここでたばこを吸ってはいけません — you must not smoke here. It is strong, so you hear it in rules, on signs, and from teachers or parents. The は is the particle, pronounced \"wa\". When someone asks 〜てもいいですか, a firm no is いいえ、いけません.",
+      "notes": [
+        "The は is pronounced \"wa\".",
+        "〜てはだめです means the same thing and sounds more everyday.",
+        "It is too strong to use about a superior's actions; with them, use the soft すみません、ちょっと…."
+      ],
+      "examples": [
+        {
+          "jp": "ここでたばこを吸[す]ってはいけません。",
+          "en": "You must not smoke here."
+        },
+        {
+          "jp": "美術館[びじゅつかん]で写真[しゃしん]を撮[と]ってはいけません。",
+          "en": "You must not take photos in the art museum."
+        },
+        {
+          "jp": "テストで教科書[きょうかしょ]を見[み]てはいけません。",
+          "en": "You must not look at your textbook during the test."
+        },
+        {
+          "jp": "部屋[へや]に入[はい]ってもいいですか。……いいえ、入[はい]ってはいけません。",
+          "en": "May I go into the room? — No, you must not."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "ここでたばこを吸[す]って＿いけません。",
+          "answer": "は",
+          "options": [
+            "も",
+            "は",
+            "を",
+            "が"
+          ],
+          "en": "You must not smoke here."
+        },
+        {
+          "type": "choice",
+          "jp": "病院[びょういん]で電話[でんわ]を＿はいけません。",
+          "answer": "して",
+          "options": [
+            "しって",
+            "すて",
+            "して",
+            "します"
+          ],
+          "en": "You must not make phone calls in the hospital."
+        },
+        {
+          "type": "choice",
+          "jp": "このドアから＿はいけません。",
+          "answer": "入[はい]って",
+          "options": [
+            "入[はい]て",
+            "入[はい]んで",
+            "入[はい]り",
+            "入[はい]って"
+          ],
+          "en": "You must not go in through this door."
+        },
+        {
+          "type": "choice",
+          "jp": "ここで写真[しゃしん]を撮[と]ってもいいですか。……いいえ、撮[と]っては＿。",
+          "answer": "いけません",
+          "options": [
+            "いけません",
+            "いいです",
+            "ください",
+            "います"
+          ],
+          "en": "May I take photos here? — No, you must not."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "車[くるま]を",
+            "止[と]めては",
+            "いけません。"
+          ],
+          "en": "You must not park your car (here)."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "教室[きょうしつ]で",
+            "食[た]べては",
+            "いけません。"
+          ],
+          "en": "You must not eat in the classroom."
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g07",
+      "title": "〜てから — after doing…",
+      "pattern": "V1-て から、V2",
+      "meaning": "After doing V1, (then) V2",
+      "explanation": "て-form + から means \"after doing ~\". It stresses that the first action is finished before the second one starts: 手を洗ってから、食べます — I eat after washing my hands. The tense goes on the last verb only: 宿題をしてから、寝ました — I went to bed after doing my homework. This から follows a て-form, so it is different from the から meaning \"from\" that you learned in Unit 3.",
+      "notes": [
+        "Only the last verb shows the tense: 〜てから、〜ます / 〜ました.",
+        "Use it when the order matters: \"first this, and only then that\".",
+        "You can end with a request: 電気を消してから、出てください."
+      ],
+      "examples": [
+        {
+          "jp": "手[て]を洗[あら]ってから、昼[ひる]ごはんを食[た]べます。",
+          "en": "I eat lunch after washing my hands."
+        },
+        {
+          "jp": "宿題[しゅくだい]をしてから、テレビを見[み]ました。",
+          "en": "I watched TV after doing my homework."
+        },
+        {
+          "jp": "シャワーを浴[あ]びてから、寝[ね]ます。",
+          "en": "I go to bed after taking a shower."
+        },
+        {
+          "jp": "電気[でんき]を消[け]してから、部屋[へや]を出[で]てください。",
+          "en": "Please turn off the light before you leave the room."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "手[て]を洗[あら]って＿、食[た]べてください。",
+          "answer": "から",
+          "options": [
+            "まで",
+            "から",
+            "も",
+            "を"
+          ],
+          "en": "Please wash your hands before you eat."
+        },
+        {
+          "type": "choice",
+          "jp": "宿題[しゅくだい]を＿から、テレビを見[み]ます。",
+          "answer": "して",
+          "options": [
+            "します",
+            "し",
+            "する",
+            "して"
+          ],
+          "en": "I'll watch TV after doing my homework."
+        },
+        {
+          "type": "choice",
+          "jp": "靴[くつ]を＿から、部屋[へや]に入[はい]ってください。",
+          "answer": "脱[ぬ]いで",
+          "options": [
+            "脱[ぬ]いで",
+            "脱[ぬ]いて",
+            "脱[ぬ]んで",
+            "脱[ぬ]って"
+          ],
+          "en": "Please take off your shoes before you come into the room."
+        },
+        {
+          "type": "choice",
+          "jp": "家[いえ]に＿から、電話[でんわ]してください。",
+          "answer": "帰[かえ]って",
+          "options": [
+            "帰[かえ]て",
+            "帰[かえ]って",
+            "帰[かえ]いて",
+            "帰[かえ]んで"
+          ],
+          "en": "Please call me after you get home."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "お金[かね]を入[い]れてから、",
+            "ボタンを",
+            "押[お]してください。"
+          ],
+          "en": "Put in the money, then press the button."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ご飯[はん]を食[た]べてから、",
+            "薬[くすり]を",
+            "飲[の]みます。"
+          ],
+          "en": "I take my medicine after eating."
+        }
+      ]
+    },
+    {
+      "id": "n5-u09-g08",
+      "title": "〜て、〜て — and then… (a chain of actions)",
+      "pattern": "V1-て、V2-て、V3",
+      "meaning": "do V1, (and then) V2, (and then) V3",
+      "explanation": "Use the て-form to link actions in the order they happen, like \"…and then…\". Only the last verb shows the tense and politeness: 朝起きて、シャワーを浴びて、会社へ行きます. If the last verb is past, the whole chain is past: 昨日は友だちに会って、映画を見ました. Unlike 〜てから, which focuses on \"after\", this simply lists actions one after another.",
+      "notes": [
+        "Tense and politeness are shown only at the very end.",
+        "Two or three actions sounds natural; more becomes a long list.",
+        "Compare: 食べてから寝ます stresses \"after eating\"; 食べて、寝ます just lists the two actions."
+      ],
+      "examples": [
+        {
+          "jp": "朝[あさ]起[お]きて、シャワーを浴[あ]びて、会社[かいしゃ]へ行[い]きます。",
+          "en": "In the morning I get up, take a shower and go to work."
+        },
+        {
+          "jp": "昨日[きのう]は友[とも]だちに会[あ]って、映画[えいが]を見[み]ました。",
+          "en": "Yesterday I met a friend and saw a movie."
+        },
+        {
+          "jp": "部屋[へや]に入[はい]って、電気[でんき]をつけました。",
+          "en": "I went into the room and turned on the light."
+        },
+        {
+          "jp": "ドアを開[あ]けて、外[そと]に出[で]ました。",
+          "en": "I opened the door and went outside."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "朝[あさ]起[お]きて、顔[かお]を＿、朝[あさ]ごはんを食[た]べます。",
+          "answer": "洗[あら]って",
+          "options": [
+            "洗[あら]います",
+            "洗[あら]って",
+            "洗[あら]いて",
+            "洗[あら]んで"
+          ],
+          "en": "In the morning I get up, wash my face and eat breakfast."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は図書館[としょかん]へ＿、勉強[べんきょう]しました。",
+          "answer": "行[い]って",
+          "options": [
+            "行[い]いて",
+            "行[い]きて",
+            "行[い]んで",
+            "行[い]って"
+          ],
+          "en": "Yesterday I went to the library and studied."
+        },
+        {
+          "type": "choice",
+          "jp": "ドアを＿、部屋[へや]に入[はい]りました。",
+          "answer": "開[あ]けて",
+          "options": [
+            "開[あ]けて",
+            "開[あ]けって",
+            "開[あ]けます",
+            "開[あ]けで"
+          ],
+          "en": "I opened the door and went into the room."
+        },
+        {
+          "type": "choice",
+          "jp": "昨日[きのう]は家[いえ]に帰[かえ]って、シャワーを浴[あ]びて、＿。",
+          "answer": "寝[ね]ました",
+          "options": [
+            "寝[ね]て",
+            "寝[ね]ます",
+            "寝[ね]ました",
+            "寝[ね]ましょう"
+          ],
+          "en": "Yesterday I went home, took a shower and went to bed."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "朝[あさ]起[お]きて、",
+            "シャワーを浴[あ]びて、",
+            "会社[かいしゃ]へ行[い]きます。"
+          ],
+          "en": "In the morning I get up, take a shower and go to work."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "友[とも]だちに",
+            "会[あ]って、",
+            "映画[えいが]を見[み]ました。"
+          ],
+          "en": "I met a friend and watched a movie."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "にほんごがっこうの いちにち — A day at Japanese school",
+    "text": "私[わたし]は毎朝[まいあさ]七時[しちじ]に起[お]きて、朝[あさ]ごはんを食[た]べて、学校[がっこう]へ行[い]きます。授業[じゅぎょう]は九時[くじ]から十二時[じゅうにじ]までです。私[わたし]たちの先生[せんせい]は少[すこ]しきびしいです。教室[きょうしつ]では英語[えいご]を使[つか]ってはいけません。飲[の]み物[もの]を飲[の]んでもいいですが、食[た]べ物[もの]を食[た]べてはいけません。授業[じゅぎょう]が終[お]わってから、友[とも]だちと昼[ひる]ごはんを食[た]べます。午後[ごご]は図書館[としょかん]で宿題[しゅくだい]をします。今[いま]も図書館[としょかん]で宿題[しゅくだい]をしています。",
+    "en": "Every morning I get up at seven, eat breakfast and go to school. Class is from nine to twelve. Our teacher is a little strict. In the classroom we must not use English. We may have drinks, but we must not eat food. After class is over, I eat lunch with my friends. In the afternoon I do my homework at the library. Right now, too, I'm doing my homework at the library.",
+    "questions": [
+      {
+        "q": "What time does class start?",
+        "options": [
+          "7:00",
+          "8:00",
+          "12:00",
+          "9:00"
+        ],
+        "answer": 3
+      },
+      {
+        "q": "What is NOT allowed in the classroom?",
+        "options": [
+          "Having a drink",
+          "Using English",
+          "Asking questions",
+          "Using Japanese"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What is the writer doing now?",
+        "options": [
+          "Eating lunch",
+          "Taking a shower",
+          "Doing homework at the library",
+          "Waiting for a friend"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  "listening": {
+    "title": "At the temple",
+    "lines": [
+      {
+        "speaker": "B",
+        "jp": "すみません、ここで写真[しゃしん]を撮[と]ってもいいですか。",
+        "en": "Excuse me, may I take photos here?"
+      },
+      {
+        "speaker": "A",
+        "jp": "はい、いいですよ。でも、お寺[てら]の中[なか]で撮[と]ってはいけません。",
+        "en": "Yes, that's fine. But you must not take photos inside the temple."
+      },
+      {
+        "speaker": "B",
+        "jp": "わかりました。中[なか]に入[はい]ってもいいですか。",
+        "en": "I understand. May I go inside?"
+      },
+      {
+        "speaker": "A",
+        "jp": "はい、どうぞ。靴[くつ]を脱[ぬ]いでから、入[はい]ってください。",
+        "en": "Yes, please do. Please take off your shoes before you go in."
+      },
+      {
+        "speaker": "B",
+        "jp": "はい。かばんはどこに置[お]きますか。",
+        "en": "OK. Where should I put my bag?"
+      },
+      {
+        "speaker": "A",
+        "jp": "あそこに置[お]いてください。",
+        "en": "Please put it over there."
+      },
+      {
+        "speaker": "B",
+        "jp": "あのう、たばこを吸[す]ってもいいですか。",
+        "en": "Um, may I smoke?"
+      },
+      {
+        "speaker": "A",
+        "jp": "すみません、ここで吸[す]ってはいけません。",
+        "en": "I'm sorry, you must not smoke here."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですか。わかりました。",
+        "en": "I see. Understood."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where may B take photos?",
+        "options": [
+          "Inside the temple",
+          "Outside, where they are now",
+          "Anywhere",
+          "Nowhere"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What must B do before going inside?",
+        "options": [
+          "Pay money",
+          "Turn off the phone",
+          "Take off shoes",
+          "Wait outside"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "May B smoke there?",
+        "options": [
+          "Yes, anywhere",
+          "Yes, but only inside",
+          "Only after five o'clock",
+          "No, not there"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

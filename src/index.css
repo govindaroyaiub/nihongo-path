@@ -2,23 +2,152 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body, #root {
-  height: 100%;
+/* ---- theme tokens (RGB channels so Tailwind can apply opacity) ---------- */
+:root {
+  --bg: 255 248 239;
+  --surface: 255 255 255;
+  --sunken: 246 238 228;
+  --ink: 33 29 51;
+  --line: 233 223 212;
+  --outline: 38 30 62;
+
+  --torii: 255 92 77;
+  --torii-deep: 214 58 46;
+  --torii-soft: 255 228 223;
+  --sky: 61 155 255;
+  --sky-deep: 33 112 214;
+  --sky-soft: 222 238 255;
+  --matcha: 72 199 116;
+  --matcha-deep: 38 150 80;
+  --matcha-soft: 221 246 228;
+  --sun: 255 196 41;
+  --sun-deep: 222 148 0;
+  --grape: 145 104 255;
+  --grape-deep: 108 70 220;
+  --sakura: 255 133 178;
+  --sakura-deep: 222 84 138;
+
+  color-scheme: light;
+}
+
+:root[data-theme='dark'] {
+  --bg: 20 18 42;
+  --surface: 33 30 61;
+  --sunken: 27 24 52;
+  --ink: 242 239 255;
+  --line: 56 51 92;
+  --outline: 6 5 16;
+
+  --torii: 255 107 92;
+  --torii-deep: 220 70 58;
+  --torii-soft: 74 36 48;
+  --sky: 92 172 255;
+  --sky-deep: 56 132 236;
+  --sky-soft: 30 46 86;
+  --matcha: 88 214 132;
+  --matcha-deep: 52 170 98;
+  --matcha-soft: 26 64 52;
+  --sun: 255 205 70;
+  --sun-deep: 232 160 20;
+  --grape: 160 124 255;
+  --grape-deep: 124 90 236;
+  --sakura: 255 146 188;
+  --sakura-deep: 232 98 150;
+
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
 }
 
 body {
-  @apply bg-paper text-ink font-sans;
+  @apply bg-bg text-ink font-sans antialiased;
   overscroll-behavior-y: none;
   -webkit-tap-highlight-color: transparent;
 }
 
-#root {
-  max-width: 480px;
-  margin: 0 auto;
-  min-height: 100svh;
-  display: flex;
-  flex-direction: column;
-  position: relative;
+/* Anime-sky wash at the top of every page, fading into halftone dots. */
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(rgb(var(--outline) / 0.07) 1.2px, transparent 1.6px) 0 0 / 14px 14px,
+    linear-gradient(180deg, rgb(var(--sky) / 0.16), transparent 320px);
+  mask-image: linear-gradient(to bottom, black, black 30%, transparent 75%);
+  -webkit-mask-image: linear-gradient(to bottom, black, black 30%, transparent 75%);
+}
+
+/* ---- components --------------------------------------------------------- */
+@layer components {
+  /* Chunky manga button: ink outline + a solid lip underneath that squashes on press. */
+  .btn-3d {
+    @apply relative inline-flex items-center justify-center gap-2 rounded-2xl font-extrabold uppercase tracking-wide transition-all duration-100 select-none border-[2.5px] border-outline;
+    box-shadow: 0 5px 0 0 rgb(var(--outline));
+  }
+  .btn-3d:active:not(:disabled) {
+    transform: translateY(5px);
+    box-shadow: 0 0 0 0 rgb(var(--outline));
+  }
+  .btn-3d:disabled {
+    @apply opacity-40 cursor-not-allowed;
+  }
+  .btn-primary {
+    @apply btn-3d bg-torii text-white;
+  }
+  .btn-sky {
+    @apply btn-3d bg-sky text-white;
+  }
+  .btn-matcha {
+    @apply btn-3d bg-matcha text-white;
+  }
+  .btn-danger {
+    @apply btn-3d bg-torii text-white;
+  }
+  .btn-ghost {
+    @apply btn-3d bg-surface text-ink;
+  }
+
+  /* Tappable tile (answer options, cards) with the same lip. */
+  .tile {
+    @apply bg-surface border-[2.5px] border-outline rounded-2xl transition-all duration-100;
+    box-shadow: 0 4px 0 0 rgb(var(--outline));
+  }
+  button.tile:active:not(:disabled),
+  a.tile:active {
+    transform: translateY(4px);
+    box-shadow: 0 0 0 0 rgb(var(--outline));
+  }
+  /* Manga panel: ink border + hard offset shadow. */
+  .panel {
+    @apply bg-surface border-[2.5px] border-outline rounded-3xl;
+    box-shadow: 5px 5px 0 0 rgb(var(--outline));
+  }
+  .eyebrow {
+    @apply text-[11px] font-extrabold uppercase tracking-[0.12em];
+  }
+  /* Outlined anime lettering for titles and sound effects. */
+  .sfx {
+    @apply font-title;
+    -webkit-text-stroke: 2px rgb(var(--outline));
+    paint-order: stroke fill;
+    text-shadow: 3px 3px 0 rgb(var(--outline));
+  }
+  .halftone {
+    background-image: radial-gradient(rgb(255 255 255 / 0.28) 1.4px, transparent 1.8px);
+    background-size: 10px 10px;
+  }
+  /* Radiating speed lines, the classic manga "impact" backdrop. */
+  .speedlines {
+    background: repeating-conic-gradient(from 0deg at 50% 50%, rgb(var(--sun) / 0.28) 0deg 4deg, transparent 4deg 12deg);
+    mask-image: radial-gradient(circle at center, transparent 18%, black 30%, black 55%, transparent 72%);
+    -webkit-mask-image: radial-gradient(circle at center, transparent 18%, black 30%, black 55%, transparent 72%);
+  }
 }
 
 .no-select {
@@ -26,89 +155,108 @@ body {
   -webkit-user-select: none;
 }
 
+ruby {
+  ruby-position: over;
+}
+rt {
+  font-size: 0.5em;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  opacity: 0.65;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* ---- motion ---------------------------------------------------------------- */
 @keyframes dialog-in {
-  from {
-    opacity: 0;
-    transform: translateY(16px) scale(0.97);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0) scale(1);
-  }
+  from { opacity: 0; transform: translateY(16px) scale(0.97); }
+  to { opacity: 1; transform: translateY(0) scale(1); }
 }
-
 @keyframes fade-in {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
-
+/* Scale only, no opacity: content stays readable even if the animation is throttled. */
 @keyframes pop-in {
-  0% {
-    transform: scale(0.7);
-    opacity: 0;
-  }
-  60% {
-    transform: scale(1.08);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1);
-  }
+  0% { transform: scale(0.92); }
+  60% { transform: scale(1.03); }
+  100% { transform: scale(1); }
 }
-
-@keyframes mascot-sway {
-  0%,
-  100% {
-    transform: rotate(-3deg) translateY(0);
-  }
-  50% {
-    transform: rotate(3deg) translateY(-4px);
-  }
+@keyframes sheet-up {
+  from { transform: translateY(100%); }
+  to { transform: translateY(0); }
 }
-
-@keyframes reaction-pop {
-  0% {
-    transform: scale(0.5) translateY(10px);
-    opacity: 0;
-  }
-  25% {
-    transform: scale(1.12) translateY(0);
-    opacity: 1;
-  }
-  70% {
-    transform: scale(1) translateY(0);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(0.9) translateY(-14px);
-    opacity: 0;
-  }
+@keyframes bob {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-6px); }
 }
-
+@keyframes wiggle {
+  0%, 100% { transform: rotate(0); }
+  25% { transform: rotate(-6deg); }
+  75% { transform: rotate(6deg); }
+}
+@keyframes shake {
+  0%, 100% { transform: translateX(0); }
+  20%, 60% { transform: translateX(-6px); }
+  40%, 80% { transform: translateX(6px); }
+}
+@keyframes jump {
+  0%, 100% { transform: translateY(0) scale(1); }
+  30% { transform: translateY(-14px) scale(1.05, 0.95); }
+  50% { transform: translateY(0) scale(0.95, 1.05); }
+}
+@keyframes blink {
+  0%, 92%, 100% { transform: scaleY(1); }
+  95% { transform: scaleY(0.1); }
+}
+@keyframes tail {
+  0%, 100% { transform: rotate(-8deg); }
+  50% { transform: rotate(10deg); }
+}
+@keyframes pulse-ring {
+  0% { box-shadow: 0 0 0 0 rgb(var(--torii) / 0.45); }
+  100% { box-shadow: 0 0 0 18px rgb(var(--torii) / 0); }
+}
 @keyframes confetti-fall {
-  0% {
-    transform: translateY(0) rotate(0deg);
-    opacity: 1;
+  0% { transform: translateY(0) rotate(0deg); opacity: 1; }
+  100% { transform: translateY(260px) rotate(540deg); opacity: 0; }
+}
+@keyframes petal-fall {
+  0% { transform: translate3d(0, -10vh, 0) rotate(0deg); }
+  100% { transform: translate3d(var(--drift), 110vh, 0) rotate(var(--spin)); }
+}
+@keyframes spin-slow {
+  to { transform: rotate(360deg); }
+}
+@keyframes sfx-pop {
+  0% { transform: scale(0.2) rotate(-12deg); opacity: 0; }
+  55% { transform: scale(1.15) rotate(4deg); opacity: 1; }
+  100% { transform: scale(1) rotate(-3deg); opacity: 1; }
+}
+@keyframes sparkle {
+  0%, 100% { transform: scale(0.4) rotate(0deg); opacity: 0; }
+  50% { transform: scale(1) rotate(90deg); opacity: 1; }
+}
+@keyframes float-up {
+  0% { transform: translateY(0); opacity: 0; }
+  20% { opacity: 1; }
+  100% { transform: translateY(-40px); opacity: 0; }
+}
+
+.animate-pop-in { animation: pop-in 380ms cubic-bezier(0.16, 1, 0.3, 1); }
+.animate-bob { animation: bob 2.4s ease-in-out infinite; }
+.animate-wiggle { animation: wiggle 500ms ease-in-out; }
+.animate-shake { animation: shake 400ms ease-in-out; }
+.animate-jump { animation: jump 600ms cubic-bezier(0.3, 1.4, 0.5, 1); }
+.animate-pulse-ring { animation: pulse-ring 1.6s ease-out infinite; }
+.animate-spin-slow { animation: spin-slow 24s linear infinite; }
+.animate-sfx-pop { animation: sfx-pop 420ms cubic-bezier(0.3, 1.5, 0.5, 1) both; }
+.animate-float-up { animation: float-up 900ms ease-out forwards; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 1ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 1ms !important;
   }
-  100% {
-    transform: translateY(220px) rotate(540deg);
-    opacity: 0;
-  }
-}
-
-.animate-pop-in {
-  animation: pop-in 400ms cubic-bezier(0.16, 1, 0.3, 1);
-}
-
-.animate-mascot-sway {
-  animation: mascot-sway 3.5s ease-in-out infinite;
-  transform-origin: bottom center;
-}
-
-.animate-reaction-pop {
-  animation: reaction-pop 1100ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }

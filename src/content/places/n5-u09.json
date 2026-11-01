@@ -1,0 +1,70 @@
+{
+  "unitId": "n5-u09",
+  "place": "Kyoto",
+  "jp": "京都[きょうと]",
+  "prefecture": "Kyoto",
+  "region": "Kansai",
+  "lat": 35.0116,
+  "lng": 135.7681,
+  "tagline": "Japan's capital for over a thousand years, full of temples",
+  "history": "Kyoto was founded in 794 as Heian-kyō, a new capital laid out in a grid on the Chinese model, and it remained the home of the emperor until the capital moved to Tokyo in 1869. Over those centuries it became the heart of Japanese court culture, Buddhism, tea ceremony and the traditional arts. The city has well over a thousand temples and shrines, and many of its most famous ones were listed together as a UNESCO World Heritage Site in 1994.",
+  "sites": [
+    {
+      "name": "Fushimi Inari Taisha",
+      "jp": "伏見稲荷大社[ふしみいなりたいしゃ]",
+      "kind": "shrine",
+      "year": "711",
+      "desc": "The head shrine of Inari, the kami of rice and business, founded by tradition in 711. Thousands of red torii gates, each donated by a person or company, form tunnels up Mt. Inari."
+    },
+    {
+      "name": "Kinkaku-ji",
+      "jp": "金閣寺[きんかくじ]",
+      "kind": "temple",
+      "year": "1397",
+      "desc": "The Golden Pavilion began as the retirement villa of shogun Ashikaga Yoshimitsu and became a Zen temple after his death. The pavilion was burned by a monk in 1950 and rebuilt in 1955."
+    },
+    {
+      "name": "Kiyomizu-dera",
+      "jp": "清水寺[きよみずでら]",
+      "kind": "temple",
+      "year": "778",
+      "desc": "A hillside temple founded by tradition in 778. Its main hall, rebuilt in 1633, has a huge wooden stage held up by pillars and joined without nails."
+    }
+  ],
+  "facts": [
+    "The top two floors of the Golden Pavilion are covered in gold leaf.",
+    "Foxes are Inari's messengers, so fox statues guard Fushimi Inari Taisha.",
+    "The old saying 'to jump off the stage at Kiyomizu' means to take a bold plunge."
+  ],
+  "words": [
+    { "word": "伏見稲荷大社[ふしみいなりたいしゃ]", "meaning": "Fushimi Inari Taisha" },
+    { "word": "鳥居[とりい]", "meaning": "torii gate" },
+    { "word": "金閣寺[きんかくじ]", "meaning": "Kinkaku-ji (Golden Pavilion)" },
+    { "word": "金色[きんいろ]", "meaning": "gold (colour)" },
+    { "word": "清水寺[きよみずでら]", "meaning": "Kiyomizu-dera" },
+    { "word": "お寺[てら]", "meaning": "Buddhist temple" }
+  ],
+  "stamp": { "kanji": "京都", "motif": "torii" },
+  "reading": {
+    "title": "京都[きょうと]の一日[いちにち]",
+    "text": "京都[きょうと]にはお寺[てら]が多[おお]いです。今日[きょう]は朝[あさ]六時[ろくじ]に起[お]きて、伏見稲荷大社[ふしみいなりたいしゃ]へ行[い]きました。赤[あか]い鳥居[とりい]の中[なか]を歩[ある]いて、山[やま]の上[うえ]まで行[い]きました。写真[しゃしん]を撮[と]ってから、金閣寺[きんかくじ]へ行[い]きました。金閣寺[きんかくじ]は金色[きんいろ]で、とてもきれいでした。お寺[てら]の中[なか]に入[はい]ってはいけませんが、外[そと]から写真[しゃしん]を撮[と]ってもいいです。今[いま]、清水寺[きよみずでら]で友[とも]だちを待[ま]っています。",
+    "en": "Kyoto has many temples. Today I got up at six in the morning and went to Fushimi Inari Taisha. I walked through the red torii gates and went up to the top of the mountain. After taking photos, I went to Kinkaku-ji. Kinkaku-ji is golden and was very beautiful. You must not go inside the temple building, but you may take photos from outside. Right now I'm waiting for my friend at Kiyomizu-dera.",
+    "questions": [
+      {
+        "q": "What time did the writer get up?",
+        "options": ["Five", "Seven", "Nine", "Six"],
+        "answer": 3
+      },
+      {
+        "q": "What is allowed at Kinkaku-ji?",
+        "options": ["Going inside the building", "Taking photos from outside", "Climbing the pavilion", "Eating inside"],
+        "answer": 1
+      },
+      {
+        "q": "What is the writer doing now?",
+        "options": ["Waiting for a friend at Kiyomizu-dera", "Walking up Mt. Inari", "Eating lunch", "Taking a train home"],
+        "answer": 0
+      }
+    ]
+  }
+}

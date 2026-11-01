@@ -1,0 +1,1015 @@
+{
+  "id": "n5-u01",
+  "level": "N5",
+  "number": 1,
+  "title": "Hello, nice to meet you",
+  "goal": "Greet people, introduce yourself, say where you're from and ask simple yes/no questions.",
+  "vocab": [
+    {
+      "id": "n5-u01-v01",
+      "word": "私[わたし]",
+      "meaning": "I, me",
+      "pos": "pronoun",
+      "example": {
+        "jp": "私[わたし]はラジです。",
+        "en": "I am Raj."
+      }
+    },
+    {
+      "id": "n5-u01-v02",
+      "word": "あなた",
+      "meaning": "you",
+      "pos": "pronoun",
+      "example": {
+        "jp": "あなたは学生[がくせい]ですか。",
+        "en": "Are you a student?"
+      }
+    },
+    {
+      "id": "n5-u01-v03",
+      "word": "学生[がくせい]",
+      "meaning": "student",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]は学生[がくせい]です。",
+        "en": "I am a student."
+      }
+    },
+    {
+      "id": "n5-u01-v04",
+      "word": "先生[せんせい]",
+      "meaning": "teacher",
+      "pos": "noun",
+      "example": {
+        "jp": "田中[たなか]さんは先生[せんせい]です。",
+        "en": "Mr. Tanaka is a teacher."
+      }
+    },
+    {
+      "id": "n5-u01-v05",
+      "word": "会社員[かいしゃいん]",
+      "meaning": "company employee",
+      "pos": "noun",
+      "example": {
+        "jp": "父[ちち]は会社員[かいしゃいん]です。",
+        "en": "My father is a company employee."
+      }
+    },
+    {
+      "id": "n5-u01-v06",
+      "word": "医者[いしゃ]",
+      "meaning": "doctor",
+      "pos": "noun",
+      "example": {
+        "jp": "母[はは]は医者[いしゃ]です。",
+        "en": "My mother is a doctor."
+      }
+    },
+    {
+      "id": "n5-u01-v07",
+      "word": "名前[なまえ]",
+      "meaning": "name",
+      "pos": "noun",
+      "example": {
+        "jp": "お名前[なまえ]は何[なん]ですか。",
+        "en": "What is your name?"
+      }
+    },
+    {
+      "id": "n5-u01-v08",
+      "word": "国[くに]",
+      "meaning": "country",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]の国[くに]はインドです。",
+        "en": "My country is India."
+      }
+    },
+    {
+      "id": "n5-u01-v09",
+      "word": "日本[にほん]",
+      "meaning": "Japan",
+      "pos": "noun",
+      "example": {
+        "jp": "ここは日本[にほん]です。",
+        "en": "This is Japan."
+      }
+    },
+    {
+      "id": "n5-u01-v10",
+      "word": "日本人[にほんじん]",
+      "meaning": "Japanese person",
+      "pos": "noun",
+      "example": {
+        "jp": "山田[やまだ]さんは日本人[にほんじん]です。",
+        "en": "Ms. Yamada is Japanese."
+      }
+    },
+    {
+      "id": "n5-u01-v11",
+      "word": "日本語[にほんご]",
+      "meaning": "Japanese language",
+      "pos": "noun",
+      "example": {
+        "jp": "日本語[にほんご]の学生[がくせい]です。",
+        "en": "I'm a student of Japanese."
+      }
+    },
+    {
+      "id": "n5-u01-v12",
+      "word": "インド",
+      "meaning": "India",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]はインド人[じん]です。",
+        "en": "I am Indian."
+      }
+    },
+    {
+      "id": "n5-u01-v13",
+      "word": "アメリカ",
+      "meaning": "America (USA)",
+      "pos": "noun",
+      "example": {
+        "jp": "ジョンさんはアメリカ人[じん]です。",
+        "en": "John is American."
+      }
+    },
+    {
+      "id": "n5-u01-v14",
+      "word": "〜人[じん]",
+      "meaning": "person from ~ (nationality)",
+      "pos": "suffix",
+      "example": {
+        "jp": "マリアさんはブラジル人[じん]です。",
+        "en": "Maria is Brazilian."
+      }
+    },
+    {
+      "id": "n5-u01-v15",
+      "word": "〜さん",
+      "meaning": "Mr./Ms. ~ (polite name suffix)",
+      "pos": "suffix",
+      "example": {
+        "jp": "田中[たなか]さんは先生[せんせい]です。",
+        "en": "Mr. Tanaka is a teacher."
+      }
+    },
+    {
+      "id": "n5-u01-v16",
+      "word": "〜歳[さい]",
+      "meaning": "~ years old (exception: 20 years old is 二十歳 はたち)",
+      "pos": "suffix",
+      "example": {
+        "jp": "私[わたし]は十九歳[じゅうきゅうさい]です。",
+        "en": "I am nineteen years old."
+      }
+    },
+    {
+      "id": "n5-u01-v17",
+      "word": "大学[だいがく]",
+      "meaning": "university",
+      "pos": "noun",
+      "example": {
+        "jp": "さくら大学[だいがく]の学生[がくせい]です。",
+        "en": "I'm a student at Sakura University."
+      }
+    },
+    {
+      "id": "n5-u01-v18",
+      "word": "友[とも]だち",
+      "meaning": "friend",
+      "pos": "noun",
+      "example": {
+        "jp": "ケンさんは友[とも]だちです。",
+        "en": "Ken is my friend."
+      }
+    },
+    {
+      "id": "n5-u01-v19",
+      "word": "はい",
+      "meaning": "yes",
+      "pos": "expression",
+      "example": {
+        "jp": "はい、学生[がくせい]です。",
+        "en": "Yes, I'm a student."
+      }
+    },
+    {
+      "id": "n5-u01-v20",
+      "word": "いいえ",
+      "meaning": "no",
+      "pos": "expression",
+      "example": {
+        "jp": "いいえ、先生[せんせい]じゃありません。",
+        "en": "No, I'm not a teacher."
+      }
+    },
+    {
+      "id": "n5-u01-v21",
+      "word": "こんにちは",
+      "meaning": "hello, good afternoon",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v22",
+      "word": "おはようございます",
+      "meaning": "good morning (polite)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v23",
+      "word": "こんばんは",
+      "meaning": "good evening",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v24",
+      "word": "はじめまして",
+      "meaning": "nice to meet you (first meeting)",
+      "pos": "expression",
+      "example": {
+        "jp": "はじめまして。ラジです。",
+        "en": "Nice to meet you. I'm Raj."
+      }
+    },
+    {
+      "id": "n5-u01-v25",
+      "word": "どうぞよろしくお願[ねが]いします",
+      "meaning": "please treat me well (said after introducing yourself)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v26",
+      "word": "ありがとうございます",
+      "meaning": "thank you (polite)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v27",
+      "word": "すみません",
+      "meaning": "excuse me; I'm sorry",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v28",
+      "word": "さようなら",
+      "meaning": "goodbye",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u01-v29",
+      "word": "ゼロ",
+      "meaning": "zero",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v30",
+      "word": "一[いち]",
+      "meaning": "one",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v31",
+      "word": "二[に]",
+      "meaning": "two",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v32",
+      "word": "三[さん]",
+      "meaning": "three",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v33",
+      "word": "四[よん]",
+      "meaning": "four (also read し)",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v34",
+      "word": "五[ご]",
+      "meaning": "five",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v35",
+      "word": "六[ろく]",
+      "meaning": "six",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v36",
+      "word": "七[なな]",
+      "meaning": "seven (also read しち)",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v37",
+      "word": "八[はち]",
+      "meaning": "eight",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v38",
+      "word": "九[きゅう]",
+      "meaning": "nine (also read く)",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v39",
+      "word": "十[じゅう]",
+      "meaning": "ten",
+      "pos": "number"
+    },
+    {
+      "id": "n5-u01-v40",
+      "word": "何[なん]",
+      "meaning": "what",
+      "pos": "pronoun",
+      "example": {
+        "jp": "これは何[なん]ですか。",
+        "en": "What is this?"
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u01-k01",
+      "char": "一",
+      "meanings": [
+        "one"
+      ],
+      "on": [
+        "イチ",
+        "イツ"
+      ],
+      "kun": [
+        "ひと-",
+        "ひと.つ"
+      ],
+      "strokes": 1,
+      "mnemonic": "A single horizontal line is one.",
+      "words": [
+        {
+          "word": "一[いち]",
+          "meaning": "one"
+        },
+        {
+          "word": "一[ひと]つ",
+          "meaning": "one (thing)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k02",
+      "char": "二",
+      "meanings": [
+        "two"
+      ],
+      "on": [
+        "ニ"
+      ],
+      "kun": [
+        "ふた",
+        "ふた.つ"
+      ],
+      "strokes": 2,
+      "mnemonic": "Two lines stacked up make two.",
+      "words": [
+        {
+          "word": "二[に]",
+          "meaning": "two"
+        },
+        {
+          "word": "二[ふた]つ",
+          "meaning": "two (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k03",
+      "char": "三",
+      "meanings": [
+        "three"
+      ],
+      "on": [
+        "サン"
+      ],
+      "kun": [
+        "み",
+        "み.つ",
+        "みっ.つ"
+      ],
+      "strokes": 3,
+      "mnemonic": "Three lines make three.",
+      "words": [
+        {
+          "word": "三[さん]",
+          "meaning": "three"
+        },
+        {
+          "word": "三[みっ]つ",
+          "meaning": "three (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k04",
+      "char": "四",
+      "meanings": [
+        "four"
+      ],
+      "on": [
+        "シ"
+      ],
+      "kun": [
+        "よ",
+        "よ.つ",
+        "よっ.つ",
+        "よん"
+      ],
+      "strokes": 5,
+      "mnemonic": "A box with four sides and two legs inside — four.",
+      "words": [
+        {
+          "word": "四[よん]",
+          "meaning": "four"
+        },
+        {
+          "word": "四[よっ]つ",
+          "meaning": "four (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k05",
+      "char": "五",
+      "meanings": [
+        "five"
+      ],
+      "on": [
+        "ゴ"
+      ],
+      "kun": [
+        "いつ",
+        "いつ.つ"
+      ],
+      "strokes": 4,
+      "mnemonic": "Looks like a 5 lying between two lines.",
+      "words": [
+        {
+          "word": "五[ご]",
+          "meaning": "five"
+        },
+        {
+          "word": "五[いつ]つ",
+          "meaning": "five (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k06",
+      "char": "六",
+      "meanings": [
+        "six"
+      ],
+      "on": [
+        "ロク"
+      ],
+      "kun": [
+        "む",
+        "む.つ",
+        "むっ.つ"
+      ],
+      "strokes": 4,
+      "mnemonic": "A person with a hat and two legs spread — six.",
+      "words": [
+        {
+          "word": "六[ろく]",
+          "meaning": "six"
+        },
+        {
+          "word": "六[むっ]つ",
+          "meaning": "six (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k07",
+      "char": "七",
+      "meanings": [
+        "seven"
+      ],
+      "on": [
+        "シチ"
+      ],
+      "kun": [
+        "なな",
+        "なな.つ",
+        "なの"
+      ],
+      "strokes": 2,
+      "mnemonic": "An upside-down 7 with a line through it.",
+      "words": [
+        {
+          "word": "七[なな]",
+          "meaning": "seven"
+        },
+        {
+          "word": "七[なな]つ",
+          "meaning": "seven (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k08",
+      "char": "八",
+      "meanings": [
+        "eight"
+      ],
+      "on": [
+        "ハチ"
+      ],
+      "kun": [
+        "や",
+        "や.つ",
+        "やっ.つ",
+        "よう"
+      ],
+      "strokes": 2,
+      "mnemonic": "Two strokes spreading apart like a mountain — eight.",
+      "words": [
+        {
+          "word": "八[はち]",
+          "meaning": "eight"
+        },
+        {
+          "word": "八[やっ]つ",
+          "meaning": "eight (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k09",
+      "char": "九",
+      "meanings": [
+        "nine"
+      ],
+      "on": [
+        "キュウ",
+        "ク"
+      ],
+      "kun": [
+        "ここの",
+        "ここの.つ"
+      ],
+      "strokes": 2,
+      "mnemonic": "Looks like a 9 with a hook.",
+      "words": [
+        {
+          "word": "九[きゅう]",
+          "meaning": "nine"
+        },
+        {
+          "word": "九[ここの]つ",
+          "meaning": "nine (things)"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-k10",
+      "char": "十",
+      "meanings": [
+        "ten"
+      ],
+      "on": [
+        "ジュウ",
+        "ジッ"
+      ],
+      "kun": [
+        "とお",
+        "と"
+      ],
+      "strokes": 2,
+      "mnemonic": "A cross, like the Roman numeral X — ten.",
+      "words": [
+        {
+          "word": "十[じゅう]",
+          "meaning": "ten"
+        },
+        {
+          "word": "十[とお]",
+          "meaning": "ten (things)"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u01-g01",
+      "title": "は〜です — \"A is B\"",
+      "pattern": "A は B です",
+      "meaning": "A is B (polite)",
+      "explanation": "This is the first sentence pattern in Japanese. は marks the topic — what you're talking about — and です ends the sentence politely, like \"is / am / are\". The particle は is written with the hiragana は but pronounced \"wa\". Japanese drops the subject when it's obvious, so 学生です alone can mean \"I'm a student.\"",
+      "notes": [
+        "は is pronounced \"wa\" when it is a particle.",
+        "です has no change for I / you / he / she / they.",
+        "Never use さん about yourself."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は学生[がくせい]です。",
+          "en": "I am a student."
+        },
+        {
+          "jp": "田中[たなか]さんは先生[せんせい]です。",
+          "en": "Mr. Tanaka is a teacher."
+        },
+        {
+          "jp": "ラジさんはインド人[じん]です。",
+          "en": "Raj is Indian."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]＿学生[がくせい]です。",
+          "answer": "は",
+          "options": [
+            "は",
+            "か",
+            "を",
+            "の"
+          ],
+          "en": "I am a student."
+        },
+        {
+          "type": "choice",
+          "jp": "田中[たなか]さんは先生[せんせい]＿。",
+          "answer": "です",
+          "options": [
+            "です",
+            "は",
+            "か",
+            "の"
+          ],
+          "en": "Mr. Tanaka is a teacher."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]は",
+            "医者[いしゃ]",
+            "です。"
+          ],
+          "en": "I am a doctor."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "マリアさんは",
+            "ブラジル人[じん]",
+            "です。"
+          ],
+          "en": "Maria is Brazilian."
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-g02",
+      "title": "じゃありません — \"A is not B\"",
+      "pattern": "A は B じゃありません",
+      "meaning": "A is not B (polite negative)",
+      "explanation": "To say something is NOT, swap です for じゃありません. In writing and formal speech you'll also see ではありません — same meaning, a little more formal. In casual polite speech じゃないです is common too.",
+      "notes": [
+        "じゃ is a contraction of では.",
+        "ではありません is more formal than じゃありません."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]は先生[せんせい]じゃありません。",
+          "en": "I am not a teacher."
+        },
+        {
+          "jp": "ジョンさんは日本人[にほんじん]じゃありません。",
+          "en": "John is not Japanese."
+        },
+        {
+          "jp": "山田[やまだ]さんは医者[いしゃ]ではありません。",
+          "en": "Ms. Yamada is not a doctor."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]は先生[せんせい]＿。",
+          "answer": "じゃありません",
+          "options": [
+            "じゃありません",
+            "ですか",
+            "も",
+            "の"
+          ],
+          "en": "I am not a teacher."
+        },
+        {
+          "type": "choice",
+          "jp": "ケンさんは医者[いしゃ]＿ありません。",
+          "answer": "では",
+          "options": [
+            "では",
+            "です",
+            "は",
+            "か"
+          ],
+          "en": "Ken is not a doctor."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ジョンさんは",
+            "日本人[にほんじん]",
+            "じゃありません。"
+          ],
+          "en": "John is not Japanese."
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-g03",
+      "title": "か — making a question",
+      "pattern": "A は B ですか",
+      "meaning": "Is A B?",
+      "explanation": "Add か to the end of a sentence to make it a question — no word order change needed. Your voice goes up at the end. Answer with はい (yes) or いいえ (no). In Japanese writing a question still ends with 。, not ?.",
+      "notes": [
+        "Answer: はい、そうです (yes, that's right) / いいえ、ちがいます (no, that's wrong).",
+        "With question words: お名前は何ですか。 — What is your name?"
+      ],
+      "examples": [
+        {
+          "jp": "あなたは学生[がくせい]ですか。",
+          "en": "Are you a student?"
+        },
+        {
+          "jp": "はい、学生[がくせい]です。",
+          "en": "Yes, I'm a student."
+        },
+        {
+          "jp": "お名前[なまえ]は何[なん]ですか。",
+          "en": "What is your name?"
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "あなたは学生[がくせい]です＿。",
+          "answer": "か",
+          "options": [
+            "か",
+            "は",
+            "も",
+            "の"
+          ],
+          "en": "Are you a student?"
+        },
+        {
+          "type": "choice",
+          "jp": "お名前[なまえ]は＿ですか。",
+          "answer": "何[なん]",
+          "options": [
+            "何[なん]",
+            "はい",
+            "私[わたし]",
+            "さん"
+          ],
+          "en": "What is your name?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "山田[やまだ]さんは",
+            "先生[せんせい]",
+            "ですか。"
+          ],
+          "en": "Is Ms. Yamada a teacher?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-g04",
+      "title": "の — \"of\", possession",
+      "pattern": "A の B",
+      "meaning": "A's B / B of A",
+      "explanation": "の links two nouns. The first noun describes or owns the second: 私の名前 = my name, 日本語の先生 = a teacher of Japanese, さくら大学の学生 = a student at Sakura University. Read it backwards into English: A の B → B of A.",
+      "notes": [
+        "The owner always comes first.",
+        "私の = my, あなたの = your."
+      ],
+      "examples": [
+        {
+          "jp": "私[わたし]の名前[なまえ]はラジです。",
+          "en": "My name is Raj."
+        },
+        {
+          "jp": "日本語[にほんご]の先生[せんせい]です。",
+          "en": "I'm a Japanese teacher (teacher of Japanese)."
+        },
+        {
+          "jp": "さくら大学[だいがく]の学生[がくせい]です。",
+          "en": "I'm a student at Sakura University."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "私[わたし]＿名前[なまえ]はケンです。",
+          "answer": "の",
+          "options": [
+            "の",
+            "を",
+            "か",
+            "に"
+          ],
+          "en": "My name is Ken."
+        },
+        {
+          "type": "choice",
+          "jp": "日本語[にほんご]の＿です。",
+          "answer": "先生[せんせい]",
+          "options": [
+            "先生[せんせい]",
+            "はい",
+            "か",
+            "何[なん]"
+          ],
+          "en": "I'm a Japanese teacher."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "さくら大学[だいがく]の",
+            "学生[がくせい]",
+            "です。"
+          ],
+          "en": "I'm a student at Sakura University."
+        }
+      ]
+    },
+    {
+      "id": "n5-u01-g05",
+      "title": "も — \"also, too\"",
+      "pattern": "A も B です",
+      "meaning": "A is also B",
+      "explanation": "も replaces は when you want to say \"too\" or \"also\". If Ken is a student and Maria is a student too, say マリアさんも学生です. In a negative sentence も means \"either\": 私も先生じゃありません — I'm not a teacher either.",
+      "notes": [
+        "も replaces は — never use は and も together.",
+        "In negatives, も = \"not … either\"."
+      ],
+      "examples": [
+        {
+          "jp": "ケンさんは学生[がくせい]です。マリアさんも学生[がくせい]です。",
+          "en": "Ken is a student. Maria is also a student."
+        },
+        {
+          "jp": "私[わたし]もインド人[じん]です。",
+          "en": "I'm Indian too."
+        },
+        {
+          "jp": "私[わたし]も先生[せんせい]じゃありません。",
+          "en": "I'm not a teacher either."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "ケンさんは学生[がくせい]です。マリアさん＿学生[がくせい]です。",
+          "answer": "も",
+          "options": [
+            "も",
+            "に",
+            "か",
+            "を"
+          ],
+          "en": "Ken is a student. Maria is also a student."
+        },
+        {
+          "type": "choice",
+          "jp": "私[わたし]も医者[いしゃ]＿。",
+          "answer": "じゃありません",
+          "options": [
+            "じゃありません",
+            "の",
+            "か",
+            "さん"
+          ],
+          "en": "I'm not a doctor either."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "私[わたし]も",
+            "日本語[にほんご]の",
+            "学生[がくせい]です。"
+          ],
+          "en": "I'm also a student of Japanese."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "じこしょうかい — Self-introduction",
+    "text": "はじめまして。私[わたし]はラジです。インド人[じん]です。二十歳[はたち]です。さくら大学[だいがく]の学生[がくせい]です。日本語[にほんご]の学生[がくせい]です。友[とも]だちのケンさんも学生[がくせい]です。ケンさんはアメリカ人[じん]です。どうぞよろしくお願[ねが]いします。",
+    "en": "Nice to meet you. I'm Raj. I'm Indian. I'm twenty years old. I'm a student at Sakura University. I'm a student of Japanese. My friend Ken is also a student. Ken is American. Pleased to meet you.",
+    "questions": [
+      {
+        "q": "Where is Raj from?",
+        "options": [
+          "India",
+          "America",
+          "Japan",
+          "Brazil"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "How old is Raj?",
+        "options": [
+          "12",
+          "22",
+          "20",
+          "10"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "What is Ken?",
+        "options": [
+          "A teacher",
+          "A student",
+          "A doctor",
+          "A company employee"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  "listening": {
+    "title": "Meeting at university",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "はじめまして。山田[やまだ]です。",
+        "en": "Nice to meet you. I'm Yamada."
+      },
+      {
+        "speaker": "B",
+        "jp": "はじめまして。マリアです。ブラジル人[じん]です。",
+        "en": "Nice to meet you. I'm Maria. I'm Brazilian."
+      },
+      {
+        "speaker": "A",
+        "jp": "マリアさんは学生[がくせい]ですか。",
+        "en": "Are you a student, Maria?"
+      },
+      {
+        "speaker": "B",
+        "jp": "はい、さくら大学[だいがく]の学生[がくせい]です。山田[やまだ]さんも学生[がくせい]ですか。",
+        "en": "Yes, I'm a student at Sakura University. Are you a student too, Yamada?"
+      },
+      {
+        "speaker": "A",
+        "jp": "いいえ、学生[がくせい]じゃありません。日本語[にほんご]の先生[せんせい]です。",
+        "en": "No, I'm not a student. I'm a Japanese teacher."
+      },
+      {
+        "speaker": "B",
+        "jp": "そうですか。どうぞよろしくお願[ねが]いします。",
+        "en": "I see. Pleased to meet you."
+      }
+    ],
+    "questions": [
+      {
+        "q": "Where is Maria from?",
+        "options": [
+          "Brazil",
+          "Japan",
+          "India",
+          "America"
+        ],
+        "answer": 0
+      },
+      {
+        "q": "What does Yamada do?",
+        "options": [
+          "Student",
+          "Doctor",
+          "Company employee",
+          "Japanese teacher"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+}

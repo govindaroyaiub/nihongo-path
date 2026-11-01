@@ -1,0 +1,1513 @@
+{
+  "id": "n5-u05",
+  "level": "N5",
+  "number": 5,
+  "title": "Shopping",
+  "goal": "Say prices and numbers up to 10,000, count things, and buy food and clothes in a shop.",
+  "vocab": [
+    {
+      "id": "n5-u05-v01",
+      "word": "百[ひゃく]",
+      "meaning": "hundred",
+      "pos": "number",
+      "example": {
+        "jp": "このペンは百円[ひゃくえん]です。",
+        "en": "This pen is 100 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v02",
+      "word": "三百[さんびゃく]",
+      "meaning": "three hundred",
+      "pos": "number",
+      "example": {
+        "jp": "このパンは三百円[さんびゃくえん]です。",
+        "en": "This bread is 300 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v03",
+      "word": "六百[ろっぴゃく]",
+      "meaning": "six hundred",
+      "pos": "number",
+      "example": {
+        "jp": "このケーキは六百円[ろっぴゃくえん]です。",
+        "en": "This cake is 600 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v04",
+      "word": "八百[はっぴゃく]",
+      "meaning": "eight hundred",
+      "pos": "number",
+      "example": {
+        "jp": "お弁当[べんとう]は八百円[はっぴゃくえん]です。",
+        "en": "The bento is 800 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v05",
+      "word": "千[せん]",
+      "meaning": "thousand",
+      "pos": "number",
+      "example": {
+        "jp": "この本[ほん]は千円[せんえん]です。",
+        "en": "This book is 1,000 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v06",
+      "word": "三千[さんぜん]",
+      "meaning": "three thousand",
+      "pos": "number",
+      "example": {
+        "jp": "このシャツは三千円[さんぜんえん]です。",
+        "en": "This shirt is 3,000 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v07",
+      "word": "八千[はっせん]",
+      "meaning": "eight thousand",
+      "pos": "number",
+      "example": {
+        "jp": "このくつは八千円[はっせんえん]です。",
+        "en": "These shoes are 8,000 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v08",
+      "word": "一万[いちまん]",
+      "meaning": "ten thousand",
+      "pos": "number",
+      "example": {
+        "jp": "このセーターは一万円[いちまんえん]です。",
+        "en": "This sweater is 10,000 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v09",
+      "word": "〜円[えん]",
+      "meaning": "~ yen",
+      "pos": "suffix",
+      "example": {
+        "jp": "コーヒーは四百円[よんひゃくえん]です。",
+        "en": "The coffee is 400 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v10",
+      "word": "いくら",
+      "meaning": "how much (price)",
+      "pos": "pronoun",
+      "example": {
+        "jp": "これはいくらですか。",
+        "en": "How much is this?"
+      }
+    },
+    {
+      "id": "n5-u05-v11",
+      "word": "お金[かね]",
+      "meaning": "money",
+      "pos": "noun"
+    },
+    {
+      "id": "n5-u05-v12",
+      "word": "おつり",
+      "meaning": "change (money given back)",
+      "pos": "noun",
+      "example": {
+        "jp": "おつりは二百円[にひゃくえん]です。",
+        "en": "Your change is 200 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v13",
+      "word": "レジ",
+      "meaning": "cash register, checkout",
+      "pos": "noun",
+      "example": {
+        "jp": "レジはあちらです。",
+        "en": "The checkout is over there."
+      }
+    },
+    {
+      "id": "n5-u05-v14",
+      "word": "カード",
+      "meaning": "(credit) card",
+      "pos": "noun",
+      "example": {
+        "jp": "カードでお願[ねが]いします。",
+        "en": "By card, please."
+      }
+    },
+    {
+      "id": "n5-u05-v15",
+      "word": "〜つ",
+      "meaning": "counter for general things (1–9)",
+      "pos": "counter",
+      "example": {
+        "jp": "りんごを二[ふた]つください。",
+        "en": "Two apples, please."
+      }
+    },
+    {
+      "id": "n5-u05-v16",
+      "word": "いくつ",
+      "meaning": "how many",
+      "pos": "pronoun",
+      "example": {
+        "jp": "りんごをいくつ買[か]いますか。",
+        "en": "How many apples will you buy?"
+      }
+    },
+    {
+      "id": "n5-u05-v17",
+      "word": "〜枚[まい]",
+      "meaning": "counter for flat things (paper, shirts, stamps)",
+      "pos": "counter",
+      "example": {
+        "jp": "切手[きって]を三枚[さんまい]ください。",
+        "en": "Three stamps, please."
+      }
+    },
+    {
+      "id": "n5-u05-v18",
+      "word": "〜本[ほん]",
+      "meaning": "counter for long, thin things (pens, bottles, umbrellas)",
+      "pos": "counter",
+      "example": {
+        "jp": "ペンを二本[にほん]ください。",
+        "en": "Two pens, please."
+      }
+    },
+    {
+      "id": "n5-u05-v19",
+      "word": "一本[いっぽん]",
+      "meaning": "one (long, thin thing)",
+      "pos": "counter",
+      "example": {
+        "jp": "ビールを一本[いっぽん]ください。",
+        "en": "One bottle of beer, please."
+      }
+    },
+    {
+      "id": "n5-u05-v20",
+      "word": "三本[さんぼん]",
+      "meaning": "three (long, thin things)",
+      "pos": "counter",
+      "example": {
+        "jp": "ペンを三本[さんぼん]買[か]いました。",
+        "en": "I bought three pens."
+      }
+    },
+    {
+      "id": "n5-u05-v21",
+      "word": "何枚[なんまい]",
+      "meaning": "how many (flat things)",
+      "pos": "counter",
+      "example": {
+        "jp": "切手[きって]は何枚[なんまい]ですか。",
+        "en": "How many stamps?"
+      }
+    },
+    {
+      "id": "n5-u05-v22",
+      "word": "店[みせ]",
+      "meaning": "shop, store",
+      "pos": "noun",
+      "example": {
+        "jp": "あの店[みせ]でくつを買[か]いました。",
+        "en": "I bought shoes at that shop."
+      }
+    },
+    {
+      "id": "n5-u05-v23",
+      "word": "スーパー",
+      "meaning": "supermarket",
+      "pos": "noun",
+      "example": {
+        "jp": "一緒[いっしょ]にスーパーへ行[い]きませんか。",
+        "en": "Would you like to go to the supermarket together?"
+      }
+    },
+    {
+      "id": "n5-u05-v24",
+      "word": "いらっしゃいませ",
+      "meaning": "welcome (said by shop staff)",
+      "pos": "expression"
+    },
+    {
+      "id": "n5-u05-v25",
+      "word": "買[か]う",
+      "meaning": "to buy",
+      "pos": "verb",
+      "example": {
+        "jp": "デパートでシャツを買[か]いました。",
+        "en": "I bought a shirt at the department store."
+      }
+    },
+    {
+      "id": "n5-u05-v26",
+      "word": "売[う]る",
+      "meaning": "to sell",
+      "pos": "verb",
+      "example": {
+        "jp": "昨日[きのう]、自転車[じてんしゃ]を売[う]りました。",
+        "en": "I sold my bicycle yesterday."
+      }
+    },
+    {
+      "id": "n5-u05-v27",
+      "word": "全部[ぜんぶ]",
+      "meaning": "all, everything",
+      "pos": "noun",
+      "example": {
+        "jp": "これを全部[ぜんぶ]ください。",
+        "en": "I'll take all of these."
+      }
+    },
+    {
+      "id": "n5-u05-v29",
+      "word": "くつ",
+      "meaning": "shoes",
+      "pos": "noun",
+      "example": {
+        "jp": "黒[くろ]のくつを買[か]いました。",
+        "en": "I bought black shoes."
+      }
+    },
+    {
+      "id": "n5-u05-v30",
+      "word": "くつした",
+      "meaning": "socks",
+      "pos": "noun",
+      "example": {
+        "jp": "くつしたも買[か]いました。",
+        "en": "I bought socks too."
+      }
+    },
+    {
+      "id": "n5-u05-v31",
+      "word": "ぼうし",
+      "meaning": "hat, cap",
+      "pos": "noun",
+      "example": {
+        "jp": "このぼうしをください。",
+        "en": "I'll take this hat, please."
+      }
+    },
+    {
+      "id": "n5-u05-v32",
+      "word": "スカート",
+      "meaning": "skirt",
+      "pos": "noun",
+      "example": {
+        "jp": "青[あお]のスカートを買[か]いました。",
+        "en": "I bought a blue skirt."
+      }
+    },
+    {
+      "id": "n5-u05-v33",
+      "word": "ズボン",
+      "meaning": "trousers, pants",
+      "pos": "noun",
+      "example": {
+        "jp": "このズボンは五千円[ごせんえん]です。",
+        "en": "These trousers are 5,000 yen."
+      }
+    },
+    {
+      "id": "n5-u05-v34",
+      "word": "セーター",
+      "meaning": "sweater, jumper",
+      "pos": "noun",
+      "example": {
+        "jp": "セーターを一枚[いちまい]ください。",
+        "en": "One sweater, please."
+      }
+    },
+    {
+      "id": "n5-u05-v35",
+      "word": "切手[きって]",
+      "meaning": "postage stamp",
+      "pos": "noun",
+      "example": {
+        "jp": "切手[きって]を五枚[ごまい]ください。",
+        "en": "Five stamps, please."
+      }
+    },
+    {
+      "id": "n5-u05-v36",
+      "word": "はがき",
+      "meaning": "postcard",
+      "pos": "noun",
+      "example": {
+        "jp": "はがきを二枚[にまい]お願[ねが]いします。",
+        "en": "Two postcards, please."
+      }
+    },
+    {
+      "id": "n5-u05-v37",
+      "word": "肉[にく]",
+      "meaning": "meat",
+      "pos": "noun",
+      "example": {
+        "jp": "毎晩[まいばん]、肉[にく]を食[た]べます。",
+        "en": "I eat meat every evening."
+      }
+    },
+    {
+      "id": "n5-u05-v38",
+      "word": "魚[さかな]",
+      "meaning": "fish",
+      "pos": "noun",
+      "example": {
+        "jp": "昨日[きのう]、魚[さかな]を買[か]いました。",
+        "en": "I bought fish yesterday."
+      }
+    },
+    {
+      "id": "n5-u05-v39",
+      "word": "野菜[やさい]",
+      "meaning": "vegetables",
+      "pos": "noun",
+      "example": {
+        "jp": "スーパーで野菜[やさい]を買[か]いました。",
+        "en": "I bought vegetables at the supermarket."
+      }
+    },
+    {
+      "id": "n5-u05-v40",
+      "word": "果物[くだもの]",
+      "meaning": "fruit",
+      "pos": "noun",
+      "example": {
+        "jp": "毎朝[まいあさ]、果物[くだもの]を食[た]べます。",
+        "en": "I eat fruit every morning."
+      }
+    },
+    {
+      "id": "n5-u05-v41",
+      "word": "りんご",
+      "meaning": "apple",
+      "pos": "noun",
+      "example": {
+        "jp": "りんごを三[みっ]つください。",
+        "en": "Three apples, please."
+      }
+    },
+    {
+      "id": "n5-u05-v42",
+      "word": "みかん",
+      "meaning": "mandarin orange",
+      "pos": "noun",
+      "example": {
+        "jp": "みかんは一[ひと]つ百円[ひゃくえん]です。",
+        "en": "Mandarins are 100 yen each."
+      }
+    },
+    {
+      "id": "n5-u05-v43",
+      "word": "卵[たまご]",
+      "meaning": "egg",
+      "pos": "noun",
+      "example": {
+        "jp": "スーパーで卵[たまご]を買[か]います。",
+        "en": "I buy eggs at the supermarket."
+      }
+    },
+    {
+      "id": "n5-u05-v44",
+      "word": "牛乳[ぎゅうにゅう]",
+      "meaning": "(cow's) milk",
+      "pos": "noun",
+      "example": {
+        "jp": "毎朝[まいあさ]、牛乳[ぎゅうにゅう]を飲[の]みます。",
+        "en": "I drink milk every morning."
+      }
+    },
+    {
+      "id": "n5-u05-v45",
+      "word": "水[みず]",
+      "meaning": "water",
+      "pos": "noun",
+      "example": {
+        "jp": "すみません、水[みず]をください。",
+        "en": "Excuse me, some water, please."
+      }
+    },
+    {
+      "id": "n5-u05-v46",
+      "word": "ジュース",
+      "meaning": "juice; soft drink",
+      "pos": "noun",
+      "example": {
+        "jp": "オレンジジュースを一[ひと]つお願[ねが]いします。",
+        "en": "One orange juice, please."
+      }
+    },
+    {
+      "id": "n5-u05-v47",
+      "word": "紅茶[こうちゃ]",
+      "meaning": "black tea",
+      "pos": "noun",
+      "example": {
+        "jp": "紅茶[こうちゃ]を二[ふた]つお願[ねが]いします。",
+        "en": "Two black teas, please."
+      }
+    },
+    {
+      "id": "n5-u05-v48",
+      "word": "お酒[さけ]",
+      "meaning": "alcohol; sake",
+      "pos": "noun",
+      "example": {
+        "jp": "私[わたし]はお酒[さけ]を飲[の]みません。",
+        "en": "I don't drink alcohol."
+      }
+    },
+    {
+      "id": "n5-u05-v49",
+      "word": "ビール",
+      "meaning": "beer",
+      "pos": "noun",
+      "example": {
+        "jp": "ビールを二本[にほん]買[か]いました。",
+        "en": "I bought two bottles of beer."
+      }
+    },
+    {
+      "id": "n5-u05-v50",
+      "word": "お弁当[べんとう]",
+      "meaning": "boxed lunch, bento",
+      "pos": "noun",
+      "example": {
+        "jp": "スーパーでお弁当[べんとう]を買[か]いました。",
+        "en": "I bought a bento at the supermarket."
+      }
+    },
+    {
+      "id": "n5-u05-v51",
+      "word": "ケーキ",
+      "meaning": "cake",
+      "pos": "noun",
+      "example": {
+        "jp": "コーヒーとケーキをお願[ねが]いします。",
+        "en": "Coffee and cake, please."
+      }
+    },
+    {
+      "id": "n5-u05-v52",
+      "word": "色[いろ]",
+      "meaning": "colour",
+      "pos": "noun",
+      "example": {
+        "jp": "何色[なにいろ]ですか。",
+        "en": "What colour is it?"
+      }
+    },
+    {
+      "id": "n5-u05-v53",
+      "word": "赤[あか]",
+      "meaning": "red",
+      "pos": "noun",
+      "example": {
+        "jp": "このシャツの赤[あか]をください。",
+        "en": "I'll take this shirt in red, please."
+      }
+    },
+    {
+      "id": "n5-u05-v54",
+      "word": "青[あお]",
+      "meaning": "blue",
+      "pos": "noun",
+      "example": {
+        "jp": "青[あお]のかさを買[か]いました。",
+        "en": "I bought a blue umbrella."
+      }
+    },
+    {
+      "id": "n5-u05-v55",
+      "word": "白[しろ]",
+      "meaning": "white",
+      "pos": "noun",
+      "example": {
+        "jp": "白[しろ]のセーターをください。",
+        "en": "The white sweater, please."
+      }
+    },
+    {
+      "id": "n5-u05-v56",
+      "word": "黒[くろ]",
+      "meaning": "black",
+      "pos": "noun",
+      "example": {
+        "jp": "黒[くろ]のかばんを買[か]いました。",
+        "en": "I bought a black bag."
+      }
+    },
+    {
+      "id": "n5-u05-v57",
+      "word": "黄色[きいろ]",
+      "meaning": "yellow",
+      "pos": "noun",
+      "example": {
+        "jp": "黄色[きいろ]のぼうしをください。",
+        "en": "The yellow hat, please."
+      }
+    },
+    {
+      "id": "n5-u05-v58",
+      "word": "茶色[ちゃいろ]",
+      "meaning": "brown",
+      "pos": "noun",
+      "example": {
+        "jp": "茶色[ちゃいろ]のくつをください。",
+        "en": "The brown shoes, please."
+      }
+    },
+    {
+      "id": "n5-u05-v59",
+      "word": "サイズ",
+      "meaning": "size",
+      "pos": "noun",
+      "example": {
+        "jp": "Mサイズをお願[ねが]いします。",
+        "en": "Size M, please."
+      }
+    }
+  ],
+  "kanji": [
+    {
+      "id": "n5-u05-k01",
+      "char": "百",
+      "meanings": [
+        "hundred"
+      ],
+      "on": [
+        "ヒャク",
+        "ビャク"
+      ],
+      "kun": [
+        "もも"
+      ],
+      "strokes": 6,
+      "mnemonic": "One (一) on top of white (白) — a hundred white hairs.",
+      "words": [
+        {
+          "word": "百[ひゃく]",
+          "meaning": "hundred"
+        },
+        {
+          "word": "三百[さんびゃく]",
+          "meaning": "three hundred"
+        },
+        {
+          "word": "六百[ろっぴゃく]",
+          "meaning": "six hundred"
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-k02",
+      "char": "千",
+      "meanings": [
+        "thousand"
+      ],
+      "on": [
+        "セン"
+      ],
+      "kun": [
+        "ち"
+      ],
+      "strokes": 3,
+      "mnemonic": "A slanted stroke on top of ten (十): ten with a hat is worth a thousand.",
+      "words": [
+        {
+          "word": "千[せん]",
+          "meaning": "thousand"
+        },
+        {
+          "word": "三千[さんぜん]",
+          "meaning": "three thousand"
+        },
+        {
+          "word": "八千[はっせん]",
+          "meaning": "eight thousand"
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-k03",
+      "char": "万",
+      "meanings": [
+        "ten thousand"
+      ],
+      "on": [
+        "マン",
+        "バン"
+      ],
+      "kun": [
+        "よろず"
+      ],
+      "strokes": 3,
+      "mnemonic": "A long roof with a hook swinging underneath — ten thousand coins hanging in a sack.",
+      "words": [
+        {
+          "word": "一万[いちまん]",
+          "meaning": "ten thousand"
+        },
+        {
+          "word": "一万円[いちまんえん]",
+          "meaning": "10,000 yen"
+        },
+        {
+          "word": "十万[じゅうまん]",
+          "meaning": "one hundred thousand"
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-k04",
+      "char": "円",
+      "meanings": [
+        "yen",
+        "circle",
+        "round"
+      ],
+      "on": [
+        "エン"
+      ],
+      "kun": [
+        "まる.い"
+      ],
+      "strokes": 4,
+      "mnemonic": "A coin box with a slot down the middle — drop in your yen.",
+      "words": [
+        {
+          "word": "円[えん]",
+          "meaning": "yen"
+        },
+        {
+          "word": "百円[ひゃくえん]",
+          "meaning": "100 yen"
+        },
+        {
+          "word": "千円[せんえん]",
+          "meaning": "1,000 yen"
+        }
+      ]
+    }
+  ],
+  "grammar": [
+    {
+      "id": "n5-u05-g01",
+      "title": "Big numbers — 百, 千, 万",
+      "pattern": "十一 … 九十九, 百, 千, 万",
+      "meaning": "numbers from 11 up to 10,000",
+      "explanation": "Japanese numbers are built like blocks. 11 is 十一 (ten-one), 20 is 二十 (two-ten) and 25 is 二十五 (two-ten-five). The same idea continues upward: 百 is 100, 千 is 1,000 and 万 is 10,000, so 350 is 三百五十. 10,000 is its own unit, 一万, so 20,000 is 二万 (two ten-thousands). A few combinations change their sound and are best learned as words: 三百 (さんびゃく), 六百 (ろっぴゃく), 八百 (はっぴゃく), 三千 (さんぜん), 八千 (はっせん).",
+      "notes": [
+        "100 and 1,000 are just 百 and 千 (no 一 in front), but 10,000 is 一万 (いちまん).",
+        "In big numbers 4 is よん (四百 よんひゃく), 7 is なな (七千 ななせん) and 9 is きゅう (九百 きゅうひゃく).",
+        "Prices: number + 円 (えん): 五百円."
+      ],
+      "examples": [
+        {
+          "jp": "これは三百円[さんびゃくえん]です。",
+          "en": "This is 300 yen."
+        },
+        {
+          "jp": "この本[ほん]は千五百円[せんごひゃくえん]です。",
+          "en": "This book is 1,500 yen."
+        },
+        {
+          "jp": "このかばんは八千円[はっせんえん]です。",
+          "en": "This bag is 8,000 yen."
+        },
+        {
+          "jp": "この時計[とけい]は二万円[にまんえん]です。",
+          "en": "This watch is 20,000 yen."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このペンは＿円[えん]です。",
+          "answer": "三百[さんびゃく]",
+          "options": [
+            "三百[さんびゃく]",
+            "三千[さんぜん]",
+            "三十[さんじゅう]",
+            "三万[さんまん]"
+          ],
+          "en": "This pen is 300 yen."
+        },
+        {
+          "type": "choice",
+          "jp": "このかばんは＿円[えん]です。",
+          "answer": "八千[はっせん]",
+          "options": [
+            "八千[はっせん]",
+            "八百[はっぴゃく]",
+            "八万[はちまん]",
+            "八十[はちじゅう]"
+          ],
+          "en": "This bag is 8,000 yen."
+        },
+        {
+          "type": "choice",
+          "jp": "この時計[とけい]は＿円[えん]です。",
+          "answer": "一万[いちまん]",
+          "options": [
+            "一万[いちまん]",
+            "千[せん]",
+            "十万[じゅうまん]",
+            "百[ひゃく]"
+          ],
+          "en": "This watch is 10,000 yen."
+        },
+        {
+          "type": "choice",
+          "jp": "この本[ほん]は六百[ろっぴゃく]＿です。",
+          "answer": "円[えん]",
+          "options": [
+            "円[えん]",
+            "時[じ]",
+            "分[ふん]",
+            "人[じん]"
+          ],
+          "en": "This book is 600 yen."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この",
+            "かさは",
+            "千二百円[せんにひゃくえん]です。"
+          ],
+          "en": "This umbrella is 1,200 yen."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "それは",
+            "三千円[さんぜんえん]",
+            "です。"
+          ],
+          "en": "That is 3,000 yen."
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g02",
+      "title": "いくら — how much?",
+      "pattern": "N は いくらですか",
+      "meaning": "How much is N?",
+      "explanation": "いくら asks the price of something. Put it where the answer will go: これはいくらですか = How much is this? The answer simply replaces いくら with a price: 五百円です. Point at things with これ / それ / あれ, or use この / その / あの + a noun.",
+      "notes": [
+        "Answer: (それは) 〜円です。",
+        "Don't mix it up with いくつ, which means \"how many\".",
+        "For the total, ask 全部でいくらですか (later in this unit)."
+      ],
+      "examples": [
+        {
+          "jp": "すみません、これはいくらですか。",
+          "en": "Excuse me, how much is this?"
+        },
+        {
+          "jp": "このシャツはいくらですか。",
+          "en": "How much is this shirt?"
+        },
+        {
+          "jp": "あのくつはいくらですか。",
+          "en": "How much are those shoes over there?"
+        },
+        {
+          "jp": "コーヒーは四百円[よんひゃくえん]です。",
+          "en": "The coffee is 400 yen."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "このぼうしは＿ですか。",
+          "answer": "いくら",
+          "options": [
+            "いくら",
+            "いくつ",
+            "だれ",
+            "いつ"
+          ],
+          "en": "How much is this hat?"
+        },
+        {
+          "type": "choice",
+          "jp": "そのセーターはいくら＿か。",
+          "answer": "です",
+          "options": [
+            "です",
+            "ます",
+            "を",
+            "に"
+          ],
+          "en": "How much is that sweater?"
+        },
+        {
+          "type": "choice",
+          "jp": "これはいくらですか。＿です。",
+          "answer": "五百円[ごひゃくえん]",
+          "options": [
+            "五百円[ごひゃくえん]",
+            "五[いつ]つ",
+            "五時[ごじ]",
+            "五枚[ごまい]"
+          ],
+          "en": "How much is this? It's 500 yen."
+        },
+        {
+          "type": "choice",
+          "jp": "＿シャツはいくらですか。",
+          "answer": "その",
+          "options": [
+            "その",
+            "それ",
+            "そこ",
+            "どれ"
+          ],
+          "en": "How much is that shirt?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この",
+            "くつは",
+            "いくらですか。"
+          ],
+          "en": "How much are these shoes?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "すみません、",
+            "それは",
+            "いくらですか。"
+          ],
+          "en": "Excuse me, how much is that?"
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g03",
+      "title": "〜をください — please give me ~",
+      "pattern": "N を ください",
+      "meaning": "N, please / please give me N",
+      "explanation": "ください means \"please give me\". Put the thing you want in front of it with を: コーヒーをください = A coffee, please. This is the basic way to buy something in a shop or order in a café. To say how many, put the number right after を: りんごを三つください = Three apples, please.",
+      "notes": [
+        "The number goes after を, before ください: 切手を五枚ください。",
+        "Point and say これをください。",
+        "Start with すみません to sound softer."
+      ],
+      "examples": [
+        {
+          "jp": "コーヒーをください。",
+          "en": "A coffee, please."
+        },
+        {
+          "jp": "すみません、水[みず]をください。",
+          "en": "Excuse me, some water, please."
+        },
+        {
+          "jp": "りんごを三[みっ]つください。",
+          "en": "Three apples, please."
+        },
+        {
+          "jp": "白[しろ]のセーターをください。",
+          "en": "The white sweater, please."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "お茶[ちゃ]＿ください。",
+          "answer": "を",
+          "options": [
+            "を",
+            "に",
+            "で",
+            "と"
+          ],
+          "en": "Tea, please."
+        },
+        {
+          "type": "choice",
+          "jp": "すみません、これを＿。",
+          "answer": "ください",
+          "options": [
+            "ください",
+            "いくら",
+            "です",
+            "か"
+          ],
+          "en": "Excuse me, I'll take this, please."
+        },
+        {
+          "type": "choice",
+          "jp": "りんごを＿ください。",
+          "answer": "二[ふた]つ",
+          "options": [
+            "二[ふた]つ",
+            "二枚[にまい]",
+            "二本[にほん]",
+            "二円[にえん]"
+          ],
+          "en": "Two apples, please."
+        },
+        {
+          "type": "choice",
+          "jp": "その黒[くろ]＿くつをください。",
+          "answer": "の",
+          "options": [
+            "の",
+            "を",
+            "と",
+            "に"
+          ],
+          "en": "Those black shoes, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "この",
+            "ケーキを",
+            "ください。"
+          ],
+          "en": "This cake, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "すみません、",
+            "水[みず]を",
+            "ください。"
+          ],
+          "en": "Excuse me, some water, please."
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g04",
+      "title": "〜をお願いします — ~, please (polite)",
+      "pattern": "N を お願いします",
+      "meaning": "N, please (polite request)",
+      "explanation": "お願いします is a polite way to ask for something — a little softer and more formal than ください. コーヒーをお願いします = Coffee, please. It also works for services, not just objects: in a taxi, 駅までお願いします means \"To the station, please.\" You'll hear and use it constantly in shops and restaurants.",
+      "notes": [
+        "In speech を is often dropped: コーヒー、お願いします。",
+        "Taxi: place + まで (Unit 3) + お願いします.",
+        "Staff often reply はい、かしこまりました (Certainly)."
+      ],
+      "examples": [
+        {
+          "jp": "コーヒーを二[ふた]つお願[ねが]いします。",
+          "en": "Two coffees, please."
+        },
+        {
+          "jp": "すみません、お水[みず]をお願[ねが]いします。",
+          "en": "Excuse me, some water, please."
+        },
+        {
+          "jp": "駅[えき]までお願[ねが]いします。",
+          "en": "To the station, please."
+        },
+        {
+          "jp": "カードでお願[ねが]いします。",
+          "en": "By card, please."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "紅茶[こうちゃ]＿お願[ねが]いします。",
+          "answer": "を",
+          "options": [
+            "を",
+            "に",
+            "へ",
+            "の"
+          ],
+          "en": "Black tea, please."
+        },
+        {
+          "type": "choice",
+          "jp": "すみません、駅[えき]＿お願[ねが]いします。",
+          "answer": "まで",
+          "options": [
+            "まで",
+            "の",
+            "か",
+            "は"
+          ],
+          "en": "Excuse me, to the station, please."
+        },
+        {
+          "type": "choice",
+          "jp": "ビールを一[ひと]つ＿。",
+          "answer": "お願[ねが]いします",
+          "options": [
+            "お願[ねが]いします",
+            "いくら",
+            "何[なん]ですか",
+            "いらっしゃいませ"
+          ],
+          "en": "One beer, please."
+        },
+        {
+          "type": "choice",
+          "jp": "カード＿お願[ねが]いします。",
+          "answer": "で",
+          "options": [
+            "で",
+            "へ",
+            "の",
+            "か"
+          ],
+          "en": "By card, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "コーヒーを",
+            "二[ふた]つ",
+            "お願[ねが]いします。"
+          ],
+          "en": "Two coffees, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "すみません、",
+            "お茶[ちゃ]を",
+            "お願[ねが]いします。"
+          ],
+          "en": "Excuse me, tea, please."
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g05",
+      "title": "Counters — 〜つ, 〜枚, 〜本",
+      "pattern": "N を [number + counter] ください",
+      "meaning": "counting things",
+      "explanation": "Japanese counts things by attaching a counter to the number, a bit like \"two sheets of paper\" or \"three bottles of water\" in English. 〜つ is the all-purpose counter for things up to nine (ten is とお): 一つ, 二つ, 三つ…. 〜枚 (まい) counts flat things — paper, stamps, shirts, plates. 〜本 (ほん) counts long, thin things — pens, bottles, umbrellas. Ask \"how many?\" with いくつ, 何枚 (なんまい) or 何本 (なんぼん).",
+      "notes": [
+        "〜つ: ひとつ ふたつ みっつ よっつ いつつ むっつ ななつ やっつ ここのつ とお.",
+        "本 changes sound: いっぽん, にほん, さんぼん, よんほん, ごほん, ろっぽん, ななほん, はっぽん, きゅうほん, じゅっぽん.",
+        "Number + counter goes after the particle: 切手を三枚ください。"
+      ],
+      "examples": [
+        {
+          "jp": "りんごを三[みっ]つください。",
+          "en": "Three apples, please."
+        },
+        {
+          "jp": "切手[きって]を五枚[ごまい]ください。",
+          "en": "Five stamps, please."
+        },
+        {
+          "jp": "ビールを二本[にほん]お願[ねが]いします。",
+          "en": "Two bottles of beer, please."
+        },
+        {
+          "jp": "ペンを一本[いっぽん]ください。",
+          "en": "One pen, please."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "切手[きって]を＿ください。",
+          "answer": "三枚[さんまい]",
+          "options": [
+            "三枚[さんまい]",
+            "三本[さんぼん]",
+            "三[みっ]つ",
+            "三円[さんえん]"
+          ],
+          "en": "Three stamps, please."
+        },
+        {
+          "type": "choice",
+          "jp": "ビールを＿お願[ねが]いします。",
+          "answer": "六本[ろっぽん]",
+          "options": [
+            "六本[ろっぽん]",
+            "六枚[ろくまい]",
+            "六円[ろくえん]",
+            "六時[ろくじ]"
+          ],
+          "en": "Six bottles of beer, please."
+        },
+        {
+          "type": "choice",
+          "jp": "みかんを＿ください。",
+          "answer": "四[よっ]つ",
+          "options": [
+            "四[よっ]つ",
+            "四枚[よんまい]",
+            "四本[よんほん]",
+            "四円[よえん]"
+          ],
+          "en": "Four mandarins, please."
+        },
+        {
+          "type": "choice",
+          "jp": "Tシャツを＿ください。",
+          "answer": "二枚[にまい]",
+          "options": [
+            "二枚[にまい]",
+            "二本[にほん]",
+            "二時[にじ]",
+            "二円[にえん]"
+          ],
+          "en": "Two T-shirts, please."
+        },
+        {
+          "type": "choice",
+          "jp": "ペンを＿ください。",
+          "answer": "一本[いっぽん]",
+          "options": [
+            "一本[いっぽん]",
+            "一枚[いちまい]",
+            "一円[いちえん]",
+            "一時[いちじ]"
+          ],
+          "en": "One pen, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "りんごを",
+            "五[いつ]つ",
+            "ください。"
+          ],
+          "en": "Five apples, please."
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g06",
+      "title": "と — and (joining nouns)",
+      "pattern": "N と N",
+      "meaning": "A and B",
+      "explanation": "Between two nouns, と means \"and\": パンと牛乳 = bread and milk. It lists exactly the items you name — no more. と only joins nouns, never verbs or whole sentences; to connect sentences use それから. You met と as \"with\" (a person) in Unit 4 — it's the same little word.",
+      "notes": [
+        "Nouns only: りんごとみかん.",
+        "To link actions use それから (and then).",
+        "You can chain it: 卵と牛乳と野菜."
+      ],
+      "examples": [
+        {
+          "jp": "パンと牛乳[ぎゅうにゅう]をください。",
+          "en": "Bread and milk, please."
+        },
+        {
+          "jp": "肉[にく]と野菜[やさい]を買[か]いました。",
+          "en": "I bought meat and vegetables."
+        },
+        {
+          "jp": "コーヒーとケーキをお願[ねが]いします。",
+          "en": "Coffee and cake, please."
+        },
+        {
+          "jp": "毎朝[まいあさ]、卵[たまご]とパンを食[た]べます。",
+          "en": "Every morning I eat eggs and bread."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "パン＿牛乳[ぎゅうにゅう]を買[か]いました。",
+          "answer": "と",
+          "options": [
+            "と",
+            "を",
+            "で",
+            "に"
+          ],
+          "en": "I bought bread and milk."
+        },
+        {
+          "type": "choice",
+          "jp": "りんご＿みかんをください。",
+          "answer": "と",
+          "options": [
+            "と",
+            "の",
+            "へ",
+            "で"
+          ],
+          "en": "Apples and mandarins, please."
+        },
+        {
+          "type": "choice",
+          "jp": "肉[にく]と＿を買[か]いました。",
+          "answer": "魚[さかな]",
+          "options": [
+            "魚[さかな]",
+            "ください",
+            "食[た]べます",
+            "いくら"
+          ],
+          "en": "I bought meat and fish."
+        },
+        {
+          "type": "choice",
+          "jp": "コーヒー＿紅茶[こうちゃ]をお願[ねが]いします。",
+          "answer": "と",
+          "options": [
+            "と",
+            "を",
+            "に",
+            "へ"
+          ],
+          "en": "Coffee and black tea, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "ケーキと",
+            "コーヒーを",
+            "ください。"
+          ],
+          "en": "Cake and coffee, please."
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "肉[にく]と",
+            "野菜[やさい]を",
+            "買[か]いました。"
+          ],
+          "en": "I bought meat and vegetables."
+        }
+      ]
+    },
+    {
+      "id": "n5-u05-g07",
+      "title": "全部で — altogether, in total",
+      "pattern": "全部で + total",
+      "meaning": "altogether, in total",
+      "explanation": "全部 means \"all\", and 全部で means \"altogether\" or \"in total\". Use it to ask for or give the total price: 全部でいくらですか = How much is it altogether? The clerk answers 全部で千二百円です. It works for numbers of things too: 全部で五つです = Five in total.",
+      "notes": [
+        "全部で comes right before the total.",
+        "全部ください = I'll take them all.",
+        "おつり is your change: おつりは三百円です。"
+      ],
+      "examples": [
+        {
+          "jp": "全部[ぜんぶ]でいくらですか。",
+          "en": "How much is it altogether?"
+        },
+        {
+          "jp": "全部[ぜんぶ]で八百円[はっぴゃくえん]です。",
+          "en": "That's 800 yen altogether."
+        },
+        {
+          "jp": "切手[きって]は全部[ぜんぶ]で十枚[じゅうまい]です。",
+          "en": "That's ten stamps in total."
+        },
+        {
+          "jp": "これを全部[ぜんぶ]ください。",
+          "en": "I'll take all of these."
+        }
+      ],
+      "drills": [
+        {
+          "type": "choice",
+          "jp": "全部[ぜんぶ]＿いくらですか。",
+          "answer": "で",
+          "options": [
+            "で",
+            "を",
+            "に",
+            "と"
+          ],
+          "en": "How much is it altogether?"
+        },
+        {
+          "type": "choice",
+          "jp": "＿でいくらですか。",
+          "answer": "全部[ぜんぶ]",
+          "options": [
+            "全部[ぜんぶ]",
+            "何[なん]",
+            "だれ",
+            "どこ"
+          ],
+          "en": "How much is it altogether?"
+        },
+        {
+          "type": "choice",
+          "jp": "全部[ぜんぶ]で三千[さんぜん]＿です。",
+          "answer": "円[えん]",
+          "options": [
+            "円[えん]",
+            "を",
+            "に",
+            "で"
+          ],
+          "en": "That's 3,000 yen altogether."
+        },
+        {
+          "type": "choice",
+          "jp": "全部[ぜんぶ]でいくら＿。",
+          "answer": "ですか",
+          "options": [
+            "ですか",
+            "ください",
+            "ましょう",
+            "ませんか"
+          ],
+          "en": "How much is it altogether?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "全部[ぜんぶ]で",
+            "いくら",
+            "ですか。"
+          ],
+          "en": "How much is it altogether?"
+        },
+        {
+          "type": "order",
+          "tokens": [
+            "全部[ぜんぶ]で",
+            "千五百円[せんごひゃくえん]",
+            "です。"
+          ],
+          "en": "That's 1,500 yen altogether."
+        }
+      ]
+    }
+  ],
+  "reading": {
+    "title": "スーパーで — At the supermarket",
+    "text": "毎週[まいしゅう]土曜日[どようび]に、友[とも]だちとスーパーへ行[い]きます。今日[きょう]、私[わたし]は卵[たまご]と牛乳[ぎゅうにゅう]と野菜[やさい]を買[か]いました。卵[たまご]は三百円[さんびゃくえん]、牛乳[ぎゅうにゅう]は二百円[にひゃくえん]、野菜[やさい]は五百円[ごひゃくえん]です。全部[ぜんぶ]で千円[せんえん]です。友[とも]だちはりんごを四[よっ]つ買[か]いました。ビールも六本[ろっぽん]買[か]いました。それから、カフェで一緒[いっしょ]にコーヒーを飲[の]みました。コーヒーは一[ひと]つ四百円[よんひゃくえん]です。",
+    "en": "Every Saturday I go to the supermarket with a friend. Today I bought eggs, milk and vegetables. The eggs are 300 yen, the milk is 200 yen and the vegetables are 500 yen. That's 1,000 yen altogether. My friend bought four apples. My friend also bought six bottles of beer. After that, we had coffee together at a café. The coffee is 400 yen a cup.",
+    "questions": [
+      {
+        "q": "When do they go to the supermarket?",
+        "options": [
+          "Every Sunday",
+          "Every day",
+          "Every Saturday",
+          "Every morning"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "How much did the writer spend in total?",
+        "options": [
+          "500 yen",
+          "1,000 yen",
+          "300 yen",
+          "1,500 yen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What did the friend buy?",
+        "options": [
+          "Eggs and milk",
+          "Vegetables and meat",
+          "Coffee and cake",
+          "Apples and beer"
+        ],
+        "answer": 3
+      }
+    ]
+  },
+  "listening": {
+    "title": "Buying shirts",
+    "lines": [
+      {
+        "speaker": "A",
+        "jp": "いらっしゃいませ。",
+        "en": "Welcome."
+      },
+      {
+        "speaker": "B",
+        "jp": "すみません、このシャツはいくらですか。",
+        "en": "Excuse me, how much is this shirt?"
+      },
+      {
+        "speaker": "A",
+        "jp": "二千八百円[にせんはっぴゃくえん]です。",
+        "en": "It's 2,800 yen."
+      },
+      {
+        "speaker": "B",
+        "jp": "じゃ、白[しろ]を一枚[いちまい]と青[あお]を一枚[いちまい]ください。",
+        "en": "Then one white and one blue, please."
+      },
+      {
+        "speaker": "A",
+        "jp": "はい。サイズはMですか。",
+        "en": "Certainly. Is your size M?"
+      },
+      {
+        "speaker": "B",
+        "jp": "いいえ、Lをお願[ねが]いします。",
+        "en": "No, L, please."
+      },
+      {
+        "speaker": "A",
+        "jp": "全部[ぜんぶ]で五千六百円[ごせんろっぴゃくえん]です。",
+        "en": "That's 5,600 yen altogether."
+      },
+      {
+        "speaker": "B",
+        "jp": "カードでお願[ねが]いします。",
+        "en": "By card, please."
+      },
+      {
+        "speaker": "A",
+        "jp": "はい、ありがとうございます。",
+        "en": "Certainly. Thank you very much."
+      }
+    ],
+    "questions": [
+      {
+        "q": "How much is one shirt?",
+        "options": [
+          "5,600 yen",
+          "2,800 yen",
+          "2,600 yen",
+          "8,200 yen"
+        ],
+        "answer": 1
+      },
+      {
+        "q": "What size does the customer want?",
+        "options": [
+          "S",
+          "M",
+          "L",
+          "He doesn't say"
+        ],
+        "answer": 2
+      },
+      {
+        "q": "How does the customer pay?",
+        "options": [
+          "By card",
+          "In cash",
+          "He doesn't pay",
+          "With a coupon"
+        ],
+        "answer": 0
+      }
+    ]
+  }
+}

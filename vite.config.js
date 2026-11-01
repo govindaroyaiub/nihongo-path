@@ -11,7 +11,7 @@ export default defineConfig({
       manifest: {
         name: 'Nihongo Path',
         short_name: 'Nihongo',
-        description: 'Learn hiragana, katakana, grammar, vocabulary and kanji with spaced repetition.',
+        description: 'A guided path from zero Japanese to JLPT N4.',
         theme_color: '#c2694a',
         background_color: '#faf9f6',
         display: 'standalone',
@@ -23,7 +23,20 @@ export default defineConfig({
         ],
       },
       workbox: {
-        globPatterns: ['**/*.{js,css,html,json,png,svg,ico}'],
+        globPatterns: ['**/*.{js,css,html,png,svg,ico}', 'audio/manifest.json'],
+        // Voice clips are cached as they're first played, not all up front.
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) => url.pathname.startsWith('/audio/') && url.pathname.endsWith('.mp3'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'voice-clips', expiration: { maxEntries: 6000 } },
+          },
+          {
+            urlPattern: ({ url }) => url.origin === 'https://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',
+            handler: 'StaleWhileRevalidate',
+            options: { cacheName: 'google-fonts' },
+          },
+        ],
       },
     }),
   ],

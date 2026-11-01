@@ -1,0 +1,58 @@
+{
+  "unitId": "n5-u03",
+  "place": "Asakusa",
+  "jp": "浅草[あさくさ]",
+  "prefecture": "Tokyo",
+  "region": "Kantō",
+  "lat": 35.7148,
+  "lng": 139.7967,
+  "tagline": "Tokyo's old downtown, home of its oldest temple",
+  "history": "According to legend, in 628 two fishermen brothers pulled a small statue of Kannon, the goddess of mercy, out of the Sumida River, and a temple was built to enshrine it: Sensō-ji, Tokyo's oldest temple. In the Edo period Asakusa became a lively entertainment district full of theatres and shops. Much of the area was destroyed in the bombing of 1945, and the temple's main hall and gates were rebuilt after the war. Today it is the best place in Tokyo to feel the atmosphere of old Edo.",
+  "sites": [
+    {
+      "name": "Sensō-ji",
+      "jp": "浅草寺[せんそうじ]",
+      "kind": "temple",
+      "year": "628",
+      "desc": "Tokyo's oldest temple, founded in 628 according to tradition. Visitors waft incense smoke over themselves in front of the main hall."
+    },
+    {
+      "name": "Kaminarimon",
+      "jp": "雷門[かみなりもん]",
+      "kind": "landmark",
+      "year": "1960",
+      "desc": "The 'Thunder Gate' with its giant red lantern, about 700 kg. The present gate was rebuilt in 1960 with a donation from Matsushita Kōnosuke, founder of Panasonic."
+    },
+    {
+      "name": "Nakamise-dōri",
+      "jp": "仲見世通[なかみせどお]り",
+      "kind": "street",
+      "year": null,
+      "desc": "A shopping street of about 250 m between the gate and the temple. It sells snacks like rice crackers and souvenirs."
+    }
+  ],
+  "facts": [
+    "The earlier Kaminarimon burned down in 1865 and was not rebuilt for 95 years.",
+    "The main hall opens at 6:00 (6:30 in winter), but the temple grounds are open all night.",
+    "Asakusa's Sanja Matsuri in May is one of Tokyo's biggest festivals."
+  ],
+  "words": [
+    { "word": "浅草[あさくさ]", "meaning": "Asakusa" },
+    { "word": "浅草寺[せんそうじ]", "meaning": "Sensō-ji (temple)" },
+    { "word": "雷門[かみなりもん]", "meaning": "Kaminarimon, the Thunder Gate" },
+    { "word": "門[もん]", "meaning": "gate" },
+    { "word": "本堂[ほんどう]", "meaning": "main hall (of a temple)" },
+    { "word": "仲見世[なかみせ]", "meaning": "Nakamise (shopping street)" }
+  ],
+  "stamp": { "kanji": "浅草", "motif": "lantern" },
+  "reading": {
+    "title": "浅草[あさくさ]の雷門[かみなりもん]",
+    "text": "ここは浅草[あさくさ]です。あれは雷門[かみなりもん]です。浅草寺[せんそうじ]の門[もん]です。\nアンナ「ケンさん、浅草寺[せんそうじ]の本堂[ほんどう]はどこですか。」\nケン「あそこですよ。ここは仲見世[なかみせ]です。」\nアンナ「本堂[ほんどう]は何時[なんじ]からですか。」\nケン「朝[あさ]六時[ろくじ]から午後[ごご]五時[ごじ]までです。」\nアンナ「今[いま]、何時[なんじ]ですか。」\nケン「十時[じゅうじ]半[はん]です。」",
+    "en": "This is Asakusa. That is Kaminarimon. It is the gate of Sensō-ji.\nAnna: \"Ken, where is Sensō-ji's main hall?\"\nKen: \"It's over there. This is Nakamise.\"\nAnna: \"What time does the main hall open?\"\nKen: \"It's open from 6 in the morning until 5 in the afternoon.\"\nAnna: \"What time is it now?\"\nKen: \"It's half past ten.\"",
+    "questions": [
+      { "q": "What is Kaminarimon?", "options": ["A shopping street", "The gate of Sensō-ji", "The main hall", "A station"], "answer": 1 },
+      { "q": "Where are Anna and Ken standing?", "options": ["At Kaminarimon", "In the main hall", "On Nakamise", "At Asakusa Station"], "answer": 2 },
+      { "q": "What time is it now?", "options": ["9:30", "10:00", "11:30", "10:30"], "answer": 3 }
+    ]
+  }
+}
