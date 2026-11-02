@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
 import JpText from '../JpText'
 import SpeakButton, { SpeakPair } from '../SpeakButton'
+import StrokeOrder from '../StrokeOrder'
 import { speak } from '../../lib/speech'
 import { speechText, wordRomaji, hasKanji } from '../../lib/furigana'
 import { useStore } from '../../lib/store'
@@ -110,22 +111,18 @@ function Kanji({ item }) {
   )
 }
 
-// Printed (what you read on screens and signs) vs handwritten (how it's written
-// by pen). Some characters — ふ さ き り そ や — look noticeably different.
+// Printed form (what you read on screens and signs) next to an animated
+// stroke-order drawing (how it's written by pen, in the right order).
 function WritingForms({ char }) {
   return (
-    <div className="flex justify-center gap-3 mt-2">
-      {[
-        ['Printed', 'font-jp font-bold'],
-        ['Handwritten', 'font-hand'],
-      ].map(([label, font]) => (
-        <div key={label} className="flex flex-col items-center gap-1 rounded-2xl border-[2.5px] border-outline bg-sunken px-4 py-2 min-w-[96px]">
-          <span className={`${font} text-4xl leading-none`} lang="ja">
-            {char}
-          </span>
-          <span className="eyebrow text-ink/50 text-[10px]">{label}</span>
-        </div>
-      ))}
+    <div className="flex justify-center items-stretch gap-3 mt-2">
+      <div className="flex flex-col items-center justify-between gap-1 rounded-2xl border-[2.5px] border-outline bg-sunken px-4 pt-3 pb-2 min-w-[96px]">
+        <span className="font-jp font-bold text-5xl leading-none my-auto" lang="ja">
+          {char}
+        </span>
+        <span className="eyebrow text-ink/50 text-[10px]">Printed</span>
+      </div>
+      <StrokeOrder text={char} size={char.length > 1 ? 72 : 96} />
     </div>
   )
 }

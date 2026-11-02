@@ -46,6 +46,16 @@ GOOGLE_TTS_KEY=your-key npm run audio
 Re-running only generates clips for new or changed sentences. `npm run audio -- --dry` counts them without
 generating anything.
 
+## Stroke order
+
+Kana and kanji teaching cards (and the kana chart) animate each character stroke by stroke. The stroke
+data comes from [KanjiVG](https://kanjivg.tagaini.net) (CC BY-SA 3.0, release r20250816), stored as small
+JSON files in `public/strokes/`. After adding new kanji, fetch their strokes with:
+
+```bash
+npm run strokes
+```
+
 ## Content checks
 
 ```bash

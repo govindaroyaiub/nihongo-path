@@ -127,6 +127,13 @@ export default function Settings() {
         </button>
       </Section>
       <p className="text-xs text-ink/35 text-center mt-6">Progress is saved on this device only.</p>
+      <p className="text-xs text-ink/35 text-center mt-1">
+        Stroke order data:{' '}
+        <a href="https://kanjivg.tagaini.net" target="_blank" rel="noreferrer" className="underline">
+          KanjiVG
+        </a>{' '}
+        (CC BY-SA 3.0) · Map: Natural Earth
+      </p>
 
       <ConfirmDialog
         open={confirmReset}

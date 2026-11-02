@@ -47,6 +47,11 @@ export default defineConfig({
             options: { cacheName: 'voice-clips', expiration: { maxEntries: 6000 } },
           },
           {
+            urlPattern: ({ url }) => url.pathname.startsWith('/strokes/'),
+            handler: 'CacheFirst',
+            options: { cacheName: 'stroke-order', expiration: { maxEntries: 2000 } },
+          },
+          {
             urlPattern: ({ url }) => url.origin === 'https://fonts.googleapis.com' || url.origin === 'https://fonts.gstatic.com',
             handler: 'StaleWhileRevalidate',
             options: { cacheName: 'google-fonts' },

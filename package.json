@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "validate": "node scripts/validate-content.mjs",
     "audio": "node scripts/generate-audio.mjs",
-    "test": "node scripts/test-answers.mjs"
+    "test": "node scripts/test-answers.mjs",
+    "strokes": "node scripts/fetch-strokes.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.24.0",
