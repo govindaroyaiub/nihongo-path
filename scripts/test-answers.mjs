@@ -85,6 +85,22 @@ try {
     for (const e of exs) if (e.type === 'choice' && e.answer < 0) fail(`${lesson.id}: question without a correct option`)
   }
 
+  // 4. Flashbacks: due items come back, lesson's own items and today's reviews don't.
+  const S = await load('/src/lib/sm2.js')
+  const lesson = C.LESSONS.find((l) => l.kind === 'vocab' && l.unitId.endsWith('u03'))
+  const old = items.filter((x) => x.type === 'vocab' && !lesson.items.includes(x.id)).slice(0, 5)
+  const yesterday = new Date(Date.now() - 864e5)
+  const srs = {}
+  for (const x of old) srs[x.id] = { item_id: x.id, ...S.reviewCard(null, false, yesterday) }
+  srs[lesson.items[0]] = { item_id: lesson.items[0], ...S.reviewCard(null, false, yesterday) }
+  srs[old[4].id] = { item_id: old[4].id, ...S.reviewCard(null, false) } // reviewed today
+  const fb = E.flashbackExercises(srs, lesson.items, 3)
+  if (fb.length !== 3) fail(`flashbacks: expected 3, got ${fb.length}`)
+  if (!fb.every((e) => e.flashback)) fail('flashbacks: missing flashback flag')
+  if (fb.some((e) => lesson.items.includes(e.itemId) || e.itemId === old[4].id)) fail('flashbacks: picked a current-lesson or already-reviewed item')
+  const mixed = E.sprinkle([1, 2, 3, 4, 5, 6], ['a', 'b'])
+  if (mixed.length !== 8 || mixed[0] === 'a') fail(`sprinkle: bad placement ${mixed}`)
+
   console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises`)
 } finally {
   await vite.close()

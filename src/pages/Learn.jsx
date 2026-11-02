@@ -1,9 +1,9 @@
 import { useEffect, useRef, useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
-import { Check, Lock, BookOpenText, Star } from 'lucide-react'
+import { Check, Lock, BookOpenText, Star, Repeat } from 'lucide-react'
 import { useStore, lessonXp } from '../lib/store'
 import { LEVELS, unitsForLevel } from '../lib/curriculum'
-import { currentLesson, lessonStatus, unitProgress, levelProgress } from '../lib/progress'
+import { currentLesson, lessonStatus, unitProgress, levelProgress, dueItemIds } from '../lib/progress'
 import { LESSON_KINDS } from '../lib/lessonKinds'
 import { stopFor, COLOR } from '../lib/journey'
 import { StatPills } from '../components/Stats'
@@ -17,6 +17,7 @@ const NODE_SHIFT = 64
 
 export default function Learn() {
   const lessons = useStore((s) => s.lessons)
+  const due = dueItemIds(useStore((s) => s.srs)).length
   const next = currentLesson(lessons)
   const [level, setLevel] = useState(next?.level ?? 'N5')
   const [open, setOpen] = useState(null) // lesson id whose popover is showing
@@ -108,6 +109,7 @@ export default function Learn() {
               index={i}
               lessons={lessons}
               next={next}
+              due={due}
               open={open}
               setOpen={setOpen}
               currentRef={currentRef}
@@ -200,7 +202,7 @@ function StopChip({ unit, index, onClick, className = '' }) {
   )
 }
 
-function UnitSection({ ref, unit, index, lessons, next, open, setOpen, currentRef }) {
+function UnitSection({ ref, unit, index, lessons, next, due, open, setOpen, currentRef }) {
   const stop = stopFor(unit)
   const c = COLOR[stop.color]
   const p = unitProgress(unit.id, lessons)
@@ -247,7 +249,7 @@ function UnitSection({ ref, unit, index, lessons, next, open, setOpen, currentRe
           const status = lessonStatus(lesson.id, lessons)
           const isCurrent = next?.id === lesson.id
           const offset = WIND[i % WIND.length]
-          return (
+          const node = (
             // Each <li> is its own stacking context (because of the transform), so the
             // one with an open popover must sit above the nodes that follow it.
             <li
@@ -272,9 +274,35 @@ function UnitSection({ ref, unit, index, lessons, next, open, setOpen, currentRe
               )}
             </li>
           )
+          // Reviews piling up → a review stop on the path, just before the next lesson.
+          return isCurrent && due >= REVIEW_NUDGE ? [<ReviewStop key="review" due={due} />, node] : node
         })}
       </ol>
     </section>
+  )
+}
+
+const REVIEW_NUDGE = 10
+
+function ReviewStop({ due }) {
+  return (
+    // Extra room below for the next node's START! bubble.
+    <li className="relative mb-10">
+      <Link
+        to="/review"
+        onClick={(e) => e.stopPropagation()}
+        className="flex items-center gap-3 rounded-2xl bg-sky text-white border-[2.5px] border-outline pl-2 pr-4 py-2 active:translate-y-0.5"
+        style={{ boxShadow: '0 4px 0 0 rgb(var(--outline))' }}
+      >
+        <span className="w-10 h-10 rounded-full bg-white text-sky border-[2.5px] border-outline flex items-center justify-center">
+          <Repeat size={20} strokeWidth={2.8} />
+        </span>
+        <span className="text-left">
+          <span className="block font-title text-sm leading-tight">Review time!</span>
+          <span className="block text-xs font-extrabold opacity-90">{due} items due · keep them fresh</span>
+        </span>
+      </Link>
+    </li>
   )
 }
 

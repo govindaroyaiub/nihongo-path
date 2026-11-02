@@ -1,9 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { useParams, useNavigate, Navigate, Link } from 'react-router-dom'
-import { X, ChevronLeft, ChevronRight, Flame, Zap, Target } from 'lucide-react'
+import { X, ChevronLeft, ChevronRight, Flame, Zap, Target, History } from 'lucide-react'
 import { getLesson, getUnit, getItem, nextLessonId } from '../lib/curriculum'
-import { lessonExercises, checkpointExercises, questionExercises } from '../lib/exercises'
-import { useStore, completeLesson, passes, PASS_PERCENT } from '../lib/store'
+import { lessonExercises, checkpointExercises, questionExercises, flashbackExercises, sprinkle } from '../lib/exercises'
+import { useStore, getState, completeLesson, recordReview, passes, PASS_PERCENT } from '../lib/store'
 import { lessonStatus } from '../lib/progress'
 import { LESSON_KINDS } from '../lib/lessonKinds'
 import { COLOR, stopFor } from '../lib/journey'
@@ -39,6 +39,13 @@ function buildExercises(lesson, unit) {
   return lessonExercises(lesson)
 }
 
+// Mixes a few due or often-missed earlier items into the lesson (not into
+// checkpoints, which test only their own episode).
+function withFlashbacks(lesson, core) {
+  if (lesson.kind === 'checkpoint') return core
+  return sprinkle(core, flashbackExercises(getState().srs, lesson.items, core.length >= 8 ? 3 : 2))
+}
+
 function LessonRun({ lesson }) {
   const navigate = useNavigate()
   const unit = getUnit(lesson.unitId)
@@ -50,7 +57,7 @@ function LessonRun({ lesson }) {
   const [teachIndex, setTeachIndex] = useState(0)
 
   const initial = useMemo(() => buildExercises(lesson, unit), [lesson, unit])
-  const [queue, setQueue] = useState(initial)
+  const [queue, setQueue] = useState(() => withFlashbacks(lesson, initial))
   const [index, setIndex] = useState(0)
   const [answered, setAnswered] = useState(null)
   const [combo, setCombo] = useState(0)
@@ -73,8 +80,13 @@ function LessonRun({ lesson }) {
     bestCombo.current = Math.max(bestCombo.current, nextCombo)
     if (sounds) (correct ? playDing : playMiss)()
     if (exercise.speak && autoplay) setTimeout(() => speak(exercise.speak), sounds ? 250 : 0)
-    // Only the first pass through the original exercises counts toward the score.
-    if (index < initial.length) {
+    // Flashbacks only update that item's review schedule: no score, no retry.
+    if (exercise.flashback) {
+      recordReview(exercise.itemId, correct)
+      return
+    }
+    // Only the first pass through the lesson's own exercises counts toward the score.
+    if (!exercise.retry) {
       firstTry.current[index] = correct
       if (exercise.itemId) itemResults.current[exercise.itemId] = (itemResults.current[exercise.itemId] ?? true) && correct
     }
@@ -103,7 +115,7 @@ function LessonRun({ lesson }) {
     itemResults.current = {}
     bestCombo.current = 0
     setCombo(0)
-    setQueue(buildExercises(lesson, unit))
+    setQueue(withFlashbacks(lesson, buildExercises(lesson, unit)))
     setIndex(0)
     setResult(null)
     setPhase(hasTeach ? 'teach' : 'intro')
@@ -154,6 +166,14 @@ function LessonRun({ lesson }) {
 
         {phase === 'practice' && exercise && (
           <div key={index}>
+            {exercise.flashback && (
+              <div className="flex justify-center mb-3">
+                <span className="flex items-center gap-1.5 px-3 py-1 rounded-full bg-sky text-white border-2 border-outline font-title text-xs">
+                  <History size={14} strokeWidth={2.8} />
+                  FLASHBACK · from an earlier lesson
+                </span>
+              </div>
+            )}
             {exercise.retry && (
               <div className="flex justify-center mb-2">
                 <MascotSays pose="think" size={44}>

@@ -1,6 +1,7 @@
 import { toHiragana } from 'wanakana'
 import { getItem, knownPeers } from './curriculum'
 import { toKana, toPlain, normaliseKana, readingVariants, hasKanji, speechText } from './furigana'
+import { isDue, toDateString } from './sm2'
 
 // An exercise is a plain object the lesson player renders:
 //   choice — prompt + 4 options, one correct (answer = option index)
@@ -215,6 +216,31 @@ export function checkpointExercises(lesson, count = 20) {
   const rest = ids.filter((id) => getItem(id)?.type !== 'grammar')
   const picked = [...grammar, ...rest].slice(0, count)
   return shuffle(picked.map(exerciseForItem).filter(Boolean))
+}
+
+// A few earlier items mixed into a new lesson so old material keeps coming
+// back: due items first (most overdue), then ones the learner often misses.
+// Items taught in this lesson are skipped.
+export function flashbackExercises(srs, excludeIds = [], count = 3, now = new Date()) {
+  const skip = new Set(excludeIds)
+  const today = toDateString(now)
+  const rows = Object.values(srs).filter((r) => !skip.has(r.item_id) && getItem(r.item_id) && r.last_reviewed_at?.slice(0, 10) !== today)
+  const due = rows.filter((r) => isDue(r, now)).sort((a, b) => (a.next_review_date ?? '').localeCompare(b.next_review_date ?? ''))
+  const weak = rows
+    .filter((r) => !isDue(r, now) && r.incorrect_count > 0 && r.incorrect_count >= r.correct_count / 3)
+    .sort((a, b) => b.incorrect_count / (b.correct_count + 1) - a.incorrect_count / (a.correct_count + 1))
+  return [...due, ...weak]
+    .slice(0, count)
+    .map((r) => exerciseForItem(r.item_id))
+    .filter(Boolean)
+    .map((e) => ({ ...e, flashback: true }))
+}
+
+// Spreads `extra` evenly through `list`, never at the very start.
+export function sprinkle(list, extra) {
+  const out = [...list]
+  for (let i = extra.length - 1; i >= 0; i--) out.splice(Math.round(((i + 1) * list.length) / (extra.length + 1)), 0, extra[i])
+  return out
 }
 
 export function reviewExercises(itemIds, limit = 20) {
