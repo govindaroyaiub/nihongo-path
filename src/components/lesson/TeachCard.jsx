@@ -29,7 +29,12 @@ function Kana({ item }) {
       {/* manga spotlight: speed lines behind the character */}
       <div className="relative w-56 h-56 flex items-center justify-center">
         <div className="absolute inset-0 speedlines animate-spin-slow rounded-full" aria-hidden />
-        <div className="absolute inset-6 rounded-full bg-sun/25 border-[2.5px] border-outline" aria-hidden />
+        {/* Solid (not translucent) so the spinning rays don't show through; sun softened toward the card colour. */}
+        <div
+          className="absolute inset-6 rounded-full border-[2.5px] border-outline"
+          style={{ background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))' }}
+          aria-hidden
+        />
         <span className="relative font-hand text-[140px] leading-none" lang="ja">
           {item.char}
         </span>
