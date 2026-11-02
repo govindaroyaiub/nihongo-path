@@ -1,13 +1,15 @@
 import { LESSONS, UNITS, getUnit } from './curriculum'
-import { isLessonPassed } from './store'
+import { getState, isLessonPassed } from './store'
 import { isDue } from './sm2'
 
 // Linear unlock: a lesson opens once the one before it is passed. Since every
 // unit ends in a checkpoint, a unit opens only after the previous checkpoint.
+// The "Unlock all lessons" setting opens everything without passing anything.
 export function lessonStatus(lessonId, lessons) {
   const index = LESSONS.findIndex((l) => l.id === lessonId)
   if (index < 0) return 'locked'
   if (isLessonPassed(lessonId, lessons)) return 'done'
+  if (getState().settings.unlockAll) return 'open'
   if (index === 0 || isLessonPassed(LESSONS[index - 1].id, lessons)) return 'open'
   return 'locked'
 }

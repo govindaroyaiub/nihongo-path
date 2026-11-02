@@ -113,6 +113,12 @@ export default function Settings() {
         <Toggle label="Romaji on new words" hint="Alphabet spelling on teaching cards. Turn off once kana feels easy" value={settings.romaji} onChange={(v) => updateSettings({ romaji: v })} />
         <Toggle label="Auto-play audio" hint="Hear every new word and every answer" value={settings.autoplay} onChange={(v) => updateSettings({ autoplay: v })} />
         <Toggle label="Sound effects" value={settings.sounds} onChange={(v) => updateSettings({ sounds: v })} />
+        <Toggle
+          label="Unlock all lessons"
+          hint="Open every lesson to look around. Nothing is marked done, so turning it off brings the locks back"
+          value={settings.unlockAll}
+          onChange={(v) => updateSettings({ unlockAll: v })}
+        />
       </Section>
 
       <Section title="Data">

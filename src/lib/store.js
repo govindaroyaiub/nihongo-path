@@ -20,6 +20,7 @@ export const DEFAULT_SETTINGS = {
   sounds: true,
   dailyGoal: 30, // XP per day
   theme: 'system', // system | light | dark
+  unlockAll: false, // open every lesson without marking anything done (for reviewing content)
 }
 
 // XP: a lesson is worth 10 (+5 for a perfect run), a checkpoint 20, a correct review 1.
