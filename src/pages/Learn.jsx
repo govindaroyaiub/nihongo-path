@@ -23,6 +23,10 @@ export default function Learn() {
   const units = unitsForLevel(level)
   const lp = levelProgress(level, lessons)
   const currentRef = useRef(null)
+  const headerRef = useRef(null)
+  const sectionRefs = useRef([])
+  // Episode whose title card has scrolled up under the top bar, if any.
+  const [pinned, setPinned] = useState(null)
 
   useEffect(() => {
     // Bring the current lesson into view on arrival (unless it's right at the top).
@@ -30,12 +34,44 @@ export default function Learn() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [level])
 
+  useEffect(() => {
+    let frame = 0
+    const update = () => {
+      frame = 0
+      const barBottom = headerRef.current?.getBoundingClientRect().bottom ?? 0
+      // Last episode that has started above the bar; pinned once its title card is hidden.
+      let index = -1
+      sectionRefs.current.forEach((el, i) => {
+        if (el && el.getBoundingClientRect().top < barBottom) index = i
+      })
+      const card = sectionRefs.current[index]?.firstElementChild
+      setPinned(card && card.getBoundingClientRect().bottom < barBottom ? index : null)
+    }
+    const onScroll = () => {
+      if (!frame) frame = requestAnimationFrame(update)
+    }
+    update()
+    window.addEventListener('scroll', onScroll, { passive: true })
+    window.addEventListener('resize', onScroll)
+    return () => {
+      cancelAnimationFrame(frame)
+      window.removeEventListener('scroll', onScroll)
+      window.removeEventListener('resize', onScroll)
+    }
+  }, [level])
+
+  const pinnedUnit = pinned === null ? null : units[pinned]
+  const jumpToPinned = (e) => {
+    e.stopPropagation()
+    sectionRefs.current[pinned]?.scrollIntoView({ block: 'start', behavior: 'smooth' })
+  }
+
   return (
     <div onClick={() => setOpen(null)} className="relative">
       <Sakura count={10} />
 
       {/* Top bar: level switch + stats (stats move to the side rail on wide screens). */}
-      <header className="sticky top-0 z-30 pt-[max(env(safe-area-inset-top),0.75rem)] pb-2">
+      <header ref={headerRef} className="sticky top-0 z-30 pt-[max(env(safe-area-inset-top),0.75rem)] pb-2">
         {/* Floating rounded bar, outlined like every other panel. */}
         <div className="flex items-center justify-between gap-3 rounded-full bg-surface/95 backdrop-blur-md border-[2.5px] border-outline pl-1.5 pr-3 py-1.5" style={{ boxShadow: '0 4px 0 0 rgb(var(--outline))' }}>
           <div className="flex items-center gap-1 p-1 rounded-full bg-sunken">
@@ -53,6 +89,8 @@ export default function Learn() {
               </button>
             ))}
           </div>
+          {/* Wide screens only: on phones the bar is already full. */}
+          <StopChip unit={pinnedUnit} index={pinned} onClick={jumpToPinned} className="hidden sm:flex flex-1 min-w-0 justify-end" />
           <div className="xl:hidden">
             <StatPills />
           </div>
@@ -63,7 +101,17 @@ export default function Learn() {
         <>
           <Hero level={level} done={lp.done} total={lp.total} />
           {units.map((unit, i) => (
-            <UnitSection key={unit.id} unit={unit} index={i} lessons={lessons} next={next} open={open} setOpen={setOpen} currentRef={currentRef} />
+            <UnitSection
+              key={unit.id}
+              ref={(el) => (sectionRefs.current[i] = el)}
+              unit={unit}
+              index={i}
+              lessons={lessons}
+              next={next}
+              open={open}
+              setOpen={setOpen}
+              currentRef={currentRef}
+            />
           ))}
           <FinishLine level={level} />
         </>
@@ -113,15 +161,53 @@ function Hero({ level, done, total }) {
   )
 }
 
-function UnitSection({ unit, index, lessons, next, open, setOpen, currentRef }) {
+function episodeLabels(unit, index) {
+  return unit.kana
+    ? { episode: `序章${index + 1}`, label: `Prologue ${index + 1}` }
+    : { episode: `第${unit.number}話`, label: `Episode ${unit.number}` }
+}
+
+// Compact reminder of the episode you're scrolling through, shown once its
+// title card is hidden under the top bar. Tapping it scrolls back to the card.
+// Keeps showing the last stop while fading out, so the text never blanks mid-fade.
+function StopChip({ unit, index, onClick, className = '' }) {
+  const last = useRef(null)
+  if (unit) last.current = { unit, index }
+  const shown = last.current
+  const visible = Boolean(unit)
+  if (!shown) return null
+  const stop = stopFor(shown.unit)
+  const { episode, label } = episodeLabels(shown.unit, shown.index)
+
+  return (
+    <div className={`${className} transition-all duration-200 ${visible ? 'opacity-100 translate-y-0' : 'opacity-0 -translate-y-1 pointer-events-none'}`} aria-hidden={!visible}>
+      <button
+        type="button"
+        onClick={onClick}
+        tabIndex={visible ? 0 : -1}
+        title={`Back to ${label}: ${stop.place}`}
+        className="flex items-center gap-2 min-w-0 max-w-full text-left rounded-2xl px-2 py-1 hover:bg-sunken"
+      >
+        <span className="shrink-0 font-title text-[11px] bg-[#261e3e] text-white px-1.5 py-0.5 rounded-md -rotate-2">{episode}</span>
+        <span className="min-w-0 leading-tight text-right">
+          <span className="block eyebrow text-[10px] text-ink/50">{label}</span>
+          <span className="block font-title text-sm truncate">
+            {stop.emoji} {stop.place}
+          </span>
+        </span>
+      </button>
+    </div>
+  )
+}
+
+function UnitSection({ ref, unit, index, lessons, next, open, setOpen, currentRef }) {
   const stop = stopFor(unit)
   const c = COLOR[stop.color]
   const p = unitProgress(unit.id, lessons)
-  const episode = unit.kana ? `序章${index + 1}` : `第${unit.number}話`
-  const label = unit.kana ? `Prologue ${index + 1}` : `Episode ${unit.number}`
+  const { episode, label } = episodeLabels(unit, index)
 
   return (
-    <section className="mt-10 relative">
+    <section ref={ref} className="mt-10 relative scroll-mt-24">
       {/* Episode title card */}
       {/* Light card colors (sun) get dark ink text so it stays readable. */}
       <div className={`relative overflow-hidden rounded-3xl ${c.bg} ${stop.color === 'sun' ? 'text-[#261e3e]' : 'text-white'} border-[2.5px] border-outline`} style={{ boxShadow: '5px 5px 0 0 rgb(var(--outline))' }}>

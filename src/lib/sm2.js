@@ -15,8 +15,10 @@ function addDays(date, days) {
   return d
 }
 
-function toDateString(date) {
-  return date.toISOString().slice(0, 10)
+// Local calendar date (YYYY-MM-DD). Not toISOString(), which is UTC and puts
+// the day boundary at the wrong hour for anyone outside UTC.
+export function toDateString(date) {
+  return `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}-${String(date.getDate()).padStart(2, '0')}`
 }
 
 // Standard SM-2, fed a binary correct/incorrect result mapped to a quality

@@ -3,6 +3,21 @@ import react from '@vitejs/plugin-react'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  build: {
+    rolldownOptions: {
+      output: {
+        // Separate chunks for libraries and course content, so a content edit
+        // doesn't make returning learners re-download React and vice versa.
+        codeSplitting: {
+          groups: [
+            { name: 'react', test: /node_modules[\\/](react|react-dom|react-router|react-router-dom|scheduler)[\\/]/ },
+            { name: 'vendor', test: /node_modules[\\/]/ },
+            { name: 'content', test: /src[\\/]content[\\/]/ },
+          ],
+        },
+      },
+    },
+  },
   plugins: [
     react(),
     VitePWA({

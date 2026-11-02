@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Flame, Zap, Repeat, Trophy } from 'lucide-react'
 import { useStore, xpToday, xpTotal, today } from '../lib/store'
+import { toDateString } from '../lib/sm2'
 import { streakFrom, dueItemIds } from '../lib/progress'
 
 export function useStats() {
@@ -74,7 +75,7 @@ function lastSevenDays(log) {
   const d = new Date()
   d.setDate(d.getDate() - 6)
   for (let i = 0; i < 7; i++) {
-    const key = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+    const key = toDateString(d)
     days.push({ key, label: 'SMTWTFS'[d.getDay()], active: Boolean(log[key]), today: key === today() })
     d.setDate(d.getDate() + 1)
   }

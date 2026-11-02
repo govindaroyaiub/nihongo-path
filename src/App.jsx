@@ -1,19 +1,23 @@
-import { useEffect, useLayoutEffect } from 'react'
+import { Suspense, lazy, useEffect, useLayoutEffect } from 'react'
 import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
 import { BottomNav, SideNav } from './components/Nav'
 import { DailyGoalCard, StreakCard, ReviewCard, XpTotalCard } from './components/Stats'
 import { applyTheme } from './lib/store'
 import Learn from './pages/Learn'
-import Unit from './pages/Unit'
-import Lesson from './pages/Lesson'
-import Review, { ReviewSession } from './pages/Review'
-import Practice from './pages/Practice'
-import KanaChart from './pages/KanaChart'
-import Library from './pages/Library'
-import GrammarDetail from './pages/GrammarDetail'
-import Settings from './pages/Settings'
-import Place from './pages/Place'
-import Stamps from './pages/Stamps'
+
+// Learn is the landing page and ships in the entry chunk; every other page
+// loads on first visit (the service worker precaches them all for offline).
+const Unit = lazy(() => import('./pages/Unit'))
+const Lesson = lazy(() => import('./pages/Lesson'))
+const Review = lazy(() => import('./pages/Review'))
+const ReviewSession = lazy(() => import('./pages/Review').then((m) => ({ default: m.ReviewSession })))
+const Practice = lazy(() => import('./pages/Practice'))
+const KanaChart = lazy(() => import('./pages/KanaChart'))
+const Library = lazy(() => import('./pages/Library'))
+const GrammarDetail = lazy(() => import('./pages/GrammarDetail'))
+const Settings = lazy(() => import('./pages/Settings'))
+const Place = lazy(() => import('./pages/Place'))
+const Stamps = lazy(() => import('./pages/Stamps'))
 
 export default function App() {
   const location = useLocation()
@@ -33,21 +37,23 @@ export default function App() {
   }, [location.pathname])
 
   const routes = (
-    <Routes>
-      <Route path="/" element={<Learn />} />
-      <Route path="/unit/:unitId" element={<Unit />} />
-      <Route path="/lesson/:lessonId" element={<Lesson />} />
-      <Route path="/review" element={<Review />} />
-      <Route path="/review/session" element={<ReviewSession />} />
-      <Route path="/practice" element={<Practice />} />
-      <Route path="/practice/kana/:script" element={<KanaChart />} />
-      <Route path="/practice/library/:type" element={<Library />} />
-      <Route path="/grammar/:itemId" element={<GrammarDetail />} />
-      <Route path="/settings" element={<Settings />} />
-      <Route path="/place/:unitId" element={<Place />} />
-      <Route path="/map" element={<Stamps />} />
-      <Route path="*" element={<Navigate to="/" replace />} />
-    </Routes>
+    <Suspense fallback={null}>
+      <Routes>
+        <Route path="/" element={<Learn />} />
+        <Route path="/unit/:unitId" element={<Unit />} />
+        <Route path="/lesson/:lessonId" element={<Lesson />} />
+        <Route path="/review" element={<Review />} />
+        <Route path="/review/session" element={<ReviewSession />} />
+        <Route path="/practice" element={<Practice />} />
+        <Route path="/practice/kana/:script" element={<KanaChart />} />
+        <Route path="/practice/library/:type" element={<Library />} />
+        <Route path="/grammar/:itemId" element={<GrammarDetail />} />
+        <Route path="/settings" element={<Settings />} />
+        <Route path="/place/:unitId" element={<Place />} />
+        <Route path="/map" element={<Stamps />} />
+        <Route path="*" element={<Navigate to="/" replace />} />
+      </Routes>
+    </Suspense>
   )
 
   if (focusMode) return <div className="min-h-[100svh] flex flex-col">{routes}</div>

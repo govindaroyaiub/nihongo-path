@@ -1,5 +1,5 @@
 import { useSyncExternalStore } from 'react'
-import { reviewCard } from './sm2'
+import { reviewCard, toDateString } from './sm2'
 
 // Device-local persistence. Everything lives in localStorage, so progress
 // belongs to this browser — no account, no server. The `np2:` prefix keeps
@@ -73,8 +73,7 @@ export function useStore(selector = (s) => s) {
 export const getState = () => state
 
 export function today() {
-  const d = new Date()
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`
+  return toDateString(new Date())
 }
 
 function bumpLog(field, xp = 0) {
