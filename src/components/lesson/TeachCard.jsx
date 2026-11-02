@@ -26,27 +26,38 @@ export default function TeachCard({ item }) {
 
 function Kana({ item }) {
   return (
-    <div className="flex flex-col items-center text-center gap-2 py-4">
+    // Stacked on phones; side by side on wider screens so the card fits without scrolling.
+    <div className="flex flex-col md:flex-row items-center justify-center text-center gap-2 md:gap-10 py-4 md:py-2">
       {/* manga spotlight: speed lines behind the character */}
-      <div className="relative w-56 h-56 flex items-center justify-center">
+      <div className="relative w-56 h-56 shrink-0 flex items-center justify-center">
         <div className="absolute inset-0 speedlines animate-spin-slow rounded-full" aria-hidden />
         {/* Solid (not translucent) so the spinning rays don't show through; sun softened toward the card colour. */}
         <div
           className="absolute inset-6 rounded-full border-[2.5px] border-outline"
-          style={{ background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))' }}
+          style={{
+            background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))',
+          }}
           aria-hidden
         />
         <span className="relative font-jp font-bold text-[132px] leading-none" lang="ja">
           {item.char}
         </span>
       </div>
-      <WritingForms char={item.char} />
-      <span className="sfx text-4xl text-torii mt-1" style={{ WebkitTextStroke: '1.5px rgb(var(--outline))', textShadow: '2px 2px 0 rgb(var(--outline))' }}>
-        {item.romaji}
-      </span>
-      <p className="eyebrow text-ink/45 mt-1">{item.script === 'katakana' ? 'Katakana' : 'Hiragana'} · say it out loud!</p>
-      <div className="mt-4">
-        <SpeakPair text={item.char} size="lg" />
+      <div className="flex flex-col items-center gap-2">
+        <WritingForms char={item.char} />
+        <span
+          className="sfx text-4xl text-torii mt-1"
+          style={{
+            WebkitTextStroke: '1.5px rgb(var(--outline))',
+            textShadow: '2px 2px 0 rgb(var(--outline))',
+          }}
+        >
+          {item.romaji}
+        </span>
+        <p className="eyebrow text-ink/45 mt-1">{item.script === 'katakana' ? 'Katakana' : 'Hiragana'} · say it out loud!</p>
+        <div className="mt-4 md:mt-2">
+          <SpeakPair text={item.char} size="lg" />
+        </div>
       </div>
     </div>
   )
@@ -74,29 +85,31 @@ function Vocab({ item }) {
 function Kanji({ item }) {
   return (
     <div className="flex flex-col gap-5">
-      <div className="flex items-center gap-5">
-        <div className="w-32 h-32 rounded-2xl bg-paper border border-ink/[0.07] flex items-center justify-center relative shrink-0">
-          {/* faint practice-grid guides, like a kanji workbook square */}
-          <div className="absolute inset-0 pointer-events-none" aria-hidden>
-            <div className="absolute left-1/2 top-2 bottom-2 border-l border-dashed border-ink/10" />
-            <div className="absolute top-1/2 left-2 right-2 border-t border-dashed border-ink/10" />
+      <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-5">
+        <div className="flex items-center gap-5">
+          <div className="w-32 h-32 rounded-2xl bg-paper border border-ink/[0.07] flex items-center justify-center relative shrink-0">
+            {/* faint practice-grid guides, like a kanji workbook square */}
+            <div className="absolute inset-0 pointer-events-none" aria-hidden>
+              <div className="absolute left-1/2 top-2 bottom-2 border-l border-dashed border-ink/10" />
+              <div className="absolute top-1/2 left-2 right-2 border-t border-dashed border-ink/10" />
+            </div>
+            <span className="font-jp font-bold text-[88px] leading-none relative" lang="ja">
+              {item.char}
+            </span>
           </div>
-          <span className="font-jp font-bold text-[88px] leading-none relative" lang="ja">
-            {item.char}
-          </span>
+          <div className="min-w-0">
+            <p className="font-title text-2xl leading-tight">{item.meanings.join(', ')}</p>
+            <p className="text-xs text-ink/40 mt-1">{item.strokes} strokes</p>
+            <dl className="mt-3 text-sm grid grid-cols-[auto,1fr] gap-x-3 gap-y-1">
+              <dt className="text-ink/40">On</dt>
+              <dd className="font-jp">{item.on.join('、') || '—'}</dd>
+              <dt className="text-ink/40">Kun</dt>
+              <dd className="font-jp">{item.kun.join('、') || '—'}</dd>
+            </dl>
+          </div>
         </div>
-        <div className="min-w-0">
-          <p className="font-title text-2xl leading-tight">{item.meanings.join(', ')}</p>
-          <p className="text-xs text-ink/40 mt-1">{item.strokes} strokes</p>
-          <dl className="mt-3 text-sm grid grid-cols-[auto,1fr] gap-x-3 gap-y-1">
-            <dt className="text-ink/40">On</dt>
-            <dd className="font-jp">{item.on.join('、') || '—'}</dd>
-            <dt className="text-ink/40">Kun</dt>
-            <dd className="font-jp">{item.kun.join('、') || '—'}</dd>
-          </dl>
-        </div>
+        <WritingForms char={item.char} />
       </div>
-      <WritingForms char={item.char} />
       {item.mnemonic && <p className="text-[15px] text-ink/65 leading-relaxed bg-accent-soft/60 rounded-2xl px-4 py-3">💡 {item.mnemonic}</p>}
       <ul className="flex flex-col divide-y divide-line">
         {item.words?.map((w) => (

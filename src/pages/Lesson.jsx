@@ -64,6 +64,7 @@ function LessonRun({ lesson }) {
   const exercise = queue[index]
   const kindMeta = LESSON_KINDS[lesson.kind]
   const kc = COLOR[kindMeta.color]
+  const lessonNumber = unit.lessons.findIndex((l) => l.id === lesson.id) + 1
 
   function handleAnswer(correct, correctLabel) {
     setAnswered({ correct, correctLabel })
@@ -123,21 +124,28 @@ function LessonRun({ lesson }) {
           >
             <X size={24} strokeWidth={2.6} />
           </button>
-          <div className="flex-1 rounded-full border-[2.5px] border-outline bg-surface">
-            <ProgressBar value={progress * 100} max={100} color={kc.bg} height="h-3.5" />
+          <div className="flex-1 min-w-0">
+            <p className="eyebrow text-[10px] whitespace-nowrap truncate">
+              <span className="text-ink/45">
+                {unit.kana ? 'Prologue' : `Ep ${unit.number}`} · {lessonNumber}/{unit.lessons.length} ·{' '}
+              </span>
+              <span className={kc.text}>{kindMeta.label}</span>
+            </p>
+            <p className="font-extrabold font-jp text-sm leading-tight truncate">{lesson.title.replace(/\[[^\]]*\]/g, '')}</p>
           </div>
-          {combo >= 2 && phase === 'practice' ? (
+          <div className="w-24 sm:w-44 shrink-0 rounded-full border-2 border-outline bg-surface">
+            <ProgressBar value={progress * 100} max={100} color={kc.bg} height="h-2.5" />
+          </div>
+          {combo >= 2 && phase === 'practice' && (
             <span key={combo} className="flex items-center gap-0.5 font-title text-sm text-torii animate-pop-in whitespace-nowrap">
               <Flame size={18} strokeWidth={2.6} className="fill-torii" />
               {combo}
             </span>
-          ) : (
-            <span className={`eyebrow ${kc.text} whitespace-nowrap`}>{kindMeta.label}</span>
           )}
         </div>
       </header>
 
-      <main className="flex-1 w-full max-w-2xl mx-auto px-5 pb-56 pt-2">
+      <main className={`flex-1 w-full max-w-2xl mx-auto px-5 pt-2 ${answered ? 'pb-56' : 'pb-36'}`}>
         {phase === 'teach' && (
           <TeachPhase lesson={lesson} unit={unit} items={teachItems} index={teachIndex} setIndex={setTeachIndex} onDone={() => setPhase('practice')} />
         )}
