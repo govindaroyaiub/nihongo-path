@@ -1,0 +1,97 @@
+#!/usr/bin/env node
+// Answer-key test: answers every question in the course with its own correct
+// answer and fails if the app would mark it wrong, or if a question offers two
+// options a learner can't tell apart.
+//   npm test
+// Loads the real app modules through Vite (so import.meta.glob works), with no
+// browser and no extra dependencies.
+import { createServer } from 'vite'
+
+const vite = await createServer({ server: { middlewareMode: true, hmr: false }, appType: 'custom', logLevel: 'error' })
+const load = (path) => vite.ssrLoadModule(path)
+
+const failures = []
+const fail = (msg) => failures.length < 200 && failures.push(msg)
+
+try {
+  const C = await load('/src/lib/curriculum.js')
+  const E = await load('/src/lib/exercises.js')
+  const F = await load('/src/lib/furigana.js')
+  const W = await load('wanakana')
+
+  const items = C.allItems()
+  let typed = 0
+  let generated = 0
+
+  for (const it of items) {
+    // 1. Typed answers: find the item's real typing exercise and grade the ways a
+    //    learner would type the right answer exactly as TypeExercise does.
+    let typeEx = null
+    for (let k = 0; k < 60 && !typeEx; k++) {
+      const e = E.exerciseForItem(it.id)
+      if (e?.type === 'type') typeEx = e
+    }
+    if (typeEx) {
+      const grade = (input) => F.normaliseKana(typeEx.input === 'kana' ? W.toHiragana(input) : W.toHiragana(input.trim().toLowerCase()))
+      const kana = it.type === 'kana' ? it.char : F.toKana(it.word).replace(/[〜~]/g, '')
+      const ways = it.type === 'kana' ? [it.romaji, W.toRomaji(kana)] : [W.toRomaji(kana), W.toRomaji(kana.replace(/ー/g, '-'))]
+      for (const input of new Set(ways)) {
+        typed++
+        if (!typeEx.accept.includes(grade(input))) fail(`${it.type} ${it.char ?? F.toPlain(it.word)}: typing "${input}" → ${grade(input)} is marked wrong (accepts ${typeEx.accept.join(' / ')})`)
+      }
+    }
+
+    // 2. Generated exercises: sample each item many times (distractors are random).
+    for (let k = 0; k < 20; k++) {
+      const e = E.exerciseForItem(it.id)
+      if (!e) continue
+      generated++
+      if (e.type === 'choice') {
+        if (e.answer < 0) fail(`${it.id} ${e.kind}: correct answer missing from options`)
+        if (new Set(e.options).size !== e.options.length) fail(`${it.id} ${e.kind}: duplicate options`)
+        const others = e.options.filter((_, i) => i !== e.answer)
+        // Sound-only questions must never offer a homophone of the answer.
+        if (e.kind === 'kana-listen') {
+          for (const o of others) {
+            const other = items.find((x) => x.type === 'kana' && x.char === o)
+            if (other && other.romaji === it.romaji) fail(`${it.char}: listening offers same-sound ${o}`)
+          }
+        }
+        if (e.kind === 'vocab-listen') {
+          for (const o of others) {
+            const other = items.find((x) => x.type === 'vocab' && x.meaning === o && F.speechText(x.word) === F.speechText(it.word))
+            if (other) fail(`${F.toPlain(it.word)}: listening offers homophone ${F.toPlain(other.word)}`)
+          }
+        }
+      }
+      if (e.type === 'type' && !e.accept.every(Boolean)) fail(`${it.id}: empty accepted answer`)
+    }
+  }
+
+  // 3. Every lesson must produce exercises.
+  for (const lesson of C.LESSONS) {
+    const unit = C.getUnit(lesson.unitId)
+    const exs =
+      lesson.kind === 'checkpoint'
+        ? E.checkpointExercises(lesson)
+        : lesson.kind === 'reading'
+          ? E.questionExercises(unit.reading.questions, 'reading')
+          : lesson.kind === 'listening'
+            ? E.questionExercises(unit.listening.questions, 'listening')
+            : lesson.kind === 'travel'
+              ? E.questionExercises(unit.place.reading.questions, 'travel')
+              : E.lessonExercises(lesson)
+    if (!exs.length) fail(`${lesson.id}: no exercises`)
+    for (const e of exs) if (e.type === 'choice' && e.answer < 0) fail(`${lesson.id}: question without a correct option`)
+  }
+
+  console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises`)
+} finally {
+  await vite.close()
+}
+
+if (failures.length) {
+  console.error(`\n✗ ${failures.length} answer-key failure(s):\n  ${failures.join('\n  ')}`)
+  process.exit(1)
+}
+console.log('✓ Every correct answer is accepted.')

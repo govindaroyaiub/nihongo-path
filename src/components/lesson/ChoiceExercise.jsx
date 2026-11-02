@@ -42,6 +42,7 @@ export default function ChoiceExercise({ exercise, onAnswer, answered }) {
               {!compact && (
                 <span className="w-7 h-7 rounded-lg border-2 border-current/30 text-xs font-extrabold flex items-center justify-center shrink-0 opacity-60">{i + 1}</span>
               )}
+              {/* Same Gothic font as the prompt, so character shapes always match. */}
               <SmartText text={option} className="leading-snug" />
             </button>
           )

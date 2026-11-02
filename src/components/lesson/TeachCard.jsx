@@ -35,10 +35,11 @@ function Kana({ item }) {
           style={{ background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))' }}
           aria-hidden
         />
-        <span className="relative font-hand text-[140px] leading-none" lang="ja">
+        <span className="relative font-jp font-bold text-[132px] leading-none" lang="ja">
           {item.char}
         </span>
       </div>
+      <WritingForms char={item.char} />
       <span className="sfx text-4xl text-torii mt-1" style={{ WebkitTextStroke: '1.5px rgb(var(--outline))', textShadow: '2px 2px 0 rgb(var(--outline))' }}>
         {item.romaji}
       </span>
@@ -79,7 +80,7 @@ function Kanji({ item }) {
             <div className="absolute left-1/2 top-2 bottom-2 border-l border-dashed border-ink/10" />
             <div className="absolute top-1/2 left-2 right-2 border-t border-dashed border-ink/10" />
           </div>
-          <span className="font-hand text-[92px] leading-none relative" lang="ja">
+          <span className="font-jp font-bold text-[88px] leading-none relative" lang="ja">
             {item.char}
           </span>
         </div>
@@ -94,6 +95,7 @@ function Kanji({ item }) {
           </dl>
         </div>
       </div>
+      <WritingForms char={item.char} />
       {item.mnemonic && <p className="text-[15px] text-ink/65 leading-relaxed bg-accent-soft/60 rounded-2xl px-4 py-3">💡 {item.mnemonic}</p>}
       <ul className="flex flex-col divide-y divide-line">
         {item.words?.map((w) => (
@@ -104,6 +106,26 @@ function Kanji({ item }) {
           </li>
         ))}
       </ul>
+    </div>
+  )
+}
+
+// Printed (what you read on screens and signs) vs handwritten (how it's written
+// by pen). Some characters — ふ さ き り そ や — look noticeably different.
+function WritingForms({ char }) {
+  return (
+    <div className="flex justify-center gap-3 mt-2">
+      {[
+        ['Printed', 'font-jp font-bold'],
+        ['Handwritten', 'font-hand'],
+      ].map(([label, font]) => (
+        <div key={label} className="flex flex-col items-center gap-1 rounded-2xl border-[2.5px] border-outline bg-sunken px-4 py-2 min-w-[96px]">
+          <span className={`${font} text-4xl leading-none`} lang="ja">
+            {char}
+          </span>
+          <span className="eyebrow text-ink/50 text-[10px]">{label}</span>
+        </div>
+      ))}
     </div>
   )
 }

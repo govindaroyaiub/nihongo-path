@@ -1,6 +1,6 @@
 import { toHiragana } from 'wanakana'
 import { getItem, knownPeers } from './curriculum'
-import { toKana, toPlain, normaliseKana, hasKanji, speechText } from './furigana'
+import { toKana, toPlain, normaliseKana, readingVariants, hasKanji, speechText } from './furigana'
 
 // An exercise is a plain object the lesson player renders:
 //   choice — prompt + 4 options, one correct (answer = option index)
@@ -56,15 +56,18 @@ function kanaExercises(item, pool) {
       }),
     listen: () =>
       choice({
-        kind: 'kana-listen', item, pool, correct: item, speak: item.char,
+        kind: 'kana-listen', item, correct: item, speak: item.char,
         prompt: { label: 'Tap what you hear', audio: item.char },
+        // ぢ/じ and づ/ず sound identical, so never offer a same-sound distractor.
+        pool: pool.filter((k) => k.id === item.id || k.romaji !== item.romaji),
         labelOf: (k) => k.char,
       }),
     type: () => ({
       kind: 'kana-type', type: 'type', itemId: item.id, speak: item.char,
       prompt: { label: 'Type the sound in romaji', jp: item.char, big: true },
       input: 'romaji',
-      accept: [toHiragana(item.char)],
+      // The listed romaji is always right: "ji" for ぢ (→ じ) as well as "di" (→ ぢ).
+      accept: [normaliseKana(item.char), normaliseKana(toHiragana(item.romaji))],
       display: item.romaji,
     }),
   }
@@ -91,8 +94,10 @@ function vocabExercises(item, pool) {
       }),
     listen: () =>
       choice({
-        kind: 'vocab-listen', item, pool, correct: item, speak: speakOf(item),
+        kind: 'vocab-listen', item, correct: item, speak: speakOf(item),
         prompt: { label: 'What does this mean?', audio: speakOf(item) },
+        // Homophones (三 / 〜さん, 番 / 晩) can't be told apart by ear — leave them out.
+        pool: pool.filter((v) => v.id === item.id || speakOf(v) !== speakOf(item)),
         labelOf: meaningOf,
       }),
     type: canTypeWord(item)
@@ -102,7 +107,7 @@ function vocabExercises(item, pool) {
             ? { label: 'Type the reading', jp: toPlain(item.word), big: true, hint: item.meaning }
             : { label: 'Type the Japanese word', en: item.meaning, audio: speakOf(item) },
           input: 'kana',
-          accept: [normaliseKana(item.word)],
+          accept: readingVariants(item.word),
           display: toKana(item.word),
         })
       : null,

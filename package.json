@@ -5,11 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/validate-content.mjs && vite build",
+    "build": "node scripts/validate-content.mjs && node scripts/test-answers.mjs && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "validate": "node scripts/validate-content.mjs",
-    "audio": "node scripts/generate-audio.mjs"
+    "audio": "node scripts/generate-audio.mjs",
+    "test": "node scripts/test-answers.mjs"
   },
   "dependencies": {
     "lucide-react": "^1.24.0",

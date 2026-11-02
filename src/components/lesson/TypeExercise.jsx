@@ -25,7 +25,7 @@ export default function TypeExercise({ exercise, onAnswer, answered }) {
     if (answered) return
     const typed = inputRef.current.value
     if (!typed.trim()) return
-    const guess = kana ? normaliseKana(typed) : toHiragana(typed.trim().toLowerCase())
+    const guess = normaliseKana(kana ? typed : toHiragana(typed.trim().toLowerCase()))
     onAnswer(exercise.accept.includes(guess), exercise.display)
   }
 

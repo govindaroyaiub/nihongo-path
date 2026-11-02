@@ -80,7 +80,7 @@ function VocabRow({ item }) {
 function KanjiRow({ item }) {
   return (
     <div className="flex items-center gap-4 px-4 py-3">
-      <span className="font-hand text-4xl w-12 text-center" lang="ja">
+      <span className="font-jp font-bold text-4xl w-12 text-center" lang="ja">
         {item.char}
       </span>
       <div className="flex-1 min-w-0">

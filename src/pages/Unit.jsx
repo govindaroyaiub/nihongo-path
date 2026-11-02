@@ -100,7 +100,7 @@ export default function Unit() {
           <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
             {unit.kanji.map((k) => (
               <div key={k.id} className="panel !rounded-2xl p-3 text-center">
-                <span className="font-hand text-5xl block" lang="ja">
+                <span className="font-jp font-bold text-5xl block" lang="ja">
                   {k.char}
                 </span>
                 <p className="font-extrabold text-sm mt-1 truncate">{k.meanings.slice(0, 2).join(', ')}</p>
@@ -113,7 +113,7 @@ export default function Unit() {
           <div className="grid grid-cols-5 gap-2">
             {unit.items.map((k) => (
               <div key={k.id} className="panel !rounded-xl aspect-square flex flex-col items-center justify-center !shadow-none">
-                <span className="font-hand text-2xl leading-none">{k.char}</span>
+                <span className="font-jp font-bold text-2xl leading-none">{k.char}</span>
                 <span className="text-[10px] font-bold text-ink/50">{k.romaji}</span>
               </div>
             ))}

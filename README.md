@@ -53,7 +53,15 @@ npm run validate
 ```
 
 This checks every unit for missing furigana, broken drills, out-of-range answers, duplicate ids and words
-repeated across units. `npm run build` runs it first.
+repeated across units.
+
+```bash
+npm test
+```
+
+The answer-key test answers every question with its own correct answer, typed several realistic ways
+("noto" / "no-to" for ノート, "ji" for ぢ), and fails if the app would mark it wrong or offers two
+options that sound the same. `npm run build` runs both checks before building.
 
 ## Deploy
 

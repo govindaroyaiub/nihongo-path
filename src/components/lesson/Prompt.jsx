@@ -33,7 +33,7 @@ export default function Prompt({ prompt }) {
           <JpText
             text={prompt.jp}
             className={`animate-pop-in ${
-              single ? 'font-hand text-8xl sm:text-9xl leading-tight' : prompt.big ? 'text-4xl sm:text-5xl font-bold leading-relaxed' : 'text-2xl sm:text-3xl font-bold leading-relaxed'
+              single ? 'font-jp font-bold text-8xl sm:text-9xl leading-tight' : prompt.big ? 'text-4xl sm:text-5xl font-bold leading-relaxed' : 'text-2xl sm:text-3xl font-bold leading-relaxed'
             }`}
           />
         ))}

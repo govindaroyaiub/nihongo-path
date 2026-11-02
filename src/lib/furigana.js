@@ -44,9 +44,32 @@ export function wordRomaji(markup = '') {
   return toRomaji(toKana(markup).replace(/[〜~]/g, ''))
 }
 
-// Normalises an answer for comparison: hiragana, no spaces, punctuation or 〜.
+const SMALL_VOWELS = { ぁ: 'あ', ぃ: 'い', ぅ: 'う', ぇ: 'え', ぉ: 'お' }
+const VOWEL_KANA = { a: 'あ', i: 'い', u: 'う', e: 'え', o: 'お' }
+
+// Normalises a typed or stored answer so equivalent spellings compare equal:
+// - hiragana only; spaces, punctuation and 〜 dropped
+// - long-vowel mark ー becomes the vowel it stretches (ノート → のおと), so
+//   "noto"-style typing with "-" or a doubled vowel both match
+// - small ぁぃぅぇぉ count as full-size (ソファ typed "sofua" is fine)
+// - a leftover "t" before ち (from typing "tchi") becomes っ
 export function normaliseKana(text = '') {
-  return toHiragana(toKana(text), { passRomaji: true }).replace(/[\s　、。・〜~！？!?]/g, '')
+  let s = toHiragana(toKana(text), { passRomaji: true, convertLongVowelMark: false })
+  s = s.replace(/[\s　、。・〜~！？!?]/g, '').replace(/t(?=ち)/g, 'っ')
+  s = s.replace(/[ぁぃぅぇぉ]/g, (ch) => SMALL_VOWELS[ch])
+  return s.replace(/(.)ー/g, (_, prev) => prev + (VOWEL_KANA[toRomaji(prev).slice(-1)] ?? 'ー'))
+}
+
+// Accepted readings for a typed answer: the normalised form, plus the common
+// お-row variant for long vowels (ノート typed "nouto").
+export function readingVariants(text = '') {
+  const base = normaliseKana(text)
+  const variants = new Set([base])
+  if (toKana(text).includes('ー')) {
+    const ou = toHiragana(toKana(text), { passRomaji: true, convertLongVowelMark: true })
+    variants.add(normaliseKana(ou))
+  }
+  return [...variants]
 }
 
 export function hasKanji(text = '') {

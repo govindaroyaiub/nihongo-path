@@ -61,7 +61,7 @@ function Cell({ k }) {
       onClick={() => speak(k.char)}
       className="aspect-square rounded-xl bg-surface border-[2.5px] border-outline flex flex-col items-center justify-center active:scale-95 active:bg-accent-soft transition-all"
     >
-      <span className="font-hand text-[26px] leading-none" lang="ja">
+      <span className="font-jp font-bold text-[24px] leading-none" lang="ja">
         {k.char}
       </span>
       <span className="text-[10px] text-ink/40 mt-1">{k.romaji}</span>
