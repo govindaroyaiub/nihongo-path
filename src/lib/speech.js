@@ -7,7 +7,7 @@ import { getState } from './store'
 // 2. Web Speech fallback for anything without a clip, using the best
 //    Japanese voice the browser offers (or the one picked in Settings).
 
-export const SLOW_FACTOR = 0.65
+const SLOW_FACTOR = 0.65
 
 // ---- clip manifest ----------------------------------------------------------
 

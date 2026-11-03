@@ -150,11 +150,6 @@ body::before {
   }
 }
 
-.no-select {
-  user-select: none;
-  -webkit-user-select: none;
-}
-
 ruby {
   ruby-position: over;
 }
@@ -240,12 +235,6 @@ rt {
   0%, 100% { transform: scale(0.4) rotate(0deg); opacity: 0; }
   50% { transform: scale(1) rotate(90deg); opacity: 1; }
 }
-@keyframes float-up {
-  0% { transform: translateY(0); opacity: 0; }
-  20% { opacity: 1; }
-  100% { transform: translateY(-40px); opacity: 0; }
-}
-
 .animate-pop-in { animation: pop-in 380ms cubic-bezier(0.16, 1, 0.3, 1); }
 .animate-bob { animation: bob 2.4s ease-in-out infinite; }
 .animate-wiggle { animation: wiggle 500ms ease-in-out; }
@@ -254,7 +243,6 @@ rt {
 .animate-pulse-ring { animation: pulse-ring 1.6s ease-out infinite; }
 .animate-spin-slow { animation: spin-slow 24s linear infinite; }
 .animate-sfx-pop { animation: sfx-pop 420ms cubic-bezier(0.3, 1.5, 0.5, 1) both; }
-.animate-float-up { animation: float-up 900ms ease-out forwards; }
 
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after {

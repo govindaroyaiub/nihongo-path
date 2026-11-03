@@ -37,7 +37,7 @@ function choice({ item, prompt, correct, pool, labelOf, speak, kind }) {
   return { kind, type: 'choice', itemId: item.id, prompt, options, answer: options.indexOf(correctLabel), speak }
 }
 
-export const meaningOf = (item) =>
+const meaningOf = (item) =>
   item.type === 'kanji' ? item.meanings.slice(0, 2).join(', ') : item.meaning
 
 const speakOf = (item) => {

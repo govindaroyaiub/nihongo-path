@@ -11,7 +11,7 @@ const KEYS = {
   settings: 'np2:settings',
 }
 
-export const DEFAULT_SETTINGS = {
+const DEFAULT_SETTINGS = {
   voiceURI: null, // Web Speech fallback voice; null = best available
   rate: 0.9,
   autoplay: true,

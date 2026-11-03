@@ -44,7 +44,7 @@ function Pill({ icon: Icon, value, className, filled, label }) {
   )
 }
 
-export function GoalRing({ value, max, size = 64, stroke = 7, children }) {
+function GoalRing({ value, max, size = 64, stroke = 7, children }) {
   const r = (size - stroke) / 2
   const c = 2 * Math.PI * r
   const pct = Math.min(1, max ? value / max : 0)
