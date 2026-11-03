@@ -9,6 +9,8 @@ import { stopFor, COLOR } from '../lib/journey'
 import { StatPills } from '../components/Stats'
 import { Sakura, Cloud } from '../components/Anime'
 import ProgressBar from '../components/ProgressBar'
+import { UnitGoal } from '../components/Payoff'
+import { readableCount } from '../lib/readable'
 import Mascot from '../components/Mascot'
 
 // Horizontal offsets (in node widths) that make the path wind like a trail.
@@ -17,7 +19,8 @@ const NODE_SHIFT = 64
 
 export default function Learn() {
   const lessons = useStore((s) => s.lessons)
-  const due = dueItemIds(useStore((s) => s.srs)).length
+  const srs = useStore((s) => s.srs)
+  const due = dueItemIds(srs).length
   const next = currentLesson(lessons)
   const [level, setLevel] = useState(next?.level ?? 'N5')
   const [open, setOpen] = useState(null) // lesson id whose popover is showing
@@ -100,7 +103,7 @@ export default function Learn() {
 
       {units.length > 0 ? (
         <>
-          <Hero level={level} done={lp.done} total={lp.total} />
+          <Hero level={level} done={lp.done} total={lp.total} readable={readableCount(lessons, srs)} />
           {units.map((unit, i) => (
             <UnitSection
               key={unit.id}
@@ -134,7 +137,7 @@ export default function Learn() {
 const outlinedTitle = { WebkitTextStroke: '1.5px rgb(var(--outline))', paintOrder: 'stroke fill', textShadow: '2px 2px 0 rgb(var(--outline))' }
 
 // Anime-sky banner: Kitsu, clouds, and how far along the season you are.
-function Hero({ level, done, total }) {
+function Hero({ level, done, total, readable }) {
   const pct = total ? Math.round((done / total) * 100) : 0
   return (
     <div className="relative mt-4 rounded-3xl border-[2.5px] border-outline overflow-hidden" style={{ boxShadow: '5px 5px 0 0 rgb(var(--outline))' }}>
@@ -155,6 +158,7 @@ function Hero({ level, done, total }) {
           </div>
           <p className="text-xs font-extrabold text-[#261e3e]/70 mt-1.5">
             {done}/{total} lessons cleared
+            {readable > 0 && <> · 📖 {readable} words you can read</>}
           </p>
         </div>
         <Mascot pose="wave" size={96} />
@@ -228,6 +232,7 @@ function UnitSection({ ref, unit, index, lessons, next, due, open, setOpen, curr
             </p>
             <p className="font-extrabold text-[15px] leading-snug mt-1">{unit.title}</p>
             <p className="text-sm opacity-90 font-bold mt-0.5 line-clamp-2">{unit.goal}</p>
+            <UnitGoal unit={unit} className="mt-1.5 opacity-95" />
           </div>
           <Link
             to={`/unit/${unit.id}`}

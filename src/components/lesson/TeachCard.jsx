@@ -5,9 +5,10 @@ import StrokeOrder from '../StrokeOrder'
 import { speak } from '../../lib/speech'
 import { speechText, wordRomaji, hasKanji } from '../../lib/furigana'
 import { useStore } from '../../lib/store'
+import { exampleWord } from '../../lib/readable'
 
 // One "meet this item" card, shown before practice. Auto-plays its audio.
-export default function TeachCard({ item }) {
+export default function TeachCard({ item, lessonId }) {
   const autoplay = useStore((s) => s.settings.autoplay)
   const audio = item.type === 'kana' ? item.char : item.type === 'kanji' ? speechText(item.words?.[0]?.word ?? '') : speechText(item.word)
 
@@ -16,48 +17,54 @@ export default function TeachCard({ item }) {
   }, [item.id, audio, autoplay])
 
   return (
-    <div className="animate-pop-in panel p-6 relative overflow-hidden">
-      {item.type === 'kana' && <Kana item={item} />}
+    // Fills the space down to the Next button, content centred.
+    <div className="animate-pop-in panel p-5 sm:p-6 relative overflow-hidden flex-1 flex flex-col justify-center">
+      {item.type === 'kana' && <Kana item={item} lessonId={lessonId} />}
       {item.type === 'vocab' && <Vocab item={item} />}
       {item.type === 'kanji' && <Kanji item={item} />}
     </div>
   )
 }
 
-function Kana({ item }) {
+function Kana({ item, lessonId }) {
+  const word = lessonId ? exampleWord(item.char, lessonId) : null
   return (
-    // Stacked on phones; side by side on wider screens so the card fits without scrolling.
-    <div className="flex flex-col md:flex-row items-center justify-center text-center gap-2 md:gap-10 py-4 md:py-2">
-      {/* manga spotlight: speed lines behind the character */}
-      <div className="relative w-56 h-56 shrink-0 flex items-center justify-center">
-        <div className="absolute inset-0 speedlines animate-spin-slow rounded-full" aria-hidden />
-        {/* Solid (not translucent) so the spinning rays don't show through; sun softened toward the card colour. */}
-        <div
-          className="absolute inset-6 rounded-full border-[2.5px] border-outline"
-          style={{
-            background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))',
-          }}
-          aria-hidden
-        />
-        <span className="relative font-jp font-bold text-[132px] leading-none" lang="ja">
-          {item.char}
-        </span>
-      </div>
+    // Stacked on phones; side by side on wider screens. Kept tight so the whole
+    // card fits on one screen without scrolling.
+    <div className="flex flex-col md:flex-row items-center justify-center text-center gap-4 md:gap-10 md:py-2">
       <div className="flex flex-col items-center gap-2">
-        <WritingForms char={item.char} />
-        <span
-          className="sfx text-4xl text-torii mt-1"
-          style={{
-            WebkitTextStroke: '1.5px rgb(var(--outline))',
-            textShadow: '2px 2px 0 rgb(var(--outline))',
-          }}
-        >
-          {item.romaji}
-        </span>
-        <p className="eyebrow text-ink/45 mt-1">{item.script === 'katakana' ? 'Katakana' : 'Hiragana'} · say it out loud!</p>
-        <div className="mt-4 md:mt-2">
+        {/* manga spotlight: speed lines behind the character */}
+        <div className="relative w-44 h-44 md:w-[clamp(13rem,34vh,20rem)] md:h-[clamp(13rem,34vh,20rem)] shrink-0 flex items-center justify-center">
+          <div className="absolute inset-0 speedlines animate-spin-slow rounded-full" aria-hidden />
+          {/* Solid (not translucent) so the spinning rays don't show through; sun softened toward the card colour. */}
+          <div
+            className="absolute inset-5 rounded-full border-[2.5px] border-outline"
+            style={{
+              background: 'color-mix(in srgb, rgb(var(--sun)) 55%, rgb(var(--surface)))',
+            }}
+            aria-hidden
+          />
+          <span className="relative font-jp font-bold text-[104px] md:text-[clamp(124px,20vh,190px)] leading-none" lang="ja">
+            {item.char}
+          </span>
+        </div>
+        <div className="flex items-center gap-3">
+          <span
+            className="sfx text-4xl text-torii"
+            style={{
+              WebkitTextStroke: '1.5px rgb(var(--outline))',
+              textShadow: '2px 2px 0 rgb(var(--outline))',
+            }}
+          >
+            {item.romaji}
+          </span>
           <SpeakPair text={item.char} size="lg" />
         </div>
+      </div>
+      <div className="flex flex-col items-center gap-3">
+        <WritingForms char={item.char} />
+        {word && <InAWord word={word} char={item.char} />}
+        <p className="eyebrow text-ink/45">{item.script === 'katakana' ? 'Katakana' : 'Hiragana'} · say it out loud!</p>
       </div>
     </div>
   )
@@ -124,11 +131,30 @@ function Kanji({ item }) {
   )
 }
 
+// A real word using the new character, spelled only with kana met so far.
+function InAWord({ word, char }) {
+  const at = word.kana.indexOf(char)
+  return (
+    <div className="flex items-center gap-3 rounded-2xl bg-sunken border-2 border-outline pl-4 pr-2 py-2">
+      <div className="text-left">
+        <p className="eyebrow text-ink/45 text-[10px]">In a real word</p>
+        <p className="font-jp font-bold text-2xl leading-tight" lang="ja">
+          {word.kana.slice(0, at)}
+          <span className="text-torii">{char}</span>
+          {word.kana.slice(at + char.length)}
+          <span className="font-sans text-sm font-bold text-ink/60 ml-2">{word.meaning}</span>
+        </p>
+      </div>
+      <SpeakButton text={word.speak} size="sm" />
+    </div>
+  )
+}
+
 // Printed form (what you read on screens and signs) next to an animated
 // stroke-order drawing (how it's written by pen, in the right order).
 function WritingForms({ char }) {
   return (
-    <div className="flex justify-center items-stretch gap-3 mt-2">
+    <div className="flex justify-center items-stretch gap-3">
       <div className="flex flex-col items-center justify-between gap-1 rounded-2xl border-[2.5px] border-outline bg-sunken px-4 pt-3 pb-2 min-w-[96px]">
         <span className="font-jp font-bold text-5xl leading-none my-auto" lang="ja">
           {char}

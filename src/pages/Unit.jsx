@@ -12,6 +12,7 @@ import ProgressBar from '../components/ProgressBar'
 import JpText from '../components/JpText'
 import SpeakButton from '../components/SpeakButton'
 import { PlaceArt } from '../components/Places'
+import { UnitGoal } from '../components/Payoff'
 
 // Episode guide: the unit's lessons plus a cheat-sheet of everything in it.
 export default function Unit() {
@@ -45,6 +46,7 @@ export default function Unit() {
         {stop.emoji} {stop.place}
       </p>
       <p className="font-bold text-ink/70 text-[15px] leading-relaxed mt-1">{unit.goal}</p>
+      <UnitGoal unit={unit} className="mt-2 text-ink/80" />
       {unit.note && <p className="mt-3 text-sm font-medium text-ink/70 leading-relaxed panel p-4">{unit.note}</p>}
       <div className="mt-4 flex items-center gap-3">
         <div className="flex-1 rounded-full border-[2.5px] border-outline">

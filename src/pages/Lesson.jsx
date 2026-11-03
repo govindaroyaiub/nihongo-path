@@ -17,6 +17,8 @@ import GrammarTeach from '../components/lesson/GrammarTeach'
 import ReadingTeach from '../components/lesson/ReadingTeach'
 import ListeningTeach from '../components/lesson/ListeningTeach'
 import TravelTeach from '../components/lesson/TravelTeach'
+import { WordChips } from '../components/Payoff'
+import { lessonPayoff } from '../lib/readable'
 import Mascot, { MascotSays } from '../components/Mascot'
 import Confetti from '../components/Confetti'
 import { SfxBurst, Sparkles } from '../components/Anime'
@@ -157,7 +159,7 @@ function LessonRun({ lesson }) {
         </div>
       </header>
 
-      <main className={`flex-1 w-full max-w-2xl mx-auto px-5 pt-2 ${answered ? 'pb-56' : 'pb-36'}`}>
+      <main className={`flex-1 w-full max-w-2xl mx-auto px-5 pt-2 flex flex-col ${answered ? 'pb-56' : 'pb-28'}`}>
         {phase === 'teach' && (
           <TeachPhase lesson={lesson} unit={unit} items={teachItems} index={teachIndex} setIndex={setTeachIndex} onDone={() => setPhase('practice')} />
         )}
@@ -200,7 +202,7 @@ function LessonRun({ lesson }) {
 
 function Footer({ children }) {
   return (
-    <div className="fixed inset-x-0 bottom-0 z-30 bg-gradient-to-t from-bg via-bg to-transparent pt-10">
+    <div className="fixed inset-x-0 bottom-0 z-30 bg-gradient-to-t from-bg via-bg to-transparent pt-6">
       <div className="max-w-2xl mx-auto px-5 pb-[max(env(safe-area-inset-bottom),1.25rem)] flex gap-3">{children}</div>
     </div>
   )
@@ -267,7 +269,7 @@ function TeachPhase({ lesson, unit, items, index, setIndex, onDone }) {
   const last = index === items.length - 1
   return (
     <>
-      <div className="flex items-center justify-between mb-3">
+      <div className="flex items-center justify-between mb-2">
         <p className="eyebrow text-ink/45">New {item.type === 'kana' ? 'character' : item.type === 'kanji' ? 'kanji' : 'word'}</p>
         <div className="flex gap-1.5">
           {items.map((it, i) => (
@@ -275,7 +277,8 @@ function TeachPhase({ lesson, unit, items, index, setIndex, onDone }) {
           ))}
         </div>
       </div>
-      <TeachCard key={item.id} item={item} />
+      {lesson.kind === 'kana' && index === 0 && <LessonPayoff lesson={lesson} />}
+      <TeachCard key={item.id} item={item} lessonId={lesson.kind === 'kana' ? lesson.id : null} />
       <Footer>
         {index > 0 && (
           <button type="button" onClick={() => setIndex(index - 1)} aria-label="Previous" className="btn-ghost w-16 py-4">
@@ -285,6 +288,39 @@ function TeachPhase({ lesson, unit, items, index, setIndex, onDone }) {
         {nextBtn(last ? 'Start practice' : 'Next', last ? onDone : () => setIndex(index + 1))}
       </Footer>
     </>
+  )
+}
+
+// Why this lesson matters: the real words its characters unlock.
+function LessonPayoff({ lesson }) {
+  const payoff = lessonPayoff(lesson.id)
+  if (!payoff?.unlocked.length) return null
+  return (
+    <div className="mb-3 rounded-2xl border-[2.5px] border-outline bg-sun/15 px-4 py-2.5 flex flex-wrap items-center justify-center gap-x-3 gap-y-1.5">
+      <p className="text-sm font-extrabold">
+        🔓 Unlocks <span className="font-title text-torii">{payoff.unlocked.length} new words</span>:
+      </p>
+      <WordChips words={payoff.unlocked} max={3} />
+    </div>
+  )
+}
+
+// Result screen: how many real words the learner can read now, and the new ones.
+function ReadablePayoff({ lessonId }) {
+  const payoff = lessonPayoff(lessonId)
+  if (!payoff?.readable.length) return null
+  return (
+    <div className="relative w-full mt-5 rounded-2xl border-[2.5px] border-outline bg-sun/15 px-4 py-4">
+      <p className="font-title text-lg">
+        🎉 You can now read <span className="text-torii">{payoff.readable.length}</span> real words!
+      </p>
+      {payoff.unlocked.length > 0 && (
+        <>
+          <p className="text-xs font-bold text-ink/55 mt-1">New with this lesson (tap to hear):</p>
+          <WordChips words={payoff.unlocked} max={8} className="mt-2" />
+        </>
+      )}
+    </div>
   )
 }
 
@@ -337,6 +373,8 @@ function ResultPhase({ lesson, unit, result, onRetry }) {
         <StatTile icon={Target} label="Accuracy" value={`${pct}%`} color={result.passed ? 'text-matcha-deep' : 'text-torii-deep'} bg={result.passed ? 'bg-matcha' : 'bg-torii'} />
         <StatTile icon={Flame} label="Best combo" value={result.combo} color="text-torii" bg="bg-torii" />
       </div>
+
+      {lesson.kind === 'kana' && <ReadablePayoff lessonId={lesson.id} />}
 
       {isCheckpoint && result.passed && (
         <MascotSays pose="celebrate" size={52} className="relative mt-4">

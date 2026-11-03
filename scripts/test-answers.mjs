@@ -101,7 +101,26 @@ try {
   const mixed = E.sprinkle([1, 2, 3, 4, 5, 6], ['a', 'b'])
   if (mixed.length !== 8 || mixed[0] === 'a') fail(`sprinkle: bad placement ${mixed}`)
 
-  console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises`)
+  // 5. "Read it!" questions: word spelled only with kana known by then, one
+  //    right meaning, and no distractor that is another meaning of the same spelling.
+  const R = await load('/src/lib/readable.js')
+  let readQs = 0
+  for (const lesson of C.LESSONS.filter((l) => l.kind === 'kana')) {
+    const { known, readable } = R.lessonPayoff(lesson.id)
+    for (let k = 0; k < 10; k++) {
+      for (const e of E.readWordExercises(lesson.id)) {
+        readQs++
+        const word = e.prompt.jp
+        if ([...word.replace(/ー/g, '')].some((ch) => !known.has(ch))) fail(`${lesson.id}: read-it word ${word} uses unlearned kana`)
+        if (e.answer < 0 || new Set(e.options).size !== 4) fail(`${lesson.id}: read-it ${word} has bad options`)
+        const sameSpelling = new Set(readable.filter((w) => w.kana === word).map((w) => w.meaning))
+        if (e.options.some((o, i) => i !== e.answer && sameSpelling.has(o))) fail(`${lesson.id}: read-it ${word} offers another meaning of the same word`)
+      }
+    }
+  }
+  if (!readQs) fail('read-it: no questions generated')
+
+  console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises · ${readQs} read-it questions`)
 } finally {
   await vite.close()
 }

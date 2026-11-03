@@ -2,6 +2,7 @@ import { toHiragana } from 'wanakana'
 import { getItem, knownPeers } from './curriculum'
 import { toKana, toPlain, normaliseKana, readingVariants, hasKanji, speechText } from './furigana'
 import { isDue, toDateString } from './sm2'
+import { lessonPayoff } from './readable'
 
 // An exercise is a plain object the lesson player renders:
 //   choice — prompt + 4 options, one correct (answer = option index)
@@ -196,7 +197,30 @@ export function lessonExercises(lesson) {
       second.push(run(m.reading ?? m.meaning))
     }
   }
-  return [...shuffle(first), ...shuffle(second)].filter(Boolean)
+  const core = [...shuffle(first), ...shuffle(second)].filter(Boolean)
+  return lesson.kind === 'kana' ? [...core, ...readWordExercises(lesson.id)] : core
+}
+
+// The lesson's payoff, used: read a real word spelled with the new kana and
+// pick its meaning. Not tied to an item, so the word isn't added to reviews
+// before its own lesson teaches it.
+export function readWordExercises(lessonId, count = 2) {
+  const payoff = lessonPayoff(lessonId)
+  if (!payoff?.unlocked.length) return []
+  return shuffle(payoff.unlocked.slice(0, 12))
+    .slice(0, count)
+    .map((w) =>
+      choice({
+        item: { id: null },
+        kind: 'read-word',
+        prompt: { label: 'Read it! What does this word mean?', jp: w.kana, big: true },
+        correct: w,
+        pool: payoff.readable.filter((x) => x.kana !== w.kana), // never a same-spelling word
+        labelOf: (x) => x.meaning,
+        speak: w.speak,
+      })
+    )
+    .filter((e) => e.options.length === 4)
 }
 
 // One exercise for an item, picked at random from what fits it — used by
