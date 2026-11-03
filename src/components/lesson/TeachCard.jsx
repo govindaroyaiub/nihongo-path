@@ -44,7 +44,13 @@ function Kana({ item, lessonId }) {
             }}
             aria-hidden
           />
-          <span className="relative font-jp font-bold text-[104px] md:text-[clamp(124px,20vh,190px)] leading-none" lang="ja">
+          {/* Combos (きゃ) are two glyphs: smaller so they stay on one line inside the circle. */}
+          <span
+            className={`relative font-jp font-bold leading-none whitespace-nowrap pointer-events-none ${
+              item.char.length > 1 ? 'text-[60px] md:text-[clamp(72px,11vh,104px)]' : 'text-[104px] md:text-[clamp(124px,20vh,190px)]'
+            }`}
+            lang="ja"
+          >
             {item.char}
           </span>
         </div>
@@ -156,7 +162,7 @@ function WritingForms({ char }) {
   return (
     <div className="flex justify-center items-stretch gap-3">
       <div className="flex flex-col items-center justify-between gap-1 rounded-2xl border-[2.5px] border-outline bg-sunken px-4 pt-3 pb-2 min-w-[96px]">
-        <span className="font-jp font-bold text-5xl leading-none my-auto" lang="ja">
+        <span className={`font-jp font-bold leading-none my-auto whitespace-nowrap ${char.length > 1 ? 'text-3xl' : 'text-5xl'}`} lang="ja">
           {char}
         </span>
         <span className="eyebrow text-ink/50 text-[10px]">Printed</span>
