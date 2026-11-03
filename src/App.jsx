@@ -1,5 +1,5 @@
 import { Suspense, lazy, useEffect, useLayoutEffect } from 'react'
-import { Routes, Route, Navigate, useLocation } from 'react-router-dom'
+import { Routes, Route, Navigate, useLocation, useParams } from 'react-router-dom'
 import { BottomNav, SideNav } from './components/Nav'
 import { DailyGoalCard, StreakCard, ReviewCard, XpTotalCard } from './components/Stats'
 import { applyTheme } from './lib/store'
@@ -12,7 +12,7 @@ const Lesson = lazy(() => import('./pages/Lesson'))
 const Review = lazy(() => import('./pages/Review'))
 const ReviewSession = lazy(() => import('./pages/Review').then((m) => ({ default: m.ReviewSession })))
 const Practice = lazy(() => import('./pages/Practice'))
-const KanaChart = lazy(() => import('./pages/KanaChart'))
+const Chart = lazy(() => import('./pages/Chart'))
 const Library = lazy(() => import('./pages/Library'))
 const GrammarDetail = lazy(() => import('./pages/GrammarDetail'))
 const Settings = lazy(() => import('./pages/Settings'))
@@ -45,7 +45,8 @@ export default function App() {
         <Route path="/review" element={<Review />} />
         <Route path="/review/session" element={<ReviewSession />} />
         <Route path="/practice" element={<Practice />} />
-        <Route path="/practice/kana/:script" element={<KanaChart />} />
+        <Route path="/chart" element={<Chart />} />
+        <Route path="/practice/kana/:script" element={<OldChartRedirect />} />
         <Route path="/practice/library/:type" element={<Library />} />
         <Route path="/grammar/:itemId" element={<GrammarDetail />} />
         <Route path="/settings" element={<Settings />} />
@@ -77,4 +78,10 @@ export default function App() {
       <BottomNav />
     </div>
   )
+}
+
+// The old per-script chart pages now live on /chart.
+function OldChartRedirect() {
+  const { script } = useParams()
+  return <Navigate to={`/chart?script=${script}`} replace />
 }

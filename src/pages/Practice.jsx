@@ -26,8 +26,8 @@ export default function Practice() {
 
       <Section title="Kana charts">
         <div className="grid grid-cols-2 gap-3">
-          <ChartCard to="/practice/kana/hiragana" glyph="あ" title="Hiragana" />
-          <ChartCard to="/practice/kana/katakana" glyph="ア" title="Katakana" />
+          <ChartCard to="/chart?script=hiragana" glyph="あ" title="Hiragana" />
+          <ChartCard to="/chart?script=katakana" glyph="ア" title="Katakana" />
         </div>
       </Section>
 

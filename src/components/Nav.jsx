@@ -1,11 +1,12 @@
 import { NavLink } from 'react-router-dom'
-import { Map, Repeat, Dumbbell, Settings, Stamp } from 'lucide-react'
+import { Map, Repeat, Dumbbell, Settings, Stamp, Grid3x3 } from 'lucide-react'
 import { useStats } from './Stats'
 
 const TABS = [
   { to: '/', label: 'Learn', icon: Map, end: true, color: 'text-torii', bg: 'bg-torii/10 border-torii/40' },
   { to: '/review', label: 'Review', icon: Repeat, badge: true, color: 'text-sky', bg: 'bg-sky/10 border-sky/40' },
   { to: '/map', label: 'Stamps', icon: Stamp, color: 'text-sakura-deep', bg: 'bg-sakura/15 border-sakura/50' },
+  { to: '/chart', label: 'Chart', icon: Grid3x3, color: 'text-sun-deep', bg: 'bg-sun/15 border-sun/50' },
   { to: '/practice', label: 'Practice', icon: Dumbbell, color: 'text-matcha', bg: 'bg-matcha/10 border-matcha/40' },
   { to: '/settings', label: 'Settings', icon: Settings, color: 'text-grape', bg: 'bg-grape/10 border-grape/40' },
 ]
