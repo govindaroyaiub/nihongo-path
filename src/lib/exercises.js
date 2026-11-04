@@ -56,7 +56,7 @@ function kanaExercises(item, pool) {
     read: () =>
       choice({
         kind: 'kana-read', item, pool, correct: item, speak: item.char,
-        prompt: { label: 'Which sound is this?', jp: item.char, big: true, listen: item.char },
+        prompt: { label: 'How do you read this?', jp: item.char, big: true, listen: item.char },
         labelOf: (k) => k.romaji,
       }),
     listen: () =>
@@ -69,7 +69,7 @@ function kanaExercises(item, pool) {
       }),
     type: () => ({
       kind: 'kana-type', type: 'type', itemId: item.id, speak: item.char,
-      prompt: { label: 'Type the sound in romaji', jp: item.char, big: true },
+      prompt: { label: 'How do you read this? Type it in romaji', jp: item.char, big: true },
       input: 'romaji',
       // The listed romaji is always right: "ji" for ぢ (→ じ) as well as "di" (→ ぢ).
       accept: [normaliseKana(item.char), normaliseKana(toHiragana(item.romaji))],
