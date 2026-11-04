@@ -85,19 +85,22 @@ try {
     for (const e of exs) if (e.type === 'choice' && e.answer < 0) fail(`${lesson.id}: question without a correct option`)
   }
 
-  // 4. Flashbacks: due items come back, lesson's own items and today's reviews don't.
+  // 4. Flashbacks: due items come back; the lesson's own items, later lessons'
+  // items and today's reviews don't.
   const S = await load('/src/lib/sm2.js')
   const lesson = C.LESSONS.find((l) => l.kind === 'vocab' && l.unitId.endsWith('u03'))
-  const old = items.filter((x) => x.type === 'vocab' && !lesson.items.includes(x.id)).slice(0, 5)
+  const old = items.filter((x) => x.type === 'vocab' && C.taughtBefore(x.id, lesson)).slice(0, 5)
+  const later = items.find((x) => x.type === 'vocab' && !lesson.items.includes(x.id) && !C.taughtBefore(x.id, lesson))
   const yesterday = new Date(Date.now() - 864e5)
   const srs = {}
   for (const x of old) srs[x.id] = { item_id: x.id, ...S.reviewCard(null, false, yesterday) }
   srs[lesson.items[0]] = { item_id: lesson.items[0], ...S.reviewCard(null, false, yesterday) }
+  srs[later.id] = { item_id: later.id, ...S.reviewCard(null, false, yesterday) }
   srs[old[4].id] = { item_id: old[4].id, ...S.reviewCard(null, false) } // reviewed today
-  const fb = E.flashbackExercises(srs, lesson.items, 3)
+  const fb = E.flashbackExercises(srs, lesson, 3)
   if (fb.length !== 3) fail(`flashbacks: expected 3, got ${fb.length}`)
   if (!fb.every((e) => e.flashback)) fail('flashbacks: missing flashback flag')
-  if (fb.some((e) => lesson.items.includes(e.itemId) || e.itemId === old[4].id)) fail('flashbacks: picked a current-lesson or already-reviewed item')
+  if (fb.some((e) => lesson.items.includes(e.itemId) || e.itemId === later.id || e.itemId === old[4].id)) fail('flashbacks: picked a current-lesson, later-lesson or already-reviewed item')
   const mixed = E.sprinkle([1, 2, 3, 4, 5, 6], ['a', 'b'])
   if (mixed.length !== 8 || mixed[0] === 'a') fail(`sprinkle: bad placement ${mixed}`)
 
@@ -121,14 +124,19 @@ try {
   if (!readQs) fail('read-it: no questions generated')
 
   // 6. Every kana has a memory hint: a picture word that starts with it (or, for
-  // を/ん, contains it), or how it's built from a base kana.
+  // を/ん/ぢ, contains it), and voiced/combo kana say how they're built.
   for (const it of items.filter((i) => i.type === 'kana')) {
     const h = it.hint
-    if (!h) fail(`${it.char}: no memory hint`)
-    else if (h.word) {
+    if (!h) {
+      fail(`${it.char}: no memory hint`)
+      continue
+    }
+    if (h.word) {
       if (!h.emoji || !h.meaning) fail(`${it.char}: picture word missing emoji or meaning`)
       if (h.note ? !h.word.includes(it.char) : !h.word.startsWith(it.char)) fail(`${it.char}: picture word ${h.word} doesn't start with it`)
-    } else if (/undefined/.test(h.text) || !h.text.endsWith(`{${it.romaji}}.`)) fail(`${it.char}: built-from hint doesn't end on its sound`)
+    }
+    const built = h.word ? h.built : h.text
+    if (it.group !== 'base' && (!built || /undefined/.test(built) || !built.endsWith(`{${it.romaji}}.`))) fail(`${it.char}: built-from hint doesn't end on its sound`)
   }
 
   console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises · ${readQs} read-it questions`)

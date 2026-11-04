@@ -1,5 +1,5 @@
 import { toHiragana } from 'wanakana'
-import { getItem, knownPeers } from './curriculum'
+import { getItem, knownPeers, taughtBefore } from './curriculum'
 import { toKana, toPlain, normaliseKana, readingVariants, hasKanji, speechText } from './furigana'
 import { isDue, toDateString } from './sm2'
 import { lessonPayoff } from './readable'
@@ -242,13 +242,13 @@ export function checkpointExercises(lesson, count = 20) {
   return shuffle(picked.map(exerciseForItem).filter(Boolean))
 }
 
-// A few earlier items mixed into a new lesson so old material keeps coming
-// back: due items first (most overdue), then ones the learner often misses.
-// Items taught in this lesson are skipped.
-export function flashbackExercises(srs, excludeIds = [], count = 3, now = new Date()) {
-  const skip = new Set(excludeIds)
+// A few earlier items mixed into a lesson so old material keeps coming back:
+// due items first (most overdue), then ones the learner often misses. Only
+// items taught before this lesson, so replaying lesson 1 never pulls in
+// later material.
+export function flashbackExercises(srs, lesson, count = 3, now = new Date()) {
   const today = toDateString(now)
-  const rows = Object.values(srs).filter((r) => !skip.has(r.item_id) && getItem(r.item_id) && r.last_reviewed_at?.slice(0, 10) !== today)
+  const rows = Object.values(srs).filter((r) => getItem(r.item_id) && taughtBefore(r.item_id, lesson) && r.last_reviewed_at?.slice(0, 10) !== today)
   const due = rows.filter((r) => isDue(r, now)).sort((a, b) => (a.next_review_date ?? '').localeCompare(b.next_review_date ?? ''))
   const weak = rows
     .filter((r) => !isDue(r, now) && r.incorrect_count > 0 && r.incorrect_count >= r.correct_count / 3)

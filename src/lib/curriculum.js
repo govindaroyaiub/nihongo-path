@@ -131,6 +131,9 @@ export function knownPeers(item, minimum = 4) {
   return [...known, ...upcoming.slice(0, minimum - known.length)]
 }
 
+// Taught in a lesson that comes before `lesson` on the path.
+export const taughtBefore = (itemId, lesson) => (introducedAt.get(itemId) ?? Infinity) < lessonById.get(lesson.id).index
+
 export function nextLessonId(lessonId) {
   const lesson = lessonById.get(lessonId)
   return lesson ? LESSONS[lesson.index + 1]?.id ?? null : null

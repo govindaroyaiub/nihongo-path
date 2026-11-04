@@ -7,9 +7,10 @@
 // origin: the kanji the character was written from. Hiragana are fast cursive
 // kanji; katakana are a piece of one.
 //
-// No word starts with を or ん, so theirs show where they do appear.
-// Voiced (が) and combo (きゃ) kana aren't listed: they're built from a base
-// character, so their hint is generated from it (see kanaHint below).
+// Voiced (が) and combo (きゃ) kana get a word too, plus a line on how they're
+// built from a base character (see kanaHint below). A few rare ones (ぴゃ, ヂ)
+// have no everyday word, so they show only how they're built. When no word
+// starts with the character (を, ん, ぢ), the word shows it where it appears.
 
 export const HOOKS = {
   // ---- hiragana ----------------------------------------------------------
@@ -30,7 +31,7 @@ export const HOOKS = {
   そ: ['そら', '🌤️', 'sky', '曽'],
   た: ['たこ', '🐙', 'octopus', '太'],
   ち: ['ちず', '🗺️', 'map', '知'],
-  つ: ['つき', '🌙', 'moon', '川'],
+  つ: ['つき', '🌕', 'moon', '川'],
   て: ['てがみ', '✉️', 'letter', '天'],
   と: ['とり', '🐦', 'bird', '止'],
   な: ['なす', '🍆', 'eggplant', '奈'],
@@ -78,7 +79,7 @@ export const HOOKS = {
   ソ: ['ソファ', '🛋️', 'sofa', '曽'],
   タ: ['タクシー', '🚕', 'taxi', '多'],
   チ: ['チーズ', '🧀', 'cheese', '千'],
-  ツ: ['ツアー', '🧳', 'tour', '川'],
+  ツ: ['ツリー', '🎄', 'Christmas tree', '川'],
   テ: ['テレビ', '📺', 'TV', '天'],
   ト: ['トマト', '🍅', 'tomato', '止'],
   ナ: ['ナイフ', '🔪', 'knife', '奈'],
@@ -88,7 +89,7 @@ export const HOOKS = {
   ノ: ['ノート', '📓', 'notebook', '乃'],
   ハ: ['ハンバーガー', '🍔', 'hamburger', '八'],
   ヒ: ['ヒーロー', '🦸', 'hero', '比'],
-  フ: ['フルーツ', '🍇', 'fruit', '不'],
+  フ: ['フライパン', '🍳', 'frying pan', '不'],
   ヘ: ['ヘリコプター', '🚁', 'helicopter', '部'],
   ホ: ['ホテル', '🏨', 'hotel', '保'],
   マ: ['マスク', '😷', 'mask', '末'],
@@ -106,7 +107,103 @@ export const HOOKS = {
   ロ: ['ロボット', '🤖', 'robot', '呂'],
   ワ: ['ワイン', '🍷', 'wine', '和'],
   ヲ: ['ヲ', '📜', 'the particle o', '乎', 'Almost never used: words write the particle in hiragana, を.'],
-  ン: ['パン', '🍞', 'bread', '尓', 'Never starts a word; it closes one.'],
+  ン: ['ライオン', '🦁', 'lion', '尓', 'Never starts a word; it closes one.'],
+  // ---- voiced, ゜ and combos: hiragana -----------------------------------
+  // Hiragana words starting with ぱ-row sounds are mostly sound words
+  // (ぱちぱち = clap clap), a very Japanese part of the language.
+  が: ['がっこう', '🏫', 'school'],
+  ぎ: ['ぎんこう', '🏦', 'bank'],
+  ぐ: ['ぐるぐる', '🌀', 'round and round'],
+  げ: ['げた', '🩴', 'wooden sandals'],
+  ご: ['ごはん', '🍚', 'rice'],
+  ざ: ['ざっし', '📰', 'magazine'],
+  じ: ['じてんしゃ', '🚲', 'bicycle'],
+  ず: ['ずつう', '🤕', 'headache'],
+  ぜ: ['かぜ', '🌬️', 'wind', null, 'Few words start with ぜ; it often ends one.'],
+  ぞ: ['ぞう', '🐘', 'elephant'],
+  だ: ['だんご', '🍡', 'rice dumplings'],
+  ぢ: ['はなぢ', '🩸', 'nosebleed', null, 'Sounds like じ. Written ぢ only when ち gets voiced in a compound: はな (nose) + ち (blood).'],
+  づ: ['みかづき', '🌙', 'crescent moon', null, 'Sounds like ず. Written づ only when つ gets voiced in a compound: みか + つき (moon).'],
+  で: ['でんわ', '📞', 'phone'],
+  ど: ['どんぐり', '🌰', 'acorn'],
+  ば: ['ばら', '🌹', 'rose'],
+  び: ['びん', '🍾', 'bottle'],
+  ぶ: ['ぶどう', '🍇', 'grapes'],
+  べ: ['べんとう', '🍱', 'boxed lunch'],
+  ぼ: ['ぼうし', '👒', 'hat'],
+  ぱ: ['ぱちぱち', '👏', 'clap clap'],
+  ぴ: ['ぴかぴか', '✨', 'sparkly'],
+  ぷ: ['ぷかぷか', '🛟', 'bobbing afloat'],
+  ぺ: ['ぺこぺこ', '🙇', 'bowing again and again'],
+  ぽ: ['ぽかぽか', '☀️', 'nice and warm'],
+  きゃ: ['きゃっきゃ', '😆', 'giggling'],
+  きゅ: ['きゅうきゅうしゃ', '🚑', 'ambulance'],
+  きょ: ['きょうりゅう', '🦖', 'dinosaur'],
+  しゃ: ['しゃしん', '🖼️', 'photo'],
+  しゅ: ['しゅくだい', '📝', 'homework'],
+  しょ: ['しょうぼうしゃ', '🚒', 'fire engine'],
+  ちゃ: ['ちゃわん', '🍵', 'tea bowl'],
+  ちゅ: ['ちゅうしゃ', '💉', 'injection'],
+  ちょ: ['ちょうちょ', '🦋', 'butterfly'],
+  にゃ: ['にゃー', '😺', 'meow'],
+  にゅ: ['にゅうよく', '🛀', 'taking a bath'],
+  にょ: ['にょろにょろ', '🪱', 'wriggling'],
+  ひゃ: ['ひゃく', '💯', 'hundred'],
+  ひゅ: ['ひゅーひゅー', '💨', 'whoosh'],
+  ひょ: ['ひょう', '🐆', 'leopard'],
+  みゃ: ['みゃく', '💓', 'pulse'],
+  みょ: ['みょうじ', '🪪', 'family name'],
+  りゅ: ['りゅう', '🐉', 'dragon'],
+  りょ: ['りょこう', '🧳', 'trip'],
+  ぎゅ: ['ぎゅうにく', '🥩', 'beef'],
+  ぎょ: ['ぎょうざ', '🥟', 'dumplings'],
+  じゃ: ['じゃんけん', '✊', 'rock-paper-scissors'],
+  じゅ: ['じゅう', '🔟', 'ten'],
+  じょ: ['じょうず', '👍', 'good at'],
+  びょ: ['びょういん', '🏥', 'hospital'],
+  ぴょ: ['ぴょんぴょん', '🦘', 'hop hop'],
+
+  // ---- voiced, ゜ and combos: katakana -----------------------------------
+  ガ: ['ガソリン', '⛽', 'gasoline'],
+  ギ: ['ギター', '🎸', 'guitar'],
+  グ: ['グラス', '🥂', 'glass'],
+  ゲ: ['ゲーム', '🎮', 'game'],
+  ゴ: ['ゴリラ', '🦍', 'gorilla'],
+  ザ: ['ザリガニ', '🦞', 'crayfish'],
+  ジ: ['ジム', '🏋️', 'gym'],
+  ズ: ['ズボン', '👖', 'trousers'],
+  ゼ: ['ゼロ', '0️⃣', 'zero'],
+  ゾ: ['ゾンビ', '🧟', 'zombie'],
+  ダ: ['ダンス', '💃', 'dance'],
+  デ: ['デパート', '🏬', 'department store'],
+  ド: ['ドア', '🚪', 'door'],
+  バ: ['バス', '🚌', 'bus'],
+  ビ: ['ビール', '🍺', 'beer'],
+  ブ: ['ブーツ', '👢', 'boots'],
+  ベ: ['ベッド', '🛏️', 'bed'],
+  ボ: ['ボール', '🏀', 'ball'],
+  パ: ['パン', '🍞', 'bread'],
+  ピ: ['ピアノ', '🎹', 'piano'],
+  プ: ['プール', '🏊', 'swimming pool'],
+  ペ: ['ペンギン', '🐧', 'penguin'],
+  ポ: ['ポスト', '📮', 'postbox'],
+  キャ: ['キャンプ', '⛺', 'camping'],
+  キュ: ['キュウリ', '🥒', 'cucumber'],
+  キョ: ['キョロキョロ', '👀', 'looking around'],
+  シャ: ['シャツ', '👕', 'shirt'],
+  シュ: ['シュークリーム', '🧁', 'cream puff'],
+  ショ: ['ショッピング', '🛍️', 'shopping'],
+  チャ: ['チャイム', '🔔', 'chime'],
+  チュ: ['チューリップ', '🌷', 'tulip'],
+  チョ: ['チョコレート', '🍫', 'chocolate'],
+  ニャ: ['ニャー', '🐱', 'meow'],
+  ニュ: ['ニュース', '🗞️', 'news'],
+  ミュ: ['ミュージック', '🎵', 'music'],
+  リュ: ['リュック', '🎒', 'backpack'],
+  ジャ: ['ジャム', '🍓', 'jam'],
+  ジュ: ['ジュース', '🧃', 'juice'],
+  ジョ: ['ジョギング', '🏃', 'jogging'],
+  ビュ: ['ビュッフェ', '🍽️', 'buffet'],
 }
 
 const SMALL_Y = { ゃ: 'ya', ゅ: 'yu', ょ: 'yo', ャ: 'ya', ュ: 'yu', ョ: 'yo' }
@@ -114,15 +211,17 @@ const SMALL_Y = { ゃ: 'ya', ゅ: 'yu', ょ: 'yo', ャ: 'ya', ュ: 'yu', ョ: 'y
 const SAME_SOUND = { ぢ: 'じ', づ: 'ず', ヂ: 'ジ', ヅ: 'ズ' }
 const VOICING = { k: 'g', s: 'z', sh: 'j', t: 'd', ch: 'j', ts: 'z', h: 'b', f: 'b' }
 
-// The hint a teaching card shows for `card`: its picture word for base kana,
-// or how voiced / combo kana are built from one. `romajiOf` maps char → romaji.
+// The hint a teaching card shows for `card`: its picture word, and for voiced
+// and combo kana, how they're built from a base one. `romajiOf` maps char → romaji.
 export function kanaHint(card, romajiOf) {
-  if (card.group === 'base') {
-    const hook = HOOKS[card.char]
-    if (!hook) return null
-    const [word, emoji, meaning, origin, note] = hook
-    return { word, emoji, meaning, origin, note }
-  }
+  const hook = HOOKS[card.char]
+  const built = card.group === 'base' ? null : builtFrom(card, romajiOf)
+  if (!hook) return built
+  const [word, emoji, meaning, origin, note] = hook
+  return { word, emoji, meaning, origin: origin ?? undefined, note, built: built?.text, parts: built?.parts }
+}
+
+function builtFrom(card, romajiOf) {
   const base = card.group === 'yoon' ? card.char[0] : card.char.normalize('NFD')[0]
   const baseRomaji = romajiOf(base)
   if (card.group === 'yoon') {

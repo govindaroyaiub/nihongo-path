@@ -45,7 +45,7 @@ function buildExercises(lesson, unit) {
 // checkpoints, which test only their own episode).
 function withFlashbacks(lesson, core) {
   if (lesson.kind === 'checkpoint') return core
-  return sprinkle(core, flashbackExercises(getState().srs, lesson.items, core.length >= 8 ? 3 : 2))
+  return sprinkle(core, flashbackExercises(getState().srs, lesson, core.length >= 8 ? 3 : 2))
 }
 
 function LessonRun({ lesson }) {

@@ -1,8 +1,9 @@
 import { toRomaji } from 'wanakana'
 import SpeakButton from './SpeakButton'
 
-// "Remember it": a kana's picture word, like an あいうえお chart (あ → あり 🐜),
-// or for voiced and combo kana, the pieces it's built from (か + ゛ → が).
+// "Remember it": a kana's picture word, like an あいうえお chart (あ → あり 🐜).
+// Voiced and combo kana also show the pieces they're built from (か + ゛ → が);
+// the few with no everyday word show only that.
 export default function KanaHint({ item, compact = false, className = '' }) {
   const hint = item?.hint
   if (!hint) return null
@@ -43,6 +44,11 @@ export default function KanaHint({ item, compact = false, className = '' }) {
           <span className="text-xs font-bold text-ink/45">{toRomaji(hint.word)}</span>
           <span className={`font-bold text-ink/75 ${compact ? 'text-sm' : 'text-[15px]'}`}>({hint.meaning})</span>
         </p>
+        {!compact && hint.built && (
+          <p className="text-[12px] font-bold text-ink/60 mt-0.5">
+            <SoundText text={hint.built} />
+          </p>
+        )}
         {!compact && (hint.note || hint.origin) && (
           <p className="text-[11px] font-bold text-ink/45 mt-0.5">
             {hint.note ?? (
@@ -63,11 +69,13 @@ export default function KanaHint({ item, compact = false, className = '' }) {
 
 // The word with the character being learned picked out in red.
 function Word({ word, char, className }) {
+  const parts = word.split(char)
   return (
     <span className={`font-jp font-bold leading-tight ${className}`} lang="ja">
-      {[...word].map((ch, i) => (
-        <span key={i} className={ch === char ? 'text-torii' : undefined}>
-          {ch}
+      {parts.map((part, i) => (
+        <span key={i}>
+          {part}
+          {i < parts.length - 1 && <span className="text-torii">{char}</span>}
         </span>
       ))}
     </span>
