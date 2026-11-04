@@ -3,6 +3,7 @@ import SpeakButton from './SpeakButton'
 import { Cloud } from './Anime'
 import { speechText, toPlain } from '../lib/furigana'
 import { stopFor, COLOR } from '../lib/journey'
+import { SCENES } from './scenes'
 
 const INK = '#261e3e'
 
@@ -77,6 +78,14 @@ const MOTIFS = {
 export function PlaceArt({ place, unit, className = '', height = 160 }) {
   const stop = stopFor(unit)
   const motif = MOTIFS[place?.stamp?.motif]
+  const Scene = SCENES[unit.id]
+  if (Scene) {
+    return (
+      <div className={`relative overflow-hidden rounded-3xl border-[2.5px] border-outline bg-[#1d1847] ${className}`} style={{ height, boxShadow: '5px 5px 0 0 rgb(var(--outline))' }}>
+        <Scene />
+      </div>
+    )
+  }
   return (
     <div className={`relative overflow-hidden rounded-3xl border-[2.5px] border-outline ${className}`} style={{ height, boxShadow: '5px 5px 0 0 rgb(var(--outline))' }}>
       <div className="absolute inset-0" style={{ background: 'linear-gradient(180deg, #3f8cff 0%, #8fd3ff 60%, #ffe0ec 100%)' }} />

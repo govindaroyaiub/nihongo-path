@@ -38,7 +38,7 @@ export default function Unit() {
 
       {unit.place && (
         <Link to={`/place/${unit.id}`} className="block mb-5 active:translate-y-0.5 transition-transform">
-          <PlaceArt place={unit.place} unit={unit} height={140} />
+          <PlaceArt place={unit.place} unit={unit} height={180} />
         </Link>
       )}
 
