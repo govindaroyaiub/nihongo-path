@@ -56,7 +56,7 @@ function kanaExercises(item, pool) {
     read: () =>
       choice({
         kind: 'kana-read', item, pool, correct: item, speak: item.char,
-        prompt: { label: 'Which sound is this?', jp: item.char, big: true },
+        prompt: { label: 'Which sound is this?', jp: item.char, big: true, listen: item.char },
         labelOf: (k) => k.romaji,
       }),
     listen: () =>

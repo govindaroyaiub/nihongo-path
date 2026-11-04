@@ -37,6 +37,8 @@ export default function Prompt({ prompt }) {
             }`}
           />
         ))}
+      {/* Tap-to-hear help for a new learner: never autoplays, so the shape stays the question. */}
+      {prompt.listen && <SpeakButton text={prompt.listen} label="Hear it" />}
       {prompt.en && (
         <p className={prompt.jp ? 'text-sm font-bold text-ink/55' : 'font-extrabold text-2xl leading-snug px-4'}>{prompt.en}</p>
       )}
