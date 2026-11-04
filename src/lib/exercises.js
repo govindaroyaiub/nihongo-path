@@ -100,7 +100,7 @@ function vocabExercises(item, pool) {
     listen: () =>
       choice({
         kind: 'vocab-listen', item, correct: item, speak: speakOf(item),
-        prompt: { label: 'What does this mean?', audio: speakOf(item) },
+        prompt: { label: 'Listen. What does it mean?', audio: speakOf(item) },
         // Homophones (三 / 〜さん, 番 / 晩) can't be told apart by ear — leave them out.
         pool: pool.filter((v) => v.id === item.id || speakOf(v) !== speakOf(item)),
         labelOf: meaningOf,
@@ -110,7 +110,7 @@ function vocabExercises(item, pool) {
           kind: 'vocab-type', type: 'type', itemId: item.id, speak: speakOf(item),
           prompt: hasKanji(item.word)
             ? { label: 'Type the reading', jp: toPlain(item.word), big: true, hint: item.meaning }
-            : { label: 'Type the Japanese word', en: item.meaning, audio: speakOf(item) },
+            : { label: 'Listen and type the word', en: item.meaning, audio: speakOf(item) },
           input: 'kana',
           accept: readingVariants(item.word),
           display: toKana(item.word),

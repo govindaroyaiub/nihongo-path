@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Play, Square, Eye, EyeOff } from 'lucide-react'
+import { Play, Square, Eye, EyeOff, BookOpen, ChevronDown } from 'lucide-react'
 import JpText from '../JpText'
 import { speak, speakLines, stopSpeaking } from '../../lib/speech'
 import { speechText, splitSentences } from '../../lib/furigana'
@@ -51,5 +51,22 @@ export default function ReadingTeach({ reading }) {
       </div>
       {showEn && <p className="text-[15px] text-ink/60 leading-relaxed bg-sunken rounded-2xl p-4">{reading.en}</p>}
     </div>
+  )
+}
+
+// The text kept on hand while answering its questions: folded away by default
+// so the learner tries from memory first, one tap to look back.
+export function ReadingPeek({ reading }) {
+  return (
+    <details className="group panel mb-2 overflow-hidden">
+      <summary className="flex items-center gap-2 px-4 py-3 cursor-pointer select-none font-bold text-sm text-ink/70 list-none [&::-webkit-details-marker]:hidden">
+        <BookOpen size={16} />
+        Look at the text again
+        <ChevronDown size={16} className="ml-auto transition-transform group-open:rotate-180" />
+      </summary>
+      <div className="px-4 pb-4 text-lg leading-[2.2] max-h-[40vh] overflow-y-auto">
+        <JpText text={reading.text} />
+      </div>
+    </details>
   )
 }

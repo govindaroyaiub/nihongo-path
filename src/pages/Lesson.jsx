@@ -14,7 +14,7 @@ import Exercise from '../components/lesson/Exercise'
 import FeedbackSheet from '../components/lesson/FeedbackSheet'
 import TeachCard from '../components/lesson/TeachCard'
 import GrammarTeach from '../components/lesson/GrammarTeach'
-import ReadingTeach from '../components/lesson/ReadingTeach'
+import ReadingTeach, { ReadingPeek } from '../components/lesson/ReadingTeach'
 import ListeningTeach from '../components/lesson/ListeningTeach'
 import TravelTeach from '../components/lesson/TravelTeach'
 import { WordChips } from '../components/Payoff'
@@ -183,6 +183,8 @@ function LessonRun({ lesson }) {
                 </MascotSays>
               </div>
             )}
+            {lesson.kind === 'reading' && <ReadingPeek reading={unit.reading} />}
+            {lesson.kind === 'travel' && <ReadingPeek reading={unit.place.reading} />}
             {lesson.kind === 'listening' && (
               <div className="mb-2">
                 <ListeningTeach listening={unit.listening} compact />
