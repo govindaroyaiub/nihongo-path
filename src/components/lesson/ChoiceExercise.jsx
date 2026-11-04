@@ -4,12 +4,13 @@ import { SmartText } from '../JpText'
 
 export default function ChoiceExercise({ exercise, onAnswer, answered }) {
   const [selected, setSelected] = useState(null)
-  const compact = exercise.options.every((o) => o.length <= 4)
+  const compact = !exercise.notes && exercise.options.every((o) => o.length <= 4)
 
   function choose(i) {
     if (answered) return
     setSelected(i)
-    onAnswer(i === exercise.answer, exercise.options[exercise.answer])
+    const note = exercise.notes?.[exercise.answer]
+    onAnswer(i === exercise.answer, exercise.options[exercise.answer] + (note ? ` (${note})` : ''))
   }
 
   // Keyboard: 1–4 picks an option (desktop).
@@ -43,7 +44,10 @@ export default function ChoiceExercise({ exercise, onAnswer, answered }) {
                 <span className="w-7 h-7 rounded-lg border-2 border-current/30 text-xs font-extrabold flex items-center justify-center shrink-0 opacity-60">{i + 1}</span>
               )}
               {/* Same Gothic font as the prompt, so character shapes always match. */}
-              <SmartText text={option} className="leading-snug" />
+              <span className="min-w-0">
+                <SmartText text={option} className="leading-snug" />
+                {exercise.notes?.[i] && <span className="ml-1.5 text-xs font-bold opacity-55">({exercise.notes[i]})</span>}
+              </span>
             </button>
           )
         })}

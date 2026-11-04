@@ -1,4 +1,4 @@
-import { toHiragana } from 'wanakana'
+import { toHiragana, toRomaji } from 'wanakana'
 import { getItem, knownPeers, taughtBefore } from './curriculum'
 import { toKana, toPlain, normaliseKana, readingVariants, hasKanji, speechText } from './furigana'
 import { isDue, toDateString } from './sm2'
@@ -22,19 +22,22 @@ export function shuffle(list) {
 const sample = (list) => list[Math.floor(Math.random() * list.length)]
 
 // Four options: the right one plus three distinct distractors from `pool`.
-function choice({ item, prompt, correct, pool, labelOf, speak, kind }) {
+function choice({ item, prompt, correct, pool, labelOf, noteOf, speak, kind }) {
   const correctLabel = labelOf(correct)
   const seen = new Set([correctLabel])
-  const distractors = []
+  const picked = [correct]
   for (const candidate of shuffle(pool)) {
     const label = labelOf(candidate)
     if (!label || seen.has(label)) continue
     seen.add(label)
-    distractors.push(label)
-    if (distractors.length === 3) break
+    picked.push(candidate)
+    if (picked.length === 4) break
   }
-  const options = shuffle([correctLabel, ...distractors])
-  return { kind, type: 'choice', itemId: item.id, prompt, options, answer: options.indexOf(correctLabel), speak }
+  const order = shuffle(picked)
+  const options = order.map(labelOf)
+  // Optional small print under each option (e.g. a word's meaning).
+  const notes = noteOf ? order.map(noteOf) : undefined
+  return { kind, type: 'choice', itemId: item.id, prompt, options, notes, answer: options.indexOf(correctLabel), speak }
 }
 
 const meaningOf = (item) =>
@@ -202,7 +205,7 @@ export function lessonExercises(lesson) {
 }
 
 // The lesson's payoff, used: read a real word spelled with the new kana and
-// pick its meaning. Not tied to an item, so the word isn't added to reviews
+// pick how it sounds (romaji, with the meaning in small print). Not tied to an item, so the word isn't added to reviews
 // before its own lesson teaches it.
 export function readWordExercises(lessonId, count = 2) {
   const payoff = lessonPayoff(lessonId)
@@ -213,10 +216,11 @@ export function readWordExercises(lessonId, count = 2) {
       choice({
         item: { id: null },
         kind: 'read-word',
-        prompt: { label: 'Read it! What does this word mean?', jp: w.kana, big: true },
+        prompt: { label: 'Read it! How do you say this word?', jp: w.kana, big: true },
         correct: w,
         pool: payoff.readable.filter((x) => x.kana !== w.kana), // never a same-spelling word
-        labelOf: (x) => x.meaning,
+        labelOf: (x) => toRomaji(x.kana),
+        noteOf: (x) => x.meaning,
         speak: w.speak,
       })
     )
