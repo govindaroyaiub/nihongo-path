@@ -120,6 +120,17 @@ try {
   }
   if (!readQs) fail('read-it: no questions generated')
 
+  // 6. Every kana has a memory hint: a picture word that starts with it (or, for
+  // を/ん, contains it), or how it's built from a base kana.
+  for (const it of items.filter((i) => i.type === 'kana')) {
+    const h = it.hint
+    if (!h) fail(`${it.char}: no memory hint`)
+    else if (h.word) {
+      if (!h.emoji || !h.meaning) fail(`${it.char}: picture word missing emoji or meaning`)
+      if (h.note ? !h.word.includes(it.char) : !h.word.startsWith(it.char)) fail(`${it.char}: picture word ${h.word} doesn't start with it`)
+    } else if (/undefined/.test(h.text) || !h.text.endsWith(`{${it.romaji}}.`)) fail(`${it.char}: built-from hint doesn't end on its sound`)
+  }
+
   console.log(`${C.LESSONS.length} lessons · ${items.length} items · ${typed} typed answers · ${generated} generated exercises · ${readQs} read-it questions`)
 } finally {
   await vite.close()

@@ -3,13 +3,16 @@ import { SmartText } from '../JpText'
 import SpeakButton from '../SpeakButton'
 import Mascot from '../Mascot'
 import { SfxBurst } from '../Anime'
+import KanaHint from '../KanaHint'
+import { getItem } from '../../lib/curriculum'
 
 const CHEERS = ['正解！', 'すごい！', 'いいね！', 'やった！', '完璧！']
 const COMFORT = ['ドンマイ！', 'おしい！']
 
 // Slides up after every answer: a manga sound effect, Kitsu's reaction, the
-// correct answer, a replay button, and Continue (Enter works too).
-export default function FeedbackSheet({ answered, speakText, onContinue, combo = 0 }) {
+// correct answer, a replay button, and Continue (Enter works too). A missed
+// kana shows its picture hook again: the moment it's most likely to stick.
+export default function FeedbackSheet({ answered, speakText, itemId, onContinue, combo = 0 }) {
   const { correct, correctLabel } = answered
   const sfx = useMemo(() => (correct ? CHEERS : COMFORT)[Math.floor(Math.random() * (correct ? CHEERS.length : COMFORT.length))], [correct])
 
@@ -47,6 +50,7 @@ export default function FeedbackSheet({ answered, speakText, onContinue, combo =
           </div>
           {speakText && <SpeakButton text={speakText} size="sm" />}
         </div>
+        {!correct && itemId && <KanaHint item={getItem(itemId)} compact className="mt-3" />}
         <button type="button" onClick={onContinue} className={`${correct ? 'btn-matcha' : 'btn-danger'} mt-4 w-full py-4 text-base`}>
           Continue
         </button>

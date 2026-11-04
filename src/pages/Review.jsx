@@ -136,6 +136,7 @@ export function ReviewSession() {
         <FeedbackSheet
           answered={answered}
           speakText={exercise.speak}
+          itemId={exercise.itemId}
           onContinue={() => {
             stopSpeaking()
             setAnswered(null)

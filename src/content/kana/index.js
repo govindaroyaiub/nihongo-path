@@ -1,5 +1,6 @@
 import hiragana from './hiragana.json'
 import katakana from './katakana.json'
+import { kanaHint } from './hooks'
 
 // Lessons follow the gojūon table a row or two at a time, then the voiced
 // variants, then the combination sounds — the order every textbook teaches.
@@ -49,7 +50,8 @@ const NOTES = {
 }
 
 function buildKanaUnit(script, cards, number) {
-  const items = cards.map((c) => ({ ...c, type: 'kana', script }))
+  const romajiOf = (char) => cards.find((c) => c.char === char)?.romaji
+  const items = cards.map((c) => ({ ...c, type: 'kana', script, hint: kanaHint(c, romajiOf) }))
   const unitId = `n5-${script}`
   const lessons = LESSON_PLAN.map((plan, i) => ({
     id: `${unitId}-l${String(i + 1).padStart(2, '0')}`,

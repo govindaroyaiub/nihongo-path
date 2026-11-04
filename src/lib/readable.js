@@ -46,13 +46,6 @@ export function lessonPayoff(lessonId) {
   return payoff
 }
 
-// A short readable word that uses `char`, for its teaching card.
-export function exampleWord(char, lessonId) {
-  const payoff = lessonPayoff(lessonId)
-  if (!payoff) return null
-  return payoff.readable.filter((w) => w.kana.includes(char)).sort((a, b) => a.kana.length - b.kana.length)[0] ?? null
-}
-
 // The words finishing a whole kana unit unlocks (katakana's are the loanwords,
 // not the hiragana words already readable before it).
 export function unitPayoff(unit) {

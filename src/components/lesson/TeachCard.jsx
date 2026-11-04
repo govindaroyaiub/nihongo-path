@@ -2,13 +2,13 @@ import { useEffect } from 'react'
 import JpText from '../JpText'
 import SpeakButton, { SpeakPair } from '../SpeakButton'
 import StrokeOrder from '../StrokeOrder'
+import KanaHint from '../KanaHint'
 import { speak } from '../../lib/speech'
 import { speechText, wordRomaji, hasKanji } from '../../lib/furigana'
 import { useStore } from '../../lib/store'
-import { exampleWord } from '../../lib/readable'
 
 // One "meet this item" card, shown before practice. Auto-plays its audio.
-export default function TeachCard({ item, lessonId }) {
+export default function TeachCard({ item }) {
   const autoplay = useStore((s) => s.settings.autoplay)
   const audio = item.type === 'kana' ? item.char : item.type === 'kanji' ? speechText(item.words?.[0]?.word ?? '') : speechText(item.word)
 
@@ -19,22 +19,21 @@ export default function TeachCard({ item, lessonId }) {
   return (
     // Fills the space down to the Next button, content centred.
     <div className="animate-pop-in panel p-5 sm:p-6 relative overflow-hidden flex-1 flex flex-col justify-center">
-      {item.type === 'kana' && <Kana item={item} lessonId={lessonId} />}
+      {item.type === 'kana' && <Kana item={item} />}
       {item.type === 'vocab' && <Vocab item={item} />}
       {item.type === 'kanji' && <Kanji item={item} />}
     </div>
   )
 }
 
-function Kana({ item, lessonId }) {
-  const word = lessonId ? exampleWord(item.char, lessonId) : null
+function Kana({ item }) {
   return (
     // Stacked on phones; side by side on wider screens. Kept tight so the whole
     // card fits on one screen without scrolling.
-    <div className="flex flex-col md:flex-row items-center justify-center text-center gap-4 md:gap-10 md:py-2">
+    <div className="flex flex-col md:flex-row items-center justify-center text-center gap-4 md:gap-6 md:py-2">
       <div className="flex flex-col items-center gap-2">
         {/* manga spotlight: speed lines behind the character */}
-        <div className="relative w-44 h-44 md:w-[clamp(13rem,34vh,20rem)] md:h-[clamp(13rem,34vh,20rem)] shrink-0 flex items-center justify-center">
+        <div className="relative w-44 h-44 md:w-[clamp(12rem,30vh,18rem)] md:h-[clamp(12rem,30vh,18rem)] shrink-0 flex items-center justify-center">
           <div className="absolute inset-0 speedlines animate-spin-slow rounded-full" aria-hidden />
           {/* Solid (not translucent) so the spinning rays don't show through; sun softened toward the card colour. */}
           <div
@@ -47,7 +46,7 @@ function Kana({ item, lessonId }) {
           {/* Combos (きゃ) are two glyphs: smaller so they stay on one line inside the circle. */}
           <span
             className={`relative font-jp font-bold leading-none whitespace-nowrap pointer-events-none ${
-              item.char.length > 1 ? 'text-[60px] md:text-[clamp(72px,11vh,104px)]' : 'text-[104px] md:text-[clamp(124px,20vh,190px)]'
+              item.char.length > 1 ? 'text-[72px] md:text-[clamp(80px,12vh,112px)]' : 'text-[104px] md:text-[clamp(116px,18vh,170px)]'
             }`}
             lang="ja"
           >
@@ -67,10 +66,9 @@ function Kana({ item, lessonId }) {
           <SpeakPair text={item.char} size="lg" />
         </div>
       </div>
-      <div className="flex flex-col items-center gap-3">
+      <div className="flex flex-col items-center gap-3 w-full max-w-sm md:w-80 md:shrink-0">
+        <KanaHint item={item} className="w-full" />
         <WritingForms char={item.char} />
-        {word && <InAWord word={word} char={item.char} />}
-        <p className="eyebrow text-ink/45">{item.script === 'katakana' ? 'Katakana' : 'Hiragana'} · say it out loud!</p>
       </div>
     </div>
   )
@@ -133,25 +131,6 @@ function Kanji({ item }) {
           </li>
         ))}
       </ul>
-    </div>
-  )
-}
-
-// A real word using the new character, spelled only with kana met so far.
-function InAWord({ word, char }) {
-  const at = word.kana.indexOf(char)
-  return (
-    <div className="flex items-center gap-3 rounded-2xl bg-sunken border-2 border-outline pl-4 pr-2 py-2">
-      <div className="text-left">
-        <p className="eyebrow text-ink/45 text-[10px]">In a real word</p>
-        <p className="font-jp font-bold text-2xl leading-tight" lang="ja">
-          {word.kana.slice(0, at)}
-          <span className="text-torii">{char}</span>
-          {word.kana.slice(at + char.length)}
-          <span className="font-sans text-sm font-bold text-ink/60 ml-2">{word.meaning}</span>
-        </p>
-      </div>
-      <SpeakButton text={word.speak} size="sm" />
     </div>
   )
 }

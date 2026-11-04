@@ -195,7 +195,7 @@ function LessonRun({ lesson }) {
         {phase === 'result' && result && <ResultPhase lesson={lesson} unit={unit} result={result} onRetry={retry} />}
       </main>
 
-      {phase === 'practice' && answered && <FeedbackSheet answered={answered} speakText={exercise.speak} combo={combo} onContinue={next} />}
+      {phase === 'practice' && answered && <FeedbackSheet answered={answered} speakText={exercise.speak} itemId={exercise.itemId} combo={combo} onContinue={next} />}
     </div>
   )
 }
@@ -278,7 +278,7 @@ function TeachPhase({ lesson, unit, items, index, setIndex, onDone }) {
         </div>
       </div>
       {lesson.kind === 'kana' && index === 0 && <LessonPayoff lesson={lesson} />}
-      <TeachCard key={item.id} item={item} lessonId={lesson.kind === 'kana' ? lesson.id : null} />
+      <TeachCard key={item.id} item={item} />
       <Footer>
         {index > 0 && (
           <button type="button" onClick={() => setIndex(index - 1)} aria-label="Previous" className="btn-ghost w-16 py-4">
