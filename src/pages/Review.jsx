@@ -102,15 +102,17 @@ export function ReviewSession() {
 
   return (
     <div className="flex-1 flex flex-col min-h-[100svh]">
-      <header className="sticky top-0 z-30 bg-paper/90 backdrop-blur-md px-4 pt-[max(env(safe-area-inset-top),0.75rem)] pb-3 flex items-center gap-3">
-        <button type="button" onClick={onExit} aria-label="End review" className="w-10 h-10 -ml-1 rounded-full flex items-center justify-center text-ink/50">
-          <X size={22} />
-        </button>
-        <div className="flex-1">
-          <ProgressBar value={index} max={queue.length} color="oklch(45% 0.09 260)" />
+      <header className="sticky top-0 z-30 bg-paper/90 backdrop-blur-md">
+        <div className="max-w-2xl mx-auto px-4 pt-[max(env(safe-area-inset-top),0.75rem)] pb-3 flex items-center gap-3">
+          <button type="button" onClick={onExit} aria-label="End review" className="w-10 h-10 -ml-1 rounded-full flex items-center justify-center text-ink/50">
+            <X size={22} />
+          </button>
+          <div className="flex-1">
+            <ProgressBar value={index} max={queue.length} color="oklch(45% 0.09 260)" />
+          </div>
         </div>
       </header>
-      <main className="flex-1 px-5 pb-48">
+      <main className="flex-1 w-full max-w-2xl mx-auto px-5 pt-2 pb-48">
         {!done && exercise && (
           <div key={index}>
             <Exercise exercise={exercise} onAnswer={handleAnswer} answered={answered} />
