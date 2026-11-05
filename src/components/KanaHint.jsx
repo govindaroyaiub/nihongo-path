@@ -1,7 +1,8 @@
 import { toRomaji } from 'wanakana'
 import SpeakButton from './SpeakButton'
 
-// "Remember it": a kana's picture word, like an あいうえお chart (あ → あり 🐜).
+// "Remember it": a kana's picture word, like an あいうえお chart (あ → あり 🐜),
+// and for base kana a shape story (き looks like a key → ki).
 // Voiced and combo kana also show the pieces they're built from (か + ゛ → が);
 // the few with no everyday word show only that.
 export default function KanaHint({ item, compact = false, className = '' }) {
@@ -44,6 +45,12 @@ export default function KanaHint({ item, compact = false, className = '' }) {
           <span className="text-xs font-bold text-ink/45">{toRomaji(hint.word)}</span>
           <span className={`font-bold text-ink/75 ${compact ? 'text-sm' : 'text-[15px]'}`}>({hint.meaning})</span>
         </p>
+        {hint.shape && (
+          <p className={`font-bold text-ink/70 mt-1 leading-snug ${compact ? 'text-[12px]' : 'text-[13px]'}`}>
+            <span aria-hidden>👀 </span>
+            <SoundText text={hint.shape} />
+          </p>
+        )}
         {!compact && hint.built && (
           <p className="text-[12px] font-bold text-ink/60 mt-0.5">
             <SoundText text={hint.built} />

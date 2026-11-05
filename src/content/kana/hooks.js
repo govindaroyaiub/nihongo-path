@@ -12,6 +12,8 @@
 // have no everyday word, so they show only how they're built. When no word
 // starts with the character (を, ん, ぢ), the word shows it where it appears.
 
+import { SHAPES } from './shapes'
+
 export const HOOKS = {
   // ---- hiragana ----------------------------------------------------------
   あ: ['あり', '🐜', 'ant', '安'],
@@ -211,14 +213,15 @@ const SMALL_Y = { ゃ: 'ya', ゅ: 'yu', ょ: 'yo', ャ: 'ya', ュ: 'yu', ョ: 'y
 const SAME_SOUND = { ぢ: 'じ', づ: 'ず', ヂ: 'ジ', ヅ: 'ズ' }
 const VOICING = { k: 'g', s: 'z', sh: 'j', t: 'd', ch: 'j', ts: 'z', h: 'b', f: 'b' }
 
-// The hint a teaching card shows for `card`: its picture word, and for voiced
+// The hint a teaching card shows for `card`: its picture word, a shape story
+// for base kana (see shapes.js), and for voiced
 // and combo kana, how they're built from a base one. `romajiOf` maps char → romaji.
 export function kanaHint(card, romajiOf) {
   const hook = HOOKS[card.char]
   const built = card.group === 'base' ? null : builtFrom(card, romajiOf)
   if (!hook) return built
   const [word, emoji, meaning, origin, note] = hook
-  return { word, emoji, meaning, origin: origin ?? undefined, note, built: built?.text, parts: built?.parts }
+  return { word, emoji, meaning, origin: origin ?? undefined, note, shape: SHAPES[card.char], built: built?.text, parts: built?.parts }
 }
 
 function builtFrom(card, romajiOf) {

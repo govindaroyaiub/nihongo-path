@@ -135,6 +135,8 @@ try {
       if (!h.emoji || !h.meaning) fail(`${it.char}: picture word missing emoji or meaning`)
       if (h.note ? !h.word.includes(it.char) : !h.word.startsWith(it.char)) fail(`${it.char}: picture word ${h.word} doesn't start with it`)
     }
+    // Base kana also get a shape story that names their sound.
+    if (it.group === 'base' && !h.shape?.includes(`{${it.romaji}}`)) fail(`${it.char}: shape story missing or doesn't name {${it.romaji}}`)
     const built = h.word ? h.built : h.text
     if (it.group !== 'base' && (!built || /undefined/.test(built) || !built.endsWith(`{${it.romaji}}.`))) fail(`${it.char}: built-from hint doesn't end on its sound`)
   }

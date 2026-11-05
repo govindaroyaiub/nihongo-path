@@ -119,15 +119,22 @@ export default function Chart() {
 
       {picked && (
         <div className="fixed inset-0 z-50 flex items-end sm:items-center justify-center bg-black/40 p-4" onClick={() => setPicked(null)}>
-          <div className="panel p-5 w-full max-w-sm max-h-[90vh] overflow-y-auto flex flex-col items-center gap-3 animate-pop-in" onClick={(e) => e.stopPropagation()}>
+          <div className={`panel p-5 w-full ${script === 'both' ? 'max-w-md' : 'max-w-sm'} max-h-[90vh] overflow-y-auto flex flex-col items-center gap-3 animate-pop-in`} onClick={(e) => e.stopPropagation()}>
             <div className="w-full flex items-center justify-between">
               <span className="font-title text-2xl text-torii">{ROMAJI.get(picked.hira)}</span>
               <button type="button" onClick={() => setPicked(null)} aria-label="Close" className="w-9 h-9 rounded-full bg-sunken flex items-center justify-center">
                 <X size={18} strokeWidth={2.6} />
               </button>
             </div>
-            <StrokeOrder key={picked.char} text={picked.char} size={picked.char.length > 1 ? 120 : 180} />
-            {script === 'both' && <StrokeOrder key={`k${picked.char}`} text={toKatakana(picked.hira)} size={picked.hira.length > 1 ? 120 : 180} label="Katakana" />}
+            {script === 'both' ? (
+              // Side by side, smaller, so both scripts fit without a long scroll.
+              <div className="w-full grid grid-cols-2 gap-2 justify-items-center">
+                <StrokeOrder key={picked.char} text={picked.char} size={picked.char.length > 1 ? 56 : 112} label="Hiragana" />
+                <StrokeOrder key={`k${picked.char}`} text={toKatakana(picked.hira)} size={picked.hira.length > 1 ? 56 : 112} label="Katakana" />
+              </div>
+            ) : (
+              <StrokeOrder key={picked.char} text={picked.char} size={picked.char.length > 1 ? 120 : 180} />
+            )}
             <KanaHint item={ITEMS.get(picked.char)} className="w-full" />
             {script === 'both' && <KanaHint item={ITEMS.get(toKatakana(picked.hira))} className="w-full" />}
           </div>

@@ -37,12 +37,10 @@ export default {
         success: v('matcha-deep'),
         'success-soft': v('matcha-soft'),
         danger: v('torii-deep'),
-        'danger-soft': v('torii-soft'),
         gold: v('sun-deep'),
       },
       fontFamily: {
         sans: ['"M PLUS Rounded 1c"', '"Hiragino Maru Gothic ProN"', '"Hiragino Sans"', 'system-ui', 'sans-serif'],
-        display: ['"M PLUS Rounded 1c"', '"Hiragino Maru Gothic ProN"', 'system-ui', 'sans-serif'],
         jp: ['"M PLUS Rounded 1c"', '"Hiragino Maru Gothic ProN"', '"Hiragino Sans"', 'sans-serif'],
         // Anime title-card / manga sound-effect lettering.
         title: ['"Dela Gothic One"', '"M PLUS Rounded 1c"', 'system-ui', 'sans-serif'],
